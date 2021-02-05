@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b995ed8bffe6f8f42b9d2a5899f46ab9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - JMH Cthulhumbus UG
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 206fd234bf52ba64d9f1b76fe74562fe, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
