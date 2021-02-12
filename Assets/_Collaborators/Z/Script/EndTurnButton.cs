@@ -76,7 +76,8 @@ namespace THAN
             SoundActive = true;
             while (a < Step * StepTime)
             {
-                a += Time.deltaTime;
+                if (!PauseControl.Main.Active)
+                    a += Time.deltaTime;
                 Moon.transform.localEulerAngles = new Vector3(0, 0, MoonOri + (MoonTarget - MoonOri) * (a / (Step * StepTime)));
                 CircleI.transform.localEulerAngles = new Vector3(0, 0, CircleIOri + (CircleITarget - CircleIOri) * (a / (Step * StepTime)));
                 CircleII.transform.localEulerAngles = new Vector3(0, 0, CircleIIOri + (CircleIITarget - CircleIIOri) * (a / (Step * StepTime)));

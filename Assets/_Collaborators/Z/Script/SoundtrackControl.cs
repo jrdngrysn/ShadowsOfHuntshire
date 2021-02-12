@@ -6,12 +6,12 @@ namespace TMST
 {
     public class SoundtrackControl : MonoBehaviour {
         public static SoundtrackControl Main;
-        public GameObject Soundtrack;
+        public AudioSource Source;
+        public AudioClip Soundtrack;
         public double LoopRate;
         public double LastLoopTime;
 
-        // Start is called before the first frame update
-        void Start()
+        public void Awake()
         {
             if (!Main)
             {
@@ -25,6 +25,12 @@ namespace TMST
             }
         }
 
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
         // Update is called once per frame
         void Update()
         {
@@ -33,15 +39,13 @@ namespace TMST
 
         public IEnumerator Process()
         {
-            GameObject G = Instantiate(Soundtrack, transform);
-            Destroy(G, 180f);
+            Source.PlayOneShot(Soundtrack);
             LastLoopTime = AudioSettings.dspTime;
             while (true)
             {
                 if (AudioSettings.dspTime >= LastLoopTime + LoopRate)
                 {
-                    GameObject G2 = Instantiate(Soundtrack, transform);
-                    Destroy(G2, 180f);
+                    Source.PlayOneShot(Soundtrack);
                     LastLoopTime = AudioSettings.dspTime;
                 }
                 yield return 0;
