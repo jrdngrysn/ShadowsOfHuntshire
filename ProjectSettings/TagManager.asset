@@ -44,3 +44,9 @@ TagManager:
   - name: Shade
     uniqueID: 2112454381
     locked: 0
+  - name: Pause
+    uniqueID: 3718864347
+    locked: 0
+  - name: Scene
+    uniqueID: 3891045445
+    locked: 0

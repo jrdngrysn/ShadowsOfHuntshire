@@ -27,6 +27,14 @@ namespace THAN
         public GameObject Outline;
         public GameObject Mask;
         [Space]
+        public GameObject Tooltip_Vitality;
+        public GameObject Tooltip_Passion;
+        public GameObject Tooltip_Reason;
+        public GameObject ToolPivot_Vitality;
+        public GameObject ToolPivot_Passion;
+        public GameObject ToolPivot_Reason;
+        public Vector2 TooltipDelay;
+        [Space]
         public Slot CurrentSlot;
         public Pair CurrentPair;
         public Vector2 OriPosition;
@@ -56,6 +64,7 @@ namespace THAN
             Render();
             CurrentPositionTime -= Time.deltaTime;
             PositionUpdate();
+            TooltipUpdate();
         }
 
         public void FixedUpdate()
@@ -107,6 +116,24 @@ namespace THAN
                 ReasonText.text = "??";
                 ReasonLimit.SetActive(false);
             }
+        }
+
+        public void TooltipUpdate()
+        {
+            bool Base = GlobalControl.Main.GetSelectingCharacter() == this && !GlobalControl.Main.HoldingCharacter;
+            Vector2 cp = Cursor.Main.GetPosition();
+            if (!Base)
+                TooltipDelay.y = 0;
+            if ((cp - (Vector2)ToolPivot_Vitality.transform.position).magnitude <= 1.5f)
+                TooltipDelay = new Vector2(0, 0.7f);
+            else if ((cp - (Vector2)ToolPivot_Passion.transform.position).magnitude <= 1.5f)
+                TooltipDelay = new Vector2(1, 0.7f);
+            else if ((cp - (Vector2)ToolPivot_Reason.transform.position).magnitude <= 1.5f)
+                TooltipDelay = new Vector2(2, 0.7f);
+            TooltipDelay.y -= Time.deltaTime;
+            Tooltip_Vitality.SetActive(TooltipDelay.x == 0 && TooltipDelay.y > 0);
+            Tooltip_Passion.SetActive(TooltipDelay.x == 1 && TooltipDelay.y > 0);
+            Tooltip_Reason.SetActive(TooltipDelay.x == 2 && TooltipDelay.y > 0);
         }
 
         public void Activate()

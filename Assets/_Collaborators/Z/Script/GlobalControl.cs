@@ -43,11 +43,6 @@ namespace THAN
         public List<Pair> Pairs;
         [Space]
         public GameObject PairPrefab;
-        public GameObject PickUpSound;
-        public GameObject PutDownSound;
-        public GameObject EventSound;
-        public GameObject HoverSound;
-        public GameObject SelectSound;
         [Space]
         public int VitalityLimit = 10;
         public int PassionLimit = 10;
@@ -99,8 +94,6 @@ namespace THAN
         // Update is called once per frame
         void Update()
         {
-            /*if (Input.GetKeyDown(KeyCode.Space) && CanEndTurn())
-                EndOfTurn();*/
             if (CurrentTime >= VictoryTime)
                 End();
         }
@@ -548,7 +541,7 @@ namespace THAN
 
         public bool GetBoardActive()
         {
-            return BoardActive;
+            return BoardActive && !PauseControl.Main.Active;
         }
 
         public bool GetSacrificeActive()
@@ -568,19 +561,16 @@ namespace THAN
 
         public void PlaySound(string Key)
         {
-            GameObject Prefab = null;
             if (Key == "PickUp")
-                Prefab = PickUpSound;
+                SoundControl.Main.PlaySound(SoundControl.Main.PickUp);
             else if (Key == "PutDown")
-                Prefab = PutDownSound;
+                SoundControl.Main.PlaySound(SoundControl.Main.PutDown);
             else if (Key == "Hover")
-                Prefab = HoverSound;
+                SoundControl.Main.PlaySound(SoundControl.Main.Hover);
             else if (Key == "Select")
-                Prefab = SelectSound;
+                SoundControl.Main.PlaySound(SoundControl.Main.Select);
             else if (Key == "Event")
-                Prefab = EventSound;
-            GameObject G = Instantiate(Prefab);
-            Destroy(G, 5);
+                SoundControl.Main.PlaySound(SoundControl.Main.EventBell);
         }
 
         public void Retry()
