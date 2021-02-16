@@ -9,6 +9,11 @@ namespace THAN
         public GameObject AnimBase;
         public bool Active;
 
+        private void Awake()
+        {
+            Main = this;
+        }
+
         // Start is called before the first frame update
         void Start()
         {

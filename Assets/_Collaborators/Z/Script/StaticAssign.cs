@@ -13,7 +13,7 @@ namespace THAN
         public void Awake()
         {
             GlobalControl.Main = GC;
-            PauseControl.Main = PC;
+            //PauseControl.Main = PC;
             Cursor.Main = MainCursor;
             KeyBase.Main = KB;
         }
