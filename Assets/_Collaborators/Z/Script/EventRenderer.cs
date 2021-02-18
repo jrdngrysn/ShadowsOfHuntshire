@@ -137,6 +137,8 @@ namespace THAN
 
         public void Activate(Event E, Pair P)
         {
+            if (!E)
+                return;
             CurrentEvent = E;
             CurrentAddEvent = null;
             CurrentPair = P;
