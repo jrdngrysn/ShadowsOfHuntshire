@@ -26,6 +26,7 @@ namespace THAN
         public float SoundSpeed;
         public bool SoundActive;
         [Space]
+        public bool Locked;
         public bool Animating;
 
         // Start is called before the first frame update
@@ -122,7 +123,7 @@ namespace THAN
 
         public void OnMouseDown()
         {
-            if (GlobalControl.Main.CanEndTurn())
+            if (GlobalControl.Main.CanEndTurn() && !Locked)
                 GlobalControl.Main.EndOfTurn();
         }
     }
