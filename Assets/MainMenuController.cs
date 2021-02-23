@@ -23,7 +23,7 @@ public class MainMenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mainMenuCanvas.SetActive(!settingsObject.activeSelf); // this is kinda bad I'm sorry x-x -Geneva
+
     }
 
     public void GoToGame()
