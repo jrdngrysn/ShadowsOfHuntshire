@@ -25,6 +25,7 @@ namespace THAN
         public GameObject BarkTextPrefab;
         public GameObject LastBarkText;
         public Animator FadeOut;
+        public TutorialAnim TurnLockToturial;
         public int CurrentRenderTime = 0;
         public bool BoardActive;
         public bool IndividualEventActive;
@@ -70,9 +71,7 @@ namespace THAN
                 else if (i == 3)
                     S = Grid[2][0];
                 else if (i == 4)
-                    S = Grid[0][5];
-                else if (i == 5)
-                    S = Grid[0][6];
+                    S = Grid[1][1];
                 else
                     S = GetNextSlot();
                 S.AssignCharacter(C);
@@ -104,7 +103,8 @@ namespace THAN
             IndividualEventActive = false;
             TownEventActive = false;
             PreGenerateTownEvent(out Event NextTownEvent);
-            yield return TownEventProcess(NextTownEvent);
+            if (NextTownEvent)
+                yield return TownEventProcess(NextTownEvent);
             CurrentTime++;
             BoardActive = true;
             if (GetSacrificeActive())
@@ -248,7 +248,8 @@ namespace THAN
 
         public bool CanEndTurn()
         {
-            return GetBoardActive() && !HoldingCharacter && (!GetSacrificeActive() || SacrificeSlot.GetCharacter());
+            return GetBoardActive() && !HoldingCharacter && (!GetSacrificeActive() || SacrificeSlot.GetCharacter())
+                && (!TurnLockToturial || TurnLockToturial.AlreadyDead);
         }
 
         public void PreGenerateTownEvent(out Event NE)
@@ -257,7 +258,10 @@ namespace THAN
             foreach (TownEvent TE in TownEvents)
             {
                 if (TE.CanTrigger())
+                {
                     E = TE;
+                    print(E.gameObject.name);
+                }
             }
             NE = E;
         }
