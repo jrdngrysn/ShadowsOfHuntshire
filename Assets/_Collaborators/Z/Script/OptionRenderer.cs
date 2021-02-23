@@ -8,11 +8,13 @@ namespace THAN
         public bool Active;
         public bool MouseOn;
         [Space]
+        [SerializeField] GameObject myPanel; // for settings, it's the pause prefab
         public GameObject DisableBase;
         public GameObject ActiveBase;
         public Animator Anim;
         public Collider C2D;
         [Space]
+        public bool closePanel;
         public bool Retry;
         public bool Exit;
 
@@ -47,9 +49,11 @@ namespace THAN
 
         public void OnMouseDown()
         {
+            if (closePanel)
+                myPanel.SetActive(false);
             if (Retry)
                 GlobalControl.Main.Retry();
-            else
+            if(Exit)
                 Application.Quit();
         }
     }
