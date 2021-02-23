@@ -18,6 +18,9 @@ namespace THAN
         public int StartTime = -1;
         public bool Active;
         [Space]
+        public List<Skill> Skills;
+        public Skill CurrentSkill;
+        [Space]
         public TextMeshPro VitalityText;
         public TextMeshPro PassionText;
         public TextMeshPro ReasonText;
@@ -377,6 +380,37 @@ namespace THAN
         public void EndOfTurn()
         {
             EventCoolDown--;
+            if (CurrentSkill)
+                OnSkillDisabled();
+            foreach (Skill S in Skills)
+                S.EndOfTurn();
+            List<Skill> New = new List<Skill>();
+            foreach (Skill S in Skills)
+            {
+                if (S.CanTrigger(this))
+                    New.Add(S);
+            }
+            if (New.Count > 0)
+                ActivateSkill(New[Random.Range(0, New.Count)]);
+        }
+
+        public void ActivateSkill(Skill S)
+        {
+            CurrentSkill = S;
+        }
+
+        public void OnSkillTriggered()
+        {
+            if (!CurrentSkill)
+                return;
+            CurrentSkill = null;
+        }
+
+        public void OnSkillDisabled()
+        {
+            if (!CurrentSkill)
+                return;
+            CurrentSkill = null;
         }
 
         public void ActivateMask()
