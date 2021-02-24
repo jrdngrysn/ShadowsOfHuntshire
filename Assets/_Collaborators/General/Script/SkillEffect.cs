@@ -17,7 +17,7 @@ public class SkillEffect : MonoBehaviour {
         
     }
 
-    public virtual void Effect(Character Source, Character Partner)
+    public virtual void Effect(Character Source, Character Partner, Skill skill)
     {
 
     }

@@ -110,7 +110,7 @@ namespace THAN
             if (GetSacrificeActive())
                 SacrificeAnim.Active();
             foreach (Character C in Characters)
-                C.EndOfTurn();
+                C.StartOfTurn();
             foreach (Character C in Characters)
             {
                 if (!C.Active && C.StartTime <= CurrentTime)
@@ -136,6 +136,8 @@ namespace THAN
             TownEventActive = false;
             foreach (Pair P in Pairs)
                 P.Effect();
+            foreach (Character C in Characters)
+                C.EndOfTurn();
 
             PreGenerateEvent(out List<Character> NextList);
             PreGenerateTownEvent(out Event NextTownEvent);
@@ -198,8 +200,6 @@ namespace THAN
             if (GetSacrificeActive())
                 SacrificeAnim.Active();
             foreach (Character C in Characters)
-                C.EndOfTurn();
-            foreach (Character C in Characters)
             {
                 if (!C.Active && C.StartTime <= CurrentTime)
                 {
@@ -209,6 +209,8 @@ namespace THAN
                     S.AssignCharacter(C);
                 }
             }
+            foreach (Character C in Characters)
+                C.StartOfTurn();
             //PlaySound("Event");
         }
 
@@ -258,10 +260,7 @@ namespace THAN
             foreach (TownEvent TE in TownEvents)
             {
                 if (TE.CanTrigger())
-                {
                     E = TE;
-                    print(E.gameObject.name);
-                }
             }
             NE = E;
         }

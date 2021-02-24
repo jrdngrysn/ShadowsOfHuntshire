@@ -37,6 +37,7 @@ namespace THAN
         public GameObject ToolPivot_Passion;
         public GameObject ToolPivot_Reason;
         public Vector2 TooltipDelay;
+        public GameObject SkillIndicator;
         [Space]
         public Slot CurrentSlot;
         public Pair CurrentPair;
@@ -377,13 +378,15 @@ namespace THAN
                 transform.position = new Vector3(a.x, a.y, OriZ);
         }
 
-        public void EndOfTurn()
+        public void StartOfTurn()
         {
+            if (!Active)
+                return;
             EventCoolDown--;
             if (CurrentSkill)
                 OnSkillDisabled();
             foreach (Skill S in Skills)
-                S.EndOfTurn();
+                S.StartOfTurn();
             List<Skill> New = new List<Skill>();
             foreach (Skill S in Skills)
             {
@@ -397,6 +400,7 @@ namespace THAN
         public void ActivateSkill(Skill S)
         {
             CurrentSkill = S;
+            SkillIndicator.SetActive(true);
         }
 
         public void OnSkillTriggered()
@@ -404,6 +408,7 @@ namespace THAN
             if (!CurrentSkill)
                 return;
             CurrentSkill = null;
+            SkillIndicator.SetActive(false);
         }
 
         public void OnSkillDisabled()
@@ -411,6 +416,18 @@ namespace THAN
             if (!CurrentSkill)
                 return;
             CurrentSkill = null;
+            SkillIndicator.SetActive(false);
+        }
+
+        public void EndOfTurn()
+        {
+            if (!Active)
+                return;
+            if (CurrentSkill)
+            {
+                CurrentSkill.EmptyEffect(this);
+                OnSkillDisabled();
+            }
         }
 
         public void ActivateMask()

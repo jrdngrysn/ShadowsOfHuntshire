@@ -52,7 +52,7 @@ namespace THAN
                     C1.CurrentSkill.Effect(C1, C2);
                     C1.OnSkillTriggered();
                 }
-                else if (C2.CurrentSkill)
+                if (C2.CurrentSkill)
                 {
                     C2.CurrentSkill.Effect(C2, C1);
                     C2.OnSkillTriggered();
