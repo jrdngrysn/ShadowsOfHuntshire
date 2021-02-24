@@ -261,6 +261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2078,6 +2082,246 @@ MonoBehaviour:
   Content: Our lord is more important than some rats.
   EffectText: Passion -1
   ChangeA: {x: 0, y: -1, z: 0}
+--- !u!1001 &265303644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1196033311}
+    m_Modifications:
+    - target: {fileID: 1217538783214300298, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Size.x
+      value: 14.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217538783214300298, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Size.y
+      value: 14.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217538783214300298, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 076d9f5021e328e43bf06056fbd7a20a, type: 3}
+    - target: {fileID: 1217538783214300298, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Name
+      value: Ahimaz Kalmari
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Reason
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Passion
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Vitality
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[0]
+      value: Time to go home and prepare for the dinner!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[1]
+      value: "I love this pair of vintage earrings! I know it\u2019s part-time but
+        if she could pay me enough\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[2]
+      value: Ooh, hey! I can tell you if you want to hear more about recent news
+        happening in this town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Name
+      value: Ahimaz Kalmari
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: OriPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: OriPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: TargetPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: TargetPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[0]
+      value: Time to go home and prepare for the dinner!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[1]
+      value: "I love this pair of vintage earrings! I know it\u2019s part-time but
+        if she could pay me enough\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.data[2]
+      value: Ooh, hey! I can tell you if you want to hear more about recent news
+        happening in this town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.data[0]
+      value: 
+      objectReference: {fileID: 1113706642}
+    - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Name
+      value: Ahimaz Kalmari (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 110.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462974425254, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418463375492861, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418463383677010, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: Ahimaz Kalmari
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_fontSize
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f672b48b9daafb4cace413b7cd6462e, type: 3}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.7459326
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.7459326
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2493439
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613989996409310965, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+--- !u!4 &265303645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+  m_PrefabInstance: {fileID: 265303644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &265303646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+  m_PrefabInstance: {fileID: 265303644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &265303647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+  m_PrefabInstance: {fileID: 265303644}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265303646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8612ce65373513849abf02352ee964bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &265303648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265303646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7041fb8e587a8440a6f0e2110c58090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  C: {fileID: 265303647}
+  CurrentBarkIndex: 0
+  Barks:
+  - Time to go home and prepare for the dinner!
+  - "I love this pair of vintage earrings! I know it\u2019s part-time but if she
+    could pay me enough\u2026"
 --- !u!1 &271408178
 GameObject:
   m_ObjectHideFlags: 0
@@ -11050,6 +11294,7 @@ Transform:
   - {fileID: 1320865650}
   - {fileID: 460226755}
   - {fileID: 443887491}
+  - {fileID: 265303645}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11071,6 +11316,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1196033311}
     m_Modifications:
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Character
@@ -11126,6 +11375,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
   m_PrefabInstance: {fileID: 1210588787}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1210588789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+  m_PrefabInstance: {fileID: 1210588787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1210588790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210588789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 0}
+  Effects:
+  - {fileID: 0}
+  - {fileID: 0}
+  EmptyEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  CoolDown: 0
+  CurrentCoolDown: 0
+  Description: 
 --- !u!1001 &1225367744
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -18,6 +18,9 @@ namespace THAN
         public int StartTime = -1;
         public bool Active;
         [Space]
+        public List<Skill> Skills;
+        public Skill CurrentSkill;
+        [Space]
         public TextMeshPro VitalityText;
         public TextMeshPro PassionText;
         public TextMeshPro ReasonText;
@@ -34,6 +37,7 @@ namespace THAN
         public GameObject ToolPivot_Passion;
         public GameObject ToolPivot_Reason;
         public Vector2 TooltipDelay;
+        public GameObject SkillIndicator;
         [Space]
         public Slot CurrentSlot;
         public Pair CurrentPair;
@@ -374,9 +378,56 @@ namespace THAN
                 transform.position = new Vector3(a.x, a.y, OriZ);
         }
 
+        public void StartOfTurn()
+        {
+            if (!Active)
+                return;
+            EventCoolDown--;
+            if (CurrentSkill)
+                OnSkillDisabled();
+            foreach (Skill S in Skills)
+                S.StartOfTurn();
+            List<Skill> New = new List<Skill>();
+            foreach (Skill S in Skills)
+            {
+                if (S.CanTrigger(this))
+                    New.Add(S);
+            }
+            if (New.Count > 0)
+                ActivateSkill(New[Random.Range(0, New.Count)]);
+        }
+
+        public void ActivateSkill(Skill S)
+        {
+            CurrentSkill = S;
+            SkillIndicator.SetActive(true);
+        }
+
+        public void OnSkillTriggered()
+        {
+            if (!CurrentSkill)
+                return;
+            CurrentSkill = null;
+            SkillIndicator.SetActive(false);
+        }
+
+        public void OnSkillDisabled()
+        {
+            if (!CurrentSkill)
+                return;
+            CurrentSkill = null;
+            SkillIndicator.SetActive(false);
+        }
+
         public void EndOfTurn()
         {
-            EventCoolDown--;
+            if (!Active)
+                return;
+            if (CurrentSkill)
+            {
+                CurrentSkill.EmptyEffect(this);
+                OnSkillDisabled();
+            }
         }
 
         public void ActivateMask()
