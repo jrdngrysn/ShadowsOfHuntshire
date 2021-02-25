@@ -45,6 +45,20 @@ namespace THAN
         {
             if (!C1 || !C2)
                 return;
+            if (C1.CurrentSkill || C2.CurrentSkill)
+            {
+                if (C1.CurrentSkill)
+                {
+                    C1.CurrentSkill.Effect(C1, C2);
+                    C1.OnSkillTriggered();
+                }
+                if (C2.CurrentSkill)
+                {
+                    C2.CurrentSkill.Effect(C2, C1);
+                    C2.OnSkillTriggered();
+                }
+                return;
+            }
             float V1 = C1.GetVitality();
             float P1 = C1.GetPassion();
             float R1 = C1.GetReason();
