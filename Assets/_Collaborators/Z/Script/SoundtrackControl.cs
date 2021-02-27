@@ -39,6 +39,7 @@ namespace TMST
 
         public IEnumerator Process()
         {
+            yield return new WaitForSeconds(5.5f);
             Source.PlayOneShot(Soundtrack);
             LastLoopTime = AudioSettings.dspTime;
             while (true)
