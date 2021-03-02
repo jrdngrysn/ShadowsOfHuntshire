@@ -62,6 +62,8 @@ namespace THAN
 
         public void Activate(EventChoice EC)
         {
+            if (!EC)
+                return;
             Render(EC);
             Anim.SetBool("Active", true);
             C2D.enabled = true;
