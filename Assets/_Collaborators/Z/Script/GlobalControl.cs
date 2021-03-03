@@ -287,61 +287,70 @@ namespace THAN
         {
             Character C = Cs[Random.Range(0, Cs.Count)];
             Event E = C.GetEvent();
+
             C.OnTriggerEvent(E);
 
             BoardShadeAnim.SetBool("Active", true);
-            if (E.FreeSources.Count == 0)
+            if (C == null || E == null)
             {
-                Pair P = C.GetPair();
-                P.ActivateMask();
-                if ((P.GetCharacter(0).CurrentSlot.GetPosition().x < P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(0).CurrentSlot.ERPosition.x < 0)
-                    || (P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(0).CurrentSlot.ERPosition.x > 0))
-                {
-                    Vector2 a = P.GetCharacter(0).CurrentSlot.GetPosition() + P.GetCharacter(0).CurrentSlot.ERPosition;
-                    IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
-                }
-                else if ((P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x < 0)
-                    || (P.GetCharacter(0).CurrentSlot.GetPosition().x < P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x > 0))
-                {
-                    Vector2 a = P.GetCharacter(1).CurrentSlot.GetPosition() + P.GetCharacter(1).CurrentSlot.ERPosition;
-                    IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
-                }
-                else if (P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x)
-                {
-                    Vector2 a = P.GetCharacter(0).CurrentSlot.ERPosition;
-                    a.x = -a.x;
-                    Vector2 b = P.GetCharacter(0).CurrentSlot.GetPosition();
-                    IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
-                }
-                else
-                {
-                    Vector2 a = P.GetCharacter(1).CurrentSlot.ERPosition;
-                    a.x = -a.x;
-                    Vector2 b = P.GetCharacter(1).CurrentSlot.GetPosition();
-                    IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
-                }
-                //yield return new WaitForSeconds(0.5f);
+                IndividualEventActive = false;
+                StartCoroutine("DisableBoardShade");
             }
             else
             {
-                Slot S = Character.Find(E.FreeSources[0]).CurrentSlot;
-                Vector2 a = S.ERPosition + S.GetPosition();
-                IER.transform.position = new Vector3(a.x, 2, IER.transform.position.z);
-                for (int i = 0; i < E.FreeSources.Count; i++)
+                if (E.FreeSources.Count == 0)
                 {
-                    Character c = Character.Find(E.FreeSources[i]);
-                    ChangedCharacters.Add(c);
-                    c.ActivateMask();
-                    c.Highlighted = true;
+                    Pair P = C.GetPair();
+                    P.ActivateMask();
+                    if ((P.GetCharacter(0).CurrentSlot.GetPosition().x < P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(0).CurrentSlot.ERPosition.x < 0)
+                        || (P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(0).CurrentSlot.ERPosition.x > 0))
+                    {
+                        Vector2 a = P.GetCharacter(0).CurrentSlot.GetPosition() + P.GetCharacter(0).CurrentSlot.ERPosition;
+                        IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
+                    }
+                    else if ((P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x < 0)
+                        || (P.GetCharacter(0).CurrentSlot.GetPosition().x < P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x > 0))
+                    {
+                        Vector2 a = P.GetCharacter(1).CurrentSlot.GetPosition() + P.GetCharacter(1).CurrentSlot.ERPosition;
+                        IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
+                    }
+                    else if (P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x)
+                    {
+                        Vector2 a = P.GetCharacter(0).CurrentSlot.ERPosition;
+                        a.x = -a.x;
+                        Vector2 b = P.GetCharacter(0).CurrentSlot.GetPosition();
+                        IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
+                    }
+                    else
+                    {
+                        Vector2 a = P.GetCharacter(1).CurrentSlot.ERPosition;
+                        a.x = -a.x;
+                        Vector2 b = P.GetCharacter(1).CurrentSlot.GetPosition();
+                        IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
+                    }
+                    //yield return new WaitForSeconds(0.5f);
                 }
-                yield return new WaitForSeconds(0.5f);
-                for (int i = 0; i < ChangedCharacters.Count; i++)
+                else
                 {
-                    ChangedCharacters[i].PositionChange(new Vector3(S.GetPosition().x, IER.AttachPositions[i], ChangedCharacters[i].transform.position.z));
+                    Slot S = Character.Find(E.FreeSources[0]).CurrentSlot;
+                    Vector2 a = S.ERPosition + S.GetPosition();
+                    IER.transform.position = new Vector3(a.x, 2, IER.transform.position.z);
+                    for (int i = 0; i < E.FreeSources.Count; i++)
+                    {
+                        Character c = Character.Find(E.FreeSources[i]);
+                        ChangedCharacters.Add(c);
+                        c.ActivateMask();
+                        c.Highlighted = true;
+                    }
+                    yield return new WaitForSeconds(0.5f);
+                    for (int i = 0; i < ChangedCharacters.Count; i++)
+                    {
+                        ChangedCharacters[i].PositionChange(new Vector3(S.GetPosition().x, IER.AttachPositions[i], ChangedCharacters[i].transform.position.z));
+                    }
                 }
+                IndividualEventActive = true;
+                IER.Activate(E, C.GetPair());
             }
-            IndividualEventActive = true;
-            IER.Activate(E, C.GetPair());
         }
 
         public void ResolveEvent(int Index)
