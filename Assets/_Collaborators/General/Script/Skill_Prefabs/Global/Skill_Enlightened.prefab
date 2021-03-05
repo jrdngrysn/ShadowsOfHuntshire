@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5102310288217087288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3563011384024288294}
+  - component: {fileID: 6728397672518921537}
+  - component: {fileID: 8755006929601100416}
+  - component: {fileID: 4708877642610643467}
+  m_Layer: 0
+  m_Name: Skill_Enlightened
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3563011384024288294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102310288217087288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.29519, y: 22.118792, z: -38.387394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6728397672518921537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102310288217087288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stat: 1
+  statThreshold: 22
+--- !u!114 &8755006929601100416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102310288217087288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cef022265d2d47f79fd010e325e7879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pStat: 0
+  sStat: 1
+  siStat: 2
+  otherChange: 5
+  selfChange: 8
+--- !u!114 &4708877642610643467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102310288217087288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Enlightened
+  Description: When *Character_Name* has 22 or more passion they activate this ability.
+    While Enlightened is active, if *Character_Name* is unpaired, all other characters
+    will have their vitality reduced by 5. *Character_Name* will then have their
+    passion reduced by 8 and their reason increased to 15.
