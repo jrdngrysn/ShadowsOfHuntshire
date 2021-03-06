@@ -38,6 +38,7 @@ namespace THAN
         public GameObject ToolPivot_Reason;
         public Vector2 TooltipDelay;
         public GameObject SkillIndicator;
+        public bool StatusRendereActive;
         [Space]
         public Slot CurrentSlot;
         public Pair CurrentPair;
@@ -138,6 +139,19 @@ namespace THAN
             Tooltip_Vitality.SetActive(TooltipDelay.x == 0 && TooltipDelay.y > 0);
             Tooltip_Passion.SetActive(TooltipDelay.x == 1 && TooltipDelay.y > 0);
             Tooltip_Reason.SetActive(TooltipDelay.x == 2 && TooltipDelay.y > 0);
+
+            if (CurrentSkill && (cp - (Vector2)SkillIndicator.transform.position).magnitude <= 1.5f)
+            {
+                if (!StatusRendereActive)
+                    StatusRenderer.Main.Render(CurrentSkill, this);
+                StatusRendereActive = true;
+            }
+            else
+            {
+                if (StatusRendereActive)
+                    StatusRenderer.Main.Disable();
+                StatusRendereActive = false;
+            }
         }
 
         public void Activate()
