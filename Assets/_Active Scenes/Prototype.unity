@@ -654,6 +654,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Josef Van Buren
       objectReference: {fileID: 0}
@@ -690,6 +694,10 @@ PrefabInstance:
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 423863120}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1270363877708833968, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Josef Van Buren
@@ -809,26 +817,6 @@ MonoBehaviour:
     without it!"
   - "Hello high priest, what a clear morning. I\u2019m collecting materials for my
     newest novel, could you give some advice?"
---- !u!114 &85923644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85923641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 182104911}
-  Effects:
-  - {fileID: 182104910}
-  EmptyEffects: []
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 182104909}
 --- !u!1001 &96672087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -894,6 +882,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Dolf Fischer
       objectReference: {fileID: 0}
@@ -946,6 +938,10 @@ PrefabInstance:
       propertyPath: CharacterEvents.Array.data[3]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1797331243}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Dolf Fischer
@@ -1659,39 +1655,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
---- !u!114 &182104909 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3202768525866575282, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-  m_PrefabInstance: {fileID: 182104908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &182104910 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5355000416578461408, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-  m_PrefabInstance: {fileID: 182104908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14724f8da8ae2439d8614f6b88265a6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &182104911 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2573033873316396406, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-  m_PrefabInstance: {fileID: 182104908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &198842921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3464,6 +3427,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ross Becker
       objectReference: {fileID: 0}
@@ -3512,6 +3479,10 @@ PrefabInstance:
       propertyPath: CharacterEvents.Array.data[2]
       value: 
       objectReference: {fileID: 889481147}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1194765330}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Ross Becker
@@ -4692,26 +4663,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
   m_PrefabInstance: {fileID: 1593184575}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &481947440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481947439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 2073339638}
-  Effects:
-  - {fileID: 2073339637}
-  EmptyEffects: []
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 2073339636}
 --- !u!114 &481947442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7100,35 +7051,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
 --- !u!114 &726246101 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4708877642610643467, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1903649265415060583, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
   m_PrefabInstance: {fileID: 726246100}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &726246102 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8755006929601100416, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-  m_PrefabInstance: {fileID: 726246100}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cef022265d2d47f79fd010e325e7879, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &726246103 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6728397672518921537, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-  m_PrefabInstance: {fileID: 726246100}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &748260384 stripped
@@ -7155,26 +7084,6 @@ MonoBehaviour:
     People used to respect each other!"
   - Have you ever wondered that Severin might be the sanest one of us all?
   - "Is\u2026isn\u2019t that squid? Take that wicked thing away from me!"
---- !u!114 &748260386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748260384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 1797331245}
-  Effects:
-  - {fileID: 1797331244}
-  EmptyEffects: []
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 1797331243}
 --- !u!1 &754340669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7341,6 +7250,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Baron Meier
       objectReference: {fileID: 0}
@@ -7373,6 +7286,10 @@ PrefabInstance:
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 726246101}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Baron Meier
@@ -7493,26 +7410,6 @@ MonoBehaviour:
   Barks:
   - "Which style of mustache fits me best? I\u2019m thinking of changing mine to
     handlebar style!"
---- !u!114 &767009522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767009519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 726246103}
-  Effects: []
-  EmptyEffects:
-  - {fileID: 726246102}
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 726246101}
 --- !u!1 &783031022
 GameObject:
   m_ObjectHideFlags: 0
@@ -7660,6 +7557,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Dino Vallis
       objectReference: {fileID: 0}
@@ -7692,6 +7593,10 @@ PrefabInstance:
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1366370239}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Dino Vallis
@@ -7815,26 +7720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8612ce65373513849abf02352ee964bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &794047182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794047179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 1366370241}
-  Effects: []
-  EmptyEffects:
-  - {fileID: 1366370240}
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 1366370239}
 --- !u!1001 &795059763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11595,35 +11480,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
 --- !u!114 &1194765330 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 962703131422473396, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+  m_CorrespondingSourceObject: {fileID: -1897325721424699495, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
   m_PrefabInstance: {fileID: 1194765329}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1194765331 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1886737949535972620, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-  m_PrefabInstance: {fileID: 1194765329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1620fbbdb8f69448fa077cec20aa065e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1194765332 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1675745885619989936, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-  m_PrefabInstance: {fileID: 1194765329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1196033310
@@ -12790,35 +12653,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
 --- !u!114 &1366370239 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6042072475498100263, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8553602557013517821, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
   m_PrefabInstance: {fileID: 1366370238}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1366370240 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5204233040282336109, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-  m_PrefabInstance: {fileID: 1366370238}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cef022265d2d47f79fd010e325e7879, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1366370241 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7771200470540211614, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-  m_PrefabInstance: {fileID: 1366370238}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1386414798
@@ -14177,6 +14018,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Hugh Friedrich
       objectReference: {fileID: 0}
@@ -14212,6 +14057,10 @@ PrefabInstance:
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 706444005}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 2073339636}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Hugh Friedrich
@@ -16626,35 +16475,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
 --- !u!114 &1797331243 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 969135112159183969, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+  m_CorrespondingSourceObject: {fileID: -8955571445758041933, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
   m_PrefabInstance: {fileID: 1797331242}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1797331244 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2510384520508988712, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-  m_PrefabInstance: {fileID: 1797331242}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1620fbbdb8f69448fa077cec20aa065e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1797331245 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2230252965867024138, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-  m_PrefabInstance: {fileID: 1797331242}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1803707708
@@ -17399,26 +17226,6 @@ MonoBehaviour:
   SpecialBarks:
   - "Mia is so mean to me\u2026 I didn\u2019t do anything but she kept laughing at
     me!"
---- !u!114 &1862181650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862181648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Conditions:
-  - {fileID: 1194765332}
-  Effects:
-  - {fileID: 1194765331}
-  EmptyEffects: []
-  CoolDown: 0
-  CurrentCoolDown: 0
-  skillInfo: {fileID: 1194765330}
 --- !u!114 &1862181651 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -19171,35 +18978,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
 --- !u!114 &2073339636 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1995341631926123442, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
+  m_CorrespondingSourceObject: {fileID: -7517822439761858076, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
   m_PrefabInstance: {fileID: 2073339635}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2073339637 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4734958003732986060, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-  m_PrefabInstance: {fileID: 2073339635}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14724f8da8ae2439d8614f6b88265a6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2073339638 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3112812265710027019, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-  m_PrefabInstance: {fileID: 2073339635}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2108891925

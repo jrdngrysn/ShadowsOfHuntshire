@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7771200470540211614}
   - component: {fileID: 5204233040282336109}
   - component: {fileID: 6042072475498100263}
+  - component: {fileID: 8553602557013517821}
   m_Layer: 0
   m_Name: Skill_Sargent
   m_TagString: Untagged
@@ -81,3 +82,23 @@ MonoBehaviour:
     While Sargent is active, if *Character_Name* is unpaired, all other characters
     will have their reason reduced by 5. *Character_Name* will then have their vitality
     reduced by 8 and their passion increased to 15.
+--- !u!114 &8553602557013517821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 7771200470540211614}
+  Effects: []
+  EmptyEffects:
+  - {fileID: 5204233040282336109}
+  CoolDown: 0
+  CurrentCoolDown: 0
+  skillInfo: {fileID: 6042072475498100263}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2230252965867024138}
   - component: {fileID: 2510384520508988712}
   - component: {fileID: 969135112159183969}
+  - component: {fileID: -8955571445758041933}
   m_Layer: 0
   m_Name: Skill_ShortTemper
   m_TagString: Untagged
@@ -80,3 +81,23 @@ MonoBehaviour:
     While Short Temper is active, any character paired with *Character_Name* will
     have their vitality reduced by 2. *Character_Name* will then have their vitality
     reduced by 2 and their reason increased by 2.
+--- !u!114 &-8955571445758041933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416448587609568425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 2230252965867024138}
+  Effects:
+  - {fileID: 2510384520508988712}
+  EmptyEffects: []
+  CoolDown: 0
+  CurrentCoolDown: 0
+  skillInfo: {fileID: 969135112159183969}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6728397672518921537}
   - component: {fileID: 8755006929601100416}
   - component: {fileID: 4708877642610643467}
+  - component: {fileID: 1903649265415060583}
   m_Layer: 0
   m_Name: Skill_Enlightened
   m_TagString: Untagged
@@ -81,3 +82,23 @@ MonoBehaviour:
     While Enlightened is active, if *Character_Name* is unpaired, all other characters
     will have their vitality reduced by 5. *Character_Name* will then have their
     passion reduced by 8 and their reason increased to 15.
+--- !u!114 &1903649265415060583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102310288217087288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 6728397672518921537}
+  Effects: []
+  EmptyEffects:
+  - {fileID: 8755006929601100416}
+  CoolDown: 0
+  CurrentCoolDown: 0
+  skillInfo: {fileID: 4708877642610643467}
