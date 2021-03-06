@@ -10,12 +10,15 @@ public class Skill : MonoBehaviour {
     [Space]
     public int CoolDown;
     [HideInInspector] public int CurrentCoolDown;
-    [TextArea] public string Description;
+    public SkillInfo skillInfo;
+    private string Title;
+    private string Description;
 
     // Start is called before the first frame update
     public virtual void Start()
     {
-
+        Title = skillInfo.Title;
+        Description = skillInfo.Description;
     }
 
     // Update is called once per frame

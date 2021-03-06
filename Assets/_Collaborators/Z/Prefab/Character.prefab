@@ -1010,6 +1010,7 @@ MonoBehaviour:
   ToolPivot_Reason: {fileID: 6678479765616643228}
   TooltipDelay: {x: 0, y: 0}
   SkillIndicator: {fileID: 7770431700919118805}
+  StatusRendereActive: 0
   CurrentSlot: {fileID: 0}
   CurrentPair: {fileID: 0}
   OriPosition: {x: 999, y: 999}

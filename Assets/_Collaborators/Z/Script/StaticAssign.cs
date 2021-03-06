@@ -8,6 +8,7 @@ namespace THAN
         public GlobalControl GC;
         public PauseControl PC;
         public KeyBase KB;
+        public StatusRenderer STR;
         public Cursor MainCursor;
 
         public void Awake()
@@ -15,6 +16,7 @@ namespace THAN
             GlobalControl.Main = GC;
             Cursor.Main = MainCursor;
             KeyBase.Main = KB;
+            StatusRenderer.Main = STR;
         }
 
         // Start is called before the first frame update

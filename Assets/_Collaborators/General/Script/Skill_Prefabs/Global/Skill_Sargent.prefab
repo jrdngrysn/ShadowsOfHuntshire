@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5173148605834222481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813175785215617760}
+  - component: {fileID: 7771200470540211614}
+  - component: {fileID: 5204233040282336109}
+  - component: {fileID: 6042072475498100263}
+  - component: {fileID: 8553602557013517821}
+  m_Layer: 0
+  m_Name: Skill_Sargent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813175785215617760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.29519, y: 22.118792, z: -38.387394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7771200470540211614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stat: 0
+  statThreshold: 22
+--- !u!114 &5204233040282336109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cef022265d2d47f79fd010e325e7879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pStat: 2
+  sStat: 0
+  siStat: 1
+  otherChange: 5
+  selfChange: 8
+--- !u!114 &6042072475498100263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Sargent
+  Description: When *Character_Name* has 22 or more vitality they activate this ability.
+    While Sargent is active, if *Character_Name* is unpaired, all other characters
+    will have their reason reduced by 5. *Character_Name* will then have their vitality
+    reduced by 8 and their passion increased to 15.
+--- !u!114 &8553602557013517821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173148605834222481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 7771200470540211614}
+  Effects: []
+  EmptyEffects:
+  - {fileID: 5204233040282336109}
+  CoolDown: 0
+  CurrentCoolDown: 0
+  skillInfo: {fileID: 6042072475498100263}
