@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8779729904039215058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852837288301115928}
+  - component: {fileID: 223885019274512035}
+  - component: {fileID: 37527173365308721}
+  - component: {fileID: 5578237002553293274}
+  m_Layer: 0
+  m_Name: Skill_Bloodhound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &852837288301115928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779729904039215058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223885019274512035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779729904039215058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d451cfe5f269488cbf42a7ab0ed8ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stat: 2
+  statThreshold: 14
+--- !u!114 &37527173365308721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779729904039215058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1620fbbdb8f69448fa077cec20aa065e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pStat: 2
+  sStat: 2
+  siStat: 1
+  statChange: 2
+--- !u!114 &5578237002553293274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779729904039215058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Bloodhound
+  Description: When *Character_Name* has 14 or more reason they activate this ability.
+    While Bloodhound is active, any character paired with *Character_Name* will have
+    their reason reduced by 2. *Character_Name* will then have their reason reduced
+    by 2 and their passion increased by 2.
