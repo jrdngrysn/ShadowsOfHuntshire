@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 223885019274512035}
   - component: {fileID: 37527173365308721}
   - component: {fileID: 5578237002553293274}
+  - component: {fileID: -3624968445994187795}
   m_Layer: 0
-  m_Name: Skill_Bloodhound
+  m_Name: Skill_Investigator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,8 +76,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Bloodhound
+  Title: Investigator
   Description: When *Character_Name* has 14 or more reason they activate this ability.
     While Bloodhound is active, any character paired with *Character_Name* will have
     their reason reduced by 2. *Character_Name* will then have their reason reduced
     by 2 and their passion increased by 2.
+--- !u!114 &-3624968445994187795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779729904039215058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conditions:
+  - {fileID: 223885019274512035}
+  Effects:
+  - {fileID: 37527173365308721}
+  EmptyEffects: []
+  CoolDown: 0
+  CurrentCoolDown: 0
+  skillInfo: {fileID: 5578237002553293274}
