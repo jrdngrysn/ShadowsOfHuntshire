@@ -178,6 +178,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -194,10 +198,6 @@ PrefabInstance:
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Time to go home and prepare for the dinner!
       objectReference: {fileID: 0}
@@ -212,6 +212,14 @@ PrefabInstance:
         happening in this town!
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -222,10 +230,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -248,10 +252,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Ooh, hey! I can tell you if you want to hear more about recent news
         happening in this town!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -609,28 +609,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Reason
-      value: 24
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Passion
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Hidden_Reason
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -655,7 +655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -674,10 +674,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -693,10 +689,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -849,6 +841,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -863,10 +859,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
       value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -891,7 +883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -914,10 +906,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -933,10 +921,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -957,7 +941,7 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.data[0]
       value: 
-      objectReference: {fileID: 1797331243}
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Dolf Fischer
@@ -1575,7 +1559,7 @@ Transform:
   m_Children:
   - {fileID: 1648850203}
   m_Father: {fileID: 474058733}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &177818376
 GameObject:
@@ -1674,63 +1658,6 @@ MonoBehaviour:
   Choices:
   - {fileID: 177818379}
   - {fileID: 177818378}
---- !u!1001 &182104908
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 85923640}
-    m_Modifications:
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 203454239048785350, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9049451699076750223, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-      propertyPath: m_Name
-      value: Skill_Appeal
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
 --- !u!1001 &198842921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2381,6 +2308,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -2399,10 +2330,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -2645,6 +2572,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &274208406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 827158398}
+    m_Modifications:
+    - target: {fileID: 2365299591126038103, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_Name
+      value: Skill_Zealot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+--- !u!114 &274208407 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -1897325721424699495, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
+  m_PrefabInstance: {fileID: 274208406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &274876418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2923,7 +2918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3133,7 +3128,7 @@ Transform:
   m_Children:
   - {fileID: 506433057}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &304472408
 Animator:
@@ -3193,7 +3188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3548,6 +3543,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -3562,10 +3561,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -3609,10 +3604,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -3634,10 +3625,6 @@ PrefabInstance:
         at me!"
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 177818380}
@@ -3652,7 +3639,7 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.data[0]
       value: 
-      objectReference: {fileID: 1194765330}
+      objectReference: {fileID: 1037809695}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Ross Becker
@@ -4228,6 +4215,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4256,10 +4247,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4271,6 +4258,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4287,10 +4286,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -4310,13 +4305,13 @@ PrefabInstance:
         are just impious lies."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 1272618489}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 873755264}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Roger Becker
@@ -4621,6 +4616,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4649,10 +4648,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4664,6 +4659,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4682,10 +4685,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -4701,10 +4700,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -4862,7 +4857,6 @@ Transform:
   - {fileID: 538862607}
   - {fileID: 1053194920}
   - {fileID: 1660370332}
-  - {fileID: 178702995}
   - {fileID: 173279105}
   m_Father: {fileID: 1971281567}
   m_RootOrder: 0
@@ -5362,7 +5356,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &547088026
 MonoBehaviour:
@@ -5406,6 +5400,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -5422,10 +5420,6 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -5439,6 +5433,14 @@ PrefabInstance:
         bad idea to adopt her!
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Severin Muller
       objectReference: {fileID: 0}
@@ -5449,10 +5451,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -5476,10 +5474,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Please guide the residents and show them the right path to the spiritual
         world.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -6008,6 +6002,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6024,10 +6022,6 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -6039,6 +6033,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -6055,10 +6061,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -6079,13 +6081,13 @@ PrefabInstance:
         you really should see that!"
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 124295877}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1687735566}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Mia Becker
@@ -6324,6 +6326,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6344,10 +6350,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -6361,6 +6363,10 @@ PrefabInstance:
         bad idea to adopt her!
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Amelia Thurston
       objectReference: {fileID: 0}
@@ -6371,10 +6377,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -7261,74 +7263,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 717868587}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &726246100
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 767009518}
-    m_Modifications:
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 108.29519
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 22.118792
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -38.387394
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5102310288217087288, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-      propertyPath: m_Name
-      value: Skill_Enlightened
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
---- !u!114 &726246101 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1903649265415060583, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
-  m_PrefabInstance: {fileID: 726246100}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &748260384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -7455,6 +7389,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -7477,10 +7415,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Hidden_Passion
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -7520,10 +7454,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -7543,7 +7473,7 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.data[0]
       value: 
-      objectReference: {fileID: 726246101}
+      objectReference: {fileID: 1972435708}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Baron Meier
@@ -7774,6 +7704,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -7788,10 +7722,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -7812,7 +7742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -7829,10 +7759,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -7854,7 +7780,7 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.data[0]
       value: 
-      objectReference: {fileID: 1366370239}
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Dino Vallis
@@ -8002,6 +7928,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8018,10 +7948,6 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8035,6 +7961,10 @@ PrefabInstance:
         bad idea to adopt her!
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Arin Friedrich
       objectReference: {fileID: 0}
@@ -8045,10 +7975,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -8724,6 +8650,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8748,10 +8678,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8763,6 +8689,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8781,10 +8715,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -8801,6 +8731,10 @@ PrefabInstance:
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 274208407}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Enyo Vallis
@@ -9161,6 +9095,74 @@ Transform:
   m_Father: {fileID: 1512748031}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18}
+--- !u!1001 &873755263
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 443887491}
+    m_Modifications:
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 108.29519
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.118792
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.387394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563011384024288294, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5102310288217087288, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+      propertyPath: m_Name
+      value: Skill_Enlightened
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+--- !u!114 &873755264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1903649265415060583, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+  m_PrefabInstance: {fileID: 873755263}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876898989
 GameObject:
   m_ObjectHideFlags: 0
@@ -9492,8 +9494,8 @@ Transform:
   m_LocalPosition: {x: -0.4617, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 0.268, z: 1}
   m_Children: []
-  m_Father: {fileID: 178702995}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &905405782
 SpriteRenderer:
@@ -9795,8 +9797,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 10, z: 1}
-  m_Children:
-  - {fileID: 195897187}
+  m_Children: []
   m_Father: {fileID: 474058733}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9913,7 +9914,7 @@ Transform:
   - {fileID: 1781024233}
   - {fileID: 1139562626}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &945479067
 MonoBehaviour:
@@ -10547,7 +10548,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1026261549
 GameObject:
@@ -10720,6 +10721,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1037809694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364815837}
+    m_Modifications:
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6416448587609568425, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+      propertyPath: m_Name
+      value: Skill_ShortTemper
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+--- !u!114 &1037809695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8955571445758041933, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
+  m_PrefabInstance: {fileID: 1037809694}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1042779346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11213,7 +11282,7 @@ Transform:
   m_Children:
   - {fileID: 1871214254}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1093261487
 PrefabInstance:
@@ -12099,74 +12168,6 @@ Transform:
   m_Father: {fileID: 1393445309}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1194765329
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 364815837}
-    m_Modifications:
-    - target: {fileID: 2365299591126038103, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_Name
-      value: Skill_Zealot
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
---- !u!114 &1194765330 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -1897325721424699495, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
-  m_PrefabInstance: {fileID: 1194765329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1196033310
 GameObject:
   m_ObjectHideFlags: 0
@@ -12214,7 +12215,7 @@ Transform:
   - {fileID: 443887491}
   - {fileID: 265303645}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1200406125 stripped
 MonoBehaviour:
@@ -12257,7 +12258,7 @@ Transform:
   m_Children:
   - {fileID: 564982502}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1200554970
 MonoBehaviour:
@@ -13095,7 +13096,7 @@ Transform:
   - {fileID: 1512748031}
   - {fileID: 1838956310}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1306712455
 Animator:
@@ -13282,6 +13283,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -13306,10 +13311,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -13321,6 +13322,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -13339,10 +13348,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -13358,10 +13363,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -13489,74 +13490,6 @@ MonoBehaviour:
   - "Hm, if I don\u2019t get my beauty sleep, my skin\u2019s going to pay for it
     later!"
   - "Oh, I really miss those banquets given by the Viscountess\u2026"
---- !u!1001 &1366370238
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 794047178}
-    m_Modifications:
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 108.29519
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 22.118792
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -38.387394
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5173148605834222481, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-      propertyPath: m_Name
-      value: Skill_Sargent
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
---- !u!114 &1366370239 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8553602557013517821, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
-  m_PrefabInstance: {fileID: 1366370238}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1386414798
 GameObject:
   m_ObjectHideFlags: 0
@@ -13628,7 +13561,7 @@ Transform:
   - {fileID: 1114247668}
   - {fileID: 984415070}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404569029
 GameObject:
@@ -13753,6 +13686,74 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8612ce65373513849abf02352ee964bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1459025738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1593184576}
+    m_Modifications:
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831539758448205139, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843547554126803664, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+      propertyPath: m_Name
+      value: Skill_Indoctrinate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+--- !u!114 &1459025739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8130762798158431429, guid: fc4eb51743b954d67a08c1a95ec869b3, type: 3}
+  m_PrefabInstance: {fileID: 1459025738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1459913034
@@ -14296,7 +14297,7 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1548008045
 Animator:
@@ -14903,6 +14904,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -14912,15 +14917,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Passion
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -14964,10 +14965,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -14984,17 +14981,13 @@ PrefabInstance:
       value: What the hell do you want from me?
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 706444005}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Skills.Array.data[0]
       value: 
-      objectReference: {fileID: 2073339636}
+      objectReference: {fileID: 1459025739}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Hugh Friedrich
@@ -15118,11 +15111,7 @@ MonoBehaviour:
   EmptyEffects: []
   CoolDown: 1
   CurrentCoolDown: 0
-  Description: 'asdasdasd
-
-    asdasd
-
-    *Character_Name* asdasdasdas hjkjhkjh'
+  skillInfo: {fileID: 0}
 --- !u!1 &1615523024
 GameObject:
   m_ObjectHideFlags: 0
@@ -16074,6 +16063,74 @@ MeshRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &1687735565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 614196753}
+    m_Modifications:
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852837288301115928, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779729904039215058, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+      propertyPath: m_Name
+      value: Skill_Investigator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+--- !u!114 &1687735566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3624968445994187795, guid: 2ff78fbcacf684188be2b987e448aff3, type: 3}
+  m_PrefabInstance: {fileID: 1687735565}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1693612640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16735,7 +16792,7 @@ Transform:
   - {fileID: 2117453318}
   - {fileID: 563657283}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1742616764
 PrefabInstance:
@@ -16844,7 +16901,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1747636572
 MonoBehaviour:
@@ -16964,28 +17021,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Reason
-      value: 30
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Passion
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Hidden_Reason
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -16999,6 +17056,22 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Hidden_Vitality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -17015,10 +17088,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -17038,10 +17107,6 @@ PrefabInstance:
         are just impious lies."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
       value: 
       objectReference: {fileID: 260699464}
@@ -17053,6 +17118,10 @@ PrefabInstance:
       propertyPath: CharacterEvents.Array.data[2]
       value: 
       objectReference: {fileID: 352871715}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1937231895}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Lydia Furst
@@ -17232,7 +17301,7 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1768140532
 PrefabInstance:
@@ -17598,74 +17667,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1797331242
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 96672088}
-    m_Modifications:
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3815508964621167024, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6416448587609568425, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-      propertyPath: m_Name
-      value: Skill_ShortTemper
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
---- !u!114 &1797331243 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -8955571445758041933, guid: a956f228c8bf74b07af8aec58b6e2ce5, type: 3}
-  m_PrefabInstance: {fileID: 1797331242}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1803707708
 GameObject:
   m_ObjectHideFlags: 0
@@ -18036,7 +18037,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1846251077
 MonoBehaviour:
@@ -18176,6 +18177,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -18192,10 +18197,6 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -18207,6 +18208,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: CharacterEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -18229,10 +18238,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -18248,10 +18253,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: CharacterEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: CharacterEvents.Array.data[0]
@@ -18535,7 +18536,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1874906926
 GameObject:
@@ -18681,7 +18682,7 @@ Transform:
   m_Children:
   - {fileID: 876898990}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894888602
 GameObject:
@@ -19093,6 +19094,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1937231894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1754703498}
+    m_Modifications:
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 108.29519
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.118792
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.387394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808404382416336468, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756464623424210647, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+      propertyPath: m_Name
+      value: Skill_Cunning
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+--- !u!114 &1937231895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3814871793275732757, guid: f0674aa4cd22646a3895c4a27d61e798, type: 3}
+  m_PrefabInstance: {fileID: 1937231894}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1943979780
 GameObject:
   m_ObjectHideFlags: 0
@@ -19219,7 +19288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1943979783
 MonoBehaviour:
@@ -19532,13 +19601,13 @@ MonoBehaviour:
   - {fileID: 538862606}
   - {fileID: 1053194919}
   - {fileID: 1660370331}
-  - {fileID: 178702994}
+  - {fileID: 0}
   - {fileID: 173279104}
   SRs:
   - {fileID: 848150292}
   - {fileID: 800572267}
   - {fileID: 1721779165}
-  - {fileID: 195897188}
+  - {fileID: 0}
   - {fileID: 1902363442}
   - {fileID: 236427810}
   - {fileID: 1061902740}
@@ -19626,6 +19695,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1972435707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767009518}
+    m_Modifications:
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 108.29519
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.118792
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.387394
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813175785215617760, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173148605834222481, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+      propertyPath: m_Name
+      value: Skill_Sargent
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+--- !u!114 &1972435708 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8553602557013517821, guid: ac76718df71e340a1b3082c8d93ff00c, type: 3}
+  m_PrefabInstance: {fileID: 1972435707}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1976522637
 GameObject:
   m_ObjectHideFlags: 0
@@ -20275,78 +20412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe28a38fd7642249b960ee3e75fff83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &2073339635
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1593184576}
-    m_Modifications:
-    - target: {fileID: 1995341631926123442, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: Title
-      value: Intimidate
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4346937039092606113, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9110001684271295899, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-      propertyPath: m_Name
-      value: Skill_Intimidate
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
---- !u!114 &2073339636 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -7517822439761858076, guid: 7ca283143a7174a9086b2fa965096f6f, type: 3}
-  m_PrefabInstance: {fileID: 2073339635}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2108891925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20368,7 +20433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
