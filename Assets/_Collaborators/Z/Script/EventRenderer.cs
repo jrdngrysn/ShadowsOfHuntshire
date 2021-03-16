@@ -19,11 +19,14 @@ namespace THAN
         public ChoiceRenderer CRI;
         public ChoiceRenderer CRII;
         public ChoiceRenderer CRIII;
+        public ChoiceRenderer SingleRenderer;
+        public ConfirmButton CB;
         public List<float> AttachPositions;
         [Space]
         public Event CurrentEvent;
         public Event CurrentAddEvent;
         public Pair CurrentPair;
+        public ChoiceRenderer CurrentCR;
 
         // Start is called before the first frame update
         void Start()
@@ -40,6 +43,7 @@ namespace THAN
 
         public void Render()
         {
+            CB.SetRender(CurrentCR);
             if (!GetEvent())
             {
                 ContentText.text = "";
@@ -64,12 +68,50 @@ namespace THAN
                 //QuestionText.text = GetCurrentEC().EffectText;
             //else
                 QuestionText.text = GetEvent().AddContent;
-            CRI.Render(GetEvent().GetChoices()[0]);
-            CRII.Render(GetEvent().GetChoices()[1]);
+            if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
+            {
+                SingleRenderer.Render(GetEvent().GetChoices()[0]);
+                CRI.Render(null);
+                CRII.Render(null);
+            }
+            else
+            {
+                CRI.Render(GetEvent().GetChoices()[0]);
+                CRII.Render(GetEvent().GetChoices()[1]);
+                if (SingleRenderer)
+                    SingleRenderer.Render(null);
+            }
             if (GetAddEvent())
                 CRIII.Render(GetAddEvent().GetChoices()[0]);
             else
                 CRIII.Render(null);
+        }
+
+        public void Select(int Index)
+        {
+            if (CurrentCR)
+                CurrentCR.OnUnselect();
+            if (Index == 0)
+            {
+                if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
+                    CurrentCR = SingleRenderer;
+                else
+                    CurrentCR = CRI;
+            }
+            else if (Index == 1)
+                CurrentCR = CRII;
+            else if (Index == 2)
+                CurrentCR = CRIII;
+            CurrentCR.OnSelect();
+        }
+
+        public void TryDecide()
+        {
+            if (Activating)
+                return;
+            if (!CurrentCR)
+                return;
+            Decide(CurrentCR.Index);
         }
 
         public void Decide(int Index)
@@ -82,6 +124,7 @@ namespace THAN
             while (Activating)
                 yield return 0;
             Effect(Index);
+            GlobalControl.Main.PlaySound("Select");
         }
 
         public void Effect(int index)
@@ -142,6 +185,7 @@ namespace THAN
             CurrentEvent = E;
             CurrentAddEvent = null;
             CurrentPair = P;
+            CurrentCR = null;
             StartCoroutine("ActivateIE");
         }
 
@@ -149,9 +193,15 @@ namespace THAN
         {
             Anim.SetBool("Active", true);
             Activating = true;
+            CB.Active = true;
             yield return new WaitForSeconds(1f);
-            CRI.Activate(GetEvent().GetChoices()[0]);
-            CRII.Activate(GetEvent().GetChoices()[1]);
+            if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
+                SingleRenderer.Activate(GetEvent().GetChoices()[0]);
+            else
+            {
+                CRI.Activate(GetEvent().GetChoices()[0]);
+                CRII.Activate(GetEvent().GetChoices()[1]);
+            }
             yield return new WaitForSeconds(0.25f);
             Activating = false;
         }
@@ -168,6 +218,8 @@ namespace THAN
             Activating = true;
             CRI.Disable();
             CRII.Disable();
+            if (SingleRenderer)
+                SingleRenderer.Disable();
             yield return new WaitForSeconds(0.15f);
             CRIII.Activate(GetAddEvent().GetChoice(0));
             yield return new WaitForSeconds(0.25f);
@@ -180,6 +232,9 @@ namespace THAN
             CRI.Disable();
             CRII.Disable();
             CRIII.Disable();
+            if (SingleRenderer)
+                SingleRenderer.Disable();
+            CB.Active = false;
         }
 
         public Event GetEvent()
@@ -195,17 +250,6 @@ namespace THAN
         public Pair GetSourcePair()
         {
             return CurrentPair;
-        }
-
-        public EventChoice GetCurrentEC()
-        {
-            if (CRI.MouseOnDelay > 0)
-                return CRI.CurrentEC;
-            if (CRII.MouseOnDelay > 0)
-                return CRII.CurrentEC;
-            if (CRIII.MouseOnDelay > 0)
-                return CRIII.CurrentEC;
-            return null;
         }
     }
 }
