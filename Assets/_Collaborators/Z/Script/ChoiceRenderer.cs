@@ -7,8 +7,6 @@ namespace THAN
 {
     public class ChoiceRenderer : MonoBehaviour {
         public bool Active;
-        public bool MouseOn;
-        public float MouseOnDelay;
         public EventChoice CurrentEC;
         [Space]
         public int Index;
@@ -17,6 +15,8 @@ namespace THAN
         public Collider C2D;
         public TextMeshPro EmptyText;
         public TextMeshPro SelectingText;
+        public TextMeshPro EffectText;
+        public TextMeshPro SelectingEffectText;
 
         // Start is called before the first frame update
         void Start()
@@ -28,9 +28,7 @@ namespace THAN
         // Update is called once per frame
         void Update()
         {
-            MouseOnDelay -= Time.deltaTime;
-            if (MouseOn)
-                MouseOnDelay = 0.4f;
+
         }
 
         public void Render(EventChoice EC)
@@ -39,19 +37,25 @@ namespace THAN
             {
                 EmptyText.text = "";
                 SelectingText.text = "";
+                EffectText.text = "";
+                SelectingEffectText.text = "";
                 return;
             }
 
             CurrentEC = EC;
             if (EC.EffectText != "")
             {
-                EmptyText.text = EC.GetContent() + "  [" + EC.EffectText + "]";
-                SelectingText.text = EC.GetContent() + "  [" + EC.EffectText + "]";
+                EmptyText.text = EC.GetContent();
+                SelectingText.text = EC.GetContent();
+                EffectText.text = EC.EffectText;
+                SelectingEffectText.text = EC.EffectText;
             }
             else if (EC.GetContent() == "")
             {
-                EmptyText.text = "[" + EC.EffectText + "]";
-                SelectingText.text = "[" + EC.EffectText + "]";
+                EmptyText.text = EC.EffectText;
+                SelectingText.text = EC.EffectText;
+                EffectText.text = "";
+                SelectingEffectText.text = "";
             }
             else
             {
@@ -76,30 +80,31 @@ namespace THAN
                 return;
             Anim.SetBool("Active", false);
             C2D.enabled = false;
-            OnMouseExit();
+            OnUnselect();
             Active = false;
-        }
-
-        public void OnMouseEnter()
-        {
-            MouseOn = true;
-            Anim.SetBool("Selecting", true);
-            GlobalControl.Main.PlaySound("Hover");
-        }
-
-        public void OnMouseExit()
-        {
-            MouseOn = false;
-            Anim.SetBool("Selecting", false);
         }
 
         public void OnMouseDown()
         {
             if (Active)
-            {
-                ER.Decide(Index);
-                GlobalControl.Main.PlaySound("Select");
-            }
+                ER.Select(Index);
+        }
+
+        public void OnSelect()
+        {
+            Anim.SetBool("Selecting", true);
+            GlobalControl.Main.PlaySound("Hover");
+        }
+
+        public void OnUnselect()
+        {
+            Anim.SetBool("Selecting", false);
+        }
+
+        public void OnConfirm()
+        {
+            ER.Decide(Index);
+            GlobalControl.Main.PlaySound("Select");
         }
     }
 }

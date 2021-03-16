@@ -138,6 +138,8 @@ namespace THAN
                 P.Effect();
             foreach (Character C in Characters)
                 C.EndOfTurn();
+            if (SacrificeSlot.GetCharacter())
+                SacrificeSlot.GetCharacter().Active = false;
 
             PreGenerateEvent(out List<Character> NextList);
             PreGenerateTownEvent(out Event NextTownEvent);
@@ -278,8 +280,12 @@ namespace THAN
         {
             List<Character> Cs = new List<Character>();
             foreach (Character c in Characters)
+            {
+                if (c.CurrentSlot && c.CurrentSlot == SacrificeSlot)
+                    continue;
                 if (c.GetEvent())
                     Cs.Add(c);
+            }
             NL = Cs;
         }
 
