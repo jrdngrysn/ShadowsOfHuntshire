@@ -6,6 +6,7 @@ namespace THAN
 {
     public class ConfirmButton : MonoBehaviour {
         public bool Active;
+        public bool MouseOn;
         public EventRenderer ER;
         public SpriteRenderer SR;
         public Sprite ActiveSprite;
@@ -35,6 +36,17 @@ namespace THAN
                 SR.sprite = ActiveSprite;
             else
                 SR.sprite = DisableSprite;
+        }
+
+        public void OnMouseEnter()
+        {
+            if (Active)
+                MouseOn = true;
+        }
+
+        public void OnMouseExit()
+        {
+            MouseOn = false;
         }
     }
 }

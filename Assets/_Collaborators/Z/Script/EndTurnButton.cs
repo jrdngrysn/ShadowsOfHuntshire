@@ -16,6 +16,7 @@ namespace THAN
         public float CircleISpeed;
         public GameObject CircleII;
         public float CircleIISpeed;
+        public List<GameObject> RotationFix;
         [Space]
         public bool RingRotating;
         public GameObject Ring;
@@ -57,6 +58,8 @@ namespace THAN
                 if (Sound.volume < 0)
                     Sound.volume = 0;
             }
+            foreach (GameObject G in RotationFix)
+                G.transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
         public void Next(float Step)

@@ -43,7 +43,7 @@ namespace THAN
 
         public void Render()
         {
-            CB.SetRender(CurrentCR);
+            CB.SetRender(CurrentCR && CB.MouseOn);
             if (!GetEvent())
             {
                 ContentText.text = "";
@@ -194,6 +194,7 @@ namespace THAN
             Anim.SetBool("Active", true);
             Activating = true;
             CB.Active = true;
+            CB.MouseOn = false;
             yield return new WaitForSeconds(1f);
             if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
                 SingleRenderer.Activate(GetEvent().GetChoices()[0]);
