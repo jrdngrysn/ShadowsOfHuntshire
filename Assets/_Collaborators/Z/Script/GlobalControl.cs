@@ -228,7 +228,10 @@ namespace THAN
             StatChanges.Clear();
 
             if (GetSacrificeActive() && !HaveSacrifice())
+            {
                 CurrentEndEvent = SacrificeEndEvent;
+                yield return new WaitForSeconds(3f);
+            }
             if (CurrentEndEvent)
                 yield return EndProcess(CurrentEndEvent);
         }
