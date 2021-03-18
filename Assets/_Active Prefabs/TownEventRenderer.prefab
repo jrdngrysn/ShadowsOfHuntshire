@@ -371,6 +371,7 @@ MonoBehaviour:
   Active: 0
   Deciding: 0
   Activating: 0
+  PageChanging: 0
   Index: 0
   Anim: {fileID: 4335076909680040151}
   ContentText: {fileID: 4335076909062316326}

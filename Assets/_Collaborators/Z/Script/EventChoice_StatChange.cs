@@ -12,6 +12,8 @@ namespace THAN
             AddEvent = null;
             foreach (Character C in Characters)
             {
+                if (!C)
+                    continue;
                 C.ChangeVitality(ChangeA.x);
                 C.ChangePassion(ChangeA.y);
                 C.ChangeReason(ChangeA.z);

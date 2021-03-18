@@ -22,11 +22,11 @@ public class SkillCondition_StatCheck : SkillCondition
         switch (stat)
         {
             case statEnum.Vitality:
-                    return Self.GetVitality() < statThreshold;
+                    return Self.GetVitality() >= statThreshold;
             case statEnum.Passion:
-                    return Self.GetPassion() < statThreshold;
+                    return Self.GetPassion() >= statThreshold;
             case statEnum.Reason:
-                    return Self.GetReason() < statThreshold;
+                    return Self.GetReason() >= statThreshold;
             default:
                 return false;
         }
