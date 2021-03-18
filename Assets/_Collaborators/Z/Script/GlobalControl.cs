@@ -30,20 +30,28 @@ namespace THAN
         public bool BoardActive;
         public bool IndividualEventActive;
         public bool TownEventActive;
+        public bool EndEventActive;
         public List<Character> MaskedCharacters;
         public List<Character> ChangedCharacters;
         public List<Pair> MaskedPairs;
         [Space]
         public EventRenderer IER;
         public EventRenderer TER;
+        public EventRenderer EER;
         [Space]
         public List<string> StartCharacters;
         public List<TownEvent> TownEvents;
+        public Event SacrificeEndEvent;
+        public Event CurrentEndEvent;
         [Space]
         public List<Character> Characters;
         public List<Pair> Pairs;
         [Space]
         public GameObject PairPrefab;
+        [Space]
+        [HideInInspector] public bool TurnEnding;
+        [HideInInspector] public List<Character> StatChangeSources;
+        [HideInInspector] public List<Vector3> StatChanges;
         [Space]
         public int VitalityLimit = 10;
         public int PassionLimit = 10;
@@ -131,6 +139,7 @@ namespace THAN
 
         public IEnumerator EndOfTurnIE()
         {
+            TurnEnding = true;
             BoardActive = false;
             IndividualEventActive = false;
             TownEventActive = false;
@@ -214,6 +223,37 @@ namespace THAN
             foreach (Character C in Characters)
                 C.StartOfTurn();
             //PlaySound("Event");
+            TurnEnding = false;
+            StatChangeSources.Clear();
+            StatChanges.Clear();
+
+            if (GetSacrificeActive() && !HaveSacrifice())
+                CurrentEndEvent = SacrificeEndEvent;
+            if (CurrentEndEvent)
+                yield return EndProcess(CurrentEndEvent);
+        }
+
+        public void RegisterStatChange(Character Source, Vector3 StatChange)
+        {
+            if (TurnEnding && !TurnEnding)
+            {
+                if (!StatChangeSources.Contains(Source))
+                {
+                    StatChangeSources.Add(Source);
+                    StatChanges.Add(StatChange);
+                }
+                else
+                {
+                    int a = StatChangeSources.IndexOf(Source);
+                    StatChanges[a] += StatChange;
+                }
+            }
+            else
+            {
+                Source.ActualChangeVitality(StatChange.x);
+                Source.ActualChangePassion(StatChange.y);
+                Source.ActualChangeReason(StatChange.z);
+            }
         }
 
         public IEnumerator SacrificeProcess()
@@ -248,6 +288,14 @@ namespace THAN
                 StartCoroutine("DisableBoardShade");
             }
             //yield return new WaitForSeconds(0.8f);
+        }
+
+        public IEnumerator EndProcess(Event EndEvent)
+        {
+            BoardShadeAnim.SetBool("Active", true);
+            yield return 0;
+            EndEventActive = true;
+            EER.Activate(EndEvent, null);
         }
 
         public bool CanEndTurn()

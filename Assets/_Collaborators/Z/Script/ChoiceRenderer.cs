@@ -43,14 +43,7 @@ namespace THAN
             }
 
             CurrentEC = EC;
-            if (EC.EffectText != "")
-            {
-                EmptyText.text = EC.GetContent();
-                SelectingText.text = EC.GetContent();
-                EffectText.text = EC.EffectText;
-                SelectingEffectText.text = EC.EffectText;
-            }
-            else if (EC.GetContent() == "")
+            if (EC.GetContent() == "")
             {
                 EmptyText.text = EC.EffectText;
                 SelectingText.text = EC.EffectText;
@@ -61,6 +54,8 @@ namespace THAN
             {
                 EmptyText.text = EC.GetContent();
                 SelectingText.text = EC.GetContent();
+                EffectText.text = EC.EffectText;
+                SelectingEffectText.text = EC.EffectText;
             }
         }
 

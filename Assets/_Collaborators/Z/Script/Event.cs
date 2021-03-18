@@ -9,10 +9,13 @@ namespace THAN
         public string Source;
         public List<string> FreeSources;
         [Space]
+        public Event BaseEvent;
         public string RequiredKey;
         public int StartTime = -1;
+        public bool Active = true;
         [TextArea]
         public string Content;
+        public List<EventPage> Pages;
         public string AddContent;
         public bool DisplaySource;
         public List<EventChoice> Choices;
@@ -31,6 +34,8 @@ namespace THAN
         
         public virtual bool Pass(Pair P)
         {
+            if (!Active)
+                return false;
             if (GlobalControl.Main.CurrentTime < StartTime)
                 return false;
             if (!P && FreeSources.Count <= 0)
@@ -67,9 +72,25 @@ namespace THAN
             return Character.Find(Source);
         }
 
-        public string GetContent()
+        public string GetContent(int Page)
         {
-            return Content;
+            if (!BaseEvent)
+            {
+                if (Pages.Count <= 0)
+                    return Content;
+                else
+                    return Pages[Page].Content;
+            }
+            else
+                return "<color=#ffffff00>" + BaseEvent.GetContent(BaseEvent.GetMaxPage()) + "</color>" + Content;
+        }
+
+        public int GetMaxPage()
+        {
+            if (Pages.Count <= 0)
+                return 0;
+            else
+                return Pages.Count - 1;
         }
     }
 }
