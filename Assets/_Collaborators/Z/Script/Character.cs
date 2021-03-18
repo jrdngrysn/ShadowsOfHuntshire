@@ -13,6 +13,7 @@ namespace THAN
         public List<Event> CharacterEvents;
         //public List<Event> FreeEvents;
         public Event RepeatEvent;
+        public List<Event> AddRepeatEvents;
         public int EventCoolRate;
         public int EventCoolDown;
         public int StartTime = -1;
@@ -172,15 +173,25 @@ namespace THAN
         {
             if (EventCoolDown > 0)
                 return null;
-            if (CharacterEvents.Count <= 0 && !RepeatEvent)
+            if (CharacterEvents.Count <= 0 && !RepeatEvent && AddRepeatEvents.Count <= 0)
                 return null;
             Event TE;
             if (CharacterEvents.Count <= 0)
                 TE = RepeatEvent;
             else
                 TE = CharacterEvents[0];
-            if (!TE.Pass(GetPair()))
-                return null;
+            if (!TE || !TE.Pass(GetPair()))
+                TE = null;
+            if (!TE)
+            {
+                foreach (Event E in AddRepeatEvents)
+                {
+                    if (E.Pass(GetPair()))
+                    {
+                        TE = E;
+                    }
+                }
+            }
             return TE;
         }
 
@@ -477,6 +488,25 @@ namespace THAN
             Remove();
         }
 
+        public void MissingDelay(int Delay)
+        {
+            Active = false;
+            StartTime = GlobalControl.Main.CurrentTime + Delay;
+            if (GetPair())
+                GlobalControl.Main.RemovePair(GetPair());
+            Anim.SetTrigger("Death");
+            if (CurrentSlot)
+                CurrentSlot.Empty();
+            CurrentSlot = null;
+            StartCoroutine("MissingDelayIE");
+        }
+
+        public IEnumerator MissingDelayIE()
+        {
+            yield return new WaitForSeconds(3f);
+            transform.position = new Vector3(300, 300);
+        }
+
         public void Remove()
         {
             if (GetPair())
@@ -505,11 +535,17 @@ namespace THAN
 
         public void ChangeVitality(float Value)
         {
+            GlobalControl.Main.RegisterStatChange(this, new Vector3(Value, 0, 0));
+        }
+
+        public void ActualChangeVitality(float Value)
+        {
+            if (Value == 0)
+                return;
             float a = Info.Vitality + Value;
             if (a < 1)
                 a = 1;
-            if (a != GetVitality())
-                Anim.SetTrigger("VitalityChange");
+            Anim.SetTrigger("VitalityChange");
             SetVitality(a);
         }
 
@@ -520,11 +556,17 @@ namespace THAN
 
         public void ChangePassion(float Value)
         {
+            GlobalControl.Main.RegisterStatChange(this, new Vector3(0, Value, 0));
+        }
+
+        public void ActualChangePassion(float Value)
+        {
+            if (Value == 0)
+                return;
             float a = Info.Passion + Value;
             if (a < 1)
                 a = 1;
-            if (a != GetPassion())
-                Anim.SetTrigger("PassionChange");
+            Anim.SetTrigger("PassionChange");
             SetPassion(a);
         }
 
@@ -535,11 +577,17 @@ namespace THAN
 
         public void ChangeReason(float Value)
         {
+            GlobalControl.Main.RegisterStatChange(this, new Vector3(0, 0, Value));
+        }
+
+        public void ActualChangeReason(float Value)
+        {
+            if (Value == 0)
+                return;
             float a = Info.Reason + Value;
             if (a < 1)
                 a = 1;
-            if (a != GetReason())
-                Anim.SetTrigger("ReasonChange");
+            Anim.SetTrigger("ReasonChange");
             SetReason(a);
         }
 

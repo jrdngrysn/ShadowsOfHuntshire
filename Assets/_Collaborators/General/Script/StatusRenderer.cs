@@ -29,7 +29,7 @@ namespace THAN
             if (C.transform.position.x <= -50)
                 DescriptionText.transform.localPosition = new Vector3(19f, DescriptionText.transform.localPosition.y);
             else
-                DescriptionText.transform.localPosition = new Vector3(-17f, DescriptionText.transform.localPosition.y);
+                DescriptionText.transform.localPosition = new Vector3(-19f, DescriptionText.transform.localPosition.y);
             AnimBase.SetActive(true);
             DescriptionText.text = S.GetDescription(C);
             DescriptionText.ForceMeshUpdate();

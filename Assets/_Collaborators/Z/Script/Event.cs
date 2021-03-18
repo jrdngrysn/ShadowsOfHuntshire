@@ -9,8 +9,10 @@ namespace THAN
         public string Source;
         public List<string> FreeSources;
         [Space]
+        public Event BaseEvent;
         public string RequiredKey;
         public int StartTime = -1;
+        public bool Active = true;
         [TextArea]
         public string Content;
         public string AddContent;
@@ -31,6 +33,8 @@ namespace THAN
         
         public virtual bool Pass(Pair P)
         {
+            if (!Active)
+                return false;
             if (GlobalControl.Main.CurrentTime < StartTime)
                 return false;
             if (!P && FreeSources.Count <= 0)
@@ -69,7 +73,10 @@ namespace THAN
 
         public string GetContent()
         {
-            return Content;
+            if (!BaseEvent)
+                return Content;
+            else
+                return "<color=#ffffff00>" + BaseEvent.GetContent() + "</color>" + Content;
         }
     }
 }

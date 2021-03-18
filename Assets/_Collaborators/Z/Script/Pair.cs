@@ -77,7 +77,8 @@ namespace THAN
 
         public void DisableMask()
         {
-            Mask.SetActive(false);
+            if (Mask)
+                Mask.SetActive(false);
         }
     }
 }
