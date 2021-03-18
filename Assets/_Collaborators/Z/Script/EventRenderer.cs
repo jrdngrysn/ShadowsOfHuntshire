@@ -9,6 +9,7 @@ namespace THAN
         public bool Active;
         public bool Deciding;
         public bool Activating;
+        public bool PageChanging;
         [Space]
         public int Index;
         public Animator Anim;
@@ -21,12 +22,14 @@ namespace THAN
         public ChoiceRenderer CRIII;
         public ChoiceRenderer SingleRenderer;
         public ConfirmButton CB;
+        public List<GameObject> EndPageObjects;
         public List<float> AttachPositions;
         [Space]
         public Event CurrentEvent;
         public Event CurrentAddEvent;
         public Pair CurrentPair;
         public ChoiceRenderer CurrentCR;
+        public int CurrentPage;
 
         // Start is called before the first frame update
         void Start()
@@ -53,11 +56,23 @@ namespace THAN
                 CRI.Render(null);
                 CRII.Render(null);
                 CRIII.Render(null);
+                foreach (GameObject G in EndPageObjects)
+                    G.SetActive(true);
                 return;
             }
-            ContentText.text = GetEvent().GetContent();
+            if (CurrentPage == GetEvent().GetMaxPage())
+            {
+                foreach (GameObject G in EndPageObjects)
+                    G.SetActive(true);
+            }
+            else
+            {
+                foreach (GameObject G in EndPageObjects)
+                    G.SetActive(false);
+            }
+            ContentText.text = GetEvent().GetContent(CurrentPage);
             if (GetAddEvent())
-                AddContentText.text = GetAddEvent().GetContent();
+                AddContentText.text = GetAddEvent().GetContent(CurrentPage);
             else
                 AddContentText.text = "";
             if (!GetEvent().GetSource() || !GetEvent().DisplaySource)
@@ -65,26 +80,52 @@ namespace THAN
             else
                 NameText.text = GetEvent().GetSource().GetName();
             //if (GetCurrentEC())
-                //QuestionText.text = GetCurrentEC().EffectText;
+            //QuestionText.text = GetCurrentEC().EffectText;
             //else
-                QuestionText.text = GetEvent().AddContent;
+            QuestionText.text = GetEvent().AddContent;
             if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
             {
-                SingleRenderer.Render(GetEvent().GetChoices()[0]);
-                CRI.Render(null);
-                CRII.Render(null);
+                if (CurrentPage == GetEvent().GetMaxPage())
+                {
+                    SingleRenderer.Render(GetEvent().GetChoices()[0]);
+                    CRI.Render(null);
+                    CRII.Render(null);
+                }
+                else
+                {
+                    SingleRenderer.Render(null);
+                    CRI.Render(null);
+                    CRII.Render(null);
+                }
             }
             else
             {
-                CRI.Render(GetEvent().GetChoices()[0]);
-                CRII.Render(GetEvent().GetChoices()[1]);
-                if (SingleRenderer)
-                    SingleRenderer.Render(null);
+                if (CurrentPage == GetEvent().GetMaxPage())
+                {
+                    CRI.Render(GetEvent().GetChoices()[0]);
+                    CRII.Render(GetEvent().GetChoices()[1]);
+                    if (SingleRenderer)
+                        SingleRenderer.Render(null);
+                }
+                else
+                {
+                    CRI.Render(null);
+                    CRII.Render(null);
+                    if (SingleRenderer)
+                        SingleRenderer.Render(null);
+                }
             }
             if (GetAddEvent())
-                CRIII.Render(GetAddEvent().GetChoices()[0]);
+            {
+                if (CurrentPage == GetEvent().GetMaxPage())
+                    CRIII.Render(GetAddEvent().GetChoices()[0]);
+                else
+                    CRIII.Render(null);
+            }
             else
+            {
                 CRIII.Render(null);
+            }
         }
 
         public void Select(int Index)
@@ -109,6 +150,11 @@ namespace THAN
         {
             if (Activating)
                 return;
+            if (GetEvent() && !CurrentCR && CurrentPage != GetEvent().GetMaxPage() && !PageChanging && !Activating)
+            {
+                StartCoroutine("PageChange");
+                return;
+            }
             if (!CurrentCR)
                 return;
             Decide(CurrentCR.Index);
@@ -182,6 +228,7 @@ namespace THAN
         {
             if (!E)
                 return;
+            CurrentPage = 0;
             CurrentEvent = E;
             CurrentAddEvent = null;
             CurrentPair = P;
@@ -196,15 +243,23 @@ namespace THAN
             CB.Active = true;
             CB.MouseOn = false;
             yield return new WaitForSeconds(1f);
-            if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
-                SingleRenderer.Activate(GetEvent().GetChoices()[0]);
-            else
-            {
-                CRI.Activate(GetEvent().GetChoices()[0]);
-                CRII.Activate(GetEvent().GetChoices()[1]);
-            }
+            ChoiceRendererCheck();
             yield return new WaitForSeconds(0.25f);
             Activating = false;
+        }
+
+        public void ChoiceRendererCheck()
+        {
+            if (CurrentPage == GetEvent().GetMaxPage())
+            {
+                if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
+                    SingleRenderer.Activate(GetEvent().GetChoices()[0]);
+                else
+                {
+                    CRI.Activate(GetEvent().GetChoices()[0]);
+                    CRII.Activate(GetEvent().GetChoices()[1]);
+                }
+            }
         }
 
         public void AddActivate(Event E)
@@ -225,6 +280,17 @@ namespace THAN
             CRIII.Activate(GetAddEvent().GetChoice(0));
             yield return new WaitForSeconds(0.25f);
             Activating = false;
+        }
+
+        public IEnumerator PageChange()
+        {
+            PageChanging = true;
+            Anim.SetTrigger("PageChange");
+            yield return new WaitForSeconds(0.25f);
+            CurrentPage++;
+            ChoiceRendererCheck();
+            yield return new WaitForSeconds(0.25f);
+            PageChanging = false;
         }
 
         public void Disable()

@@ -185,7 +185,7 @@ Transform:
   - {fileID: 22714562}
   - {fileID: 1190457603}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11070769
 MonoBehaviour:
@@ -209,6 +209,7 @@ MonoBehaviour:
   Content: "Dolf comes to you and pleads to let him go fishing again. Desperation
     overpowering as he speaks.\r\n\r\n\u201CPlease... I must go back out to the sea,
     I feel her calling me. I miss her so much...\u201D\r"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -298,7 +299,7 @@ Transform:
   - {fileID: 732750435}
   - {fileID: 1474129015}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &23165351
 MonoBehaviour:
@@ -323,6 +324,7 @@ MonoBehaviour:
   Content: Old Marris comes to you concerned. He hears noises at night, lots of splashing
     and screeching seemingly coming out of the lake. He is afraid and doesn't know
     what to do.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -746,88 +748,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3207418462324221637, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
   m_PrefabInstance: {fileID: 96672087}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &97528124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 97528125}
-  - component: {fileID: 97528126}
-  m_Layer: 5
-  m_Name: Line
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &97528125
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97528124}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.35, z: 0.1}
-  m_LocalScale: {x: 3.27, y: 3.27, z: 3.27}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &97528126
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97528124}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5833c0d0752095745ba9d14560e598ca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.81, y: 35.090385}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &122965099
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +839,7 @@ MonoBehaviour:
     Please help me! What\u2019s going on in Huntshire?\u201D\r\nMia wants to see
     her kitten alive again - she believes a priest has the power to bring cats back
     from the dead.\r"
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -1026,6 +947,7 @@ MonoBehaviour:
     guide me, guide us. \r\nFor the first time in my life, I recognize that there
     exists something loftier, deadlier, intense enough to corrupt the laws of the
     world. The ineffable power of my lord, the transcendent knowledge\u2026 \r"
+  Pages: []
   AddContent: In the end, I contemplate. What does our lord seek?
   DisplaySource: 0
   Choices:
@@ -1064,88 +986,6 @@ MonoBehaviour:
   Content: A trembling dread.
   EffectText: Everyone's Reason will increase
   ChangeA: {x: 0, y: 0, z: -1}
---- !u!1 &146395393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 146395394}
-  - component: {fileID: 146395395}
-  m_Layer: 5
-  m_Name: Base
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &146395394
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146395393}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.8, z: 0.2}
-  m_LocalScale: {x: 3.27, y: 3.27, z: 3.27}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &146395395
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146395393}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46b9bb290b3a85142b9eb92ae5343866, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.81, y: 35.090385}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &150785840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1176,7 @@ MonoBehaviour:
     that he sometimes heard strange noises underground during the ceremony. She didn\u2019t
     scare me but she scared Ross, it was very funny! Anyway, High Priest, what kind
     of basement does that door lead to?\u201D"
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -1493,6 +1334,7 @@ MonoBehaviour:
 
     Neighbors saw Dolf come back crestfallen. He seems to have got
     nothing this time.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -1564,6 +1406,7 @@ MonoBehaviour:
     to her grocery store, and those wicked creatures seem to be immune to the old
     rat poison of our town. She hopes to purchase some new rat poison out of Huntshire
     -- through the hands of those missionaries we sent outside.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -1670,6 +1513,7 @@ MonoBehaviour:
   Content: '
 
     In the morning Dolf cannot be found. We can only assume the worst.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -1801,87 +1645,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &274876418
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 876898990}
-    m_Modifications:
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 1890481044}
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -16.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399223, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer_TE (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
---- !u!4 &274876419 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 274876418}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &274876420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 274876418}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &276042358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2007,88 +1770,6 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
---- !u!1001 &280922014
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1781024233}
-    m_Modifications:
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -19.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057186152746, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.x
-      value: 6.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.y
-      value: 4.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 945479067}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_text
-      value: There are things that we dare not know about our lord.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020443168332741897, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
---- !u!4 &280922015 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 280922014}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &299364465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,7 +1881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2410,7 +2091,7 @@ Transform:
   m_Children:
   - {fileID: 506433057}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &304472408
 Animator:
@@ -2474,7 +2155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2571,6 +2252,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbde59ff27026a54c90d8334603bc803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &331938315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331938316}
+  - component: {fileID: 331938317}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &331938316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331938315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401084034}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331938317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331938315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1091523424a7e6441a9cfe0ec68492eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &341550099
@@ -2706,6 +2430,7 @@ MonoBehaviour:
     asked them to give her an unusual thing -- the blood of their livestock. \u201COf
     course, only when they are about to kill them,\u201D Mrs Furst later explained
     with her face looking a little bit pale and an unexpected fever."
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -2721,6 +2446,9 @@ GameObject:
   m_Component:
   - component: {fileID: 366544041}
   - component: {fileID: 366544042}
+  - component: {fileID: 366544043}
+  - component: {fileID: 366544046}
+  - component: {fileID: 366544045}
   m_Layer: 0
   m_Name: 4-1
   m_TagString: Untagged
@@ -2741,7 +2469,7 @@ Transform:
   m_Children:
   - {fileID: 442205960}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &366544042
 MonoBehaviour:
@@ -2776,11 +2504,65 @@ MonoBehaviour:
     been both terrified and attached to sea. I desperately want to understand what
     happened that day, so I keep going back, hoping one day I\u2019ll find the answers
     I\u2019m looking for.\u201D\r"
+  Pages:
+  - {fileID: 366544043}
+  - {fileID: 366544046}
+  - {fileID: 366544045}
   AddContent: 
   DisplaySource: 1
   Choices:
   - {fileID: 442205961}
   - {fileID: 0}
+--- !u!114 &366544043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366544040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Dolf invites you to come chat with him.\n\r\nAs you arrive by the lake,
+    you see Dolf staring solemnly at his reflection. As he notices you approaching
+    he looks up and gives you a kind but pained smile.\r"
+--- !u!114 &366544045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366544040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CBut one trip\u2026 something happened\u2026 we were attacked. I
+    still can\u2019t comprehend exactly what it was. But we lost more than half our
+    crew that day. Ever since then I\u2019ve been both terrified and attached to
+    sea. I desperately want to understand what happened that day, so I keep going
+    back, hoping one day I\u2019ll find the answers I\u2019m looking for.\u201D"
+--- !u!114 &366544046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366544040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI\u2019m sorry for being such a bother, asking to fish frequently.
+    It\u2019s just\u2026 I still am a sailor at heart and nothing will change that.
+    It must be over 50 years ago now since I took my first big voyage. I left everything
+    behind to go across the world. I don\u2019t even remember much of what the point
+    of it was, but I was just so excited to spend so much time on the sea. After
+    that first journey, I spent as much time at sea as I could.\u201D"
 --- !u!1 &387165824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,6 +2632,7 @@ MonoBehaviour:
   Content: '
 
     As he walks away, you can hear Dolf mutter curses under his breath.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -3022,6 +2805,7 @@ MonoBehaviour:
     was terrified and immediately rushed out of the basement with the book. And now
     the morning breeze calms my brain down as I write all these down. I must return
     the book to where it belongs."
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -3136,6 +2920,7 @@ MonoBehaviour:
     one! Everywhere it moves toward is set on fire. Even now when I wake up from
     the nightmare, I still can't forget such a scene. It hovers in my head, drives
     me crazy, and makes my spirit stagger like the frenzied wind in my dream...\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3245,6 +3030,7 @@ MonoBehaviour:
     rather silent. Recently I feel like something is happening right now, something
     has changed\u2026 especially in my mother\u2019s room, her mirror\u2026 I feel
     like there\u2019s something watching me from across the mirror, is it a bad sign?\u201D"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3384,6 +3170,126 @@ Transform:
   m_Father: {fileID: 8438349491748057720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &453405955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 453405956}
+  - component: {fileID: 453405957}
+  - component: {fileID: 453405960}
+  - component: {fileID: 453405959}
+  - component: {fileID: 453405958}
+  m_Layer: 0
+  m_Name: 11-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453405956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453405955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1401084034}
+  m_Father: {fileID: 1136372270}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453405957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453405955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources: []
+  BaseEvent: {fileID: 0}
+  RequiredKey: 
+  StartTime: -1
+  Active: 0
+  Content: "As you go to dispose of the body from the latest sacrifice, you see Dolf
+    by the lake, muttering to himself. As you go to try and deal with him, his murmurs
+    are getting louder. He is chanting something, but in a language you do not recognize.
+    His gaze is empty, and his nose is bleeding. Before you can get to him, he screams.
+    \r\n\r\nA light emerges from the lake and a kraken emerges. Despite being in
+    a small body of water it still manages to tower over everything. \r\n\r\nIt begins
+    to flail around its tentacles knocking over trees and houses, and even crushes
+    Dolf. As you run for cover, the kraken lets out a deafening screech and proceeds
+    to swing and destroy the church.\r\n\r\nWhat you have worked to build has been
+    destroyed. There is nothing left, your plans will never come to fruition.\r"
+  Pages:
+  - {fileID: 453405960}
+  - {fileID: 453405959}
+  - {fileID: 453405958}
+  AddContent: 
+  DisplaySource: 0
+  Choices:
+  - {fileID: 1401084035}
+  - {fileID: 0}
+--- !u!114 &453405958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453405955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "It begins to flail around its tentacles knocking over trees and houses,
+    and even crushes Dolf. As you run for cover, the kraken lets out a deafening
+    screech and proceeds to swing and destroy the church.\r\n\r\nWhat you have worked
+    to build has been destroyed. There is nothing left, your plans will never come
+    to fruition.\r"
+--- !u!114 &453405959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453405955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: A light emerges from the lake and a kraken emerges. Despite being in a
+    small body of water it still manages to tower over everything.
+--- !u!114 &453405960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453405955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: As you go to dispose of the body from the latest sacrifice, you see Dolf
+    by the lake, muttering to himself. As you go to try and deal with him, his murmurs
+    are getting louder. He is chanting something, but in a language you do not recognize.
+    His gaze is empty, and his nose is bleeding. Before you can get to him, he screams.
 --- !u!1 &456321772
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3321,7 @@ Transform:
   - {fileID: 548601999}
   - {fileID: 929495522}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 12
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &456321774
 MonoBehaviour:
@@ -3439,6 +3345,7 @@ MonoBehaviour:
   Content: Dolf has been constantly asking the Meiers if he can use their personal
     library . If they let him, he is very loud and leaves the library in complete
     disarray.
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3923,17 +3830,21 @@ MonoBehaviour:
   BoardActive: 1
   IndividualEventActive: 0
   TownEventActive: 0
+  EndEventActive: 0
   MaskedCharacters: []
   ChangedCharacters: []
   MaskedPairs: []
-  IER: {fileID: 945479067}
-  TER: {fileID: 1890481044}
+  IER: {fileID: 1827853139}
+  TER: {fileID: 654861731}
+  EER: {fileID: 2226241691352983206}
   StartCharacters:
   - Dolf Fischer
   - Old Maris
   - Severin Muller
   TownEvents:
   - {fileID: 754340673}
+  SacrificeEndEvent: {fileID: 1582166756}
+  CurrentEndEvent: {fileID: 0}
   Characters: []
   Pairs: []
   PairPrefab: {fileID: 3845533285962375900, guid: 7d6ec88af9e7ebe4f995fa8d6179abd9, type: 3}
@@ -4246,6 +4157,7 @@ MonoBehaviour:
     moment. Pieces of flesh splashed all around the room, but in the mirror not in
     the reality. Is that monster who I am now? My priest , I must be so addicted
     to my appearance and lord has come to punish me. What shall I do...\u201D"
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -4328,7 +4240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &547088026
 MonoBehaviour:
@@ -4639,6 +4551,9 @@ GameObject:
   m_Component:
   - component: {fileID: 564601969}
   - component: {fileID: 564601970}
+  - component: {fileID: 564601973}
+  - component: {fileID: 564601972}
+  - component: {fileID: 564601971}
   m_Layer: 0
   m_Name: 5-1
   m_TagString: Untagged
@@ -4660,7 +4575,7 @@ Transform:
   - {fileID: 888789683}
   - {fileID: 1066731709}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &564601970
 MonoBehaviour:
@@ -4688,11 +4603,59 @@ MonoBehaviour:
     screams become louder and more anguished.\r\n\r\n\"THE WAVE! IT\u2019S COMING!
     I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r\n\r\nAs you finally reach his room,
     his eyes are wide open and bloodshot, however he does not react to your presence.\r"
+  Pages:
+  - {fileID: 564601973}
+  - {fileID: 564601972}
+  - {fileID: 564601971}
   AddContent: 
   DisplaySource: 1
   Choices:
   - {fileID: 888789684}
   - {fileID: 1066731710}
+--- !u!114 &564601971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564601968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: As you finally reach his room, his eyes are wide open and bloodshot, however
+    he does not react to your presence.
+--- !u!114 &564601972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564601968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "They lead you to his house where even outside you can hear muffled screams.
+    As you head inside, his screams become louder and more anguished.\r\n\r\n\"THE
+    WAVE! IT\u2019S COMING! I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r"
+--- !u!114 &564601973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564601968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "At night you are woken up by the sounds of frantic banging at your door.
+    When you open the door, you find *Someone* looking pale and panicked.\r\n\r\n\u201CDolf\u2026
+    Something isn\u2019t quite right with Dolf!\u201D\r"
 --- !u!1 &572499097
 GameObject:
   m_ObjectHideFlags: 0
@@ -4723,7 +4686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 23165351}
-  ActiveEvent: {fileID: 0}
+  ActiveEvent: {fileID: 453405957}
 --- !u!4 &572499099
 Transform:
   m_ObjectHideFlags: 0
@@ -4903,6 +4866,7 @@ MonoBehaviour:
     have run away from all of this. Maybe it\u2019s something I should embrace, something
     powerful granted from my Lord to me. \r\nI shall return to that mirror down in
     the basement. I am not afraid of the truth, so does Huntshire. All is ready.\r"
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -5065,6 +5029,7 @@ MonoBehaviour:
     all of us\u2026 \r\nNO! We must not cease, we must not hesitate. Our Lord is
     awakening. It is their will to pass on wisdom to me with *that book*. I shall
     speak for my Lord. Truth will befall Huntshire with a great probation."
+  Pages: []
   AddContent: In the end, I contemplate. What does our lord seek?
   DisplaySource: 0
   Choices:
@@ -5087,99 +5052,6 @@ MonoBehaviour:
   Content: A peculiar intensity.
   EffectText: Everyone's Passion will increase
   ChangeA: {x: 0, y: -1, z: 0}
---- !u!1001 &635971874
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1781024233}
-    m_Modifications:
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -19.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057186152746, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.x
-      value: 6.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.y
-      value: 4.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 945479067}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_text
-      value: There are things that we dare not know about our lord.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020443168332741897, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
---- !u!114 &635971875 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 635971874}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &635971876 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 635971874}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &637045544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5253,6 +5125,7 @@ MonoBehaviour:
 
 
     Dolf fished out a curiously-patterned brass mirror.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -5359,6 +5232,147 @@ MonoBehaviour:
   Effects:
   - {fileID: 986973000}
   DAE: {fileID: 0}
+--- !u!1001 &654861730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040145, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335076909680040150, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+      propertyPath: m_Name
+      value: TownEventRenderer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+--- !u!114 &654861731 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4335076909680040144, guid: d60d34aaf89baec40a2baf3edfaa21a1, type: 3}
+  m_PrefabInstance: {fileID: 654861730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &666751241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666751242}
+  - component: {fileID: 666751244}
+  - component: {fileID: 666751243}
+  m_Layer: 0
+  m_Name: Random_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666751242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666751241}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1541113408}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666751243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666751241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerSequence: 1
+  Content: 
+  EffectText: Passion -1
+--- !u!114 &666751244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666751241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources: []
+  BaseEvent: {fileID: 1495576200}
+  RequiredKey: 
+  StartTime: -1
+  Active: 1
+  Content: Neighbors saw Dolf come back crestfallen. He seems to have got nothing
+    this time.
+  Pages: []
+  AddContent: 
+  DisplaySource: 0
+  Choices:
+  - {fileID: 666751243}
 --- !u!1001 &671564982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5770,6 +5784,7 @@ MonoBehaviour:
 
     Dolf fished out a grotesque fish with four legs and bulging
     eyes, it seems to be a creature from other worlds.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -5877,6 +5892,7 @@ MonoBehaviour:
   Content: "\"I cannot stand her, that wicked girl of Arin\u2019s sister. She brings
     in sins from outside, my lord! She better not let me find out what she\u2019s
     doing! We have to get rid of her, my lord!\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -6184,6 +6200,7 @@ MonoBehaviour:
     I must pair them up to have them learn from each other, to appreciate the teachings
     of our Lord. Our lord needs to regain his power, we shall appease his hunger
     with the proper sacrifice at the end of every season. "
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -6262,6 +6279,7 @@ MonoBehaviour:
     He looks at various books on old folk tales, historical ships, and more. He luckily
     doesn''t seem to reach for any books you would not want him reading. After a
     while, he thanks you and leaves.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -6444,175 +6462,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &800973400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 800973401}
-  - component: {fileID: 800973402}
-  - component: {fileID: 800973403}
-  m_Layer: 5
-  m_Name: NameText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &800973401
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800973400}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.82, y: -7}
-  m_SizeDelta: {x: 15.921295, y: 3.0707932}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!23 &800973402
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800973400}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &800973403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800973400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Dino Vallis
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 23.5
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 23.5
-  m_fontStyle: 16
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 800973402}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
 --- !u!1 &802007746
 GameObject:
   m_ObjectHideFlags: 0
@@ -6688,6 +6537,7 @@ MonoBehaviour:
     Dolf fished out a scratched wine bottle containing a piece of
     parchment that had already been soaked. Strange symbols painted on the parchment
     can be dimly seen.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -6868,6 +6718,7 @@ MonoBehaviour:
     that I\u2019m trying my best to keep our subjects from fleeing, but there is
     so little I could do. My mortal body limits everything. I should find a better
     way\u2026\r"
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -6994,47 +6845,6 @@ Transform:
   m_Father: {fileID: 1165123626}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &876898989
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 876898990}
-  m_Layer: 5
-  m_Name: AnimBase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &876898990
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876898989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 146395394}
-  - {fileID: 97528125}
-  - {fileID: 1568410208}
-  - {fileID: 1711153443}
-  - {fileID: 1623301109}
-  - {fileID: 800973401}
-  - {fileID: 1405933954}
-  - {fileID: 1746626061}
-  - {fileID: 274876419}
-  - {fileID: 1733384844}
-  - {fileID: 1211875995}
-  m_Father: {fileID: 1890481045}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &884912397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7066,7 +6876,7 @@ Transform:
   - {fileID: 1165123626}
   - {fileID: 1009481566}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &884912399
 MonoBehaviour:
@@ -7092,6 +6902,7 @@ MonoBehaviour:
     of your house, you notice an empty place in your bookshelf. A book about mythical
     aquatic creatures is missing. There is only one person who could be responsible
     for this.
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -7317,6 +7128,7 @@ MonoBehaviour:
     of that basement. She has a bad fever, her body feels like burning. And sometimes
     she mumbles words that I don\u2019t understand. I have no idea where she learned
     them but I think it\u2019s really ominous. I\u2019m scared. Please, help me.\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -7451,7 +7263,7 @@ Transform:
   - {fileID: 1248367098}
   - {fileID: 648749827}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &893555708
 MonoBehaviour:
@@ -7474,22 +7286,12 @@ MonoBehaviour:
   Active: 0
   Content: Dolf shows up at your door one night, pale and sweaty, eyes darting around.
     He asks if he can look in your personal library.
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
   - {fileID: 1248367097}
   - {fileID: 648749828}
---- !u!114 &901208731 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 1093261487}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &902079732
 GameObject:
   m_ObjectHideFlags: 0
@@ -7615,7 +7417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 0}
+  DisableEvent: {fileID: 1495576200}
   ActiveEvent: {fileID: 0}
 --- !u!1 &919972115
 GameObject:
@@ -7672,6 +7474,7 @@ MonoBehaviour:
   Content: Dolf really misses those old days as a sailor, he wants to go fishing
     on the sea. He has talked about it several times to me that he wants to step
     out of this valley for some time.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -7807,6 +7610,7 @@ MonoBehaviour:
     will soon learn that our mighty lord will bring all of us mankind to the final
     ascension. \r\nHe has returned. He has embraced Hunshire. He is all around. Our
     miserable mortal will soon end."
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -7991,175 +7795,6 @@ Transform:
   m_Father: {fileID: 892451674}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &945479065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 945479066}
-  - component: {fileID: 945479067}
-  - component: {fileID: 945479068}
-  m_Layer: 5
-  m_Name: IndividualEventRenderer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &945479066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945479065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1781024233}
-  - {fileID: 1139562626}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &945479067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945479065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 0
-  Deciding: 0
-  Activating: 0
-  Index: 1
-  Anim: {fileID: 945479068}
-  ContentText: {fileID: 1260242250}
-  AddContentText: {fileID: 2040720385}
-  NameText: {fileID: 1553415624}
-  QuestionText: {fileID: 1288961691}
-  CRI: {fileID: 901208731}
-  CRII: {fileID: 1700146521}
-  CRIII: {fileID: 635971875}
-  SingleRenderer: {fileID: 0}
-  CB: {fileID: 1813766544}
-  AttachPositions:
-  - 22
-  - 0
-  - -22
-  CurrentEvent: {fileID: 0}
-  CurrentAddEvent: {fileID: 0}
-  CurrentPair: {fileID: 0}
-  CurrentCR: {fileID: 0}
---- !u!95 &945479068
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945479065}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1c630fb9f37522b4ea70a4e8d47ef411, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &945990238
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 945990239}
-  - component: {fileID: 945990240}
-  m_Layer: 5
-  m_Name: Base
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &945990239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945990238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2, z: 0.2}
-  m_LocalScale: {x: 3.27, y: 3.27, z: 3.27}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &945990240
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945990238}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e1e810163f15ddb4981cf9fc56e1cf92, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.81, y: 35.090385}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &951305779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8498,6 +8133,7 @@ MonoBehaviour:
     get in? I promise I didn\u2019t touch the door, but I saw it completely open
     this morning, by itself! I\u2019m sorry, I will never do that again\u2026 But
     come help her, she said she wasn\u2019t feeling good.\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -8823,11 +8459,85 @@ MonoBehaviour:
   Active: 1
   Content: Recently Lydia Furst is very upset about her light bulbs. They always
     flicker on and off whenever Mrs Furst needs to use them desperately.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
   - {fileID: 1026261552}
   - {fileID: 1026261551}
+--- !u!1 &1033324594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033324595}
+  - component: {fileID: 1033324597}
+  - component: {fileID: 1033324596}
+  m_Layer: 0
+  m_Name: Random_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033324595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033324594}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1541113408}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033324596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033324594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerSequence: 1
+  Content: 
+  EffectText: Passion -3, Reason -3
+--- !u!114 &1033324597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033324594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources: []
+  BaseEvent: {fileID: 1495576200}
+  RequiredKey: 
+  StartTime: -1
+  Active: 1
+  Content: Dolf fished out a grotesque fish with four legs and bulging eyes, it seems
+    to be a creature from other worlds.
+  Pages: []
+  AddContent: 
+  DisplaySource: 0
+  Choices:
+  - {fileID: 1033324596}
 --- !u!1 &1034885231
 GameObject:
   m_ObjectHideFlags: 0
@@ -9073,6 +8783,7 @@ MonoBehaviour:
   StartTime: -1
   Active: 1
   Content: Epilogue
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -9344,110 +9055,8 @@ Transform:
   m_Children:
   - {fileID: 1871214254}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1093261487
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1781024233}
-    m_Modifications:
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer (0)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531250, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -12.030001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1489745057186152746, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2924366103111323918, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_text
-      value: +10 faith on all
-      objectReference: {fileID: 0}
-    - target: {fileID: 2924366103111323918, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_fontStyle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2924366103111323918, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-    - target: {fileID: 3627975562895377752, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.x
-      value: 6.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_Size.y
-      value: 4.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673823953554353644, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 945479067}
-    - target: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_text
-      value: Do not let doubt creep in your mind.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020443168332741897, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
---- !u!4 &1093261488 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 1093261487}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1110405025
 GameObject:
   m_ObjectHideFlags: 0
@@ -9552,6 +9161,7 @@ MonoBehaviour:
     Lydia had left in her closet. Ever since, he has felt countless eyes staring
     at him during night time, and he has nightmares of being strangled by vicious
     monsters.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -9792,10 +9402,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1550275006}
-  - {fileID: 1953465678}
-  - {fileID: 1430773305}
-  - {fileID: 1533782570}
   - {fileID: 1835104650}
   - {fileID: 1418606533}
   - {fileID: 11070768}
@@ -9809,16 +9415,17 @@ Transform:
   - {fileID: 1764841922}
   - {fileID: 884912398}
   - {fileID: 23165350}
+  - {fileID: 453405956}
   - {fileID: 2084759718}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1139562625
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 945479066}
+    m_TransformParent: {fileID: 1827853138}
     m_Modifications:
     - target: {fileID: 6406732284523679537, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_IsActive
@@ -9919,11 +9526,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
---- !u!4 &1139562626 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
-  m_PrefabInstance: {fileID: 1139562625}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1139562627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406732285786891576, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
@@ -9964,7 +9566,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5348486803177117418, guid: a022d9081fb54f541abce607d9372d91, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5348486803177117418, guid: a022d9081fb54f541abce607d9372d91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10386,6 +9988,7 @@ MonoBehaviour:
     creature would run about madly to me! I was so scared! I turned around and ran
     away...\"\"The atmosphere of Huntshire has really been a bit weird lately\u2026
     How frightening!\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -10592,87 +10195,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1211875994
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 876898990}
-    m_Modifications:
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 1890481044}
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: Index
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -16.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399223, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer_TE (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
---- !u!4 &1211875995 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 1211875994}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1211875996 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 1211875994}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1225367744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10820,182 +10342,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 1575309592}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1260242248
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1260242249}
-  - component: {fileID: 1260242251}
-  - component: {fileID: 1260242250}
-  m_Layer: 5
-  m_Name: ContentText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1260242249
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260242248}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.243, y: 8.3}
-  m_SizeDelta: {x: 34.44, y: 25.43734}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1260242250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260242248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '"Ever since my sister has been seized, the house of Meier becomes rather
-    silent. Recently I feel like something is happening right now, something has
-    changed... especially in my mother''s room, her mirror...
-
-    I feel like there''s
-    something watching me from across the mirror,
-
-    Is it a bad sign?"'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21.6
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 21.6
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 54
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1260242251}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!23 &1260242251
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260242248}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1272618485
 GameObject:
   m_ObjectHideFlags: 0
@@ -11068,6 +10414,7 @@ MonoBehaviour:
     downhill lately. People like to stay indoors, not to mention come to him for
     fresh bread. He suspects that people are getting tired of his heirloom recipe,
     so he asks you for some advice on the ingredients.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -11089,175 +10436,6 @@ MonoBehaviour:
   Content: Add cannabis oil, poppy seed and brown sugar, then knead the dough.
   EffectText: Everyone's Vitality -3
   ChangeA: {x: 2, y: 0, z: 0}
---- !u!1 &1288961689
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1288961690}
-  - component: {fileID: 1288961692}
-  - component: {fileID: 1288961691}
-  m_Layer: 5
-  m_Name: QuestionText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1288961690
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288961689}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.081, y: -12.94}
-  m_SizeDelta: {x: 30.07, y: 2.8241806}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1288961691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288961689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: In the end, what does our lord seek?
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 19
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 19
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1288961692}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!23 &1288961692
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288961689}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1291202677
 GameObject:
   m_ObjectHideFlags: 0
@@ -11299,6 +10477,7 @@ MonoBehaviour:
 
     After a thorough search of Dolf''s house, you cannot find the book.
     Dolf seems exasperated and insists that you leave immediately.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -11549,6 +10728,7 @@ MonoBehaviour:
     basement, I feel my lord, the pulsing power beneath the ground and every strike
     of it pounds harder at my heart with each passing day. \r\nThe truth has its
     price, and Huntshire is ready for it."
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -11632,88 +10812,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 11070769}
   ActiveEvent: {fileID: 1495576200}
---- !u!1 &1367050815
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1367050816}
-  - component: {fileID: 1367050817}
-  m_Layer: 5
-  m_Name: Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1367050816
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367050815}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 3.3, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1405933954}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1367050817
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367050815}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 4929187982671245893, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.01, y: 3.02}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1380967609
 GameObject:
   m_ObjectHideFlags: 0
@@ -11744,6 +10842,10 @@ Transform:
   m_Children:
   - {fileID: 2079942096}
   - {fileID: 2138860596}
+  - {fileID: 1550275006}
+  - {fileID: 1953465678}
+  - {fileID: 1430773305}
+  - {fileID: 1533782570}
   m_Father: {fileID: 1835104650}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11808,6 +10910,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1401084033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401084034}
+  - component: {fileID: 1401084035}
+  m_Layer: 0
+  m_Name: Choice (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1401084034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401084033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1588503078}
+  - {fileID: 331938316}
+  m_Father: {fileID: 453405956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401084035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401084033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerSequence: 1
+  Content: Continue.
+  EffectText: 
+  Effects:
+  - {fileID: 1588503079}
+  - {fileID: 331938317}
+  DAE: {fileID: 0}
 --- !u!1 &1404569029
 GameObject:
   m_ObjectHideFlags: 0
@@ -11911,70 +11065,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &1405933953
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1405933954}
-  - component: {fileID: 1405933955}
-  - component: {fileID: 1405933956}
-  m_Layer: 5
-  m_Name: ConfirmButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1405933954
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405933953}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -28.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1367050816}
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1405933955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405933953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10ecd06d349fdb943b92c09324a6a534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 0
-  MouseOn: 0
-  ER: {fileID: 1890481044}
-  SR: {fileID: 1367050817}
-  ActiveSprite: {fileID: 4929187982671245893, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
-  DisableSprite: {fileID: -3299749947108476512, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
---- !u!135 &1405933956
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405933953}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3.8
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1418228781
 GameObject:
   m_ObjectHideFlags: 0
@@ -12051,7 +11141,7 @@ Transform:
   - {fileID: 673072205}
   - {fileID: 1841487238}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1418606534
 MonoBehaviour:
@@ -12075,6 +11165,7 @@ MonoBehaviour:
   Content: "Dolf comes to you and pleads to let him go fishing again. Desperation
     overpowering as he speaks.\r\n\r\n\u201CPlease... I must go back out to the sea,
     I feel her calling me. I miss her so much...\u201D\r"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -12160,7 +11251,7 @@ Transform:
   m_LocalScale: {x: 14.067348, y: 14.067348, z: 14.067348}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430773304
 GameObject:
@@ -12191,8 +11282,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1136372270}
-  m_RootOrder: 2
+  m_Father: {fileID: 1380967610}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1430773306
 MonoBehaviour:
@@ -12224,18 +11315,14 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources: []
-  BaseEvent: {fileID: 0}
+  BaseEvent: {fileID: 1835104653}
   RequiredKey: 
   StartTime: -1
   Active: 1
-  Content: '
-
-
-
-
-    Dolf fished out a scratched wine bottle containing a piece of
-    parchment that had already been soaked. Strange symbols painted on the parchment
-    can be dimly seen.'
+  Content: Dolf fished out a scratched wine bottle containing a piece of parchment
+    that had already been soaked. Strange symbols painted on the parchment can be
+    dimly seen.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -12337,6 +11424,7 @@ MonoBehaviour:
 
     After a thorough search of Dolf''s house, you cannot find the book.
     Dolf seems exasperated and insists that you leave immediately.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -12477,36 +11565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe28a38fd7642249b960ee3e75fff83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1480646105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1480646106}
-  m_Layer: 5
-  m_Name: OriLinePosition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1480646106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480646105}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.13, y: -12.89, z: 0.1}
-  m_LocalScale: {x: 3.27, y: 3.27, z: 3.27}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1488336216
 GameObject:
   m_ObjectHideFlags: 0
@@ -12752,7 +11810,7 @@ Transform:
   - {fileID: 1541113408}
   - {fileID: 640976127}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1495576200
 MonoBehaviour:
@@ -12776,6 +11834,7 @@ MonoBehaviour:
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
     to sneak out of the village to go fishing. He is incredibly distraught and will
     not stop talking about how much he misses the sea.'
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -12886,8 +11945,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1136372270}
-  m_RootOrder: 3
+  m_Father: {fileID: 1380967610}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1533782571
 MonoBehaviour:
@@ -12919,17 +11978,13 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources: []
-  BaseEvent: {fileID: 0}
+  BaseEvent: {fileID: 1835104653}
   RequiredKey: 
   StartTime: -1
   Active: 1
-  Content: '
-
-
-
-
-    Dolf fished out a grotesque fish with four legs and bulging
-    eyes, it seems to be a creature from other worlds.'
+  Content: Dolf fished out a grotesque fish with four legs and bulging eyes, it seems
+    to be a creature from other worlds.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -13083,6 +12138,7 @@ MonoBehaviour:
   EffectText: 
   Effects:
   - {fileID: 299364466}
+  - {fileID: 1762461367}
   DAE: {fileID: 0}
 --- !u!4 &1541113408
 Transform:
@@ -13096,6 +12152,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 299364467}
+  - {fileID: 1762461366}
+  - {fileID: 666751242}
+  - {fileID: 1813146366}
+  - {fileID: 1751141914}
+  - {fileID: 1033324595}
   m_Father: {fileID: 1495576199}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13180,7 +12241,7 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1548008045
 Animator:
@@ -13230,8 +12291,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1136372270}
-  m_RootOrder: 0
+  m_Father: {fileID: 1380967610}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1550275007
 MonoBehaviour:
@@ -13263,190 +12324,17 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources: []
-  BaseEvent: {fileID: 0}
+  BaseEvent: {fileID: 1835104653}
   RequiredKey: 
   StartTime: -1
   Active: 1
-  Content: '
-
-
-
-
-    Neighbors saw Dolf come back crestfallen. He seems to have got
-    nothing this time.'
+  Content: Neighbors saw Dolf come back crestfallen. He seems to have got nothing
+    this time.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
   - {fileID: 1550275007}
---- !u!1 &1553415622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1553415623}
-  - component: {fileID: 1553415625}
-  - component: {fileID: 1553415624}
-  m_Layer: 5
-  m_Name: NameText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1553415623
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553415622}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.79, y: -3.57}
-  m_SizeDelta: {x: 15.921295, y: 3.0707932}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1553415624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553415622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Dino Vallis
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 23.5
-  m_fontStyle: 16
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1553415625}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!23 &1553415625
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553415622}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1558204139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13587,183 +12475,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
   m_PrefabInstance: {fileID: 1567178242}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1568410207
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1568410208}
-  - component: {fileID: 1568410209}
-  - component: {fileID: 1568410210}
-  m_Layer: 5
-  m_Name: ContentText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1568410208
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568410207}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.6, y: 6.57}
-  m_SizeDelta: {x: 64.94305, y: 28.637115}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!23 &1568410209
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568410207}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 7018937578954180767, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1568410210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568410207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'The final day is coming. However, things as they are, in my opinion, far
-    from satisfactory. Huntshire is still surrounded by filth and self-deception,
-    making things quite intolerable to our Lord.
-
-    As the High Priest, I wish
-    to bring the light of truth to Huntshire, and I have the power to make them do
-    so. I must pair them up to have them learn from each other, to appreciate the
-    teachings of our Lord. Our lord needs to regain his power, we shall appease his
-    hunger with the proper sacrifice at the end of every season.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_sharedMaterial: {fileID: 7018937578954180767, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21.5
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 21.5
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1568410209}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
 --- !u!1 &1572357262
 GameObject:
   m_ObjectHideFlags: 0
@@ -13890,6 +12601,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
+--- !u!114 &1582166756 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3465559176236079480, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+  m_PrefabInstance: {fileID: 3465559176810883996}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1588503077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588503078}
+  - component: {fileID: 1588503079}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1588503078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588503077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401084034}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1588503079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588503077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 453405957}
+  ActiveEvent: {fileID: 0}
 --- !u!1 &1615523024
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,6 +12716,7 @@ MonoBehaviour:
     Enyo. She was right behind my door at the corridor, I swear I heard that sinful
     name from her mouth, a name does not belong here! Is that possible? She must
     be conspiring against me and against this town.\""
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -13985,175 +12753,6 @@ MonoBehaviour:
   TriggerSequence: 1
   Content: Seize Enyo Vallis and interrogate her.
   EffectText: ???
---- !u!1 &1623301108
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1623301109}
-  - component: {fileID: 1623301111}
-  - component: {fileID: 1623301110}
-  m_Layer: 5
-  m_Name: QuestionText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1623301109
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623301108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.05, y: -7.24}
-  m_SizeDelta: {x: 66.3433, y: 2.8241806}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1623301110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623301108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: In the end, I contemplate. What does our lord seek?
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 21
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1623301111}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!23 &1623301111
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623301108}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1629908112
 GameObject:
   m_ObjectHideFlags: 0
@@ -14510,7 +13109,7 @@ Transform:
   - {fileID: 1011378176}
   - {fileID: 1572357263}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1649315373
 MonoBehaviour:
@@ -14535,6 +13134,7 @@ MonoBehaviour:
     One look at him and it is clear that he is not in good shape. He looks significantly
     skinnier and weaker than he did before he left.\r\n\r\nHe does not respond to
     questions and just requests to be left to rest.\r"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -14861,6 +13461,7 @@ MonoBehaviour:
 
     At night you see Dolf standing by the lake, spacing out, with a
     nosebleed. He turns to look at you and then runs away.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -14990,17 +13591,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 1693612640}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1700146521 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5919922941939884744, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
-  m_PrefabInstance: {fileID: 280922014}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1703621555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15079,175 +13669,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 1703621555}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1711153442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1711153443}
-  - component: {fileID: 1711153444}
-  - component: {fileID: 1711153445}
-  m_Layer: 5
-  m_Name: AddContentText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1711153443
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711153442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 876898990}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.081, y: 6.25}
-  m_SizeDelta: {x: 66.3433, y: 28.637115}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!23 &1711153444
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711153442}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 7018937578954180767, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1711153445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711153442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_sharedMaterial: {fileID: 7018937578954180767, guid: c896a41512c28034a92eec44a55f5927, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4288926430
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 0}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 23.5
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 23.5
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 52
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1711153444}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
 --- !u!1 &1711367847
 GameObject:
   m_ObjectHideFlags: 0
@@ -15279,7 +13700,7 @@ Transform:
   - {fileID: 1786286440}
   - {fileID: 150785841}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1711367849
 MonoBehaviour:
@@ -15304,92 +13725,12 @@ MonoBehaviour:
     However, as you approach the lake, you see Dolf gazing across the water. He seems
     to be murmuring to himself quietly. After waiting for a short while, it seems
     as though he will not be leaving anytime soon.
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
   - {fileID: 1786286439}
   - {fileID: 150785842}
---- !u!1001 &1733384842
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 876898990}
-    m_Modifications:
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 1890481044}
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: Index
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -16.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399223, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer_TE (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
---- !u!114 &1733384843 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 1733384842}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1733384844 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 1733384842}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1734053781
 GameObject:
   m_ObjectHideFlags: 0
@@ -15554,22 +13895,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
   m_PrefabInstance: {fileID: 1742616764}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1746626061 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 5349996449538107785}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1746626062 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-  m_PrefabInstance: {fileID: 5349996449538107785}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9173bd4dcd7d4db41a1ac7c95a4f24c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1747636570
 GameObject:
   m_ObjectHideFlags: 0
@@ -15613,6 +13938,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d3e3eb76f46d7418f3515cc2a8ca61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1751141913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1751141914}
+  - component: {fileID: 1751141916}
+  - component: {fileID: 1751141915}
+  m_Layer: 0
+  m_Name: Random_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1751141914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751141913}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1541113408}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1751141915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751141913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerSequence: 1
+  Content: 
+  EffectText: Reason -1
+--- !u!114 &1751141916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751141913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources: []
+  BaseEvent: {fileID: 1495576200}
+  RequiredKey: 
+  StartTime: -1
+  Active: 1
+  Content: Dolf fished out a scratched wine bottle containing a piece of parchment
+    that had already been soaked. Strange symbols painted on the parchment can be
+    dimly seen.
+  Pages: []
+  AddContent: 
+  DisplaySource: 0
+  Choices:
+  - {fileID: 1751141915}
 --- !u!1 &1760764067
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,8 +14112,61 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762461365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762461366}
+  - component: {fileID: 1762461367}
+  m_Layer: 0
+  m_Name: Random
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762461366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762461365}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1541113408}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762461367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762461365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9265f6afbe82314099af00e576a71a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AddEvents:
+  - {fileID: 666751244}
+  - {fileID: 1813146368}
+  - {fileID: 1751141916}
+  - {fileID: 1033324597}
+  StatChanges:
+  - {x: 0, y: -1, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: -3, z: -3}
 --- !u!1 &1764841921
 GameObject:
   m_ObjectHideFlags: 0
@@ -15746,7 +14198,7 @@ Transform:
   - {fileID: 892451674}
   - {fileID: 1313626152}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 14
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1764841923
 MonoBehaviour:
@@ -15770,6 +14222,7 @@ MonoBehaviour:
   Content: You are looking through your library one day when all of a sudden you
     notice an empty place in your bookshelf. A book about mythical aquatic creatures
     is missing. There is only one person who could be responsible for this.
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -15935,47 +14388,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1781024232
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1781024233}
-  m_Layer: 5
-  m_Name: AnimBase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1781024233
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781024232}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 945990239}
-  - {fileID: 2143867640}
-  - {fileID: 1480646106}
-  - {fileID: 1260242249}
-  - {fileID: 2040720383}
-  - {fileID: 1553415623}
-  - {fileID: 1288961690}
-  - {fileID: 1813766542}
-  - {fileID: 1093261488}
-  - {fileID: 280922015}
-  - {fileID: 635971876}
-  m_Father: {fileID: 945479066}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1786286438
 GameObject:
   m_ObjectHideFlags: 0
@@ -16257,6 +14669,7 @@ MonoBehaviour:
     anything more than a nod, he hurries back inside.\r\nAs the lights flicker off
     in Dolf\u2019s house, you proceed to dispose of the body and head home for the
     night.\r"
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -16323,6 +14736,7 @@ MonoBehaviour:
     shall be the one to have it and own all the wisdom contained. It is his message
     and his will to appoint me as the one to lead all livings. \r\nI shall retrieve
     it. I must be careful not to let thieves creep in our town."
+  Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
   Choices:
@@ -16361,7 +14775,7 @@ MonoBehaviour:
   Content: Our perceptions shall be sharpened.
   EffectText: Everyone's Reason will increase
   ChangeA: {x: 0, y: 0, z: -1}
---- !u!1 &1813766541
+--- !u!1 &1813146365
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16369,62 +14783,70 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1813766542}
-  - component: {fileID: 1813766544}
-  - component: {fileID: 1813766543}
-  m_Layer: 5
-  m_Name: ConfirmButton
+  - component: {fileID: 1813146366}
+  - component: {fileID: 1813146368}
+  - component: {fileID: 1813146367}
+  m_Layer: 0
+  m_Name: Random_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1813766542
+--- !u!4 &1813146366
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813766541}
+  m_GameObject: {fileID: 1813146365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -28.17, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2114357495}
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 7
+  m_Children: []
+  m_Father: {fileID: 1541113408}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1813766543
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813766541}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3.8
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1813766544
+--- !u!114 &1813146367
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813766541}
+  m_GameObject: {fileID: 1813146365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10ecd06d349fdb943b92c09324a6a534, type: 3}
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 0
-  MouseOn: 0
-  ER: {fileID: 945479067}
-  SR: {fileID: 2114357496}
-  ActiveSprite: {fileID: 4929187982671245893, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
-  DisableSprite: {fileID: -3299749947108476512, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
+  TriggerSequence: 1
+  Content: 
+  EffectText: Passion +1
+--- !u!114 &1813146368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813146365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources: []
+  BaseEvent: {fileID: 1495576200}
+  RequiredKey: 
+  StartTime: -1
+  Active: 1
+  Content: Dolf fished out a curiously-patterned brass mirror.
+  Pages: []
+  AddContent: 
+  DisplaySource: 0
+  Choices:
+  - {fileID: 1813146367}
 --- !u!1 &1823093545
 GameObject:
   m_ObjectHideFlags: 0
@@ -16458,6 +14880,87 @@ Transform:
   m_Father: {fileID: 1393445309}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1827853137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2226241690291234962, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 2678313694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241690500567056, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 2678313694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453889, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_Name
+      value: IndividualEventRenderer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+--- !u!4 &1827853138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+  m_PrefabInstance: {fileID: 1827853137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1827853139 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2226241691109453891, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
+  m_PrefabInstance: {fileID: 1827853137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1835104649
 GameObject:
   m_ObjectHideFlags: 0
@@ -16489,7 +14992,7 @@ Transform:
   - {fileID: 1380967610}
   - {fileID: 777985393}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1835104653
 MonoBehaviour:
@@ -16513,6 +15016,7 @@ MonoBehaviour:
   Content: "Dolf really misses the old days as a sailor and wants to go fishing out
     at sea.\r\nHe has repeatedly mentioned that he would like to leave the valley
     for a time.\r"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -16877,92 +15381,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1890481042
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1890481045}
-  - component: {fileID: 1890481044}
-  - component: {fileID: 1890481043}
-  m_Layer: 5
-  m_Name: TownEventRenderer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1890481043
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890481042}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1c630fb9f37522b4ea70a4e8d47ef411, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1890481044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890481042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 0
-  Deciding: 0
-  Activating: 0
-  Index: 0
-  Anim: {fileID: 1890481043}
-  ContentText: {fileID: 1568410210}
-  AddContentText: {fileID: 1711153445}
-  NameText: {fileID: 800973403}
-  QuestionText: {fileID: 1623301110}
-  CRI: {fileID: 1746626062}
-  CRII: {fileID: 274876420}
-  CRIII: {fileID: 1733384843}
-  SingleRenderer: {fileID: 1211875996}
-  CB: {fileID: 1405933955}
-  AttachPositions:
-  - 22
-  - 0
-  - -22
-  CurrentEvent: {fileID: 0}
-  CurrentAddEvent: {fileID: 0}
-  CurrentPair: {fileID: 0}
-  CurrentCR: {fileID: 0}
---- !u!4 &1890481045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890481042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 876898990}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894888602
 GameObject:
@@ -17374,8 +15792,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1136372270}
-  m_RootOrder: 1
+  m_Father: {fileID: 1380967610}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1953465679
 MonoBehaviour:
@@ -17407,16 +15825,12 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources: []
-  BaseEvent: {fileID: 0}
+  BaseEvent: {fileID: 1835104653}
   RequiredKey: 
   StartTime: -1
   Active: 1
-  Content: '
-
-
-
-
-    Dolf fished out a curiously-patterned brass mirror.'
+  Content: Dolf fished out a curiously-patterned brass mirror.
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -17726,6 +16140,7 @@ MonoBehaviour:
     mayor of Huntshire, but I have to ask, forgive me, are we doing too much? Ever
     since I came back, I feel something different of  this valley, or am I just simply
     being too old?\u201D"
+  Pages: []
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -18169,175 +16584,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
   m_PrefabInstance: {fileID: 2032548532}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2040720382
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2040720383}
-  - component: {fileID: 2040720384}
-  - component: {fileID: 2040720385}
-  m_Layer: 5
-  m_Name: AddContentText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2040720383
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040720382}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.243, y: 8.3}
-  m_SizeDelta: {x: 34.44, y: 25.43734}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!23 &2040720384
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040720382}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2040720385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040720382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_sharedMaterial: {fileID: 8907652591459792219, guid: 88ddb07d6d53b2743a35ff2a0ee62d49, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 10736350
-  m_fontColor: {r: 0.8705883, g: 0.8235295, b: 0.6392157, a: 0}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21.6
-  m_fontSizeBase: 23.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 21.6
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: -20
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 54
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 2040720384}
-  m_maskType: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
 --- !u!114 &2048113450 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3254293764674523945, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
@@ -18457,6 +16703,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2084759718}
   - component: {fileID: 2084759719}
+  - component: {fileID: 2084759722}
+  - component: {fileID: 2084759721}
+  - component: {fileID: 2084759720}
   m_Layer: 0
   m_Name: 11-2
   m_TagString: Untagged
@@ -18477,7 +16726,7 @@ Transform:
   m_Children:
   - {fileID: 456736529}
   m_Father: {fileID: 1136372270}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2084759719
 MonoBehaviour:
@@ -18506,11 +16755,66 @@ MonoBehaviour:
     to stealing the book from your house and says he will repent on his own. He leaves
     before you can say another word.\r\n\r\nThe next day you find him floating face
     down in the lake.\r"
+  Pages:
+  - {fileID: 2084759722}
+  - {fileID: 2084759721}
+  - {fileID: 2084759720}
   AddContent: 
   DisplaySource: 0
   Choices:
   - {fileID: 456736528}
   - {fileID: 0}
+--- !u!114 &2084759720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084759717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: 'He admits to stealing the book from your house and says he will repent
+    on his own. He leaves before you can say another word.
+
+
+
+    The next day you
+    find him floating face down in the lake.
+
+'
+--- !u!114 &2084759721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084759717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI must repent. Over the past year I have strayed and sinned. My
+    mind has been trapped, and my thoughts have been occupied by my past. I felt
+    I needed to find the kraken. To understand it in a way I did not when I was younger.\u201D"
+--- !u!114 &2084759722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084759717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: 'After the latest sacrifice, Dolf approaches you.
+
+'
 --- !u!1001 &2108891925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18536,7 +16840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18630,88 +16934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Positive: 1
---- !u!1 &2114357494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2114357495}
-  - component: {fileID: 2114357496}
-  m_Layer: 5
-  m_Name: Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2114357495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114357494}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 3.3, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1813766542}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2114357496
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114357494}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 4929187982671245893, guid: 4bffcc011a168ff4bbf464e465c5edc1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.01, y: 3.02}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2117453316
 GameObject:
   m_ObjectHideFlags: 0
@@ -18834,6 +17056,7 @@ MonoBehaviour:
   Content: '
 
     In the morning Dolf cannot be found. We can only assume the worst.'
+  Pages: []
   AddContent: 
   DisplaySource: 0
   Choices:
@@ -19099,88 +17322,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 1835104653}
   ActiveEvent: {fileID: 1418606534}
---- !u!1 &2143867639
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143867640}
-  - component: {fileID: 2143867641}
-  m_Layer: 5
-  m_Name: Line
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2143867640
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143867639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.93, z: 0.1}
-  m_LocalScale: {x: 3.27, y: 3.27, z: 3.27}
-  m_Children: []
-  m_Father: {fileID: 1781024233}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2143867641
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143867639}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5833c0d0752095745ba9d14560e598ca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.81, y: 35.090385}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!4 &307048759446320954
 Transform:
   m_ObjectHideFlags: 0
@@ -19351,6 +17492,74 @@ Transform:
   m_Father: {fileID: 452821629}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2226241691352983206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3385880843702111546, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+  m_PrefabInstance: {fileID: 3465559176810883996}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3465559176810883996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3385880843702111544, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_Name
+      value: EndEventRenderer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
 --- !u!224 &3517490785416576845
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19451,87 +17660,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &5349996449538107785
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 876898990}
-    m_Modifications:
-    - target: {fileID: 1440633730226281371, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 22.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: ER
-      value: 
-      objectReference: {fileID: 1890481044}
-    - target: {fileID: 1736361821302533453, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: Index
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2127429514439684431, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_text
-      value: A peculiar intensity.
-      objectReference: {fileID: 0}
-    - target: {fileID: 2127429514439684431, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 22.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -16.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -16.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399222, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814969125813399223, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_Name
-      value: ChoiceRenderer_TE (0)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7109616005167341195, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
-      propertyPath: m_text
-      value: +10 faith on all
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff53bb30a99e7ab48a337c6ecea99829, type: 3}
 --- !u!114 &6321123907336144518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19689,7 +17817,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7990098554392899865, guid: c4b05c98320a2cb4a938b95ccaf7789e, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7990098554392899865, guid: c4b05c98320a2cb4a938b95ccaf7789e, type: 3}
       propertyPath: m_LocalPosition.x

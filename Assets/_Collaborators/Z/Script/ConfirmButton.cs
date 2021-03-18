@@ -13,18 +13,18 @@ namespace THAN
         public Sprite DisableSprite;
 
         // Start is called before the first frame update
-        void Start()
+        public virtual void Start()
         {
 
         }
 
         // Update is called once per frame
-        void Update()
+        public virtual void Update()
         {
 
         }
 
-        public void OnMouseDown()
+        public virtual void OnMouseDown()
         {
             if (Active)
                 ER.TryDecide();

@@ -20,8 +20,6 @@ namespace THAN
             }
             if (DAE)
                 AddEvent = DAE;
-            if (AddEvent)
-                print(AddEvent.gameObject.name);
         }
     }
 }

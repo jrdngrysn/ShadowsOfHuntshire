@@ -30,15 +30,19 @@ namespace THAN
         public bool BoardActive;
         public bool IndividualEventActive;
         public bool TownEventActive;
+        public bool EndEventActive;
         public List<Character> MaskedCharacters;
         public List<Character> ChangedCharacters;
         public List<Pair> MaskedPairs;
         [Space]
         public EventRenderer IER;
         public EventRenderer TER;
+        public EventRenderer EER;
         [Space]
         public List<string> StartCharacters;
         public List<TownEvent> TownEvents;
+        public Event SacrificeEndEvent;
+        public Event CurrentEndEvent;
         [Space]
         public List<Character> Characters;
         public List<Pair> Pairs;
@@ -222,6 +226,11 @@ namespace THAN
             TurnEnding = false;
             StatChangeSources.Clear();
             StatChanges.Clear();
+
+            if (GetSacrificeActive() && !HaveSacrifice())
+                CurrentEndEvent = SacrificeEndEvent;
+            if (CurrentEndEvent)
+                yield return EndProcess(CurrentEndEvent);
         }
 
         public void RegisterStatChange(Character Source, Vector3 StatChange)
@@ -279,6 +288,14 @@ namespace THAN
                 StartCoroutine("DisableBoardShade");
             }
             //yield return new WaitForSeconds(0.8f);
+        }
+
+        public IEnumerator EndProcess(Event EndEvent)
+        {
+            BoardShadeAnim.SetBool("Active", true);
+            yield return 0;
+            EndEventActive = true;
+            EER.Activate(EndEvent, null);
         }
 
         public bool CanEndTurn()
