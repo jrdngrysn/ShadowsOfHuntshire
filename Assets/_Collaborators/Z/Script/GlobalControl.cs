@@ -31,13 +31,17 @@ namespace THAN
         public bool IndividualEventActive;
         public bool TownEventActive;
         public bool EndEventActive;
+        public bool NewCharacterActive;
         public List<Character> MaskedCharacters;
         public List<Character> ChangedCharacters;
         public List<Pair> MaskedPairs;
+        public List<Character> NewCharacters;
         [Space]
         public EventRenderer IER;
         public EventRenderer TER;
         public EventRenderer EER;
+        public NewCardRenderer NCR;
+        public Slot NewCharacterSlot;
         [Space]
         public List<string> StartCharacters;
         public List<TownEvent> TownEvents;
@@ -206,20 +210,39 @@ namespace THAN
                     yield return 0;
             }
             CurrentTime++;
+            foreach (Character C in Characters)
+            {
+                if (!C.Active && C.StartTime <= CurrentTime)
+                    ActivateCharacter(C, true);
+            }
+            while (NewCharacters.Count > 0)
+            {
+                NewCharacterActive = true;
+                Character C = NewCharacters[0];
+                NewCharacters.RemoveAt(0);
+                C.Activate();
+                Slot S = NewCharacterSlot;
+                C.SetPosition(S.GetPosition());
+                S.AssignCharacter(C);
+                NCR.Active(C);
+                BoardShadeAnim.SetBool("Active", true);
+                C.ActivateMask();
+                while (C.CurrentSlot == NewCharacterSlot)
+                    yield return 0;
+                NCR.Disable();
+                BoardActive = false;
+                BoardShadeAnim.SetBool("Active", false);
+                while (C.CurrentSlot == SelectingSlot)
+                    yield return 0;
+                C.DisableMask();
+                if (NewCharacters.Count > 0)
+                    yield return new WaitForSeconds(0.5f);
+                NewCharacterActive = false;
+            }
             BoardActive = true;
             NextRenderTime(0f);
             if (GetSacrificeActive())
                 SacrificeAnim.Active();
-            foreach (Character C in Characters)
-            {
-                if (!C.Active && C.StartTime <= CurrentTime)
-                {
-                    C.Activate();
-                    Slot S = GetNextSlot();
-                    C.SetPosition(S.GetPosition());
-                    S.AssignCharacter(C);
-                }
-            }
             foreach (Character C in Characters)
                 C.StartOfTurn();
             //PlaySound("Event");
@@ -234,6 +257,19 @@ namespace THAN
             }
             if (CurrentEndEvent)
                 yield return EndProcess(CurrentEndEvent);
+        }
+
+        public void ActivateCharacter(Character C, bool NCE)
+        {
+            if (!NCE)
+            {
+                C.Activate();
+                Slot S = GetNextSlot();
+                C.SetPosition(S.GetPosition());
+                S.AssignCharacter(C);
+            }
+            else
+                NewCharacters.Add(C);
         }
 
         public void RegisterStatChange(Character Source, Vector3 StatChange)
@@ -342,10 +378,20 @@ namespace THAN
 
         public IEnumerator GenerateEvent(List<Character> Cs)
         {
-            Character C = Cs[Random.Range(0, Cs.Count)];
-            Event E = C.GetEvent();
+            Event E = null;
+            Character C = null;
+            int Priority = -1;
+            foreach (Character Ca in Cs)
+            {
+                if (!Ca || !Ca.GetEvent() || Ca.GetEvent().GetPriority(Ca.GetPair()) <= Priority)
+                    continue;
+                C = Ca;
+                E = Ca.GetEvent();
+                Priority = E.GetPriority(Ca.GetPair());
+            }
 
-            C.OnTriggerEvent(E);
+            if (C)
+                C.OnTriggerEvent(E);
 
             BoardShadeAnim.SetBool("Active", true);
             if (C == null || E == null)
@@ -464,7 +510,6 @@ namespace THAN
 
         public IEnumerator NextRenderTimeIE(float Delay)
         {
-            print("StartDelay " + Delay);
             yield return new WaitForSeconds(Delay);
             NextRenderTime(0f);
         }

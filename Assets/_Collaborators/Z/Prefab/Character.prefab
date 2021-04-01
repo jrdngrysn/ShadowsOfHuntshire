@@ -947,6 +947,7 @@ GameObject:
   - component: {fileID: 3207418462324221634}
   - component: {fileID: 1907539348224468110}
   - component: {fileID: 1673738289949300586}
+  - component: {fileID: 1078363529848774774}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -986,12 +987,13 @@ MonoBehaviour:
   Anim: {fileID: 1673738289949300586}
   Info: {fileID: 1907539348224468110}
   Name: 
-  CharacterEvents: []
-  RepeatEvent: {fileID: 0}
+  KB: {fileID: 0}
   AddRepeatEvents: []
   EventCoolRate: 2
   EventCoolDown: 0
+  SacrificeToken: 0
   StartTime: 9999
+  ReturnTime: 9999
   Active: 0
   Skills: []
   CurrentSkill: {fileID: 0}
@@ -1010,7 +1012,7 @@ MonoBehaviour:
   ToolPivot_Passion: {fileID: 3934192435189162400}
   ToolPivot_Reason: {fileID: 6678479765616643228}
   TooltipDelay: {x: 0, y: 0}
-  SkillIndicator: {fileID: 7770431700919118805}
+  SI: {fileID: 7422348192728770232}
   StatusRendereActive: 0
   CurrentSlot: {fileID: 0}
   CurrentPair: {fileID: 0}
@@ -1069,6 +1071,28 @@ MonoBehaviour:
   HighlightedDelay: 0.4
   CurrentPositionTime: 0
   OriZ: 0
+  DefaultLayer: Default
+  UpLayer: Up
+  MaskedRederer:
+  - {fileID: 3589533620568073313}
+  - {fileID: 5516221258392426053}
+  - {fileID: 1217538783214300298}
+  - {fileID: 6093389740227907331}
+  - {fileID: 5699945127263026050}
+  - {fileID: 8365781625705241614}
+  - {fileID: 91874394901721401}
+  - {fileID: 5872352369956890494}
+  - {fileID: 6868802659386718571}
+  - {fileID: 7247368681288458843}
+  - {fileID: 6393930979498844930}
+  - {fileID: 1632471276402979117}
+  - {fileID: 3783973554250052603}
+  MaskedText:
+  - {fileID: 3352685100241109829}
+  - {fileID: 3207418463383677010}
+  - {fileID: 3207418463375492861}
+  - {fileID: 3207418462974425254}
+  IntroText: 
 --- !u!114 &1907539348224468110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1106,6 +1130,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1078363529848774774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207418462324221636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5c6d8c16ab6304aad9f201a7dd206b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Keys: []
 --- !u!1 &3207418462974425272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,7 +2236,7 @@ SpriteMask:
   m_BackSortingLayerID: 2112454381
   m_FrontSortingLayer: 1
   m_BackSortingLayer: 1
-  m_FrontSortingOrder: 2
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: -1
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2627,6 +2664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7909339899906168885}
+  - component: {fileID: 7422348192728770232}
   - component: {fileID: 1632471276402979117}
   m_Layer: 0
   m_Name: SkillIndicator
@@ -2634,7 +2672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7909339899906168885
 Transform:
   m_ObjectHideFlags: 0
@@ -2649,6 +2687,23 @@ Transform:
   m_Father: {fileID: 8771607942534179553}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7422348192728770232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7770431700919118805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e07d46f4e4ddd24cb504696ea3124af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 3207418462324221634}
+  TargetIndex: 0
+  SR: {fileID: 1632471276402979117}
+  ActiveSprite: {fileID: 21300000, guid: 6d888074677c4c949a151388828eef84, type: 3}
+  DisableSprite: {fileID: 21300000, guid: 7b9e159947454f24dae03c3d809b1a13, type: 3}
 --- !u!212 &1632471276402979117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2656,7 +2711,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7770431700919118805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
