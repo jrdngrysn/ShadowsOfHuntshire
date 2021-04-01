@@ -9,14 +9,16 @@ namespace THAN
         public Animator Anim;
         public CharacterInfo Info;
         public string Name;
+        [HideInInspector] public KeyBase KB;
         [Space]
-        public List<Event> CharacterEvents;
-        //public List<Event> FreeEvents;
-        public Event RepeatEvent;
+        //public List<Event> CharacterEvents;
+        //public Event RepeatEvent;
         public List<Event> AddRepeatEvents;
         public int EventCoolRate;
         public int EventCoolDown;
+        [HideInInspector] public int SacrificeToken;
         public int StartTime = -1;
+        [HideInInspector] public int ReturnTime = 9999;
         public bool Active;
         [Space]
         public List<Skill> Skills;
@@ -38,7 +40,7 @@ namespace THAN
         public GameObject ToolPivot_Passion;
         public GameObject ToolPivot_Reason;
         public Vector2 TooltipDelay;
-        public GameObject SkillIndicator;
+        public SkillIndicator SI;
         public bool StatusRendereActive;
         [Space]
         public Slot CurrentSlot;
@@ -52,6 +54,14 @@ namespace THAN
         public float HighlightedDelay;
         public float CurrentPositionTime;
         public float OriZ;
+        public string DefaultLayer;
+        public string UpLayer;
+        public List<SpriteRenderer> MaskedRederer;
+        public List<TextMeshPro> MaskedText;
+        public float CurrentMaskDelay;
+        [Space]
+        [TextArea]
+        public string IntroText;
 
         public void Awake()
         {
@@ -71,6 +81,12 @@ namespace THAN
             CurrentPositionTime -= Time.deltaTime;
             PositionUpdate();
             TooltipUpdate();
+            if (CurrentMaskDelay >= 0)
+            {
+                CurrentMaskDelay -= Time.deltaTime;
+                if (CurrentMaskDelay <= 0)
+                    DisableMask();
+            }
         }
 
         public void FixedUpdate()
@@ -80,7 +96,8 @@ namespace THAN
 
         public void Render()
         {
-            Outline.SetActive(GlobalControl.Main.GetSelectingCharacter() == this || GlobalControl.Main.HoldingCharacter == this);
+            Outline.SetActive(GlobalControl.Main.GetSelectingCharacter() == this || GlobalControl.Main.HoldingCharacter == this
+                || GlobalControl.Main.NewCharacters.Contains(this));
             if (!GetHidden_Vitality())
             {
                 VitalityText.text = GetVitality() + "";
@@ -141,10 +158,10 @@ namespace THAN
             Tooltip_Passion.SetActive(TooltipDelay.x == 1 && TooltipDelay.y > 0);
             Tooltip_Reason.SetActive(TooltipDelay.x == 2 && TooltipDelay.y > 0);
 
-            if (CurrentSkill && (cp - (Vector2)SkillIndicator.transform.position).magnitude <= 1.5f)
+            if (/*CurrentSkill && */(cp - (Vector2)SI.transform.position).magnitude <= 1.5f && SI.GetTarget())
             {
                 if (!StatusRendereActive)
-                    StatusRenderer.Main.Render(CurrentSkill, this);
+                    StatusRenderer.Main.Render(SI.GetTarget(), this);
                 StatusRendereActive = true;
             }
             else
@@ -171,25 +188,18 @@ namespace THAN
 
         public Event GetEvent()
         {
-            if (EventCoolDown > 0)
+            /*if (EventCoolDown > 0)
+                return null;*/
+            if (AddRepeatEvents.Count <= 0)
                 return null;
-            if (CharacterEvents.Count <= 0 && !RepeatEvent && AddRepeatEvents.Count <= 0)
-                return null;
-            Event TE;
-            if (CharacterEvents.Count <= 0)
-                TE = RepeatEvent;
-            else
-                TE = CharacterEvents[0];
-            if (!TE || !TE.Pass(GetPair()))
-                TE = null;
-            if (!TE)
+            Event TE = null;
+            int Priority = -1;
+            foreach (Event E in AddRepeatEvents)
             {
-                foreach (Event E in AddRepeatEvents)
+                if (E.Pass(GetPair()) && E.GetPriority(GetPair()) > Priority)
                 {
-                    if (E.Pass(GetPair()))
-                    {
-                        TE = E;
-                    }
+                    TE = E;
+                    Priority = E.GetPriority(GetPair());
                 }
             }
             return TE;
@@ -198,12 +208,13 @@ namespace THAN
         public void OnTriggerEvent(Event E)
         {
             EventCoolDown = EventCoolRate;
+            GetKeyBase().ChangeKey("SacrificeEvent", 1);
         }
 
         public void AdvanceSequence(Event E)
         {
-            if (CharacterEvents.Contains(E))
-                CharacterEvents.Remove(E);
+            /*if (CharacterEvents.Contains(E))
+                CharacterEvents.Remove(E);*/
         }
 
         public void BoundValueChange(float V, float P, float R)
@@ -420,12 +431,13 @@ namespace THAN
             }
             if (New.Count > 0)
                 ActivateSkill(New[Random.Range(0, New.Count)]);
+            GetKeyBase().SetKey("Return", 0);
         }
 
         public void ActivateSkill(Skill S)
         {
             CurrentSkill = S;
-            SkillIndicator.SetActive(true);
+            //SkillIndicator.SetActive(true);
         }
 
         public void OnSkillTriggered()
@@ -433,7 +445,7 @@ namespace THAN
             if (!CurrentSkill)
                 return;
             CurrentSkill = null;
-            SkillIndicator.SetActive(false);
+            //SkillIndicator.SetActive(false);
         }
 
         public void OnSkillDisabled()
@@ -441,29 +453,47 @@ namespace THAN
             if (!CurrentSkill)
                 return;
             CurrentSkill = null;
-            SkillIndicator.SetActive(false);
+            //SkillIndicator.SetActive(false);
         }
 
         public void EndOfTurn()
         {
             if (!Active)
+            {
+                if (ReturnTime <= GlobalControl.Main.CurrentTime)
+                {
+                    GlobalControl.Main.ActivateCharacter(this, false);
+                    GetKeyBase().SetKey("Return", 1);
+                }
                 return;
+            }
             if (CurrentSkill)
             {
                 CurrentSkill.EmptyEffect(this);
                 OnSkillDisabled();
             }
+            if (GlobalControl.Main.GetSacrificeActive())
+                GetKeyBase().SetKey("SacrificeEvent", 0);
         }
 
         public void ActivateMask()
         {
             Mask.SetActive(true);
+            foreach (SpriteRenderer SR in MaskedRederer)
+                SR.sortingLayerID = SortingLayer.NameToID(UpLayer);
+            foreach (TextMeshPro Text in MaskedText)
+                Text.sortingLayerID = SortingLayer.NameToID(UpLayer);
             GlobalControl.Main.MaskedCharacters.Add(this);
+            CurrentMaskDelay = -1;
         }
 
         public void DisableMask()
         {
             Mask.SetActive(false);
+            foreach (SpriteRenderer SR in MaskedRederer)
+                SR.sortingLayerID = SortingLayer.NameToID(DefaultLayer);
+            foreach (TextMeshPro Text in MaskedText)
+                Text.sortingLayerID = SortingLayer.NameToID(DefaultLayer);
         }
 
         public bool CanDie()
@@ -491,7 +521,7 @@ namespace THAN
         public void MissingDelay(int Delay)
         {
             Active = false;
-            StartTime = GlobalControl.Main.CurrentTime + Delay;
+            ReturnTime = GlobalControl.Main.CurrentTime + Delay;
             if (GetPair())
                 GlobalControl.Main.RemovePair(GetPair());
             Anim.SetTrigger("Death");
@@ -514,6 +544,11 @@ namespace THAN
             Anim.SetTrigger("Death");
             GlobalControl.Main.Characters.Remove(this);
             Destroy(gameObject, 3);
+        }
+
+        public string GetIntro()
+        {
+            return IntroText;
         }
 
         public static Character Find(string Name)
@@ -645,6 +680,13 @@ namespace THAN
         public bool GetHidden_Reason()
         {
             return Info.Hidden_Reason;
+        }
+
+        public KeyBase GetKeyBase()
+        {
+            if (!KB)
+                KB = GetComponent<KeyBase>();
+            return KB;
         }
     }
 }
