@@ -70,9 +70,9 @@ namespace THAN
                 foreach (GameObject G in EndPageObjects)
                     G.SetActive(false);
             }
-            ContentText.text = GetEvent().GetContent(CurrentPage);
+            ContentText.text = ProcessContent(GetEvent().GetContent(CurrentPage), GetEvent().GetSource());
             if (GetAddEvent())
-                AddContentText.text = GetAddEvent().GetContent(CurrentPage);
+                AddContentText.text = ProcessContent(GetAddEvent().GetContent(CurrentPage), GetEvent().GetSource());
             else
                 AddContentText.text = "";
             if (!GetEvent().GetSource() || !GetEvent().DisplaySource)
@@ -302,6 +302,29 @@ namespace THAN
             if (SingleRenderer)
                 SingleRenderer.Disable();
             CB.Active = false;
+        }
+
+        public string ProcessContent(string Ori, Character Source)
+        {
+            string C = "";
+            string S = Ori;
+            while (S.IndexOf("*") != -1)
+            {
+                C += S.Substring(0, S.IndexOf("*"));
+                S = S.Substring(S.IndexOf("*") + 1);
+                if (S.IndexOf("*") == -1)
+                    break;
+                string Key = S.Substring(0, S.IndexOf("*"));
+                S = S.Substring(S.IndexOf("*") + 1);
+                if (Key == "Someone" && Source.GetPartner())
+                    C += Source.GetPartner().GetName();
+                else if (Key == "Someone")
+                    C += "Someone";
+                else
+                    C += Key;
+            }
+            C += S;
+            return C;
         }
 
         public Event GetEvent()

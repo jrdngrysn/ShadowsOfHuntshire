@@ -31,13 +31,17 @@ namespace THAN
         public bool IndividualEventActive;
         public bool TownEventActive;
         public bool EndEventActive;
+        public bool NewCharacterActive;
         public List<Character> MaskedCharacters;
         public List<Character> ChangedCharacters;
         public List<Pair> MaskedPairs;
+        public List<Character> NewCharacters;
         [Space]
         public EventRenderer IER;
         public EventRenderer TER;
         public EventRenderer EER;
+        public NewCardRenderer NCR;
+        public List<Slot> NewCharacterSlots;
         [Space]
         public List<string> StartCharacters;
         public List<TownEvent> TownEvents;
@@ -206,20 +210,50 @@ namespace THAN
                     yield return 0;
             }
             CurrentTime++;
+            foreach (Character C in Characters)
+            {
+                if (!C.Active && C.StartTime <= CurrentTime)
+                    ActivateCharacter(C, true);
+            }
+            if (NewCharacters.Count > 0)
+            {
+                NewCharacterActive = true;
+                if (NewCharacters.Count == 1)
+                {
+                    Character C = NewCharacters[0];
+                    C.Activate();
+                    Slot S = NewCharacterSlots[0];
+                    C.SetPosition(S.GetPosition());
+                    S.AssignCharacter(C);
+                    NCR.Active(C);
+                    C.ActivateMask();
+                }
+                else
+                {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        Character C = NewCharacters[i];
+                        Slot S = NewCharacterSlots[i + 1];
+                        C.Activate();
+                        C.SetPosition(S.GetPosition());
+                        S.AssignCharacter(C);
+                        if (i == 0)
+                            NCR.Active(C);
+                        C.ActivateMask();
+                    }
+                }
+                BoardShadeAnim.SetBool("Active", true);
+                while (NewCharacters.Count > 0)
+                    yield return 0;
+                NCR.Disable();
+                BoardActive = false;
+                BoardShadeAnim.SetBool("Active", false);
+                NewCharacterActive = false;
+            }
             BoardActive = true;
             NextRenderTime(0f);
             if (GetSacrificeActive())
                 SacrificeAnim.Active();
-            foreach (Character C in Characters)
-            {
-                if (!C.Active && C.StartTime <= CurrentTime)
-                {
-                    C.Activate();
-                    Slot S = GetNextSlot();
-                    C.SetPosition(S.GetPosition());
-                    S.AssignCharacter(C);
-                }
-            }
             foreach (Character C in Characters)
                 C.StartOfTurn();
             //PlaySound("Event");
@@ -234,6 +268,36 @@ namespace THAN
             }
             if (CurrentEndEvent)
                 yield return EndProcess(CurrentEndEvent);
+        }
+
+        public void ActivateCharacter(Character C, bool NCE)
+        {
+            if (!NCE || NewCharacters.Count > 1)
+            {
+                C.Activate();
+                Slot S = GetNextSlot();
+                C.SetPosition(S.GetPosition());
+                S.AssignCharacter(C);
+            }
+            else
+                NewCharacters.Add(C);
+        }
+
+        public void FinalizeCharacter(Character C)
+        {
+            Slot S = GetNextSlot();
+            S.AssignCharacter(C);
+            C.CurrentMaskDelay = 1f;
+        }
+
+        public void ConfirmNewCharacters()
+        {
+            for (int i = 0; i < NewCharacters.Count; i++)
+            {
+                FinalizeCharacter(NewCharacters[i]);
+                NewCharacters.RemoveAt(i);
+                i--;
+            }
         }
 
         public void RegisterStatChange(Character Source, Vector3 StatChange)
@@ -342,10 +406,20 @@ namespace THAN
 
         public IEnumerator GenerateEvent(List<Character> Cs)
         {
-            Character C = Cs[Random.Range(0, Cs.Count)];
-            Event E = C.GetEvent();
+            Event E = null;
+            Character C = null;
+            int Priority = -1;
+            foreach (Character Ca in Cs)
+            {
+                if (!Ca || !Ca.GetEvent() || Ca.GetEvent().GetPriority(Ca.GetPair()) <= Priority)
+                    continue;
+                C = Ca;
+                E = Ca.GetEvent();
+                Priority = E.GetPriority(Ca.GetPair());
+            }
 
-            C.OnTriggerEvent(E);
+            if (C)
+                C.OnTriggerEvent(E);
 
             BoardShadeAnim.SetBool("Active", true);
             if (C == null || E == null)
@@ -464,7 +538,6 @@ namespace THAN
 
         public IEnumerator NextRenderTimeIE(float Delay)
         {
-            print("StartDelay " + Delay);
             yield return new WaitForSeconds(Delay);
             NextRenderTime(0f);
         }
@@ -541,6 +614,8 @@ namespace THAN
                 foreach (Slot S in L)
                 {
                     if (S == SacrificeSlot)
+                        continue;
+                    if (NewCharacterSlots.Contains(S))
                         continue;
                     if (!S.GetCharacter())
                         return S;
