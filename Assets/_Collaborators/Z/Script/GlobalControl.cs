@@ -41,7 +41,7 @@ namespace THAN
         public EventRenderer TER;
         public EventRenderer EER;
         public NewCardRenderer NCR;
-        public Slot NewCharacterSlot;
+        public List<Slot> NewCharacterSlots;
         [Space]
         public List<string> StartCharacters;
         public List<TownEvent> TownEvents;
@@ -215,28 +215,39 @@ namespace THAN
                 if (!C.Active && C.StartTime <= CurrentTime)
                     ActivateCharacter(C, true);
             }
-            while (NewCharacters.Count > 0)
+            if (NewCharacters.Count > 0)
             {
                 NewCharacterActive = true;
-                Character C = NewCharacters[0];
-                NewCharacters.RemoveAt(0);
-                C.Activate();
-                Slot S = NewCharacterSlot;
-                C.SetPosition(S.GetPosition());
-                S.AssignCharacter(C);
-                NCR.Active(C);
+                if (NewCharacters.Count == 1)
+                {
+                    Character C = NewCharacters[0];
+                    C.Activate();
+                    Slot S = NewCharacterSlots[0];
+                    C.SetPosition(S.GetPosition());
+                    S.AssignCharacter(C);
+                    NCR.Active(C);
+                    C.ActivateMask();
+                }
+                else
+                {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        Character C = NewCharacters[i];
+                        Slot S = NewCharacterSlots[i + 1];
+                        C.Activate();
+                        C.SetPosition(S.GetPosition());
+                        S.AssignCharacter(C);
+                        if (i == 0)
+                            NCR.Active(C);
+                        C.ActivateMask();
+                    }
+                }
                 BoardShadeAnim.SetBool("Active", true);
-                C.ActivateMask();
-                while (C.CurrentSlot == NewCharacterSlot)
+                while (NewCharacters.Count > 0)
                     yield return 0;
                 NCR.Disable();
                 BoardActive = false;
                 BoardShadeAnim.SetBool("Active", false);
-                while (C.CurrentSlot == SelectingSlot)
-                    yield return 0;
-                C.DisableMask();
-                if (NewCharacters.Count > 0)
-                    yield return new WaitForSeconds(0.5f);
                 NewCharacterActive = false;
             }
             BoardActive = true;
@@ -261,7 +272,7 @@ namespace THAN
 
         public void ActivateCharacter(Character C, bool NCE)
         {
-            if (!NCE)
+            if (!NCE || NewCharacters.Count > 1)
             {
                 C.Activate();
                 Slot S = GetNextSlot();
@@ -270,6 +281,23 @@ namespace THAN
             }
             else
                 NewCharacters.Add(C);
+        }
+
+        public void FinalizeCharacter(Character C)
+        {
+            Slot S = GetNextSlot();
+            S.AssignCharacter(C);
+            C.CurrentMaskDelay = 1f;
+        }
+
+        public void ConfirmNewCharacters()
+        {
+            for (int i = 0; i < NewCharacters.Count; i++)
+            {
+                FinalizeCharacter(NewCharacters[i]);
+                NewCharacters.RemoveAt(i);
+                i--;
+            }
         }
 
         public void RegisterStatChange(Character Source, Vector3 StatChange)
@@ -586,6 +614,8 @@ namespace THAN
                 foreach (Slot S in L)
                 {
                     if (S == SacrificeSlot)
+                        continue;
+                    if (NewCharacterSlots.Contains(S))
                         continue;
                     if (!S.GetCharacter())
                         return S;

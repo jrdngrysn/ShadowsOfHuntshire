@@ -58,6 +58,7 @@ namespace THAN
         public string UpLayer;
         public List<SpriteRenderer> MaskedRederer;
         public List<TextMeshPro> MaskedText;
+        public float CurrentMaskDelay;
         [Space]
         [TextArea]
         public string IntroText;
@@ -80,6 +81,12 @@ namespace THAN
             CurrentPositionTime -= Time.deltaTime;
             PositionUpdate();
             TooltipUpdate();
+            if (CurrentMaskDelay >= 0)
+            {
+                CurrentMaskDelay -= Time.deltaTime;
+                if (CurrentMaskDelay <= 0)
+                    DisableMask();
+            }
         }
 
         public void FixedUpdate()
@@ -89,7 +96,8 @@ namespace THAN
 
         public void Render()
         {
-            Outline.SetActive(GlobalControl.Main.GetSelectingCharacter() == this || GlobalControl.Main.HoldingCharacter == this);
+            Outline.SetActive(GlobalControl.Main.GetSelectingCharacter() == this || GlobalControl.Main.HoldingCharacter == this
+                || GlobalControl.Main.NewCharacters.Contains(this));
             if (!GetHidden_Vitality())
             {
                 VitalityText.text = GetVitality() + "";
@@ -476,6 +484,7 @@ namespace THAN
             foreach (TextMeshPro Text in MaskedText)
                 Text.sortingLayerID = SortingLayer.NameToID(UpLayer);
             GlobalControl.Main.MaskedCharacters.Add(this);
+            CurrentMaskDelay = -1;
         }
 
         public void DisableMask()

@@ -1095,6 +1095,12 @@ PrefabInstance:
       value: Josef Van Buren
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: Josef van Buren, a horror novelist who has never found much success
+        is struggling to find inspiration for his next novel. He starts to attend
+        church hoping to receive some divine inspiration.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 13
       objectReference: {fileID: 0}
@@ -1373,6 +1379,12 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Dolf Fischer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Dolf Fischer, a retired sailor, finds his way to church. With seemingly
+        no fish within the valley lake, he doesn\u2019t know what to do with himself.
+        Maybe faith can help him achieve a larger sense of purpose."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
@@ -3413,6 +3425,11 @@ PrefabInstance:
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"I love this pair of vintage earrings! I know it\u2019s part-time
+        but if she could pay me enough\u2026\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -3791,7 +3808,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30230acf26e1fdb43914c8d887a6cd98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4900,6 +4917,12 @@ PrefabInstance:
       value: Ross Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Mia and Ross Becker, children of the village baker, show up to church
+        one day.\r\nMia says she wants to do what the grown ups do, and Ross seems
+        to be interested in following his sister wherever she goes.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 5
       objectReference: {fileID: 0}
@@ -5868,6 +5891,13 @@ PrefabInstance:
       value: Roger Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: The valley baker, and father to Ross and Mia, Roger Becker shows up
+        to church one day. While he had quietly led a life separate from the church,
+        providing food for the village, the situation with his children has led him
+        to search for answers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 37
       objectReference: {fileID: 0}
@@ -6189,6 +6219,13 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Old Maris
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Old Maris stumbles into church one day. It\u2019s unclear why the old
+        drunk would turn to faith now after residing in the valley for so long, yet
+        it seems as though his intoxication is helping him feel connected to the
+        divine."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
@@ -6595,7 +6632,10 @@ MonoBehaviour:
   TER: {fileID: 161415048}
   EER: {fileID: 1235029480}
   NCR: {fileID: 5442776086218395722}
-  NewCharacterSlot: {fileID: 5442776086218395723}
+  NewCharacterSlots:
+  - {fileID: 5442776086218395723}
+  - {fileID: 5442776086218395725}
+  - {fileID: 5442776086218395724}
   StartCharacters:
   - Ahimaz Kalmari
   - Hugh Friedrich
@@ -7266,6 +7306,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Severin Muller
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"Huntshire has so much history, when I was a kid, the church used
+        to be\u2026\""
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -8332,6 +8377,12 @@ PrefabInstance:
       value: Mia Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Mia and Ross Becker, children of the village baker, show up to church
+        one day.\r\nMia says she wants to do what the grown ups do, and Ross seems
+        to be interested in following his sister wherever she goes.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 5
       objectReference: {fileID: 0}
@@ -8901,6 +8952,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Amelia Thurston
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"Huntshire is\u2026 quite different from those towns I read from fairytales.\""
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -9580,7 +9635,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a62caeb7e67959b4ab4dabccda81f1f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10545,6 +10600,11 @@ PrefabInstance:
       value: Baron Meier
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"Which style of mustache fits me best? I\u2019m thinking of changing
+        mine to handlebar style!\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 25
       objectReference: {fileID: 0}
@@ -10770,7 +10830,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0f6e933fa22d7c34e84974ee131d1c7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10846,6 +10906,13 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Dino Vallis
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Dino and Enyo Vallis, Perley\u2019s younger twin sisters, come to church.
+        They are concerned for their sister as she has been out much more in the
+        past three months than she had in the entire previous year. They hope to
+        keep an eye on her to make sure she is safe."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
@@ -11062,6 +11129,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Arin Friedrich
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"Stop blaming me, Hugh. I didn\u2019t volunteer to adopt her! I was
+        forced.\""
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -11506,6 +11578,13 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Enyo Vallis
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "Dino and Enyo Vallis, Perley\u2019s younger twin sisters, come to church.
+        They are concerned for their sister as she has been out much more in the
+        past three months than she had in the entire previous year. They hope to
+        keep an eye on her to make sure she is safe."
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
@@ -12176,7 +12255,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 516eb0aa774a2a24897461280431b206, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13346,7 +13425,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a62caeb7e67959b4ab4dabccda81f1f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13792,7 +13871,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 516eb0aa774a2a24897461280431b206, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15243,7 +15322,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1171689855
@@ -16474,6 +16553,13 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Chloris Meier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: Baron and Chloris Meier are aristocrats who recently moved into the
+        village in order to leave their old life behind. While they still carry a
+        sense of superiority with them, they start attending church to become more
+        in touch with the common folk of the valley.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
@@ -18309,7 +18395,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1492583789
@@ -18940,7 +19026,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403921851
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: e05cddb873ae57d44ac01bd68cde56c6, type: 3}
   m_Color: {r: 0.01736, g: 0.029119996, b: 0.035, a: 1}
@@ -19514,6 +19600,11 @@ PrefabInstance:
       value: Hugh Friedrich
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: "\"Amelia, look what you\u2019ve done! From the beginning, I knew it
+        was a bad idea to adopt her!\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: EventCoolRate
       value: 5
       objectReference: {fileID: 0}
@@ -19920,7 +20011,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1637325127
@@ -20039,7 +20130,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 30230acf26e1fdb43914c8d887a6cd98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20218,7 +20309,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1687735565
@@ -20904,6 +20995,11 @@ PrefabInstance:
       value: Lydia Furst
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: Lydia Furst, the neighborhood grocer, approaches you one day. She claims
+        to have heard the call of the divine and would like to start attending church.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 9
       objectReference: {fileID: 0}
@@ -21159,7 +21255,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403921851
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: e05cddb873ae57d44ac01bd68cde56c6, type: 3}
   m_Color: {r: 0.01736, g: 0.029119996, b: 0.035, a: 1}
@@ -21299,7 +21395,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ec88b91a7c1fc5b4c9f2d5506fd04350, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21998,6 +22094,13 @@ PrefabInstance:
       value: Perley Vallis
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: IntroText
+      value: Perley Vallis is a sickly young adult who seldom leaves her house. Her
+        parents passed away a few years ago, so now she relies on her sisters to
+        take care of her. While she initially blamed god for her misfortunes, she
+        is now hoping that faith can ease her pain and lead her towards salvation.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
       value: 17
       objectReference: {fileID: 0}
@@ -22635,7 +22738,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e05cddb873ae57d44ac01bd68cde56c6, type: 3}
   m_Color: {r: 0.01736, g: 0.029119996, b: 0.035, a: 0.8509804}
@@ -23463,7 +23566,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1970975893
@@ -24283,7 +24386,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2021645695
@@ -24355,7 +24458,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f29b836682beda84882bf4f74ae2112b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25618,7 +25721,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ec88b91a7c1fc5b4c9f2d5506fd04350, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25749,7 +25852,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0f6e933fa22d7c34e84974ee131d1c7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25833,6 +25936,28 @@ MonoBehaviour:
 --- !u!114 &5442776086218395723 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 371172864838028881, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+  m_PrefabInstance: {fileID: 5442776086218395721}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac2ab73558d3c41b35e3bbb1cc38d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5442776086218395724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4831202501018502850, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+  m_PrefabInstance: {fileID: 5442776086218395721}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac2ab73558d3c41b35e3bbb1cc38d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5442776086218395725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7110078687268506905, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
   m_PrefabInstance: {fileID: 5442776086218395721}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -26061,7 +26186,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576102949
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9216673367497198262
