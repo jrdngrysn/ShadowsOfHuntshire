@@ -154,9 +154,9 @@ namespace THAN
             if (SacrificeSlot.GetCharacter())
                 SacrificeSlot.GetCharacter().Active = false;
 
-            PreGenerateEvent(out List<Character> NextList);
+            PreGenerateEvent(out Event NextEvent);
             PreGenerateTownEvent(out Event NextTownEvent);
-            if (!NextTownEvent && NextList.Count <= 0)
+            if (!NextTownEvent && !NextEvent)
             {
                 if (GetSacrificeActive())
                     yield return SacrificeProcess();
@@ -174,7 +174,7 @@ namespace THAN
                 //NextRenderTime(0f);
                 PlaySound("Event");
                 yield return TownEventProcess(NextTownEvent);
-                if (NextList.Count <= 0)
+                if (!NextEvent)
                 {
                     EndTurnAnim.Next(0.67f);
                     NextRenderTime(0.33f * EndTurnAnim.StepTime);
@@ -188,7 +188,7 @@ namespace THAN
                         yield return 0;
                     //NextRenderTime(0f);
                     PlaySound("Event");
-                    yield return IndividualEventProcess(NextList);
+                    yield return IndividualEventProcess(NextEvent);
                     EndTurnAnim.Next(0.34f);
                     while (EndTurnAnim.Animating)
                         yield return 0;
@@ -204,7 +204,7 @@ namespace THAN
                     yield return 0;
                 //NextRenderTime(0f);
                 PlaySound("Event");
-                yield return IndividualEventProcess(NextList);
+                yield return IndividualEventProcess(NextEvent);
                 EndTurnAnim.Next(0.34f);
                 while (EndTurnAnim.Animating)
                     yield return 0;
@@ -345,9 +345,9 @@ namespace THAN
             //yield return new WaitForSeconds(0.8f);
         }
 
-        public IEnumerator IndividualEventProcess(List<Character> Characters)
+        public IEnumerator IndividualEventProcess(Event E)
         {
-            yield return GenerateEvent(Characters);
+            yield return GenerateEvent(E);
             if (IndividualEventActive)
             {
                 while (IndividualEventActive)
@@ -391,7 +391,7 @@ namespace THAN
             TER.Activate(E, null);
         }
 
-        public void PreGenerateEvent(out List<Character> NL)
+        public void PreGenerateEvent(out Event E)
         {
             List<Character> Cs = new List<Character>();
             foreach (Character c in Characters)
@@ -401,12 +401,9 @@ namespace THAN
                 if (c.GetEvent())
                     Cs.Add(c);
             }
-            NL = Cs;
-        }
+            //NL = Cs;
 
-        public IEnumerator GenerateEvent(List<Character> Cs)
-        {
-            Event E = null;
+            E = null;
             Character C = null;
             int Priority = -1;
             foreach (Character Ca in Cs)
@@ -417,6 +414,22 @@ namespace THAN
                 E = Ca.GetEvent();
                 Priority = E.GetPriority(Ca.GetPair());
             }
+        }
+
+        public IEnumerator GenerateEvent(Event E)
+        {
+            /*Event E = null;
+            int Priority = -1;
+            foreach (Character Ca in Cs)
+            {
+                if (!Ca || !Ca.GetEvent() || Ca.GetEvent().GetPriority(Ca.GetPair()) <= Priority)
+                    continue;
+                C = Ca;
+                E = Ca.GetEvent();
+                Priority = E.GetPriority(Ca.GetPair());
+            }*/
+
+            Character C = E.GetSource();
 
             if (C)
                 C.OnTriggerEvent(E);
@@ -429,7 +442,7 @@ namespace THAN
             }
             else
             {
-                if (E.FreeSources.Count == 0)
+                if (E.FreeSources.Count == 0 && !E.IgnorePairing)
                 {
                     Pair P = C.GetPair();
                     P.ActivateMask();

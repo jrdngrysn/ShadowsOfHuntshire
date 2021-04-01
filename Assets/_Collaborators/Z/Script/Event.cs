@@ -11,6 +11,7 @@ namespace THAN
         [Space]
         public Event BaseEvent;
         public bool Active = true;
+        public bool IgnorePairing;
         [HideInInspector] public string RequiredKey;
         [HideInInspector] public int StartTime = -1;
         public int Priority;
@@ -40,7 +41,7 @@ namespace THAN
                 return false;
             if (GlobalControl.Main.CurrentTime < StartTime)
                 return false;
-            if (!P && FreeSources.Count <= 0)
+            if (!P && FreeSources.Count <= 0 && !IgnorePairing)
                 return false;
             foreach (string s in FreeSources)
                 if (!Character.Find(s) || !Character.Find(s).Active)
