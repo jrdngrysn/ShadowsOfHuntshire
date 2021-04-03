@@ -47,6 +47,9 @@ TagManager:
   - name: Tutorial
     uniqueID: 3042528599
     locked: 0
+  - name: Up
+    uniqueID: 2927208307
+    locked: 0
   - name: Pause
     uniqueID: 3718864347
     locked: 0
