@@ -320,6 +320,8 @@ namespace THAN
                     C += Source.GetPartner().GetName();
                 else if (Key == "Someone")
                     C += "Someone";
+                else if (Key == "The Command You Want To Add")
+                    C += "The Displayed Text";
                 else
                     C += Key;
             }
