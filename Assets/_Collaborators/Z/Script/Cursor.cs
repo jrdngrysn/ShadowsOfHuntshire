@@ -82,6 +82,8 @@ namespace THAN
                     continue;
                 if (S != GlobalControl.Main.NewCharacterSlot && GlobalControl.Main.NewCharacterActive)
                     continue;*/
+                if (GlobalControl.Main.NewCharacterSlots.Contains(S))
+                    continue;
                 float b = (S.GetPosition() - GetPosition()).magnitude;
                 if (b < a)
                 {

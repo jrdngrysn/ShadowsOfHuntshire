@@ -6723,7 +6723,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 489241541}
-  - component: {fileID: 489241542}
   m_Layer: 0
   m_Name: EventControl
   m_TagString: Untagged
@@ -6745,18 +6744,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &489241542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489241540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79066eab011c78948b01978d376712fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &494927754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
@@ -25930,6 +25917,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2800905021593424262, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586253035075241594, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413253, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_Name
       value: NewCardRenderer
@@ -25976,6 +25971,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413254, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474655807539552544, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

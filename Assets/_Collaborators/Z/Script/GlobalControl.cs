@@ -212,7 +212,7 @@ namespace THAN
             CurrentTime++;
             foreach (Character C in Characters)
             {
-                if (!C.Active && C.StartTime <= CurrentTime)
+                if (!C.Active && C.StartTime <= CurrentTime && C.ReturnTime < 0)
                     ActivateCharacter(C, true);
             }
             if (NewCharacters.Count > 0)
