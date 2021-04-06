@@ -25917,6 +25917,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2800905021593424262, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586253035075241594, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413253, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_Name
       value: NewCardRenderer
@@ -25963,6 +25971,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413254, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474655807539552544, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
