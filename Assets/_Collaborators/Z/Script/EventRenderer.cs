@@ -322,6 +322,10 @@ namespace THAN
                     C += "Someone";
                 else if (Key == "The Command You Want To Add")
                     C += "The Displayed Text";
+                else if (Key == "ONE")
+                    C += Source.GetName();
+                else if (Key == "TWO")
+                    C += Source.GetPartner().GetName();
                 else
                     C += Key;
             }
