@@ -17,6 +17,8 @@ namespace THAN
         [Space]
         public Slot SacrificeSlot;
         public List<int> SacrificeTimes;
+        public List<Event> RandomEvents;
+        [HideInInspector] public List<Event> CurrentRandomEvents;
         [Space]
         public EndTurnButton EndTurnAnim;
         public SacrificeSlot SacrificeAnim;
@@ -394,41 +396,61 @@ namespace THAN
         public void PreGenerateEvent(out Event E)
         {
             List<Character> Cs = new List<Character>();
+            List<Event> Es = new List<Event>();
             foreach (Character c in Characters)
             {
                 if (c.CurrentSlot && c.CurrentSlot == SacrificeSlot)
                     continue;
                 if (c.GetEvent())
+                {
+                    Es.Add(c.GetEvent());
                     Cs.Add(c);
+                }
             }
+            if (Pairs.Count > 0)
+            {
+                if (RandomEvents.Count > 0 && CurrentRandomEvents.Count <= 0)
+                    RandomEventIni();
+                Pair P = Pairs[Random.Range(0, Pairs.Count)];
+                Character Temp;
+                if (Random.Range(-0.99f, 0.99f) > 0)
+                    Temp = P.C1;
+                else
+                    Temp = P.C2;
+                if (!Temp)
+                    print("!!! Pairing Character Not Found !!!");
+                Event RE = CurrentRandomEvents[Random.Range(0, CurrentRandomEvents.Count)];
+                RE.Source = Temp.GetName();
+                Es.Add(RE);
+                Cs.Add(Temp);
+            }
+
             //NL = Cs;
 
             E = null;
             Character C = null;
             int Priority = -1;
-            foreach (Character Ca in Cs)
+            for (int i = 0; i < Es.Count; i++)
             {
-                if (!Ca || !Ca.GetEvent() || Ca.GetEvent().GetPriority(Ca.GetPair()) <= Priority)
+                if (!Cs[i] || !Es[i] || Es[i].GetPriority(Cs[i].GetPair()) <= Priority)
                     continue;
-                C = Ca;
-                E = Ca.GetEvent();
-                Priority = E.GetPriority(Ca.GetPair());
+                C = Cs[i];
+                E = Es[i];
+                Priority = Es[i].GetPriority(Cs[i].GetPair());
             }
+        }
+
+        public void RandomEventIni()
+        {
+            CurrentRandomEvents.Clear();
+            foreach (Event E in RandomEvents)
+                CurrentRandomEvents.Add(E);
         }
 
         public IEnumerator GenerateEvent(Event E)
         {
-            /*Event E = null;
-            int Priority = -1;
-            foreach (Character Ca in Cs)
-            {
-                if (!Ca || !Ca.GetEvent() || Ca.GetEvent().GetPriority(Ca.GetPair()) <= Priority)
-                    continue;
-                C = Ca;
-                E = Ca.GetEvent();
-                Priority = E.GetPriority(Ca.GetPair());
-            }*/
-
+            if (CurrentRandomEvents.Contains(E))
+                CurrentRandomEvents.Remove(E);
             Character C = E.GetSource();
 
             if (C)

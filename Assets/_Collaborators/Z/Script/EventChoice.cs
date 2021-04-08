@@ -5,10 +5,16 @@ using UnityEngine;
 namespace THAN
 {
     public class EventChoice : MonoBehaviour {
+        [HideInInspector] public Event E;
         public bool TriggerSequence = true;
         [TextArea]
         public string Content;
         public string EffectText;
+
+        public virtual void Awake()
+        {
+            E = GetComponentInParent<Event>();
+        }
 
         public virtual void Effect(List<Character> Characters, out Event AddEvent)
         {

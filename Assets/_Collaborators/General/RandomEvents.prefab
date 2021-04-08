@@ -147,7 +147,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*TWO* tells you that they have been hearing a low whispering around the
     church grounds late at night.'
@@ -497,7 +497,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*ONE* reports they have noticed that *TWO* has been extremely tired and
     lethargic the past month.'
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*ONE* and *TWO* come to you with a proposal. *ONE* thought it would be
     a good idea to get a shipment of desserts from outside the village as a treat
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*TWO* and *ONE* are worried as after a long sermon *TWO* weeks ago, they
     have both slowly lost all sense of taste.'
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*TWO* and *ONE* report that they have been seeing strange glowing lights
     in the forest surrounding the village.'
@@ -2076,7 +2076,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: "*ONE* has been notably absent at your sermons recently. When confronted,
     they explain they had thought they had been going as normal. *TWO* hasn\u2019t
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*ONE* comes to tell you that they noticed *TWO* has been disappearing
     for a few hours every night. They are concerned and felt it was important to
@@ -2503,7 +2503,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: "*ONE* reports hearing constant loud and disturbing violin music coming
     from *TWO*\u2019s home in the evening, but *TWO* assures you they have never
@@ -2567,7 +2567,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: '*ONE* accuses *TWO* of carving strange symbols onto the outside of their
     door in the night. *TWO* vehemently denies doing so.
@@ -2633,7 +2633,7 @@ MonoBehaviour:
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Priority: 0
+  Priority: 1
   PMods: []
   Content: 'Both *ONE* and *TWO* have come down with an intense sickness out of nowhere.
     They have been bedridden for the last week. '

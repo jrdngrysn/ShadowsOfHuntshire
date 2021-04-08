@@ -324,7 +324,7 @@ namespace THAN
                     C += "The Displayed Text";
                 else if (Key == "ONE")
                     C += Source.GetName();
-                else if (Key == "TWO")
+                else if (Key == "TWO" && Source.GetPartner())
                     C += Source.GetPartner().GetName();
                 else
                     C += Key;
