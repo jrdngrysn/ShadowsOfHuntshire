@@ -248,9 +248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Assure them that they must have just been seeing things and not to worry
-    about these lights. '
+  Content: "They must have been seeing things and shouldn\u2019t worry about the
+    lights."
   EffectText: +1 passion, -2 reason
   Effects:
   - {fileID: 8870458131140799767}
@@ -386,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Blame this effect on some bad food they must have eaten.
   EffectText: -2 vitality
@@ -436,9 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: Hold a mandatory sermon about the importance of being open and truthful
-    with your fellow church members.
+  Content: Hold a sermon about the importance of truthfulness.
   EffectText: -2 passion, +1 reason
   Effects:
   - {fileID: 8870458131096464327}
@@ -613,6 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Scold *ONE* for their forgetfulness and *TWO* for their inaction.
   EffectText: -2 reason
@@ -710,9 +713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Explain that the nightmares are actually messages from the divine and
-    hold a special ceremony in honor of *TWO*\u2019s divine connection."
+  Content: The nightmares are omens. Hold a ceremony honoring this divine connection.
   EffectText: -3 passion, +3 reason
   Effects:
   - {fileID: 8870458130789129318}
@@ -808,6 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Punish *ONE* and *TWO* with manual labor in the church.
   EffectText: -3 vitality
@@ -858,9 +862,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: Announce *ONE* and *TWO* are participating in a special ritual and no
-    *ONE* should pay any mind to their condition.
+  Content: Cover up the truth of their illness.
   EffectText: -3 vitality, +1 passion
   Effects:
   - {fileID: 8870458130951020271}
@@ -956,6 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: "Having some variety in our foods couldn\u2019t hurt."
   EffectText: +2 vitality, -1 reason
@@ -1305,9 +1310,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Remind them that the church grounds are sacred and it is forbidden to
-    enter them on their own. Reprimand *ONE* for not keeping a closer eye on *TWO*. '
+  Content: Reprimand them as it is forbidden to enter the church grounds on their
+    own.
   EffectText: +1 reason
   Effects:
   - {fileID: 8870458131110724837}
@@ -1450,6 +1456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: "Disregard *ONE*\u2019s account of the music. "
   EffectText: +1 passion, -2 reason
@@ -1500,9 +1507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: Thank *ONE* for bringing this to your attention and assure them you will
-    reprimand *TWO* swiftly.
+  Content: 'Reprimand *TWO* swiftly. '
   EffectText: +1 vitality, -2 passion
   Effects:
   - {fileID: 8870458130408759817}
@@ -1661,6 +1668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Tell them it must just be the rustling of the trees in the wind.
   EffectText: +1 passion
@@ -1758,9 +1766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: Hold a ceremony reinforcing that devotion to the church will save us all
-    and any personal health issues are a result of insufficient dedication.
+  Content: Personal health issues are a result of insufficient dedication to the
+    church.
   EffectText: -2 vitality, -1 passion, +1 reason
   Effects:
   - {fileID: 8870458132085931121}
@@ -1856,9 +1865,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Assure them it must be a trick of the mind and their taste will return
-    soon enough. '
+  Content: Assure them it must be a trick of the mind and their taste will return
+    soon.
   EffectText: -1 vitality, -1 reason
   Effects:
   - {fileID: 8870458131729896531}
@@ -1907,6 +1917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Chastise *TWO* for lying.
   EffectText: -2 passion
@@ -2131,9 +2142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Blame *TWO*\u2019s nightmares on their inability to properly take care
-    of themself."
+  Content: "Blame *TWO*\u2019s nightmares on their inability to take care of themself. "
   EffectText: -2 vitality, +2 passion
   Effects:
   - {fileID: 8870458131118093256}
@@ -2293,6 +2304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: It would be best to avoid unnecessary dealings with the outside world.
   EffectText: -1 vitality, -1 passion, +1 reason
@@ -2343,9 +2355,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
-  Content: Explain that the lights are signs from the divine and their appearance
-    is a sign our work is being seen.
+  Content: The lights are signs from the divine and mean our work is being seen.
   EffectText: +1 vitality, -3 passion, +1 reason
   Effects:
   - {fileID: 8870458131346669890}
@@ -2394,6 +2406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Shame *TWO* for lying.
   EffectText: -1 passion
@@ -2444,6 +2457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Tell *ONE* to ignore the symbols.
   EffectText: -2 reason
