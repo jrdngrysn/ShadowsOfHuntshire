@@ -10,9 +10,12 @@ namespace THAN
         public List<string> FreeSources;
         [Space]
         public Event BaseEvent;
-        public string RequiredKey;
-        public int StartTime = -1;
         public bool Active = true;
+        public bool IgnorePairing;
+        [HideInInspector] public string RequiredKey;
+        [HideInInspector] public int StartTime = -1;
+        public int Priority;
+        public List<PriorityModifier> PMods;
         [TextArea]
         public string Content;
         public List<EventPage> Pages;
@@ -38,7 +41,7 @@ namespace THAN
                 return false;
             if (GlobalControl.Main.CurrentTime < StartTime)
                 return false;
-            if (!P && FreeSources.Count <= 0)
+            if (!P && FreeSources.Count <= 0 && !IgnorePairing)
                 return false;
             foreach (string s in FreeSources)
                 if (!Character.Find(s) || !Character.Find(s).Active)
@@ -91,6 +94,14 @@ namespace THAN
                 return 0;
             else
                 return Pages.Count - 1;
+        }
+
+        public int GetPriority(Pair P)
+        {
+            int a = Priority;
+            foreach (PriorityModifier PM in PMods)
+                a = PM.GetPriority(a, GetSource(), P);
+            return Priority;
         }
     }
 }

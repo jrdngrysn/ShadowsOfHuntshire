@@ -52,8 +52,9 @@ namespace THAN
             }
             else
             {
-                EmptyText.text = EC.GetContent();
-                SelectingText.text = EC.GetContent();
+                string s = ER.ProcessContent(EC.GetContent(), EC.E.GetSource());
+                EmptyText.text = s;
+                SelectingText.text = s;
                 EffectText.text = EC.EffectText;
                 SelectingEffectText.text = EC.EffectText;
             }

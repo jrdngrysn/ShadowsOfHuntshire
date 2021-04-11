@@ -34,7 +34,7 @@ namespace THAN
 
         public void Effect()
         {
-            if (!GlobalControl.Main.GetBoardActive())
+            if (!GlobalControl.Main.GetBoardActive()/* && GetSelectingSlot() != GlobalControl.Main.NewCharacterSlot*/)
                 return;
 
             if (!GlobalControl.Main.HoldingCharacter)
@@ -77,6 +77,12 @@ namespace THAN
             foreach (Slot S in GlobalControl.Main.Slots)
             {
                 if (S == GlobalControl.Main.SacrificeSlot && !GlobalControl.Main.GetSacrificeActive())
+                    continue;
+                /*if (S == GlobalControl.Main.NewCharacterSlot && !GlobalControl.Main.NewCharacterActive)
+                    continue;
+                if (S != GlobalControl.Main.NewCharacterSlot && GlobalControl.Main.NewCharacterActive)
+                    continue;*/
+                if (GlobalControl.Main.NewCharacterSlots.Contains(S))
                     continue;
                 float b = (S.GetPosition() - GetPosition()).magnitude;
                 if (b < a)

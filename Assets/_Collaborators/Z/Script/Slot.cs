@@ -10,7 +10,7 @@ namespace THAN
         public Vector2 ERPosition;
         public Character CurrentCharacter;
 
-        public void Awake()
+        public virtual void Awake()
         {
             if (IniActive)
                 GlobalControl.Main.AddSlot(this);
@@ -64,13 +64,13 @@ namespace THAN
             return transform.position;
         }
 
-        public void OnMouseEnter()
+        public virtual void OnMouseEnter()
         {
-            if (GlobalControl.Main.GetBoardActive())
+            if (GlobalControl.Main.GetBoardActive() && !GlobalControl.Main.NewCharacterActive)
                 GlobalControl.Main.SelectingSlot = this;
         }
 
-        public void OnMouseExit()
+        public virtual void OnMouseExit()
         {
             if (GlobalControl.Main.SelectingSlot == this)
                 GlobalControl.Main.SelectingSlot = null;
