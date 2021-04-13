@@ -78,10 +78,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Sargent
-  Description: When *Character_Name* has 22 or more vitality they activate this ability.
-    While Sargent is active, if *Character_Name* is unpaired, all other characters
-    will have their reason reduced by 5. *Character_Name* will then have their vitality
-    reduced by 8 and their passion increased to 15.
+  Description: 'Sargent: When *Character_Name* has 22 or more vitality they activate
+    this ability. While Sargent is active, if *Character_Name* is unpaired, all other
+    characters will have their reason reduced by 5. *Character_Name* will then have
+    their vitality reduced by 8 and their passion increased to 15.'
 --- !u!114 &8553602557013517821
 MonoBehaviour:
   m_ObjectHideFlags: 0

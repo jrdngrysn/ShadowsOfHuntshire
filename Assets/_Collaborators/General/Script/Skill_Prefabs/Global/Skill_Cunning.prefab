@@ -78,10 +78,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Cunning
-  Description: When *Character_Name* has 22 or more reason they activate this ability.
-    While Genius is active, if *Character_Name* is unpaired, all other characters
-    will have their passion reduced by 5. *Character_Name* will then have their reason
-    reduced by 8 and their vitality increased to 15.
+  Description: 'Cunning: When *Character_Name* has 22 or more reason they activate
+    this ability. While Genius is active, if *Character_Name* is unpaired, all other
+    characters will have their passion reduced by 5. *Character_Name* will then have
+    their reason reduced by 8 and their vitality increased to 15.'
 --- !u!114 &-3814871793275732757
 MonoBehaviour:
   m_ObjectHideFlags: 0

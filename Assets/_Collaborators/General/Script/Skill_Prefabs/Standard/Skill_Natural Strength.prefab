@@ -75,11 +75,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Intimidate
-  Description: When *Character_Name* has 18 or more vitality they activate this ability.
-    While Intimidate is active, any character paired with *Character_Name* will have
-    their reason reduced by 4. *Character_Name* will then have their vitality reduced
-    by 4.
+  Title: Natural Strength
+  Description: 'Natural Strength: When *Character_Name* has 18 or more vitality they
+    activate this ability. While Natural Strength is active, any character paired
+    with *Character_Name* will have their reason reduced by 4. *Character_Name* will
+    then have their vitality reduced by 4.'
 --- !u!114 &-7517822439761858076
 MonoBehaviour:
   m_ObjectHideFlags: 0
