@@ -101,7 +101,7 @@ namespace THAN
             int a = Priority;
             foreach (PriorityModifier PM in PMods)
                 a = PM.GetPriority(a, GetSource(), P);
-            return Priority;
+            return a;
         }
     }
 }

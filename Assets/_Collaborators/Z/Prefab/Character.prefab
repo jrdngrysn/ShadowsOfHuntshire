@@ -1275,7 +1275,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2435296808903291813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   EventCoolDown: 0
   SacrificeToken: 0
   StartTime: 9999
-  ReturnTime: 9999
+  ReturnTime: -1
   Active: 0
   Skills: []
   CurrentSkill: {fileID: 0}
@@ -3195,7 +3195,7 @@ Transform:
   m_GameObject: {fileID: 5142570313193347545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children:
   - {fileID: 6567330409691544618}
   - {fileID: 1468938843566904279}
@@ -3889,7 +3889,7 @@ MonoBehaviour:
   TargetIndex: 0
   SR: {fileID: 1632471276402979117}
   ActiveSprite: {fileID: 21300000, guid: 6d888074677c4c949a151388828eef84, type: 3}
-  DisableSprite: {fileID: 21300000, guid: 7b9e159947454f24dae03c3d809b1a13, type: 3}
+  DisableSprite: {fileID: 21300000, guid: bcf4a85fc212aec499bdbacaabd76874, type: 3}
 --- !u!212 &1632471276402979117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3930,7 +3930,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6d888074677c4c949a151388828eef84, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcf4a85fc212aec499bdbacaabd76874, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

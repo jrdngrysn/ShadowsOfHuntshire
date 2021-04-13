@@ -18,7 +18,7 @@ namespace THAN
         public int EventCoolDown;
         [HideInInspector] public int SacrificeToken;
         public int StartTime = -1;
-        [HideInInspector] public int ReturnTime = 9999;
+        public int ReturnTime = -1;
         public bool Active;
         [Space]
         public List<Skill> Skills;
@@ -215,6 +215,7 @@ namespace THAN
                 {
                     TE = E;
                     Priority = E.GetPriority(GetPair());
+                    print("Event " + E.gameObject.name + "; Character " + E.GetSource() + "; Priority " + Priority);
                 }
             }
             return TE;
@@ -475,7 +476,7 @@ namespace THAN
         {
             if (!Active)
             {
-                if (ReturnTime <= GlobalControl.Main.CurrentTime)
+                if (ReturnTime >= 0 && ReturnTime <= GlobalControl.Main.CurrentTime)
                 {
                     GlobalControl.Main.ActivateCharacter(this, false);
                     GetKeyBase().SetKey("Return", 1);

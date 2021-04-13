@@ -316,15 +316,15 @@ namespace THAN
                     break;
                 string Key = S.Substring(0, S.IndexOf("*"));
                 S = S.Substring(S.IndexOf("*") + 1);
-                if (Key == "Someone" && Source.GetPartner())
+                if (Key == "Someone" && Source && Source.GetPartner())
                     C += Source.GetPartner().GetName();
                 else if (Key == "Someone")
                     C += "Someone";
                 else if (Key == "The Command You Want To Add")
                     C += "The Displayed Text";
-                else if (Key == "ONE")
+                else if (Key == "ONE" && Source)
                     C += Source.GetName();
-                else if (Key == "TWO" && Source.GetPartner())
+                else if (Key == "TWO" && Source && Source.GetPartner())
                     C += Source.GetPartner().GetName();
                 else
                     C += Key;
