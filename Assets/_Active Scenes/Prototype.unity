@@ -764,6 +764,17 @@ MonoBehaviour:
   - "Sorry I have to leave now\u2026 Hugh and Arin would be furious if I wasn\u2019t
     at home."
   - "Huntshire is\u2026 quite different from those towns I read from fairytales."
+--- !u!114 &81739362 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686535220329, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &85923639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -788,10 +799,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -812,6 +819,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -823,18 +834,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -859,12 +858,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -879,6 +886,10 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1270363877708833968, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -955,6 +966,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 16.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7729768860333772239, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1038,10 +1053,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -1058,6 +1069,10 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -1069,14 +1084,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -1105,6 +1112,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -1120,6 +1131,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -1249,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Dolf Fischer
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5691007311618604778, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1266,12 +1285,12 @@ PrefabInstance:
       value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.48
       objectReference: {fileID: 0}
     - target: {fileID: 8613989996409310965, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_IsActive
@@ -2413,10 +2432,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -2433,6 +2448,10 @@ PrefabInstance:
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Time to go home and prepare for the dinner!
       objectReference: {fileID: 0}
@@ -2446,13 +2465,13 @@ PrefabInstance:
       value: Ooh, hey! I can tell you if you want to hear more about recent news
         happening in this town!
       objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
+    - target: {fileID: 2375848929370302870, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
+    - target: {fileID: 2493670747728032527, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -2470,6 +2489,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -2492,6 +2515,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Ooh, hey! I can tell you if you want to hear more about recent news
         happening in this town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -2547,15 +2574,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462974425254, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207418463375492861, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3207418463383677010, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
-      value: 22
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
@@ -2569,6 +2596,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -517894308114096243, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2586,16 +2617,20 @@ PrefabInstance:
       value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 5927606764388573318, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136742285730515698, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7787088056275346464, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_IsActive
@@ -3690,10 +3725,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -3710,6 +3741,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -3721,14 +3756,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -3761,6 +3788,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Stop doing that, that tickles!
       objectReference: {fileID: 0}
@@ -3778,17 +3809,49 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1037809695}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
-      objectReference: {fileID: 177818380}
+      objectReference: {fileID: 2039799563}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[1]
       value: 
-      objectReference: {fileID: 1005147608}
+      objectReference: {fileID: 2114081406}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[2]
       value: 
-      objectReference: {fileID: 889481147}
+      objectReference: {fileID: 1038852757}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[3]
+      value: 
+      objectReference: {fileID: 732907305}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[4]
+      value: 
+      objectReference: {fileID: 1042623637}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[5]
+      value: 
+      objectReference: {fileID: 1832291389}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[6]
+      value: 
+      objectReference: {fileID: 495345468}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[7]
+      value: 
+      objectReference: {fileID: 651819546}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[8]
+      value: 
+      objectReference: {fileID: 1562959016}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[9]
+      value: 
+      objectReference: {fileID: 1442564448}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Ross Becker
@@ -3857,6 +3920,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Ross Becker
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4256427906160430202, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4505,10 +4572,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4537,6 +4600,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4548,18 +4615,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4585,12 +4640,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -4605,6 +4668,10 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 873755264}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -4681,6 +4748,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3083089168873209362, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4847,10 +4918,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4879,6 +4946,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4890,10 +4961,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4917,6 +4984,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -5007,6 +5078,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7232779301871914677, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5377,6 +5452,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe28a38fd7642249b960ee3e75fff83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &495345468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686389017911, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &502340502
 GameObject:
   m_ObjectHideFlags: 0
@@ -5649,10 +5735,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -5669,6 +5751,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -5680,14 +5766,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -5705,6 +5783,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -5728,6 +5810,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Please guide the residents and show them the right path to the spiritual
         world.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -5796,6 +5882,26 @@ PrefabInstance:
     - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
       value: Severin Muller
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_fontSize
+      value: 13.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Size.x
+      value: 3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Size.y
+      value: 3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7232779301871914677, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
@@ -6230,10 +6336,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6250,6 +6352,10 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -6261,18 +6367,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -6297,12 +6391,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -6319,9 +6421,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1687735566}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
-      objectReference: {fileID: 124295877}
+      objectReference: {fileID: 1733223938}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[1]
+      value: 
+      objectReference: {fileID: 1942527541}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[2]
+      value: 
+      objectReference: {fileID: 2145965396}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[3]
+      value: 
+      objectReference: {fileID: 2032930054}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[4]
+      value: 
+      objectReference: {fileID: 1034654923}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[5]
+      value: 
+      objectReference: {fileID: 1834980963}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[6]
+      value: 
+      objectReference: {fileID: 815483789}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Mia Becker
@@ -6394,6 +6524,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4572274602858593414, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6407,12 +6541,12 @@ PrefabInstance:
       value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -6698,10 +6832,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6722,6 +6852,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -6734,9 +6868,13 @@ PrefabInstance:
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
       objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
+    - target: {fileID: 2375848929370302870, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493670747728032527, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: '?'
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -6753,6 +6891,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -6776,6 +6918,14 @@ PrefabInstance:
       value: "Can I go play with other kids? Please! We\u2019re gonna have an adventure
         in the church!"
       objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.data[0]
+      value: 
+      objectReference: {fileID: 81739362}
     - target: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Name
       value: Amelia Thurston
@@ -6830,11 +6980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418463375492861, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418463383677010, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_text
@@ -6844,14 +6994,14 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 16.6
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7755224123621818408, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2d1957eb8475d9948b778e2ed949cb75, type: 3}
-    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.45
-      objectReference: {fileID: 0}
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.5
@@ -6859,6 +7009,14 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalScale.y
       value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136742285730515698, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_text
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -7132,6 +7290,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 651809480}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &651819546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289687038650385, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &671571594
 GameObject:
   m_ObjectHideFlags: 0
@@ -7647,6 +7816,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa7c15d5b57bb4bcca5c1f60c8e345e5, type: 3}
+--- !u!114 &732907305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289687230436642, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &748260384 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3207418462324221636, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -7780,10 +7960,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -7808,6 +7984,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -7819,10 +7999,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -7852,6 +8028,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -7938,6 +8118,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3557554893070573299, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8108,10 +8292,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8128,6 +8308,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8139,10 +8323,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8166,6 +8346,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -8256,6 +8440,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1893670189769602202, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8343,10 +8531,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8363,6 +8547,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8374,10 +8562,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8395,6 +8579,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -8478,6 +8666,14 @@ PrefabInstance:
       propertyPath: m_text
       value: Arin Friedrich
       objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_fontSize
+      value: 14.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7232779301871914677, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8522,6 +8718,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8612ce65373513849abf02352ee964bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &815483789 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686875232646, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &815625400
@@ -8788,10 +8995,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8816,6 +9019,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8827,14 +9034,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8860,12 +9059,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -8968,6 +9175,10 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 10671325
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -417436994572597314, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -10515,6 +10726,17 @@ MonoBehaviour:
   Choices:
   - {fileID: 1926083122}
   - {fileID: 346937752}
+--- !u!114 &1034654923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686928656064, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1034885231
 GameObject:
   m_ObjectHideFlags: 0
@@ -10663,6 +10885,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1038852757 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686924472478, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1042623637 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686919397022, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1043915987
@@ -12563,10 +12807,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -12591,6 +12831,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -12602,14 +12846,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -12635,6 +12871,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -12650,6 +12890,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -12727,6 +12971,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6066236442320969475, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -13273,6 +13521,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7815556944893554892, guid: 3a93c1ec3e6d5614bafdf2b0c8d228f9, type: 3}
   m_PrefabInstance: {fileID: 1428925019}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1442564448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685178604395, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1453836484
 GameObject:
   m_ObjectHideFlags: 0
@@ -14616,6 +14875,17 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
+--- !u!114 &1562959016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685326384803, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1564223686
 GameObject:
   m_ObjectHideFlags: 0
@@ -14829,10 +15099,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -14849,6 +15115,10 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -14860,10 +15130,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -14893,6 +15159,10 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -14974,6 +15244,14 @@ PrefabInstance:
       propertyPath: m_text
       value: Hugh Friedrich
       objectReference: {fileID: 0}
+    - target: {fileID: 3352685100241109829, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_fontSize
+      value: 13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7232779301871914677, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -15694,6 +15972,17 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
+--- !u!114 &1733223938 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685957506057, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737394156
 GameObject:
   m_ObjectHideFlags: 0
@@ -16004,10 +16293,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -16032,6 +16317,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -16043,18 +16332,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -16078,12 +16355,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -16098,6 +16383,10 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1937231895}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -16178,6 +16467,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Lydia Furst
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3102994270238535240, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -16673,6 +16966,28 @@ Transform:
   m_Father: {fileID: 1393445309}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1832291389 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686129974838, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1834980963 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289686124135528, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1846251075
 GameObject:
   m_ObjectHideFlags: 0
@@ -16843,10 +17158,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -16863,6 +17174,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -16874,14 +17189,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -16907,6 +17214,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -16922,6 +17233,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -17003,6 +17318,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3589533620568073313, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1189779305756619486, guid: 7be7cbd0ef2f8a5458963e9777dec734, type: 3}
     - target: {fileID: 5516221258392426053, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -17641,6 +17960,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b54ff118c5097f148a435615bf3aa756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1942527541 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685747895358, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1943979780
@@ -18790,6 +19120,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
   m_PrefabInstance: {fileID: 2032548532}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2032930054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685930123021, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2036237016 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1934446803983912974, guid: 9d44f57593b160e45ad47f99e21222b8, type: 3}
@@ -18846,6 +19187,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 1113706642}
   ActiveEvent: {fileID: 0}
+--- !u!114 &2039799563 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685918043392, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2048113450 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3254293764674523945, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
@@ -19213,6 +19565,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 1976522641}
   ActiveEvent: {fileID: 0}
+--- !u!114 &2114081406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685844017269, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2124681107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19275,6 +19638,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7055869594591708686, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
   m_PrefabInstance: {fileID: 2124681107}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145965396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8419289685817116511, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &307048759446320954
 Transform:
   m_ObjectHideFlags: 0
@@ -19880,6 +20254,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1001 &8419289686615626251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685789149493, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: m_Name
+      value: BeckerEvents
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
 --- !u!4 &8438349491748057720
 Transform:
   m_ObjectHideFlags: 0

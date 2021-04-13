@@ -18,15 +18,18 @@ namespace THAN
         public int EventCoolDown;
         [HideInInspector] public int SacrificeToken;
         public int StartTime = -1;
-        [HideInInspector] public int ReturnTime = 9999;
+        public int ReturnTime = -1;
         public bool Active;
         [Space]
         public List<Skill> Skills;
         public Skill CurrentSkill;
         [Space]
         public TextMeshPro VitalityText;
+        public TextMeshPro VitalityTextII;
         public TextMeshPro PassionText;
+        public TextMeshPro PassionTextII;
         public TextMeshPro ReasonText;
+        public TextMeshPro ReasonTextII;
         public GameObject VitalityLimit;
         public GameObject PassionLimit;
         public GameObject ReasonLimit;
@@ -100,6 +103,8 @@ namespace THAN
                 || GlobalControl.Main.NewCharacters.Contains(this));
             if (!GetHidden_Vitality())
             {
+                //VitalityText.text = (int)(GetVitality() / 10) + "";
+                //VitalityTextII.text = (int)(GetVitality() % 10) + "";
                 VitalityText.text = GetVitality() + "";
                 if (GetVitality() > GlobalControl.Main.GetVitalityLimit())
                     VitalityLimit.SetActive(true);
@@ -108,12 +113,16 @@ namespace THAN
             }
             else
             {
+                //VitalityText.text = "?";
+                //VitalityTextII.text = "?";
                 VitalityText.text = "??";
                 VitalityLimit.SetActive(false);
             }
 
             if (!GetHidden_Passion())
             {
+                //PassionText.text = (int)(GetPassion() / 10) + "";
+                //PassionTextII.text = (int)(GetPassion() % 10) + "";
                 PassionText.text = GetPassion() + "";
                 if (GetPassion() > GlobalControl.Main.GetPassionLimit())
                     PassionLimit.SetActive(true);
@@ -122,12 +131,16 @@ namespace THAN
             }
             else
             {
+                //PassionText.text = "?";
+                //PassionTextII.text = "?";
                 PassionText.text = "??";
                 PassionLimit.SetActive(false);
             }
 
             if (!GetHidden_Reason())
             {
+                //ReasonText.text = (int)(GetReason() / 10) + "";
+                //ReasonTextII.text = (int)(GetReason() % 10) + "";
                 ReasonText.text = GetReason() + "";
                 if (GetReason() > GlobalControl.Main.GetReasonLimit())
                     ReasonLimit.SetActive(true);
@@ -136,6 +149,8 @@ namespace THAN
             }
             else
             {
+                //ReasonText.text = "?";
+                //ReasonTextII.text = "?";
                 ReasonText.text = "??";
                 ReasonLimit.SetActive(false);
             }
@@ -200,6 +215,7 @@ namespace THAN
                 {
                     TE = E;
                     Priority = E.GetPriority(GetPair());
+                    print("Event " + E.gameObject.name + "; Character " + E.GetSource() + "; Priority " + Priority);
                 }
             }
             return TE;
@@ -460,7 +476,7 @@ namespace THAN
         {
             if (!Active)
             {
-                if (ReturnTime <= GlobalControl.Main.CurrentTime)
+                if (ReturnTime >= 0 && ReturnTime <= GlobalControl.Main.CurrentTime)
                 {
                     GlobalControl.Main.ActivateCharacter(this, false);
                     GetKeyBase().SetKey("Return", 1);
@@ -580,7 +596,10 @@ namespace THAN
             float a = Info.Vitality + Value;
             if (a < 1)
                 a = 1;
-            Anim.SetTrigger("VitalityChange");
+            if (Value > 0)
+                Anim.SetTrigger("VitalityChange");
+            else
+                Anim.SetTrigger("VitalityChangeII");
             SetVitality(a);
         }
 
@@ -601,7 +620,10 @@ namespace THAN
             float a = Info.Passion + Value;
             if (a < 1)
                 a = 1;
-            Anim.SetTrigger("PassionChange");
+            if (Value > 0)
+                Anim.SetTrigger("PassionChange");
+            else
+                Anim.SetTrigger("PassionChangeII");
             SetPassion(a);
         }
 
@@ -622,7 +644,10 @@ namespace THAN
             float a = Info.Reason + Value;
             if (a < 1)
                 a = 1;
-            Anim.SetTrigger("ReasonChange");
+            if (Value > 0)
+                Anim.SetTrigger("ReasonChange");
+            else
+                Anim.SetTrigger("ReasonChangeII");
             SetReason(a);
         }
 
