@@ -799,6 +799,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -819,10 +823,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -834,6 +834,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -858,20 +870,12 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -886,10 +890,6 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1270363877708833968, guid: 148a0f33da17d416c9c4afa11a757f5c, type: 3}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -1053,6 +1053,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -1069,10 +1073,6 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -1084,6 +1084,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -1112,10 +1120,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -1131,10 +1135,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -2432,6 +2432,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -2446,10 +2450,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Vitality
       value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -2474,6 +2474,14 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -2489,10 +2497,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -2515,10 +2519,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Ooh, hey! I can tell you if you want to hear more about recent news
         happening in this town!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -3725,6 +3725,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -3741,10 +3745,6 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -3756,6 +3756,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -3788,10 +3796,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Stop doing that, that tickles!
       objectReference: {fileID: 0}
@@ -3808,10 +3812,6 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1037809695}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -4572,6 +4572,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4600,10 +4604,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4615,6 +4615,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4640,20 +4652,12 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -4668,10 +4672,6 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 873755264}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -4918,6 +4918,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -4946,10 +4950,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -4961,6 +4961,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -4984,10 +4988,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -5735,6 +5735,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -5751,10 +5755,6 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -5766,6 +5766,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -5783,10 +5791,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -5810,10 +5814,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Please guide the residents and show them the right path to the spiritual
         world.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -6336,6 +6336,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6352,10 +6356,6 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -6367,6 +6367,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -6391,20 +6403,12 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -6420,10 +6424,6 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1687735566}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -6832,6 +6832,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -6850,10 +6854,6 @@ PrefabInstance:
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Hidden_Reason
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -6877,6 +6877,14 @@ PrefabInstance:
       value: '?'
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Amelia Thurston
       objectReference: {fileID: 0}
@@ -6891,10 +6899,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -6917,10 +6921,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: "Can I go play with other kids? Please! We\u2019re gonna have an adventure
         in the church!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -7960,6 +7960,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -7984,10 +7988,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -7999,6 +7999,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8028,10 +8032,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -8292,6 +8292,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8308,10 +8312,6 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8323,6 +8323,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8346,10 +8350,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -8531,6 +8531,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -8547,10 +8551,6 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -8562,6 +8562,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -8579,10 +8583,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
@@ -8995,6 +8995,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -9019,10 +9023,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -9034,6 +9034,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -9059,20 +9067,12 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -12807,6 +12807,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -12831,10 +12835,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -12846,6 +12846,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -12871,10 +12879,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -12890,10 +12894,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
@@ -15099,6 +15099,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -15115,10 +15119,6 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -15130,6 +15130,10 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -15159,10 +15163,6 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -16293,6 +16293,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -16317,10 +16321,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -16332,6 +16332,18 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Skills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -16355,20 +16367,12 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Skills.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
@@ -16383,10 +16387,6 @@ PrefabInstance:
       propertyPath: Skills.Array.data[0]
       value: 
       objectReference: {fileID: 1937231895}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
       value: 
@@ -17158,6 +17158,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -17174,10 +17178,6 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.data[0]
       value: Hey! Watch yourself!
       objectReference: {fileID: 0}
@@ -17189,6 +17189,14 @@ PrefabInstance:
       propertyPath: Barks.Array.data[2]
       value: Amelia, look what she has done! From the beginning, I knew it was a
         bad idea to adopt her!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: Barks.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: AddRepeatEvents.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
@@ -17214,10 +17222,6 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: TargetPosition.x
       value: 110
       objectReference: {fileID: 0}
@@ -17233,10 +17237,6 @@ PrefabInstance:
       propertyPath: Barks.Array.data[1]
       value: "I bet you\u2019ve heard those rumors\u2026 please ignore them, those
         are just impious lies."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: AddRepeatEvents.Array.size
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: AddRepeatEvents.Array.data[0]
