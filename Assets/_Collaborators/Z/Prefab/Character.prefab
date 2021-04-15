@@ -1686,6 +1686,8 @@ MonoBehaviour:
   ToolPivot_Reason: {fileID: 6678479765616643228}
   TooltipDelay: {x: 0, y: 0}
   SI: {fileID: 7422348192728770232}
+  InfoRangeX: {x: -4.38, y: 4.38}
+  InfoRangeY: {x: 9.11, y: 10.91}
   StatusRendereActive: 0
   CurrentSlot: {fileID: 0}
   CurrentPair: {fileID: 0}
@@ -1773,6 +1775,7 @@ MonoBehaviour:
   - {fileID: 2493670747728032527}
   CurrentMaskDelay: 0
   IntroText: 
+  InfoText: 
 --- !u!114 &1907539348224468110
 MonoBehaviour:
   m_ObjectHideFlags: 0
