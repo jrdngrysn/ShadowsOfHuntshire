@@ -39,6 +39,9 @@ namespace THAN
         public List<Pair> MaskedPairs;
         public List<Character> NewCharacters;
         [Space]
+        public SpriteRenderer DateSR;
+        public List<Sprite> DateSprites;
+        [Space]
         public EventRenderer IER;
         public EventRenderer TER;
         public EventRenderer EER;
@@ -536,7 +539,8 @@ namespace THAN
             }
 
             CurrentRenderTime += 1;
-            int Year = 1997;
+            DateSR.sprite = DateSprites[CurrentRenderTime];
+            /*int Year = 1997;
             int a = CurrentRenderTime;
             while (a > 12)
             {
@@ -568,7 +572,7 @@ namespace THAN
                 Month = "Nov";
             else if (a == 12)
                 Month = "Dec";
-            TimeText.text = Year + " " + Month;
+            TimeText.text = Year + " " + Month;*/
         }
 
         public IEnumerator NextRenderTimeIE(float Delay)
