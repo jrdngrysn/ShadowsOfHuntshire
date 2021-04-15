@@ -44,6 +44,8 @@ namespace THAN
         public GameObject ToolPivot_Reason;
         public Vector2 TooltipDelay;
         public SkillIndicator SI;
+        public Vector2 InfoRangeX;
+        public Vector2 InfoRangeY;
         public bool StatusRendereActive;
         [Space]
         public Slot CurrentSlot;
@@ -179,6 +181,13 @@ namespace THAN
             {
                 if (!StatusRendereActive)
                     StatusRenderer.Main.Render(SI.GetTarget(), this);
+                StatusRendereActive = true;
+            }
+            else if (cp.x >= InfoRangeX.x + transform.position.x && cp.x <= InfoRangeX.y + transform.position.x
+                && cp.y >= InfoRangeY.x + transform.position.y && cp.y <= InfoRangeY.y + transform.position.y)
+            {
+                if (!StatusRendereActive)
+                    StatusRenderer.Main.Render(null, this);
                 StatusRendereActive = true;
             }
             else
