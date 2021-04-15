@@ -71,14 +71,22 @@ namespace THAN
 
         public void ActivateMask()
         {
-            Mask.SetActive(true);
+            //Mask.SetActive(true);
+            if (C1)
+                C1.ActivateMask();
+            if (C2)
+                C2.ActivateMask();
             GlobalControl.Main.MaskedPairs.Add(this);
         }
 
         public void DisableMask()
         {
-            if (Mask)
-                Mask.SetActive(false);
+            if (C1)
+                C1.DisableMask();
+            if (C2)
+                C2.DisableMask();
+            /*if (Mask)
+                Mask.SetActive(false);*/
         }
     }
 }

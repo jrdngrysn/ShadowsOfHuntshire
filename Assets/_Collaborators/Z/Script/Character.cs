@@ -65,6 +65,8 @@ namespace THAN
         [Space]
         [TextArea]
         public string IntroText;
+        [TextArea]
+        public string InfoText;
 
         public void Awake()
         {
