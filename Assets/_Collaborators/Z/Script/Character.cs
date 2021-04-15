@@ -119,7 +119,7 @@ namespace THAN
             {
                 //VitalityText.text = "?";
                 //VitalityTextII.text = "?";
-                VitalityText.text = "??";
+                VitalityText.text = "?";
                 VitalityLimit.SetActive(false);
             }
 
@@ -137,7 +137,7 @@ namespace THAN
             {
                 //PassionText.text = "?";
                 //PassionTextII.text = "?";
-                PassionText.text = "??";
+                PassionText.text = "?";
                 PassionLimit.SetActive(false);
             }
 
@@ -155,7 +155,7 @@ namespace THAN
             {
                 //ReasonText.text = "?";
                 //ReasonTextII.text = "?";
-                ReasonText.text = "??";
+                ReasonText.text = "?";
                 ReasonLimit.SetActive(false);
             }
         }
@@ -177,14 +177,14 @@ namespace THAN
             Tooltip_Passion.SetActive(TooltipDelay.x == 1 && TooltipDelay.y > 0);
             Tooltip_Reason.SetActive(TooltipDelay.x == 2 && TooltipDelay.y > 0);
 
-            if (/*CurrentSkill && */(cp - (Vector2)SI.transform.position).magnitude <= 1.5f && SI.GetTarget())
+            if (/*CurrentSkill && */(cp - (Vector2)SI.transform.position).magnitude <= 1.5f && SI.GetTarget() && !GlobalControl.Main.HoldingCharacter)
             {
                 if (!StatusRendereActive)
                     StatusRenderer.Main.Render(SI.GetTarget(), this);
                 StatusRendereActive = true;
             }
             else if (cp.x >= InfoRangeX.x + transform.position.x && cp.x <= InfoRangeX.y + transform.position.x
-                && cp.y >= InfoRangeY.x + transform.position.y && cp.y <= InfoRangeY.y + transform.position.y)
+                && cp.y >= InfoRangeY.x + transform.position.y && cp.y <= InfoRangeY.y + transform.position.y && !GlobalControl.Main.HoldingCharacter)
             {
                 if (!StatusRendereActive)
                     StatusRenderer.Main.Render(null, this);
