@@ -295,8 +295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "They proceed to kill *Someone*, and threaten to follow you for the rest
-    of your life. Before anything else can happen Roger jumps in, grabs, and holds
+  Content: "They move towards *Someone* with their knife raised above their head,
+    but before they strike, Roger jumps in, grabs, and holds Ross close. He quietly
+    apologizes for failing to be the father he needed. Ross\u2019 eyes stop glowing
+    and he collapses. Roger says he does not fully understand what just happened,
+    but he will take Ross and leave the village to avoid any more harm to other villagers.
     Ross close. He apologizes for failing to be the father he needed. Ross\u2019s
     eyes stop glowing and he passes out. Roger says he does not fully understand
     what just happened, but he will take Ross and leave the village to avoid any
@@ -7130,12 +7133,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "They proceed to kill *Someone*, and threaten to follow you for the rest
-    of your life. Before anything else can happen Roger jumps in, grabs, and holds
-    Mia close. She apologizes for failing to be the father she needed. Mia\u2019s
-    eyes stop glowing and she passes out. Roger says he does not fully understand
-    what just happened, but he will take Mia and leave the village to avoid any more
-    harm to other villagers.\r"
+  Content: "They move towards *Someone* with their knife raised above their head,
+    but before they strike, Roger jumps in, grabs, and holds Ross close. He quietly
+    apologizes for failing to be the father she needed. Mia\u2019s eyes stop glowing
+    and she collapses. Roger says he does not fully understand what just happened,
+    but he will take Mia and leave the village to avoid any more harm to other villagers.
+    Ross close. He apologizes for failing to be the father he needed. Ross\u2019s
+    eyes stop glowing and he passes out. Roger says he does not fully understand
+    what just happened, but he will take Ross and leave the village to avoid any
+    more harm to other villagers.\r"
 --- !u!1 &8419289686887934668
 GameObject:
   m_ObjectHideFlags: 0
