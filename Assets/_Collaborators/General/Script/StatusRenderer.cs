@@ -31,7 +31,10 @@ namespace THAN
             else
                 DescriptionText.transform.localPosition = new Vector3(-19f, DescriptionText.transform.localPosition.y);
             AnimBase.SetActive(true);
-            DescriptionText.text = S.GetDescription(C);
+            if (S)
+                DescriptionText.text = S.GetDescription(C);
+            else
+                DescriptionText.text = C.InfoText;
             DescriptionText.ForceMeshUpdate();
             Vector2 c = DescriptionText.textBounds.center + DescriptionText.transform.position;
             float w = DescriptionText.renderedWidth + 2;

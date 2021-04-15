@@ -852,6 +852,11 @@ PrefabInstance:
       value: Josef Van Buren
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A horror novelist who has never found much success. He spends most of
+        his time working alone in his home, and is not very sociable when he is out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: Josef van Buren, a horror novelist who has never found much success
         is struggling to find inspiration for his next novel. He starts to attend
@@ -986,6 +991,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
 --- !u!4 &85923640 stripped
@@ -1100,6 +1109,12 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Dolf Fischer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A retired sailor with many supernatural stories from his many years
+        at sea. Often tries to fish in the village lake, despite it seemingly being
+        devoid of wildlife.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
@@ -1303,6 +1318,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8613989996409310965, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_IsActive
@@ -2496,6 +2515,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A materialistic teen who works part time at the village grocery store.
+        He is very energetic and loves town gossip.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
@@ -3836,6 +3860,12 @@ PrefabInstance:
       value: Ross Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: "Mia\u2019s emotional younger brother who follows his older sister around
+        everywhere she goes. He is very quick to scare and seems always on the verge
+        of tears."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "Mia and Ross Becker, children of the village baker, show up to church
         one day.\r\nMia says she wants to do what the grown ups do, and Ross seems
@@ -4013,6 +4043,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -4699,6 +4733,11 @@ PrefabInstance:
       value: Roger Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: The friendly neighborhood baker is beloved by everyone in the village.
+        He is passionate about his craft and cares deeply for his children.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: The valley baker, and father to Ross and Mia, Roger Becker shows up
         to church one day. While he had quietly led a life separate from the church,
@@ -4833,6 +4872,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -5035,6 +5078,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Old Maris
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A drunken old man with stories to spare. Often speaks of crazy events
+        that seem to just be his drunken delusions.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
@@ -5883,6 +5931,12 @@ PrefabInstance:
       value: Severin Muller
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: The soft spoken, former mayor of the village. While he tries to be a
+        mediating force between the villagers, he has a strong distaste for your
+        religion.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "\"Huntshire has so much history, when I was a kid, the church used
         to be\u2026\""
@@ -6488,6 +6542,11 @@ PrefabInstance:
       value: Mia Becker
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A curious girl with mischievous tendencies. She loves teasing her younger
+        brother but she does ultimately care for him very strongly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "Mia and Ross Becker, children of the village baker, show up to church
         one day.\r\nMia says she wants to do what the grown ups do, and Ross seems
@@ -6650,6 +6709,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -6990,6 +7053,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Amelia Thurston
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A young orphan who lost her family when she was very young. Despite
+        the hardships she has faced, she is still very cheery.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
@@ -8112,6 +8180,11 @@ PrefabInstance:
       value: Baron Meier
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: An aristocrat from a big city, he came to the village to lead a more
+        peaceful life. He is strongly devoted to his wife.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "\"Which style of mustache fits me best? I\u2019m thinking of changing
         mine to handlebar style!\""
@@ -8240,6 +8313,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8613989996409310965, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_IsActive
@@ -8436,6 +8513,11 @@ PrefabInstance:
       value: Dino Vallis
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A kind young woman who is often the middle man between her two sisters.
+        She sustained a horrible burn in the fire that took her parents lives.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "Dino and Enyo Vallis, Perley\u2019s younger twin sisters, come to church.
         They are concerned for their sister as she has been out much more in the
@@ -8563,6 +8645,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.7
       objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
 --- !u!4 &794047178 stripped
@@ -8673,6 +8759,11 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Arin Friedrich
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A thrifty older woman who has lived in the village for most of her life.
+        She took in her niece after she was orphaned.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
@@ -9151,6 +9242,11 @@ PrefabInstance:
       value: Enyo Vallis
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A egocentric young adult with a love for gossip. She is very close with
+        her twin but often bickers with her older sister.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "Dino and Enyo Vallis, Perley\u2019s younger twin sisters, come to church.
         They are concerned for their sister as she has been out much more in the
@@ -9301,6 +9397,10 @@ PrefabInstance:
     - target: {fileID: 5872352369956890494, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -13045,6 +13145,12 @@ PrefabInstance:
       value: Chloris Meier
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: "Baron\u2019s charming wife, once devoted to socializing with the wealthy,
+        she continues to obsess over her appearance in her newfound small village
+        life."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: Baron and Chloris Meier are aristocrats who recently moved into the
         village in order to leave their old life behind. While they still carry a
@@ -15325,6 +15431,11 @@ PrefabInstance:
       value: Hugh Friedrich
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A grouchy man who strongly believes in faith and tradition. He dislikes
+        the other residents of the village.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: "\"Amelia, look what you\u2019ve done! From the beginning, I knew it
         was a bad idea to adopt her!\""
@@ -15453,6 +15564,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2d1957eb8475d9948b778e2ed949cb75, type: 3}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
 --- !u!4 &1593184576 stripped
@@ -16547,6 +16662,11 @@ PrefabInstance:
       value: Lydia Furst
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: A young widow and owner of the village grocery store. While she is calm
+        and shy, she is the center of much of the village gossip.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
       value: Lydia Furst, the neighborhood grocer, approaches you one day. She claims
         to have heard the call of the divine and would like to start attending church.
@@ -16683,6 +16803,10 @@ PrefabInstance:
     - target: {fileID: 5626580614146174820, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207457190797568278, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
@@ -17466,6 +17590,12 @@ PrefabInstance:
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Perley Vallis
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
+      propertyPath: InfoText
+      value: The eldest of the Vallis sisters, she is paranoid that her younger twin
+        sisters are conspiring against her. She is often bedridden by her asthma
+        and anemia.
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: IntroText
