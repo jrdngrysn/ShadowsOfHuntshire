@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 8419289685178604395}
   - component: {fileID: 8419289685178604393}
   - component: {fileID: 8419289685178604394}
+  - component: {fileID: 9135209652222656916}
   m_Layer: 0
   m_Name: 9-2-R
   m_TagString: Untagged
@@ -248,13 +249,9 @@ MonoBehaviour:
     over and sees Ross has slashed the palm of his right hand open. Before anyone
     can move, Ross begins to recite words that nobody understands. Soon his eyes
     glow white, and he begins to levitate. With a much deeper voice, he declare that
-    you as the high priest have no true grasp on god.\r\nHe proceed to kill *Someone*,
-    and threaten to follow you for the rest of your life. Before anything else can
-    happen Roger jumps in, grabs, and holds Ross close. He apologizes for failing
-    to be the father he needed. Ross\u2019s eyes stop glowing and he passes out.
-    Roger says he does not fully understand what just happened, but he will take
-    Ross and leave the village to avoid any more harm to other villagers.\r"
-  Pages: []
+    you as the high priest have no true grasp on god.\r"
+  Pages:
+  - {fileID: 9135209652222656916}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -286,6 +283,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &9135209652222656916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685178604373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "They move towards *Someone* with their knife raised above their head,
+    but before they strike, Roger jumps in, grabs, and holds Ross close. He quietly
+    apologizes for failing to be the father he needed. Ross\u2019 eyes stop glowing
+    and he collapses. Roger says he does not fully understand what just happened,
+    but he will take Ross and leave the village to avoid any more harm to other villagers.
+    Ross close. He apologizes for failing to be the father he needed. Ross\u2019s
+    eyes stop glowing and he passes out. Roger says he does not fully understand
+    what just happened, but he will take Ross and leave the village to avoid any
+    more harm to other villagers.\r"
 --- !u!1 &8419289685184859769
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +948,7 @@ GameObject:
   - component: {fileID: 8419289685326384803}
   - component: {fileID: 8419289685326384801}
   - component: {fileID: 8419289685326384802}
+  - component: {fileID: 5359660864707956975}
   m_Layer: 0
   m_Name: 9-1-R
   m_TagString: Untagged
@@ -980,12 +999,9 @@ MonoBehaviour:
     over and sees Ross has slashed the palm of his right hand open. Before anyone
     can move, Ross begins to recite words that nobody understands. Soon his eyes
     glow white, and he begins to levitate. With a much deeper voice, he declare that
-    you as the high priest have no true grasp on god.\r\nHe proceed to kill *Someone*,
-    destroy the altar, and threaten to follow you for the rest of your life. Quickly
-    after, Ross turns the knife on himself and stabs himself through the heart.\r\nWith
-    two villagers dead, and no altar left to use for sacrifices, there is no path
-    forward for you to continue to serve the gods.\r"
-  Pages: []
+    you as the high priest have no true grasp on god.\r"
+  Pages:
+  - {fileID: 5359660864707956975}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -1017,6 +1033,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &5359660864707956975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685326384813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "They proceed to kill *Someone*, destroy the altar, and threaten to follow
+    you for the rest of your life. Quickly after, Ross turns the knife on themself
+    and stabs himself through the heart.\r\nWith two villagers dead, and no altar
+    left to use for sacrifices, there is no path forward for you to continue to serve
+    the gods.\r"
 --- !u!1 &8419289685331489609
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2597,7 @@ GameObject:
   - component: {fileID: 8419289685817116511}
   - component: {fileID: 8419289685817116509}
   - component: {fileID: 8419289685817116510}
+  - component: {fileID: 3142911655897070236}
   m_Layer: 0
   m_Name: 6-1-M
   m_TagString: Untagged
@@ -2611,13 +2645,10 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685817116509}
   - {fileID: 8419289685817116510}
-  Content: The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time. It was dealt with
-    quickly before it could spread to the entire forest surrounding the valley, but
-    the damage is not insignificant. While checking on the villagers to find the
-    culprit, Mia accuses you of doing this to torment her further after the loss
-    of her brother.
-  Pages: []
+  Content: 'The forest clearing on the outskirts of the village where the children
+    used to play had been set on fire for a short period of time. '
+  Pages:
+  - {fileID: 3142911655897070236}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -2649,6 +2680,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &3142911655897070236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685817116505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: It was dealt with quickly before it could spread to the entire forest
+    surrounding the valley, but the damage is not insignificant. While checking on
+    the villagers to find the culprit, Mia accuses you of doing this to torment her
+    further after the loss of her brother.
 --- !u!1 &8419289685835470890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +2786,7 @@ GameObject:
   - component: {fileID: 8419289685844017270}
   - component: {fileID: 8419289685844017269}
   - component: {fileID: 8419289685844017268}
+  - component: {fileID: 6200350648944556900}
   m_Layer: 0
   m_Name: 4-1
   m_TagString: Untagged
@@ -2788,10 +2836,9 @@ MonoBehaviour:
   Content: '*Someone* has noticed that Ross has seemingly been missing for a while.
     The last place he was seen was around the church.
 
-    As you check around the
-    church, you notice the trapdoor propped open. Inside you find Ross asleep. When
-    you wake him up he admits to breaking in to look for his sister.'
-  Pages: []
+'
+  Pages:
+  - {fileID: 6200350648944556900}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -2809,6 +2856,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6200350648944556900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685844017271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: As you check around the church, you notice the trapdoor propped open.
+    Inside you find Ross asleep. When you wake him up he admits to breaking in to
+    look for his sister.
 --- !u!1 &8419289685846394699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3168,7 @@ GameObject:
   - component: {fileID: 8419289685918043393}
   - component: {fileID: 8419289685918043392}
   - component: {fileID: 8419289685918043399}
+  - component: {fileID: 4634392070339505398}
   m_Layer: 0
   m_Name: 3-1
   m_TagString: Untagged
@@ -3154,12 +3217,9 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685918043399}
   Content: "Ross runs up to you in a panic.\r\n\r\u201CI\u2026 I think Mia might
-    be trapped in the church basement. She left the house a yesterday and told me
-    not to tell anyone, but after she didn\u2019t come back\u2026 I got nervous.
-    I couldn\u2019t open the door and she\u2019s been down there for a long time.
-    She told me not to tell anyone\u2026 but I\u2019m scared and I don\u2019t want
-    her to be hurt. Please help her!\u201D\r"
-  Pages: []
+    be trapped in the church basement.\" "
+  Pages:
+  - {fileID: 4634392070339505398}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3177,6 +3237,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4634392070339505398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685918043394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\"She left the house a yesterday and told me not to tell anyone, but
+    after she didn\u2019t come back\u2026 I got nervous. I couldn\u2019t open the
+    door and she\u2019s been down there for a long time. She told me not to tell
+    anyone\u2026 but I\u2019m scared and I don\u2019t want her to be hurt. Please
+    help her!\u201D\r"
 --- !u!1 &8419289685930123023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3266,7 @@ GameObject:
   - component: {fileID: 8419289685930123021}
   - component: {fileID: 8419289685930123011}
   - component: {fileID: 8419289685930123020}
+  - component: {fileID: 17395933365809024}
   m_Layer: 0
   m_Name: 7-2-M
   m_TagString: Untagged
@@ -3237,10 +3315,9 @@ MonoBehaviour:
   - {fileID: 8419289685930123011}
   - {fileID: 8419289685930123020}
   Content: After your weekly sermon, you go to check the basement and find it completely
-    ruined, with files and books scattered all over and shelves knocked down. *Someone*
-    confesses to seeing Mia enter the basement. As you go to find Mia, *Someone*
-    begins to question what exactly is in the basement.
-  Pages: []
+    ruined, with files and books scattered all over and shelves knocked down.
+  Pages:
+  - {fileID: 17395933365809024}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3272,6 +3349,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &17395933365809024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685930123023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: '*Someone* confesses to seeing Mia enter the basement. As you go to find
+    Mia, *Someone* begins to question what exactly is in the basement.'
 --- !u!1 &8419289685949802868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,6 +3987,7 @@ GameObject:
   - component: {fileID: 8419289686124135528}
   - component: {fileID: 8419289686124135534}
   - component: {fileID: 8419289686124135535}
+  - component: {fileID: 3717662134945782052}
   m_Layer: 0
   m_Name: 9-1-M
   m_TagString: Untagged
@@ -3946,12 +4038,9 @@ MonoBehaviour:
     over and sees Mia has slashed the palm of her right hand open. Before anyone
     can move, Mia begins to recite words that nobody understands. Soon her eyes glow
     white, and she begins to levitate. With a much deeper voice, she declare that
-    you as the high priest have no true grasp on god.\r\nShe proceed to kill *Someone*,
-    destroy the altar, and threaten to follow you for the rest of your life. Quickly
-    after, Mia turns the knife on herself and stabs herself through the heart.\r\nWith
-    two villagers dead, and no altar left to use for sacrifices, there is no path
-    forward for you to continue to serve the gods.\r"
-  Pages: []
+    you as the high priest have no true grasp on god.\r"
+  Pages:
+  - {fileID: 3717662134945782052}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -3983,6 +4072,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &3717662134945782052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686124135530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "They proceed to kill *Someone*, destroy the altar, and threaten to follow
+    you for the rest of your life. Quickly after, Mia turns the knife on themself
+    and stabs herself through the heart.\r\nWith two villagers dead, and no altar
+    left to use for sacrifices, there is no path forward for you to continue to serve
+    the gods.\r"
 --- !u!1 &8419289686127766247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,6 +4191,7 @@ GameObject:
   - component: {fileID: 8419289686129974838}
   - component: {fileID: 8419289686129974837}
   - component: {fileID: 8419289686129974836}
+  - component: {fileID: 1509430394657942585}
   m_Layer: 0
   m_Name: 7-1
   m_TagString: Untagged
@@ -4133,11 +4240,9 @@ MonoBehaviour:
   - {fileID: 8419289686129974837}
   - {fileID: 8419289686129974836}
   Content: '*Someone* hears unusual noises coming from the Becker household, and
-    asks you to go investigate. As you approach the house, you hear a loud scream.
-    As you hurry inside, you find Ross sitting alone on his bed, with a large pool
-    of blood all over the floor. He has a scar you have never seen before on the
-    palm of his right hand, however it seems as though it has long since healed.'
-  Pages: []
+    asks you to go investigate. '
+  Pages:
+  - {fileID: 1509430394657942585}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -4169,6 +4274,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Ross Becker
   DeathName: Mia Becker
+--- !u!114 &1509430394657942585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686129974832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: As you approach the house, you hear a loud scream. As you hurry inside,
+    you find Ross sitting alone on his bed, with a large pool of blood all over the
+    floor. He has a scar you have never seen before on the palm of his right hand,
+    however it seems as though it has long since healed.
 --- !u!1 &8419289686173605876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4813,6 +4934,7 @@ GameObject:
   - component: {fileID: 8419289686389017911}
   - component: {fileID: 8419289686389017909}
   - component: {fileID: 8419289686389017910}
+  - component: {fileID: 5471163386785729497}
   m_Layer: 0
   m_Name: 7-2-R
   m_TagString: Untagged
@@ -4861,10 +4983,9 @@ MonoBehaviour:
   - {fileID: 8419289686389017909}
   - {fileID: 8419289686389017910}
   Content: After your weekly sermon, you go to check the basement and find it completely
-    ruined, with files and books scattered all over and shelves knocked down. *Someone*
-    confesses to seeing Ross enter the basement. As you go to find Ross, *Someone*
-    begins to question what exactly is in the basement.
-  Pages: []
+    ruined, with files and books scattered all over and shelves knocked down.
+  Pages:
+  - {fileID: 5471163386785729497}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -4896,6 +5017,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &5471163386785729497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686389017905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: ' *Someone* confesses to seeing Ross enter the basement. As you go to
+    find Ross, *Someone* begins to question what exactly is in the basement.'
 --- !u!1 &8419289686425938977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5455,6 +5590,7 @@ GameObject:
   - component: {fileID: 8419289686535220330}
   - component: {fileID: 8419289686535220329}
   - component: {fileID: 8419289686535220328}
+  - component: {fileID: 2901898436229570162}
   m_Layer: 0
   m_Name: 2-1 (Amelia
   m_TagString: Untagged
@@ -5503,10 +5639,9 @@ MonoBehaviour:
   - {fileID: 8419289686535220328}
   Content: "\u201CHigh Priest, yesterday my friends and I were playing in the churchyard,
     and we found a trapdoor. I wanted to see what was inside, but then Mia started
-    to tell scary stories about what could be in there. Ross got too afraid and wouldn\u2019t
-    go in, I wasn\u2019t scared at all though. But anyway, where does that door lead
-    to?\u201D"
-  Pages: []
+    to tell scary stories about what could be in there.\" "
+  Pages:
+  - {fileID: 2901898436229570162}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -5524,6 +5659,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2901898436229570162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686535220331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\"Ross got too afraid and wouldn\u2019t go in, I wasn\u2019t scared at
+    all though. But anyway, where does that door lead to?\u201D"
 --- !u!1 &8419289686537350416
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,6 +7036,7 @@ GameObject:
   - component: {fileID: 8419289686875232646}
   - component: {fileID: 8419289686875232644}
   - component: {fileID: 8419289686875232645}
+  - component: {fileID: 3947309874990713925}
   m_Layer: 0
   m_Name: 9-2-M
   m_TagString: Untagged
@@ -6937,13 +7087,9 @@ MonoBehaviour:
     over and sees Mia has slashed the palm of her right hand open. Before anyone
     can move, Mia begins to recite words that nobody understands. Soon her eyes glow
     white, and she begins to levitate. With a much deeper voice, she declare that
-    you as the high priest have no true grasp on god.\r\nShe proceed to kill *Someone*,
-    and threaten to follow you for the rest of your life. Before anything else can
-    happen Roger jumps in, grabs, and holds Mia close. She apologizes for failing
-    to be the father she needed. Mia\u2019s eyes stop glowing and she passes out.
-    Roger says he does not fully understand what just happened, but he will take
-    Mia and leave the village to avoid any more harm to other villagers.\r"
-  Pages: []
+    you as the high priest have no true grasp on god.\r"
+  Pages:
+  - {fileID: 3947309874990713925}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -6975,6 +7121,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &3947309874990713925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686875232640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "They move towards *Someone* with their knife raised above their head,
+    but before they strike, Roger jumps in, grabs, and holds Ross close. He quietly
+    apologizes for failing to be the father she needed. Mia\u2019s eyes stop glowing
+    and she collapses. Roger says he does not fully understand what just happened,
+    but he will take Mia and leave the village to avoid any more harm to other villagers.
+    Ross close. He apologizes for failing to be the father he needed. Ross\u2019s
+    eyes stop glowing and he passes out. Roger says he does not fully understand
+    what just happened, but he will take Ross and leave the village to avoid any
+    more harm to other villagers.\r"
 --- !u!1 &8419289686887934668
 GameObject:
   m_ObjectHideFlags: 0
@@ -7089,6 +7256,7 @@ GameObject:
   - component: {fileID: 8419289686919397022}
   - component: {fileID: 8419289686919397020}
   - component: {fileID: 8419289686919397021}
+  - component: {fileID: 7840659392359325497}
   m_Layer: 0
   m_Name: 6-1-R
   m_TagString: Untagged
@@ -7136,13 +7304,10 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289686919397020}
   - {fileID: 8419289686919397021}
-  Content: The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time. It was dealt with
-    quickly before it could spread to the entire forest surrounding the valley, but
-    the damage is not insignificant. While checking on the villagers to find the
-    culprit, Ross accuses you of doing this to torment him further after the loss
-    of his sister.
-  Pages: []
+  Content: 'The forest clearing on the outskirts of the village where the children
+    used to play had been set on fire for a short period of time. '
+  Pages:
+  - {fileID: 7840659392359325497}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -7174,6 +7339,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &7840659392359325497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686919397016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: It was dealt with quickly before it could spread to the entire forest
+    surrounding the valley, but the damage is not insignificant. While checking on
+    the villagers to find the culprit, Ross accuses you of doing this to torment
+    him further after the loss of his sister.
 --- !u!1 &8419289686924472472
 GameObject:
   m_ObjectHideFlags: 0
@@ -8678,6 +8859,7 @@ GameObject:
   - component: {fileID: 8419289687230436642}
   - component: {fileID: 8419289687230436641}
   - component: {fileID: 8419289687230436640}
+  - component: {fileID: 4266938750492692736}
   m_Layer: 0
   m_Name: 5-2-R
   m_TagString: Untagged
@@ -8725,11 +8907,10 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289687230436641}
   - {fileID: 8419289687230436640}
-  Content: "*Someone* spots Ross roaming around the church at night. You look around
-    to see that the trapdoor is open. As you walk in to investigate, you hear shuffling
-    noises, as though someone is trying to hide. You can\u2019t find anyone, but
-    you have a feeling Ross is still in the basement."
-  Pages: []
+  Content: '*Someone* spots Ross roaming around the church at night. You look around
+    to see that the trapdoor is open. '
+  Pages:
+  - {fileID: 4266938750492692736}
   AddContent: 
   DisplaySource: 1
   Choices:
@@ -8761,6 +8942,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &4266938750492692736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289687230436652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "As you walk in to investigate, you hear shuffling noises, as though someone
+    is trying to hide. You can\u2019t find anyone, but you have a feeling Ross is
+    still in the basement."
 --- !u!1 &8419289687266370381
 GameObject:
   m_ObjectHideFlags: 0
