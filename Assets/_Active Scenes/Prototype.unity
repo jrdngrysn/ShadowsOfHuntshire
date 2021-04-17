@@ -2149,6 +2149,26 @@ MonoBehaviour:
   - {fileID: 237755456}
   - {fileID: 1865283461}
   DAE: {fileID: 0}
+--- !u!1 &206593057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8419289685957506059, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+  m_PrefabInstance: {fileID: 8419289686615626251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &206593058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206593057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CHigh Priest, we always play in the little clearing by our homes\u2026
+    we want to go on an adventure in the forest but our parents said we should ask
+    you! Can we go please?\u201D\r"
 --- !u!114 &232552674 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1934446802046233140, guid: 9d44f57593b160e45ad47f99e21222b8, type: 3}
@@ -5039,10 +5059,6 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Name
       value: Ahimaz Kalmari
       objectReference: {fileID: 0}
@@ -5904,10 +5920,6 @@ PrefabInstance:
     - target: {fileID: 1468938843566904279, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 9.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.size
@@ -8754,10 +8766,6 @@ PrefabInstance:
     - target: {fileID: 1468938843566904279, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: m_LocalPosition.y
       value: 9.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
-      propertyPath: Barks.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1907539348224468110, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: Barks.Array.size
@@ -16337,7 +16345,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8419289685957506057, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
   m_PrefabInstance: {fileID: 8419289686615626251}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 206593057}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
@@ -20377,6 +20385,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1048554875432281394, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686990134093372559, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746317918066062243, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632337818227751472, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701529753293755380, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420191825100883858, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158659131063791781, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5695635637416642799, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771773369854629645, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283817676497814942, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: Pages.Array.size
       value: 2
@@ -20392,6 +20440,14 @@ PrefabInstance:
     - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: Content
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8353940924734912011, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563300629332547267, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
+      propertyPath: Change.z
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8672890229547095275, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_Name
@@ -20931,6 +20987,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeckerEvents
       objectReference: {fileID: 0}
+    - target: {fileID: 8419289685957506057, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: Pages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685957506057, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: Content
+      value: "Amelia and Mia come to you with Ross trailing behind them.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419289685957506057, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
+      propertyPath: Pages.Array.data[0]
+      value: 
+      objectReference: {fileID: 206593058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
 --- !u!4 &8438349491748057720
