@@ -758,6 +758,11 @@ namespace THAN
 
         public void Retry()
         {
+          //Debug.Log("Ending Game Time: " + GlobalControl.Main.CurrentTime.ToString());
+          Tinylytics.AnalyticsManager.LogCustomMetric("GameOver Time",  CurrentTime.ToString());
+               
+
+
             if (AlreadyDead)
                 return;
             AlreadyDead = true;
