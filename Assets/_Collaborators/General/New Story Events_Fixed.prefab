@@ -201,13 +201,14 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "It is the final season of the year\u2026 Things as they are, in my opinion,
-    still far from satisfactory. There are people who call me madness, who wish to
-    take back the knowledge my Lord granted me. However, if I cannot make the sun
-    rise from the west, if I cannot rewrite the scheme of things, then what is the
-    use of having this ineffable power granted by my Lord? \nFirst, it was the dreams,
-    then it was the visions. Huntshire will rebuild itself through the most gorgeous
-    show. \nIn the end, I ponder. What shall we preach?"
+  Content: "\"It is the final season of the year\u2026 Things as they are, in my
+    opinion, still far from satisfactory. There are people who call me madness and
+    wish to take back this superior power of mine. However, they cannot hinder me.
+    If I cannot make the sun rise from the west, if I cannot rewrite the scheme of
+    all things, then what is the use of having this ineffable power granted by my
+    Lord? \nThe ancestors have never accomplished this. Something deep in my heart
+    had been ignited. It is rattling in my soul. \"\nFollowing the book, I ponder.
+    What shall we preach? "
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -270,12 +271,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "I always know that there are people who attempt to stop this grand show.
-    Let them! They can take the book and spread the pages all the way they want.
-    But in the end, there is only one who can hold this power without fearing it.
-    \nAnd yet, I want to drown the sky into the ground, to infuse ugliness with beauty,
-    to squeeze a laugh from pain. Only when we break an existing rule, we make a
-    step closer to the truth. \nIn the end, I ponder. What shall we preach?"
+  Content: "\"I always know that there are people who attempt to stop this grand
+    show. Let them! Let them take the book and let them spread the pages around Huntshire!
+    Because in the end, there is only one who can hold this power without fearing
+    it, and even the book itself has to be gone in preparation for the returning
+    of our Lord. \nOnly when we break an existing rule, we take a step closer to
+    the truth. \"\nIn the end, I ponder. What shall we preach? "
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -480,12 +481,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "Executing the sacrifice, I contemplate. For the first time in my life,
-    I recognize that there exists something loftier, deadlier, intense enough to
-    corrupt the laws of the world. Just as the book depicts, the transcendent knowledge,
-    the ineffable power granted by my Lord... \nFollowing the book, I contemplate.
-    The ancestors have never accomplished this. Something deep in my heart had been
-    ignited. It is rattling in my soul. \nIn the end, I ponder. What shall we preach?"
+  Content: "\"Executing the sacrifice, I contemplate. For the first time in my life,
+    I recognize that my Lord has granted me something loftier, deadlier, intense
+    enough to corrupt the laws of the world. Standing before the dusky mirror, in
+    the deepening gloom between the fractured pieces of the glass, my hands are bloodstained,
+    my eyes are bleeding. \nNO... My Lord has appointed me to do so, then I must
+    not think of other things, we must not cease, we must not hesitate. \"\nFollowing
+    the book, I ponder. What shall we preach? "
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -848,12 +850,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "Some people are escaping, surely I know that. But what they do not know
-    is that they are fleeing from a free place. What is freedom anyway? Even I sometimes
+  Content: "\"Some are escaping, surely I know that. But what they do not know is
+    that they are fleeing from a free place. What is freedom anyway? Even I sometimes
     do not recognize this word. Absolute freedom deprives freedom from all the other
-    ones. \nThese days there is a vision that I can clearly see. This is a marvellous
+    ones. \nFirst, it was the dreams, then it was the visions. This is a marvelous
     show with all kinds of people, spectators, victims, criminals, a show for the
-    tyrant. With my infinite power, I shall be the freest one of them all."
+    tyrant. With my infinite power, I shall be the freest one of them all. \""
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -966,10 +968,10 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "Freedom, I would have been a contented one without it. But thanks to
+  Content: "\"Freedom, I would have been a contented one without it. But thanks to
     it, I have won the godlike enlightenment of the solitary. \nI live, I kill, I
     exercise the rapturous power of a destroyer. The ruthless logic crushes out human
-    lives. We will see what \"Lord\" has left with me."
+    lives. We will see what \"Lord\" has left with us. \""
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -1222,12 +1224,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "They think I am mad, that what I have done, \u201Cmanipulating lives\u201D
+  Content: "\"They think I am mad, that what I have done, \u201Cmanipulating lives\u201D
     they called, is an attempt to take over God\u2019s job. And yet, what is a God
     and why should I wish to be an equal? They do not understand that what I strive
     for is something far beyond that. \nThe book has all its magic. I shall seek
-    the impossible myself. I shall seek the true freedom myself. I shall take over
-    God."
+    the impossible myself. I shall seek true freedom myself. I shall take over God,
+    if that's what God wishes. \"\nIn the end, what does our lord seek? \n"
   Pages: []
   AddContent: In the end, what does our lord seek?
   DisplaySource: 0
@@ -1334,12 +1336,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "At dawn, while we were performing the sacrifice as planned, Huntshire
+  Content: "\"At dawn, while we were performing the sacrifice as planned, Huntshire
     got its first rainy season of the year. Lightning accompanied by thunder, the
     battering rain reverberated with the sound of sacrifice throughout the valley.
-    Fear indeed, fear is the purest emotion, the noblest! Let every established thing
+    Fear indeed, fear is the purest emotion, the noblest. Let every established thing
     be gone with the wuthering wind of fear. \nThe truth has its price, and Huntshire
-    is ready for it. \nIn the end, I ponder. What shall we preach?"
+    is ready for it. \"\nIn the end, I ponder. What shall we preach? "
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -1785,12 +1787,14 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "Standing before the dusky mirror, in the deepening gloom between the
-    fractured pieces of the glass, my hands are bloodstained, my eyes are bleeding.
-    \nIn the end, I ponder. What shall we preach? \nOur lord has awakened, our Lord
-    has responded -- a book in my pocket, the book of all wisdom. My Lord has appointed
-    me to do so, then we must not cease, we must not hesitate. Truth will befall
-    Huntshire with a great probation."
+  Content: "\"Our Lord has awakened, our Lord has responded to our piety -- a book
+    in my pocket, the book of all wisdom. It will help me decide the teaching of
+    certain seasons and bring blessings to all. \nGreat probation begins. Let the
+    weak assimilate the strong, let the dull assimilate the passionate, let the thoughtless
+    assimilate the wise. \nOnly the ignorant can bear the coming truth. The light
+    of truth will favor Huntshire again. If the sacrifices can continue until the
+    Summer of the Fourth Year,  our Lord will reign.\"\nFollowing the book, I ponder.
+    What shall we preach? "
   Pages: []
   AddContent: 
   DisplaySource: 0
