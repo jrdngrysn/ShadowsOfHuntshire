@@ -78,7 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Investigator
   Description: 'Investigator: When *Character_Name* has 14 or more reason they activate
-    this ability. While Bloodhound is active, any character paired with *Character_Name*
+    this ability. While Investigator is active, any character paired with *Character_Name*
     will have their reason reduced by 2. *Character_Name* will then have their reason
     reduced by 2 and their passion increased by 2.'
 --- !u!114 &-3624968445994187795
