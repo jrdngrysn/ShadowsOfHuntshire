@@ -77,9 +77,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Appeal
   Description: 'Appeal: When *FCharacter_Name* has more than 18 reason they activate
-    this Appeal. While active, any character paired with *FCharacter_Name* will have
-    their passion reduced by 4. *FCharacter_Name* will then have their reason reduced
-    by 4.'
+    Appeal. While active, any character paired with *FCharacter_Name* will have their
+    passion reduced by 4. *FCharacter_Name* will then have their reason reduced by
+    4.'
 --- !u!114 &1270363877708833968
 MonoBehaviour:
   m_ObjectHideFlags: 0
