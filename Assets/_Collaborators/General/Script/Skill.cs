@@ -73,7 +73,23 @@ public class Skill : MonoBehaviour {
             S = S.Substring(S.IndexOf("*") + 1);
             if (Key == "Character_Name")
                 C += Source.GetName();
-            else
+            else if (Key == "FCharacter_Name")
+            {
+                string sub = "";
+
+                for (int i = 0; i < Source.GetName().Length; i++)
+                {
+                    if (Source.GetName()[i] != ' ')
+                    {
+                        sub += Source.GetName()[i];
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                C += sub;
+            } else
                 C += Key;
         }
         C += S;
