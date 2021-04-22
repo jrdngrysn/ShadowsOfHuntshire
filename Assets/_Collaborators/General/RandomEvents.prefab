@@ -617,7 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Scold *ONE* for their forgetfulness and *TWO* for their inaction.
+  Content: Scold *FONE* for their forgetfulness and *FTWO* for their inaction.
   EffectText: -2 reason
   Effects:
   - {fileID: 8870458131095893374}
@@ -813,7 +813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Punish *ONE* and *TWO* with manual labor in the church.
+  Content: Punish *FONE* and *FTWO* with manual labor in the church.
   EffectText: -3 vitality
   Effects:
   - {fileID: 8870458130839099562}
@@ -1163,8 +1163,8 @@ MonoBehaviour:
   StartTime: -1
   Priority: 1
   PMods: []
-  Content: '*ONE* and *TWO* come to you with a proposal. *ONE* thought it would be
-    a good idea to get a shipment of desserts from outside the village as a treat
+  Content: '*ONE* and *TWO* come to you with a proposal. *FONE* thought it would
+    be a good idea to get a shipment of desserts from outside the village as a treat
     during the ceremonies and they wanted to get your approval.'
   Pages: []
   AddContent: 
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Disregard *ONE*\u2019s account of the music. "
+  Content: "Disregard *FONE*\u2019s account of the music"
   EffectText: +1 passion, -2 reason
   Effects:
   - {fileID: 8870458130859970997}
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Reprimand *TWO* swiftly. '
+  Content: Reprimand *FTWO* swiftly.
   EffectText: +1 vitality, -2 passion
   Effects:
   - {fileID: 8870458130408759817}
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Chastise *TWO* for lying.
+  Content: Chastise *FTWO* for lying.
   EffectText: -2 passion
   Effects:
   - {fileID: 8870458130475829536}
@@ -2090,7 +2090,7 @@ MonoBehaviour:
   Priority: 1
   PMods: []
   Content: "*ONE* has been notably absent at your sermons recently. When confronted,
-    they explain they had thought they had been going as normal. *TWO* hasn\u2019t
+    they explain they had thought they had been going as normal. *FTWO* hasn\u2019t
     seen them leave their house all week."
   Pages: []
   AddContent: 
@@ -2204,9 +2204,9 @@ MonoBehaviour:
   StartTime: -1
   Priority: 1
   PMods: []
-  Content: '*ONE* comes to tell you that they noticed *TWO* has been disappearing
-    for a few hours every night. They are concerned and felt it was important to
-    bring to your attention.'
+  Content: '*ONE* reports they have noticed that *TWO* has been extremely tired and
+    lethargic the past month. Upon questioning, *FTWO* reveals that they have been
+    suffering from intense nightmares and an inability to feel rested.'
   Pages: []
   AddContent: 
   DisplaySource: 0
@@ -2408,7 +2408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Shame *TWO* for lying.
+  Content: Shame *FTWO* for lying.
   EffectText: -1 passion
   Effects:
   - {fileID: 8870458130482441040}
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell *ONE* to ignore the symbols.
+  Content: Tell *FONE* to ignore the symbols.
   EffectText: -2 reason
   Effects:
   - {fileID: 8870458130578753870}
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   Priority: 1
   PMods: []
   Content: "*ONE* reports hearing constant loud and disturbing violin music coming
-    from *TWO*\u2019s home in the evening, but *TWO* assures you they have never
+    from *TWO*\u2019s home in the evening, but *FTWO* assures you they have never
     played a violin before and do not own one."
   Pages: []
   AddContent: 
@@ -2584,9 +2584,7 @@ MonoBehaviour:
   Priority: 1
   PMods: []
   Content: '*ONE* accuses *TWO* of carving strange symbols onto the outside of their
-    door in the night. *TWO* vehemently denies doing so.
-
-'
+    door in the night. *FTWO* vehemently denies doing so.'
   Pages: []
   AddContent: 
   DisplaySource: 0

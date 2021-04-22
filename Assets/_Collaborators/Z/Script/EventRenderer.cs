@@ -326,6 +326,39 @@ namespace THAN
                     C += Source.GetName();
                 else if (Key == "TWO" && Source && Source.GetPartner())
                     C += Source.GetPartner().GetName();
+                else if (Key == "FONE" && Source)
+                {
+                    string sub = "";
+
+                    for (int i = 0; i < Source.GetName().Length; i++)
+                    {
+                        if (Source.GetName()[i] != ' ')
+                        {
+                            sub += Source.GetName()[i];
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                    C += sub;
+                } else if (Key == "FTWO" && Source && Source.GetPartner())
+                {
+                    string sub = "";
+
+                    for (int i = 0; i < Source.GetPartner().GetName().Length; i++)
+                    {
+                        if (Source.GetPartner().GetName()[i] != ' ')
+                        {
+                            sub += Source.GetPartner().GetName()[i];
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                    C += sub;
+                }
                 else
                     C += Key;
             }
