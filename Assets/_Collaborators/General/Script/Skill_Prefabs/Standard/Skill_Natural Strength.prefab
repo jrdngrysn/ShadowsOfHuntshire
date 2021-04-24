@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1995341631926123442}
   - component: {fileID: -7517822439761858076}
   m_Layer: 0
-  m_Name: Skill_Intimidate
+  m_Name: Skill_Natural Strength
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,9 +77,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Natural Strength
   Description: 'Natural Strength: When *Character_Name* has 18 or more vitality they
-    activate this ability. While Natural Strength is active, any character paired
-    with *Character_Name* will have their reason reduced by 4. *Character_Name* will
-    then have their vitality reduced by 4.'
+    activate Natural Strength. While active, any character paired with *FCharacter_Name*
+    will have their reason reduced by 4. *FCharacter_Name* will then have their vitality
+    reduced by 4.'
 --- !u!114 &-7517822439761858076
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,8 +18,9 @@ namespace THAN
         public List<PriorityModifier> PMods;
         [TextArea]
         public string Content;
-        public List<EventPage> Pages;
         public string AddContent;
+        public List<EventPage> Pages;
+        public bool AutoNextPage;
         public bool DisplaySource;
         public List<EventChoice> Choices;
 
@@ -79,11 +80,15 @@ namespace THAN
         {
             if (!BaseEvent)
             {
-                if (Pages.Count <= 0)
+                if (Page >= 999)
+                    return "";
+                else if (Pages.Count <= 0)
                     return Content;
                 else
                     return Pages[Page].Content;
             }
+            else if (AutoNextPage)
+                return Content;
             else
                 return "<color=#ffffff00>" + BaseEvent.GetContent(BaseEvent.GetMaxPage()) + "</color>" + Content;
         }

@@ -120,7 +120,7 @@ namespace THAN
                 //VitalityText.text = "?";
                 //VitalityTextII.text = "?";
                 VitalityText.text = "?";
-                VitalityLimit.SetActive(false);
+                VitalityLimit.SetActive(true);
             }
 
             if (!GetHidden_Passion())
@@ -138,7 +138,7 @@ namespace THAN
                 //PassionText.text = "?";
                 //PassionTextII.text = "?";
                 PassionText.text = "?";
-                PassionLimit.SetActive(false);
+                PassionLimit.SetActive(true);
             }
 
             if (!GetHidden_Reason())
@@ -156,7 +156,7 @@ namespace THAN
                 //ReasonText.text = "?";
                 //ReasonTextII.text = "?";
                 ReasonText.text = "?";
-                ReasonLimit.SetActive(false);
+                ReasonLimit.SetActive(true);
             }
         }
 

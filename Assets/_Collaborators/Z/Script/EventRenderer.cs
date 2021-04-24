@@ -117,7 +117,7 @@ namespace THAN
             }
             if (GetAddEvent())
             {
-                if (CurrentPage == GetEvent().GetMaxPage())
+                if (CurrentPage == GetEvent().GetMaxPage() || CurrentPage >= 999)
                     CRIII.Render(GetAddEvent().GetChoices()[0]);
                 else
                     CRIII.Render(null);
@@ -207,6 +207,8 @@ namespace THAN
                 }
                 else
                 {
+                    if (!GetEvent().FreeSources.Contains(GetEvent().GetSource().GetName()))
+                        t.Add(GetEvent().GetSource());
                     foreach (string s in GetEvent().FreeSources)
                         t.Add(Character.Find(s));
                 }
@@ -250,7 +252,7 @@ namespace THAN
 
         public void ChoiceRendererCheck()
         {
-            if (CurrentPage == GetEvent().GetMaxPage())
+            if (CurrentPage == GetEvent().GetMaxPage() || CurrentPage >= 999)
             {
                 if (GetEvent().GetChoices()[0] && !GetEvent().GetChoices()[1] && SingleRenderer)
                     SingleRenderer.Activate(GetEvent().GetChoices()[0]);
@@ -270,6 +272,8 @@ namespace THAN
 
         public IEnumerator AddActivateIE()
         {
+            if (CurrentAddEvent.AutoNextPage)
+                yield return EmptyPage();
             Anim.SetTrigger("Add");
             Activating = true;
             CRI.Disable();
@@ -289,6 +293,20 @@ namespace THAN
             yield return new WaitForSeconds(0.25f);
             CurrentPage++;
             ChoiceRendererCheck();
+            yield return new WaitForSeconds(0.25f);
+            PageChanging = false;
+        }
+
+        public IEnumerator EmptyPage()
+        {
+            PageChanging = true;
+            Anim.SetTrigger("PageChange");
+            CRI.Disable();
+            CRII.Disable();
+            yield return new WaitForSeconds(0.25f);
+            CurrentPage = 999;
+            ContentText.text = ProcessContent(GetEvent().GetContent(CurrentPage), GetEvent().GetSource());
+            ContentText.ForceMeshUpdate();
             yield return new WaitForSeconds(0.25f);
             PageChanging = false;
         }
@@ -326,6 +344,39 @@ namespace THAN
                     C += Source.GetName();
                 else if (Key == "TWO" && Source && Source.GetPartner())
                     C += Source.GetPartner().GetName();
+                else if (Key == "FONE" && Source)
+                {
+                    string sub = "";
+
+                    for (int i = 0; i < Source.GetName().Length; i++)
+                    {
+                        if (Source.GetName()[i] != ' ')
+                        {
+                            sub += Source.GetName()[i];
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                    C += sub;
+                } else if (Key == "FTWO" && Source && Source.GetPartner())
+                {
+                    string sub = "";
+
+                    for (int i = 0; i < Source.GetPartner().GetName().Length; i++)
+                    {
+                        if (Source.GetPartner().GetName()[i] != ' ')
+                        {
+                            sub += Source.GetPartner().GetName()[i];
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                    C += sub;
+                }
                 else
                     C += Key;
             }

@@ -237,7 +237,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -250,9 +250,10 @@ MonoBehaviour:
     can move, Ross begins to recite words that nobody understands. Soon his eyes
     glow white, and he begins to levitate. With a much deeper voice, he declare that
     you as the high priest have no true grasp on god.\r"
+  AddContent: 
   Pages:
   - {fileID: 9135209652222656916}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686666494554}
@@ -987,7 +988,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -1000,9 +1001,10 @@ MonoBehaviour:
     can move, Ross begins to recite words that nobody understands. Soon his eyes
     glow white, and he begins to levitate. With a much deeper voice, he declare that
     you as the high priest have no true grasp on god.\r"
+  AddContent: 
   Pages:
   - {fileID: 5359660864707956975}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686679603429}
@@ -1151,13 +1153,14 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\nIt does not take long to get Ross to talk. Mia took a book from the
-    basement and has been reading it every night. He doesn\u2019t fully understand
-    what it says but he knows it\u2019s been affecting her. He gets the book and
-    hands it to you. You immediately leave to go put it back in the basement and
-    lock the trap door. There has been enough chaos surrounding it already."
-  Pages: []
+  Content: "It does not take long to get Ross to talk. Mia took a book from the basement
+    and has been reading it every night. He doesn\u2019t fully understand what it
+    says but he knows it\u2019s been affecting her. He gets the book and hands it
+    to you. You immediately leave to go put it back in the basement and lock the
+    trap door. There has been enough chaos surrounding it already."
   AddContent: 
+  Pages: []
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685353953666}
@@ -1280,8 +1283,9 @@ MonoBehaviour:
 
     Ross was shouting and alerted some wild animals, leading the three
     kids to run back home.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685376192707}
@@ -1697,8 +1701,9 @@ MonoBehaviour:
     After a short conversation, helping Mia sort through her feelings
     about the loss of Ross, she solemnly admits that she was actually the one to
     start the fire. She do not go into more detail about why but she apologize profusely.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685499550963}
@@ -1777,8 +1782,9 @@ MonoBehaviour:
     After a short conversation, helping Ross sort through his feelings
     about the loss of Mia, he solemnly admits that he was actually the one to start
     the fire. He do not go into more detail about why but he apologize profusely.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685499927870}
@@ -2115,8 +2121,9 @@ MonoBehaviour:
     After a short conversation, helping Ross sort through his feelings
     about the loss of Mia, he solemnly admits that he was actually the one to start
     the fire. He do not go into more detail about why but he apologize profusely.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685704150301}
@@ -2335,7 +2342,7 @@ MonoBehaviour:
   Source: Mia Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -2347,8 +2354,9 @@ MonoBehaviour:
     to see that the trapdoor is open. As you walk in to investigate, you hear shuffling
     noises, as though someone is trying to hide. You can\u2019t find anyone, but
     you have a feeling Mia is still in the basement."
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686225854262}
@@ -2637,7 +2645,7 @@ MonoBehaviour:
   Source: Mia Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -2647,9 +2655,10 @@ MonoBehaviour:
   - {fileID: 8419289685817116510}
   Content: 'The forest clearing on the outskirts of the village where the children
     used to play had been set on fire for a short period of time. '
+  AddContent: 
   Pages:
   - {fileID: 3142911655897070236}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686912613853}
@@ -2754,8 +2763,9 @@ MonoBehaviour:
 
     Amelia and Ross come back helping Mia walk. She fell, scraped her
     knee, and was bleeding quite a bit. '
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685835470888}
@@ -2826,7 +2836,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -2837,9 +2847,10 @@ MonoBehaviour:
     The last place he was seen was around the church.
 
 '
+  AddContent: 
   Pages:
   - {fileID: 6200350648944556900}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685318134080}
@@ -3207,9 +3218,10 @@ MonoBehaviour:
   Title: 
   Source: Ross Becker
   FreeSources:
+  - Ross Becker
   - Mia Becker
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 1
   RequiredKey: 
   StartTime: -1
@@ -3218,9 +3230,10 @@ MonoBehaviour:
   - {fileID: 8419289685918043399}
   Content: "Ross runs up to you in a panic.\r\n\r\u201CI\u2026 I think Mia might
     be trapped in the church basement.\" "
+  AddContent: 
   Pages:
   - {fileID: 4634392070339505398}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289687060459320}
@@ -3306,7 +3319,7 @@ MonoBehaviour:
   Source: Mia Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -3316,9 +3329,10 @@ MonoBehaviour:
   - {fileID: 8419289685930123020}
   Content: After your weekly sermon, you go to check the basement and find it completely
     ruined, with files and books scattered all over and shelves knocked down.
+  AddContent: 
   Pages:
   - {fileID: 17395933365809024}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685733582026}
@@ -3459,6 +3473,7 @@ MonoBehaviour:
   Title: 
   Source: Mia Becker
   FreeSources:
+  - Mia Becker
   - Ross Becker
   - Amelia Thurston
   BaseEvent: {fileID: 0}
@@ -3473,8 +3488,9 @@ MonoBehaviour:
     Priest, we always play in the little clearing by our homes\u2026 we want to go
     on an adventure in the forest but our parents said we should ask you! Can we
     go please?\u201D\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686525089665}
@@ -3684,8 +3700,9 @@ MonoBehaviour:
 
     The three kids found some strange words carved into some of the
     tree.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686078632160}
@@ -4026,7 +4043,7 @@ MonoBehaviour:
   Source: Mia Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -4039,9 +4056,10 @@ MonoBehaviour:
     can move, Mia begins to recite words that nobody understands. Soon her eyes glow
     white, and she begins to levitate. With a much deeper voice, she declare that
     you as the high priest have no true grasp on god.\r"
+  AddContent: 
   Pages:
   - {fileID: 3717662134945782052}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289687190801176}
@@ -4231,7 +4249,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -4241,9 +4259,10 @@ MonoBehaviour:
   - {fileID: 8419289686129974836}
   Content: '*Someone* hears unusual noises coming from the Becker household, and
     asks you to go investigate. '
+  AddContent: 
   Pages:
   - {fileID: 1509430394657942585}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686578356731}
@@ -4389,13 +4408,14 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\nAfter a week, you go check the trapdoor. As you open the door, you
-    are greeted by what seems to be the starved body of Mia Becker. It seems as though
+  Content: "After a week, you go check the trapdoor. As you open the door, you are
+    greeted by what seems to be the starved body of Mia Becker. It seems as though
     her last strength went towards trying to force open the trapdoor. If only she
     had listened to the sermon you gave the last time she had gone near the trapdoor.
     \r\n\rUltimately you decide not to tell the village about what happened to her."
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686180744795}
@@ -4809,8 +4829,9 @@ MonoBehaviour:
     After a short conversation, helping Ross sort through his feelings
     about the loss of Mia, he solemnly admits that he was actually the one to start
     the fire. He do not go into more detail about why but he apologize profusely.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686326823165}
@@ -4974,7 +4995,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -4984,9 +5005,10 @@ MonoBehaviour:
   - {fileID: 8419289686389017910}
   Content: After your weekly sermon, you go to check the basement and find it completely
     ruined, with files and books scattered all over and shelves knocked down.
+  AddContent: 
   Pages:
   - {fileID: 5471163386785729497}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685239862273}
@@ -5628,9 +5650,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Amelia Thurston
-  FreeSources: []
+  FreeSources:
+  - Amelia Thurston
+  - Ross Becker
+  - Mia Becker
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -5640,9 +5665,10 @@ MonoBehaviour:
   Content: "\u201CHigh Priest, yesterday my friends and I were playing in the churchyard,
     and we found a trapdoor. I wanted to see what was inside, but then Mia started
     to tell scary stories about what could be in there.\" "
+  AddContent: 
   Pages:
   - {fileID: 2901898436229570162}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685400815756}
@@ -6064,8 +6090,9 @@ MonoBehaviour:
 
     Amelia said the wind blowing through the trees sounded like someone
     was speaking to her.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686596388471}
@@ -6145,8 +6172,9 @@ MonoBehaviour:
     much. I just wish there was something I could do to stop it.\u201D\r\nAfter telling
     him that the sacrifices are god\u2019s will, he avoids your gaze but says he
     understands what needs to happen, and says he is not angry at you.\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686616774570}
@@ -7075,7 +7103,7 @@ MonoBehaviour:
   Source: Mia Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -7088,9 +7116,10 @@ MonoBehaviour:
     can move, Mia begins to recite words that nobody understands. Soon her eyes glow
     white, and she begins to levitate. With a much deeper voice, she declare that
     you as the high priest have no true grasp on god.\r"
+  AddContent: 
   Pages:
   - {fileID: 3947309874990713925}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685598941862}
@@ -7296,7 +7325,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -7306,9 +7335,10 @@ MonoBehaviour:
   - {fileID: 8419289686919397021}
   Content: 'The forest clearing on the outskirts of the village where the children
     used to play had been set on fire for a short period of time. '
+  AddContent: 
   Pages:
   - {fileID: 7840659392359325497}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289685632373391}
@@ -7404,9 +7434,10 @@ MonoBehaviour:
   Title: 
   Source: Ross Becker
   FreeSources:
+  - Ross Becker
   - Mia Becker
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -7416,8 +7447,9 @@ MonoBehaviour:
   Content: "Ross comes to you concerned about Mia again.\r\n\u201CShe\u2019s saying
     words in her sleep I can\u2019t understand! Please help her!\u201D\r\nHe seems
     reluctant to tell you if there is any potential cause of this.\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686997667305}
@@ -7484,9 +7516,10 @@ MonoBehaviour:
   Title: 
   Source: Roger Becker
   FreeSources:
+  - Roger Becker
   - Mia Becker
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -7498,8 +7531,9 @@ MonoBehaviour:
     to Mia. He is worried there is something potentially supernatural affecting his
     daughter. He then begins to berate you, claiming you did not take good enough
     care of her after the loss of Ross.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686991139358}
@@ -8194,9 +8228,10 @@ MonoBehaviour:
   Title: 
   Source: Roger Becker
   FreeSources:
+  - Roger Becker
   - Ross Becker
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -8208,8 +8243,9 @@ MonoBehaviour:
     to Ross. He is worried there is something potentially supernatural affecting
     his son. He then begins to berate you, claiming you did not take good enough
     care of him after the loss of Mia.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686841770863}
@@ -8820,14 +8856,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: '
-
-    As you approach the trapdoor, you can hear banging, and the weak
-    cries of Mia. As you open the door, she runs out as fast as she can before collapsing
+  Content: As you approach the trapdoor, you can hear banging, and the weak cries
+    of Mia. As you open the door, she runs out as fast as she can before collapsing
     on the ground. Ross begins to cry and hug Mia. Hopefully this will help them
-    understand that they should not be looking in places not meant for them.'
-  Pages: []
+    understand that they should not be looking in places not meant for them.
   AddContent: 
+  Pages: []
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289687207559111}
@@ -8899,7 +8934,7 @@ MonoBehaviour:
   Source: Ross Becker
   FreeSources: []
   BaseEvent: {fileID: 0}
-  Active: 1
+  Active: 0
   IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
@@ -8909,9 +8944,10 @@ MonoBehaviour:
   - {fileID: 8419289687230436640}
   Content: '*Someone* spots Ross roaming around the church at night. You look around
     to see that the trapdoor is open. '
+  AddContent: 
   Pages:
   - {fileID: 4266938750492692736}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 8419289686521859379}

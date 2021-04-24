@@ -78,10 +78,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Enlightened
-  Description: 'Enlightened: When *Character_Name* has 22 or more passion they activate
-    this ability. While Enlightened is active, if *Character_Name* is unpaired, all
-    other characters will have their vitality reduced by 5. *Character_Name* will
-    then have their passion reduced by 8 and their reason increased to 15.'
+  Description: 'Enlightened: When *FCharacter_Name* has 22 or more passion they activate
+    Enlightened. While active, if *FCharacter_Name* is unpaired, all other characters
+    will have their vitality reduced by 5. *FCharacter_Name* will then have their
+    passion reduced by 8 and their reason set to 15.'
 --- !u!114 &1903649265415060583
 MonoBehaviour:
   m_ObjectHideFlags: 0
