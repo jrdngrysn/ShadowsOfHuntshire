@@ -76,7 +76,6 @@ public class Skill : MonoBehaviour {
             else if (Key == "FCharacter_Name")
             {
                 string sub = "";
-
                 for (int i = 0; i < Source.GetName().Length; i++)
                 {
                     if (Source.GetName()[i] != ' ')
@@ -89,7 +88,8 @@ public class Skill : MonoBehaviour {
                     }
                 }
                 C += sub;
-            } else
+            }
+            else
                 C += Key;
         }
         C += S;
