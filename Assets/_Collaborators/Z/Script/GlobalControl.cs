@@ -307,6 +307,10 @@ namespace THAN
 
         public void RegisterStatChange(Character Source, Vector3 StatChange)
         {
+            /*Source.ActualChangeVitality(StatChange.x);
+            Source.ActualChangePassion(StatChange.y);
+            Source.ActualChangeReason(StatChange.z);*/
+
             if (TurnEnding && !TurnEnding)
             {
                 if (!StatChangeSources.Contains(Source))
@@ -364,6 +368,7 @@ namespace THAN
 
         public IEnumerator EndProcess(Event EndEvent)
         {
+            SendData();
             BoardShadeAnim.SetBool("Active", true);
             yield return 0;
             EndEventActive = true;
@@ -758,15 +763,17 @@ namespace THAN
 
         public void Retry()
         {
-          //Debug.Log("Ending Game Time: " + GlobalControl.Main.CurrentTime.ToString());
-          Tinylytics.AnalyticsManager.LogCustomMetric("GameOver Time",  CurrentTime.ToString());
-               
-
-
+            //SendData();
             if (AlreadyDead)
                 return;
             AlreadyDead = true;
             StartCoroutine("RetryIE");
+        }
+
+        public void SendData()
+        {
+            //Debug.Log("Ending Game Time: " + GlobalControl.Main.CurrentTime.ToString());
+            Tinylytics.AnalyticsManager.LogCustomMetric("GameOver Time", CurrentTime.ToString());
         }
 
         public IEnumerator RetryIE()

@@ -33,7 +33,6 @@ namespace THAN
 
         public void OnMouseDown()
         {
-
             if (GlobalControl.Main.GetSacrificeActive() && !GlobalControl.Main.HaveSacrifice() && !GlobalControl.Main.HoldingCharacter)
                 GlobalControl.Main.Retry();
         }
