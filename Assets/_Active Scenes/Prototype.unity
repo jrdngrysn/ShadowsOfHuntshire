@@ -12752,7 +12752,7 @@ Transform:
   m_LocalScale: {x: 13.407866, y: 13.407866, z: 13.407866}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1270575357
 GameObject:
@@ -20140,6 +20140,63 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1091601641750241915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -281.8849
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924168912992991583, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: m_Name
+      value: MeierEvents
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
 --- !u!1 &1489745058361465214
 GameObject:
   m_ObjectHideFlags: 0
