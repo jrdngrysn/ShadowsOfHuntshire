@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Sternly lecture Dolf about his behavior.
   EffectText: Vitality +1
@@ -112,8 +113,9 @@ MonoBehaviour:
   Content: You are looking through your library one day when all of a sudden you
     notice an empty place in your bookshelf. A book about mythical aquatic creatures
     is missing. There is only one person who could be responsible for this.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802663620338}
@@ -175,6 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Have another stop Dolf from going out. His behavior is unacceptable.
   EffectText: Passion +2
@@ -241,8 +244,9 @@ MonoBehaviour:
     Dolf returns with a slight emptiness behind his eyes. He fished
     out a scratched wine bottle containing a piece of parchment that had already
     been soaked. Strange symbols painted on the parchment can be dimly seen.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446801935065459}
@@ -258,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Reason -1
@@ -306,6 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: His last endeavor was recent enough, he does not need to go out again
     so soon.
@@ -359,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Approach him and tell him to go inside.
   EffectText: 
@@ -421,7 +428,6 @@ GameObject:
   - component: {fileID: 1934446802046233143}
   - component: {fileID: 1934446802046233140}
   - component: {fileID: 1934446802046233138}
-  - component: {fileID: 1934446802046233141}
   - component: {fileID: 1934446802046233139}
   m_Layer: 0
   m_Name: 6-1
@@ -473,10 +479,10 @@ MonoBehaviour:
     However, as you approach the lake, you see Dolf gazing across the water. He seems
     to be murmuring to himself quietly. After waiting for a short while, it seems
     as though he will not be leaving anytime soon.
+  AddContent: 
   Pages:
   - {fileID: 1934446802046233138}
-  - {fileID: 1934446802046233141}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802745421910}
@@ -497,19 +503,6 @@ MonoBehaviour:
     However, as you approach the lake, you see Dolf gazing across the water. He seems
     to be murmuring to himself quietly. After waiting for a short while, it seems
     as though he will not be leaving anytime soon.
---- !u!114 &1934446802046233141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934446802046233142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: 
 --- !u!114 &1934446802046233139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,8 +572,9 @@ MonoBehaviour:
   Content: '
 
     In the morning Dolf cannot be found. We can only assume the worst.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802049931800}
@@ -596,6 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -701,8 +696,9 @@ MonoBehaviour:
   Content: '
 
     In the morning Dolf cannot be found. We can only assume the worst.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802112452273}
@@ -718,6 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -826,8 +823,9 @@ MonoBehaviour:
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
     to sneak out of the village to go fishing. He is incredibly distraught and will
     not stop talking about how much he misses the sea.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446803958977940}
@@ -979,6 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Give Dolf extra work as punishment for abandoning the village and not
     following directions
@@ -1047,8 +1046,9 @@ MonoBehaviour:
   Content: Dolf has been constantly asking the Meiers if he can use their personal
     library . If they let him, he is very loud and leaves the library in complete
     disarray.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802506880650}
@@ -1200,6 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Absolutely not. He must learn to control his urges.
   EffectText: Passion +2
@@ -1274,11 +1275,12 @@ MonoBehaviour:
     screams become louder and more anguished.\r\n\r\n\"THE WAVE! IT\u2019S COMING!
     I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r\n\r\nAs you finally reach his room,
     his eyes are wide open and bloodshot, however he does not react to your presence.\r"
+  AddContent: 
   Pages:
   - {fileID: 1934446802251554935}
   - {fileID: 1934446802251554934}
   - {fileID: 1934446802251554889}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802514162521}
@@ -1398,8 +1400,9 @@ MonoBehaviour:
   - {fileID: 1934446802277662962}
   Content: Dolf shows up at your door one night, pale and sweaty, eyes darting around.
     He asks if he can look in your personal library.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446803677749995}
@@ -1461,6 +1464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Investigate his claims.
   EffectText: Reason -6
@@ -1512,6 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Continue.
   EffectText: 
@@ -1579,8 +1584,9 @@ MonoBehaviour:
   Content: "Dolf comes to you and pleads to let him go fishing again. Desperation
     overpowering as he speaks.\r\n\r\u201CPlease... I must go back out to the sea,
     I feel her calling me. I miss her so much...\u201D\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446803706927884}
@@ -1654,8 +1660,9 @@ MonoBehaviour:
   Content: '
 
     As he walks away, you can hear Dolf mutter curses under his breath.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802366138829}
@@ -1671,6 +1678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -1719,6 +1727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Have another stop Dolf from going out. His behavior is unacceptable.
   EffectText: Passion +2
@@ -1784,8 +1793,9 @@ MonoBehaviour:
 
     Dolf returns with a slight emptiness behind his eyes. He fished
     out a curiously-patterned brass mirror.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802422616965}
@@ -1801,6 +1811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion +1
@@ -1867,8 +1878,9 @@ MonoBehaviour:
     One look at him and it is clear that he is not in good shape. He looks significantly
     skinnier and weaker than he did before he left.\r\n\rHe does not respond to questions
     and just requests to be left to rest.\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802727549989}
@@ -1953,8 +1965,9 @@ MonoBehaviour:
   PMods: []
   Content: "\nYou spot Dolf as he returns to the valley. Curiously, he doesn\u2019t
     seem to even have a fishing rod with him."
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802457983486}
@@ -1970,6 +1983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Reason -1
@@ -2110,6 +2124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: The old drunk is delusional, ignore his ramblings.
   EffectText: Vitality -1
@@ -2305,6 +2320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: As good neighbors it is their job to welcome him in.
   EffectText: Passion +1
@@ -2358,6 +2374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: He is cursed and must be expelled from the valley at once.
   EffectText: ???
@@ -2516,8 +2533,9 @@ MonoBehaviour:
 
     After a thorough search of Dolf''s house, you cannot find the book.
     Dolf seems exasperated and insists that you leave immediately.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802557574329}
@@ -2533,6 +2551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -2581,6 +2600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Continue.
   EffectText: 
@@ -2693,8 +2713,9 @@ MonoBehaviour:
     He looks at various books on old folk tales, historical ships, and more. He luckily
     doesn''t seem to reach for any books you would not want him reading. After a
     while, he thanks you and leaves.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802587364375}
@@ -2710,6 +2731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -2759,6 +2781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: "Search Dolf\u2019s house."
   EffectText: Vitality -1
@@ -2869,8 +2892,9 @@ MonoBehaviour:
 
     Dolf returns with a slight emptiness behind his eyes. He seems
     to have got nothing this time.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802695736130}
@@ -2886,6 +2910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion -1
@@ -2940,6 +2965,7 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources:
+  - Dolf Fischer
   - Old Marris
   BaseEvent: {fileID: 0}
   Active: 0
@@ -2956,11 +2982,12 @@ MonoBehaviour:
     to stealing the book from your house and says he will repent on his own. He leaves
     before you can say another word.\r\n\r\nThe next day you find him floating face
     down in the lake.\r"
+  AddContent: 
   Pages:
   - {fileID: 1934446802701738624}
   - {fileID: 1934446802701738627}
   - {fileID: 1934446802701738626}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802560361650}
@@ -3116,6 +3143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Let Dolf relax and regain his strength
   EffectText: Vitality +1
@@ -3167,6 +3195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Store the body in the church basement for the night and dispose of it
     in the morning.
@@ -3232,8 +3261,9 @@ MonoBehaviour:
 
     Dolf fished out a grotesque fish with four legs and bulging eyes,
     it seems to be a creature from other worlds.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802868069966}
@@ -3249,6 +3279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion -3, Reason -3
@@ -3346,6 +3377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: He may go for a day, but he must be back before nightfall.
   EffectText: ???
@@ -3447,6 +3479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Let Dolf do as he pleases. If he is so desperate, it is best he gets it
     out of his system.
@@ -3650,8 +3683,9 @@ MonoBehaviour:
   Content: "Dolf really misses the old days as a sailor and wants to go fishing out
     at sea.\r\nHe has repeatedly mentioned that he would like to leave the valley
     for a time.\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802921690445}
@@ -3714,6 +3748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: "Search Dolf\u2019s house."
   EffectText: Vitality -1
@@ -3766,6 +3801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Hold him down forcefully until he returns to his normal self.
   EffectText: Vitality -3
@@ -3867,6 +3903,7 @@ MonoBehaviour:
   Title: 
   Source: Dolf Fischer
   FreeSources:
+  - Dolf Fischer
   - Old Maris
   BaseEvent: {fileID: 0}
   Active: 0
@@ -3879,8 +3916,9 @@ MonoBehaviour:
   Content: Old Maris comes to you concerned. He hears noises at night, lots of splashing
     and screeching seemingly coming out of the lake. He is afraid and doesn't know
     what to do.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802473500164}
@@ -3986,6 +4024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: ...
   EffectText: 
@@ -4052,8 +4091,9 @@ MonoBehaviour:
   Content: "Dolf comes to you and pleads to let him go fishing again. Desperation
     overpowering as he speaks.\r\n\r\u201CPlease... I must go back out to the sea,
     I feel her calling me. I miss her so much...\u201D\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446804035620517}
@@ -4354,8 +4394,9 @@ MonoBehaviour:
   Content: '
 
     Dolf fished out a curiously-patterned brass mirror.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803241970572}
@@ -4371,6 +4412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion +1
@@ -4432,8 +4474,9 @@ MonoBehaviour:
 
     Neighbors saw Dolf come back crestfallen. He seems to have got
     nothing this time.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803242342541}
@@ -4449,6 +4492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion -1
@@ -4511,8 +4555,9 @@ MonoBehaviour:
     Dolf returns with a slight emptiness behind his eyes. He fished
     out a grotesque fish with four legs and bulging eyes, it seems to be a creature
     from other worlds.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803252044245}
@@ -4528,6 +4573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Passion -3, Reason -3
@@ -4699,12 +4745,13 @@ MonoBehaviour:
     been both terrified and attached to sea. I desperately want to understand what
     happened that day, so I keep going back, hoping one day I\u2019ll find the answers
     I\u2019m looking for.\u201D\r"
+  AddContent: 
   Pages:
   - {fileID: 1934446803313919600}
   - {fileID: 1934446803313919603}
   - {fileID: 1934446803313919602}
   - {fileID: 1934446803313919601}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446803080123396}
@@ -4828,6 +4875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Turn him away, he has no need to read those texts.
   EffectText: Passion +2
@@ -4936,8 +4984,9 @@ MonoBehaviour:
 
     After a thorough search of Dolf''s house, you cannot find the book.
     Dolf seems exasperated and insists that you leave immediately.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803372464209}
@@ -4953,6 +5002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -5054,6 +5104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: During the weekly sermon focus on the dangers of pursuing superfluous
     knowledge.
@@ -5163,15 +5214,16 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\nAs you get close, you can hear what he is saying.\r\n\u201CI will save
+  Content: "As you get close, you can hear what he is saying.\r\n\u201CI will save
     you. I will save you. I will save you-\u201D\r\nAs he mutters the same four words
     over and over again, it is clear he isn\u2019t aware of your presence.\r\nAs
     you begin to tell him to go inside, Dolf looks up and becomes very tense. Without
     anything more than a nod, he hurries back inside.\r\nAs the lights flicker off
     in Dolf\u2019s house, you proceed to dispose of the body and head home for the
     night.\r"
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803443823022}
@@ -5187,6 +5239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -5343,8 +5396,9 @@ MonoBehaviour:
     Dolf fished out a scratched wine bottle containing a piece of parchment
     that had already been soaked. Strange symbols painted on the parchment can be
     dimly seen.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803512974108}
@@ -5360,6 +5414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Reason -1
@@ -5543,6 +5598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: No, he is too old for such activity.
   EffectText: 
@@ -5640,6 +5696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Allow him in but keep a watchful eye the whole time.
   EffectText: Reason +1
@@ -5692,6 +5749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: During the weekly sermon focus on the dangers of pursuing superfluous
     knowledge.
@@ -5746,6 +5804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Indulge his request, he deserves this kindness
   EffectText: ???
@@ -6137,8 +6196,9 @@ MonoBehaviour:
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
     to sneak out of the village to go fishing. He is incredibly distraught and will
     not stop talking about how much he misses the sea.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446802928448160}
@@ -6444,8 +6504,9 @@ MonoBehaviour:
 
     At night you see Dolf standing by the lake, spacing out, with a
     nosebleed. He turns to look at you and then runs away.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803929504990}
@@ -6461,6 +6522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: 
   EffectText: Continue.
@@ -6557,6 +6619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Let Dolf do as he pleases. If he is so desperate, it is best he gets it
     out of his system.
@@ -6674,8 +6737,9 @@ MonoBehaviour:
     of your house, you notice an empty place in your bookshelf. A book about mythical
     aquatic creatures is missing. There is only one person who could be responsible
     for this.
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 1
   Choices:
   - {fileID: 1934446803023543088}
@@ -6738,6 +6802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  E: {fileID: 0}
   TriggerSequence: 1
   Content: Indulge his request, he deserves this kindness
   EffectText: ???
@@ -6816,11 +6881,12 @@ MonoBehaviour:
     Dolf. As you run for cover, the kraken lets out a deafening screech and proceeds
     to swing and destroy the church.\r\n\r\nWhat you have worked to build has been
     destroyed. There is nothing left, your plans will never come to fruition.\r"
+  AddContent: 
   Pages:
   - {fileID: 1934446804039745384}
   - {fileID: 1934446804039745387}
   - {fileID: 1934446804039745386}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1934446802347190010}
