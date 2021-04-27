@@ -214,6 +214,8 @@ namespace THAN
 
         public Event GetEvent()
         {
+            if (!Active || (ReturnTime > 0 && ReturnTime < GlobalControl.Main.CurrentTime))
+                return null;
             /*if (EventCoolDown > 0)
                 return null;*/
             if (AddRepeatEvents.Count <= 0)
@@ -226,7 +228,7 @@ namespace THAN
                 {
                     TE = E;
                     Priority = E.GetPriority(GetPair());
-                    print("Event " + E.gameObject.name + "; Character " + E.GetSource() + "; Priority " + Priority);
+                    //print("Event " + E.gameObject.name + "; Character " + E.GetSource() + "; Priority " + Priority);
                 }
             }
             return TE;
