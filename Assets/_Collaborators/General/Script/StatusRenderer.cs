@@ -25,12 +25,6 @@ namespace THAN
 
         public void Render(Skill S, Character C)
         {
-            if (C)
-            {
-                print("Render: " + C.GetName());
-                if (S)
-                    print("Skill: " + S.name);
-            }
             transform.position = C.transform.position;
             if (C.transform.position.x <= -50)
                 DescriptionText.transform.localPosition = new Vector3(19f, DescriptionText.transform.localPosition.y);

@@ -465,7 +465,7 @@ namespace THAN
                 C.OnTriggerEvent(E);
 
             BoardShadeAnim.SetBool("Active", true);
-            if (C == null || E == null)
+            if (C == null || !C.Active || E == null)
             {
                 IndividualEventActive = false;
                 StartCoroutine("DisableBoardShade");
