@@ -1825,7 +1825,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1934446802442747489}
   - component: {fileID: 1934446802442747502}
-  - component: {fileID: 1934446802442747500}
   - component: {fileID: 1934446802442747503}
   m_Layer: 0
   m_Name: 3-1
@@ -1864,7 +1863,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Dolf Fischer
-  FreeSources: []
+  FreeSources:
+  - Dolf Fischer
   BaseEvent: {fileID: 0}
   Active: 0
   IgnorePairing: 1
@@ -1872,7 +1872,6 @@ MonoBehaviour:
   StartTime: -1
   Priority: 2
   PMods:
-  - {fileID: 1934446802442747500}
   - {fileID: 1934446802442747503}
   Content: "One morning, to the surprise of everyone in the valley, Dolf returns.
     One look at him and it is clear that he is not in good shape. He looks significantly
@@ -1885,18 +1884,6 @@ MonoBehaviour:
   Choices:
   - {fileID: 1934446802727549989}
   - {fileID: 1934446802146773649}
---- !u!114 &1934446802442747500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934446802442747488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1934446802442747503
 MonoBehaviour:
   m_ObjectHideFlags: 0

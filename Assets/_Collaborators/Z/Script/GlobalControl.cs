@@ -428,6 +428,7 @@ namespace THAN
                 if (!Temp)
                     print("!!! Pairing Character Not Found !!!");
                 Event RE = CurrentRandomEvents[Random.Range(0, CurrentRandomEvents.Count)];
+                print("Time: " + CurrentTime + "; Random Event: " + RE.gameObject.name + "; Source: " + Temp.Name);
                 RE.Source = Temp.GetName();
                 Es.Add(RE);
                 Cs.Add(Temp);
@@ -446,6 +447,10 @@ namespace THAN
                 E = Es[i];
                 Priority = Es[i].GetPriority(Cs[i].GetPair());
             }
+            if (!E)
+                print("Time: " + CurrentTime + "; No Event Selected");
+            else
+                print("Time: " + CurrentTime + "; Selected Event: " + E.gameObject.name + "; Source: " + E.GetSource().Name + "; Priority: " + Priority);
         }
 
         public void RandomEventIni()
