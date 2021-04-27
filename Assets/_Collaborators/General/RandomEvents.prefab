@@ -151,8 +151,9 @@ MonoBehaviour:
   PMods: []
   Content: '*TWO* tells you that they have been hearing a low whispering around the
     church grounds late at night.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131331803263}
@@ -326,7 +327,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8870458130609518671}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -503,9 +504,10 @@ MonoBehaviour:
   PMods: []
   Content: '*ONE* reports they have noticed that *TWO* has been extremely tired and
     lethargic the past month.'
+  AddContent: 
   Pages:
   - {fileID: 8870458130718758037}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131833495241}
@@ -567,7 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: -3, z: 3}
+  Change: {x: 0, y: -1, z: 1}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -716,7 +718,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: The nightmares are omens. Hold a ceremony honoring this divine connection.
-  EffectText: -3 passion, +3 reason
+  EffectText: -1 passion, +1 reason
   Effects:
   - {fileID: 8870458130789129318}
   DAE: {fileID: 0}
@@ -963,7 +965,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: "Having some variety in our foods couldn\u2019t hurt."
-  EffectText: +2 vitality, -1 reason
+  EffectText: +2 vitality, -2 reason
   Effects:
   - {fileID: 8870458131061943492}
   DAE: {fileID: 0}
@@ -1010,7 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 2, y: 0, z: -1}
+  Change: {x: 2, y: 0, z: -2}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1166,8 +1168,9 @@ MonoBehaviour:
   Content: '*ONE* and *TWO* come to you with a proposal. *FONE* thought it would
     be a good idea to get a shipment of desserts from outside the village as a treat
     during the ceremonies and they wanted to get your approval.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131013781584}
@@ -1215,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 1, y: 0, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1314,7 +1317,7 @@ MonoBehaviour:
   TriggerSequence: 1
   Content: Reprimand them as it is forbidden to enter the church grounds on their
     own.
-  EffectText: +1 reason
+  EffectText: +1 vitality
   Effects:
   - {fileID: 8870458131110724837}
   DAE: {fileID: 0}
@@ -1557,7 +1560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: -1, y: -1, z: 1}
+  Change: {x: -1, y: -1, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1618,8 +1621,9 @@ MonoBehaviour:
   PMods: []
   Content: '*TWO* and *ONE* are worried as after a long sermon two weeks ago, they
     have both slowly lost all sense of taste.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131463042298}
@@ -1981,8 +1985,9 @@ MonoBehaviour:
   PMods: []
   Content: '*TWO* and *ONE* report that they have been seeing strange glowing lights
     in the forest surrounding the village.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458130517205285}
@@ -2092,8 +2097,9 @@ MonoBehaviour:
   Content: "*ONE* has been notably absent at your sermons recently. When confronted,
     they explain they had thought they had been going as normal. *FTWO* hasn\u2019t
     seen them leave their house all week."
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458130838859177}
@@ -2207,8 +2213,9 @@ MonoBehaviour:
   Content: '*ONE* reports they have noticed that *TWO* has been extremely tired and
     lethargic the past month. Upon questioning, *FTWO* reveals that they have been
     suffering from intense nightmares and an inability to feel rested.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131192152236}
@@ -2307,7 +2314,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: It would be best to avoid unnecessary dealings with the outside world.
-  EffectText: -1 vitality, -1 passion, +1 reason
+  EffectText: -1 vitality, -1 passion
   Effects:
   - {fileID: 8870458131217980129}
   DAE: {fileID: 0}
@@ -2522,8 +2529,9 @@ MonoBehaviour:
   Content: "*ONE* reports hearing constant loud and disturbing violin music coming
     from *TWO*\u2019s home in the evening, but *FTWO* assures you they have never
     played a violin before and do not own one."
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131148659303}
@@ -2585,8 +2593,9 @@ MonoBehaviour:
   PMods: []
   Content: '*ONE* accuses *TWO* of carving strange symbols onto the outside of their
     door in the night. *FTWO* vehemently denies doing so.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131526398301}
@@ -2649,9 +2658,10 @@ MonoBehaviour:
   PMods: []
   Content: 'Both *ONE* and *TWO* have come down with an intense sickness out of nowhere.
     They have been bedridden for the last week. '
+  AddContent: 
   Pages:
   - {fileID: 8870458132473721830}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8870458131449701604}
