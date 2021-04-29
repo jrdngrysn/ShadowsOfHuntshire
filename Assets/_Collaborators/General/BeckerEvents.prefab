@@ -354,8 +354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Quickly give a sermon about respecting authority.
-  EffectText: Reason -2
+  Content: Ignore Ross, his anger is ridiculous and misplaced.
+  EffectText: Passion -2
   Effects:
   - {fileID: 8419289686546905575}
   - {fileID: 8419289685189104862}
@@ -738,7 +738,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager everything is fine.
+  Content: Tell the villager everything is fine and the basement is of no concern
+    to them.
   EffectText: Reason -2
   Effects:
   - {fileID: 8419289686375805458}
@@ -883,7 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Bring him home.
+  Content: Bring him home and leave him to get some rest.
   EffectText: Passion -1
   Effects:
   - {fileID: 8419289685911944631}
@@ -1094,7 +1095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: -4, y: 0, z: 0}
+  Change: {x: 0, y: 2, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1633,8 +1634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Quickly give a sermon about respecting authority.
-  EffectText: Reason -2
+  Content: Ignore Mia, her anger is ridiculous and misplaced.
+  EffectText: Passion -2
   Effects:
   - {fileID: 8419289686986953900}
   - {fileID: 8419289686847730043}
@@ -1695,9 +1696,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: After a short conversation, helping Mia sort through her feelings about
-    the loss of Ross, she solemnly admits that she was actually the one to start
-    the fire. She do not go into more detail about why but she apologize profusely.
+  Content: "\u201CAs if killing Ross wasn\u2019t enough, you burned the place we
+    played together.\u201D\nHer eyes are filled with contempt and sorrow as she looks
+    directly at you. You explain that Ross is with the gods now and he is under their
+    protection, and that your goal was never to hurt her.\nShe finally breaks eye
+    contact as tears well in her eyes. \u201CHe deserves to be happy. Hopefully he
+    won\u2019t be mad at me for what I did today.\u201D She refuses to talk anymore
+    but she seems to have calmed down."
   AddContent: 
   Pages: []
   AutoNextPage: 1
@@ -1970,7 +1975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Demand he clean his room and apologize to his neighbors for the noise.
+  Content: Go to a hospital in a nearby town to get him checked out.
   EffectText: Vitality -2
   Effects:
   - {fileID: 8419289686998721107}
@@ -2072,8 +2077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager everything is fine.
-  EffectText: Reason -2
+  Content: "Search Mia\u2019s room to make sure she isn\u2019t hiding anything dangerous."
+  EffectText: Passion -1
   Effects:
   - {fileID: 8419289687198487661}
   - {fileID: 8419289686537350423}
@@ -2347,7 +2352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Find and Punish Mia in the morning.
+  Content: Punish Mia iafter the next sermon.
   EffectText: Passion +1
   Effects:
   - {fileID: 8419289686476646397}
@@ -2521,8 +2526,9 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685817116509}
   - {fileID: 8419289685817116510}
-  Content: 'The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time. '
+  Content: The forest clearing on the outskirts of Huntshire where the children used
+    to play had caught on fire for a short while, but it was dealt with quickly before
+    it could spread to the entire forest surrounding the valley.
   AddContent: 
   Pages:
   - {fileID: 4426401745109122015}
@@ -2570,8 +2576,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time.
+  Content: The forest clearing on the outskirts of Huntshire where the children used
+    to play had caught on fire for a short while, but it was dealt with quickly before
+    it could spread to the entire forest surrounding the valley.
 --- !u!114 &3142911655897070236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2584,10 +2591,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: It was dealt with quickly before it could spread to the entire forest
-    surrounding the valley, but the damage is not insignificant. While checking on
-    the villagers to find the culprit, Mia accuses you of doing this to torment her
-    further after the loss of her brother.
+  Content: It seems as though someone set the fire on purpose, however it is unclear
+    who or why. While checking on the villagers to find the culprit, Mia looks you
+    in the eye and accuses you of starting the fire to try to pin it on her so you
+    can punish her more.
 --- !u!1 &8419289685835470890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,8 +2770,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: As you check around the church, you notice the trapdoor propped open.
-    Inside you find Ross asleep. When you wake him up he admits to breaking in to
-    look for his sister.
+    Inside you find Ross asleep. When you wake him up he says he snuck in looking
+    for his sister.
 --- !u!1 &8419289685846394699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,8 +3050,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Beat Ross until he speaks about the cause.
-  EffectText: Vitality -4
+  Content: Intensely question Ross until he speaks about the cause.
+  EffectText: Passion +2
   Effects:
   - {fileID: 8419289685331489608}
   - {fileID: 8419289686241983207}
@@ -3145,11 +3152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\"She left the house a yesterday and told me not to tell anyone, but
-    after she didn\u2019t come back\u2026 I got nervous. I couldn\u2019t open the
-    door and she\u2019s been down there for a long time. She told me not to tell
-    anyone\u2026 but I\u2019m scared and I don\u2019t want her to be hurt. Please
-    help her!\u201D\r"
+  Content: "\"She left the house a yesterday aI couldn\u2019t get the door open and
+    she\u2019s been down there for a long time. She told me not to tell anyone she
+    went in there but... I\u2019m scared and I don\u2019t want her to be hurt. Please
+    help her!\u201D"
 --- !u!1 &8419289685930123023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,8 +3216,10 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685930123011}
   - {fileID: 8419289685930123020}
-  Content: After your weekly sermon, you go to check the basement and find it completely
-    ruined, with files and books scattered all over and shelves knocked down.
+  Content: "*Someone* omes to you and says that they have seen Mia carrying around
+    a knife. They aren\u2019t fully aware of why she is carrying it around but they
+    are worried as she is only eleven years old and she shouldn\u2019t be handling
+    such sharp objects."
   AddContent: 
   Pages:
   - {fileID: 17395933365809024}
@@ -3258,8 +3266,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: '*Someone* confesses to seeing Mia enter the basement. As you go to find
-    Mia, *Someone* begins to question what exactly is in the basement.'
+  Content: "As you approach Mia to talk to her, she glares at you and says she knows
+    what people are saying but she\u2019s not carrying a knife. She sticks both of
+    her hands out to prove she isn\u2019t holding anything, but as she does so, you
+    notice she has a strange scar on her right palm."
 --- !u!1 &8419289685949802868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3579,10 +3589,8 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: '
-
-    The three kids found some strange words carved into some of the
-    tree.'
+  Content: "\nThe three kids found some strange words carved into some of the trees
+    that they didn\u2019t understand."
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -3604,7 +3612,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: 
-  EffectText: Reason +2
+  EffectText: Reason -2
 --- !u!1 &8419289686084547570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4189,9 +4197,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: As you approach the house, you hear a loud scream. As you hurry inside,
-    you find Ross sitting alone on his bed, with a large pool of blood all over the
+    you find Ross sitting alone on his bed, with a small pool of blood all over the
     floor. He has a scar you have never seen before on the palm of his right hand,
-    however it seems as though it has long since healed.
+    however it seems as though it has long since healed. He insists he is fine and
+    promises to clean up right away.
 --- !u!1 &8419289686173605876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,9 +4302,10 @@ MonoBehaviour:
   PMods: []
   Content: "After a week, you go check the trapdoor. As you open the door, you are
     greeted by what seems to be the starved body of Mia Becker. It seems as though
-    her last strength went towards trying to force open the trapdoor. If only she
-    had listened to the sermon you gave the last time she had gone near the trapdoor.
-    \r\n\rUltimately you decide not to tell the village about what happened to her."
+    her last strength went towards trying to force open the trapdoor. Her death is
+    the result of her own recklessness and inability to listen to the wisdom you
+    provided her.\n\rUltimately you decide not to tell Ross or the other the villagers
+    about what happened to her."
   AddContent: 
   Pages: []
   AutoNextPage: 1
@@ -4557,7 +4567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Punish him for sneaking in.
+  Content: Punish him immediately for sneaking in.
   EffectText: Vitality -1
   Effects:
   - {fileID: 8419289687029292530}
@@ -4707,9 +4717,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: After a short conversation, helping Ross sort through his feelings about
-    the loss of Mia, he solemnly admits that he was actually the one to start the
-    fire. He do not go into more detail about why but he apologize profusely.
+  Content: "\u201CShe could still be here if it wasn\u2019t for you. Why... Why\u2026
+    Why...\u201D\nHis voice gets caught in his throat as he continues to cry. You
+    explain that the gods have controlled her fate and she is under the protection
+    of the divine now.\nAs Ross\u2019 tears begin to dry, all of a sudden he admits
+    to starting the fire. He won\u2019t answer questions about why but he promises
+    he won\u2019t do it again."
   AddContent: 
   Pages: []
   AutoNextPage: 1
@@ -5075,7 +5088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager Ross is potentially dangerous.
+  Content: Tell the villager BECKER is potentially dangerous and let you handle them.
   EffectText: Passion -2
   Effects:
   - {fileID: 8419289686084547569}
@@ -5176,7 +5189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Find and Punish Ross in the morning.
+  Content: Punish Ross after the next sermon.
   EffectText: Passion +1
   Effects:
   - {fileID: 8419289686522418198}
@@ -5543,9 +5556,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 8419289686535220328}
-  Content: "\u201CHigh Priest, yesterday my friends and I were playing in the churchyard,
-    and we found a trapdoor. I wanted to see what was inside, but then Mia started
-    to tell scary stories about what could be in there.\" "
+  Content: "After one of your weekly sermons, Amelia comes up to you.\n\n\u201CHigh
+    Priest, yesterday my friends and I were playing in the churchyard, and we found
+    a trapdoor. I wanted to see what was inside, but then Mia started to tell scary
+    stories about what could be in there.\" "
   AddContent: 
   Pages:
   - {fileID: 2901898436229570162}
@@ -5579,7 +5593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\"Ross got too afraid and wouldn\u2019t go in, I wasn\u2019t scared at
-    all though. But anyway, where does that door lead to?\u201D"
+    all though. Mia and I are excited to go and see what\u2019s in there the next
+    time we play!\u201D"
 --- !u!1 &8419289686537350416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,7 +5683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -2}
+  Change: {x: 0, y: -2, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -5806,7 +5821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: -2, z: 0}
+  Change: {x: 1, y: 0, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -5992,7 +6007,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: 
-  EffectText: Passion -1
+  EffectText: Passion +1
 --- !u!1 &8419289686616774548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6125,9 +6140,9 @@ MonoBehaviour:
   - {fileID: 8419289686596388464}
   StatChanges:
   - {x: -2, y: 0, z: 0}
-  - {x: 0, y: 2, z: 0}
+  - {x: 0, y: -2, z: 0}
   - {x: -1, y: 0, z: 0}
-  - {x: 0, y: -1, z: 0}
+  - {x: 0, y: 1, z: 0}
 --- !u!1 &8419289686630178142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6780,8 +6795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager Mia is potentially dangerous.
-  EffectText: Passion -2
+  Content: Ask Mia about the scar.
+  EffectText: Vitality +1
   Effects:
   - {fileID: 8419289686567964097}
   - {fileID: 8419289685874352796}
@@ -6836,7 +6851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Apologize to Roger.
+  Content: Promise to keep a close eye on Ross.
   EffectText: Passion -1
   Effects:
   - {fileID: 8419289686425938976}
@@ -7147,7 +7162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Offer to chat with Ross.
+  Content: Offer to chat with Mia.
   EffectText: 
   Effects:
   - {fileID: 8419289685159045712}
@@ -7215,8 +7230,9 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289686919397020}
   - {fileID: 8419289686919397021}
-  Content: 'The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time. '
+  Content: The forest clearing on the outskirts of Huntshire where the children used
+    to play had caught on fire for a short while, but it was dealt with quickly before
+    it could spread to the entire forest surrounding the valley.
   AddContent: 
   Pages:
   - {fileID: 7840659392359325497}
@@ -7264,8 +7280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: 'The forest clearing on the outskirts of the village where the children
-    used to play had been set on fire for a short period of time. '
+  Content: The forest clearing on the outskirts of Huntshire where the children used
+    to play had caught on fire for a short while, but it was dealt with quickly before
+    it could spread to the entire forest surrounding the valley.
 --- !u!114 &7840659392359325497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7278,10 +7295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: It was dealt with quickly before it could spread to the entire forest
-    surrounding the valley, but the damage is not insignificant. While checking on
-    the villagers to find the culprit, Ross accuses you of doing this to torment
-    him further after the loss of his sister.
+  Content: ' It seems as though someone set the fire on purpose, however it is unclear
+    who or why. While checking on the villagers to find the culprit, Ross starts
+    to cry and scream that you did it, and you are trying to make him suffer more
+    after what you did to his sister.'
 --- !u!1 &8419289686924472472
 GameObject:
   m_ObjectHideFlags: 0
@@ -7341,9 +7358,9 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 8419289686924472477}
-  Content: "Ross comes to you concerned about Mia again.\r\n\u201CShe\u2019s saying
-    words in her sleep I can\u2019t understand! Please help her!\u201D\r\nHe seems
-    reluctant to tell you if there is any potential cause of this.\r"
+  Content: "Ross comes to you concerned about Mia again.\r\n\u201CShe\u2019s shaking
+    and saying words in her sleep I can\u2019t understand! Please help her!\u201D\nHe
+    seems reluctant to tell you if there is any potential cause of this.\r"
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -7424,10 +7441,12 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289686928656070}
   - {fileID: 8419289686928656071}
-  Content: Roger comes to you and begins to ask questions about what is happening
-    to Mia. He is worried there is something potentially supernatural affecting his
-    daughter. He then begins to berate you, claiming you did not take good enough
-    care of her after the loss of Ross.
+  Content: "Roger comes to you and begins to ask questions about what is happening
+    to Mia. He is worried there is something not of this world affecting his daughter.\n\u201CI
+    have believed in your lord, how the sacrifices will bring us health and prosperity.
+    However one of my children is dead and the other seems to be possessed by some
+    devilish forces. I\u2019m struggling to see what good you\u2019ve brought to
+    Huntshire.\u201D"
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -7640,7 +7659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -2}
+  Change: {x: 0, y: -2, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -7737,7 +7756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Apologize to Roger.
+  Content: Promise to keep a close watch on Mia.
   EffectText: Passion -1
   Effects:
   - {fileID: 8419289686996892634}
@@ -7838,7 +7857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Knock Mia unconscious.
+  Content: Hold her down until she comes to her senses.
   EffectText: Vitality -1
   Effects:
   - {fileID: 8419289685587543142}
@@ -8136,10 +8155,12 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289687038650391}
   - {fileID: 8419289687038650384}
-  Content: Roger comes to you and begins to ask questions about what is happening
-    to Ross. He is worried there is something potentially supernatural affecting
-    his son. He then begins to berate you, claiming you did not take good enough
-    care of him after the loss of Mia.
+  Content: "Roger comes to you and begins to ask questions about what is happening
+    to Ross. He is worried there is something not of this world affecting his son.\n\u201CI
+    have believed in your lord, how the sacrifices will bring us health and prosperity.
+    However one of my children is dead and the other seems to be possessed by some
+    devilish forces. I\u2019m struggling to see what good you\u2019ve brought to
+    Huntshire.\u201D"
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -8320,7 +8341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: It's his job to take care of his children, not yours.
+  Content: The divine are not to blame for his failures as a parent.
   EffectText: Reason -1
   Effects:
   - {fileID: 8419289685319234936}
@@ -8695,7 +8716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -2}
+  Change: {x: 0, y: -1, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -8954,7 +8975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: It's his job to take care of his children, not yours.
+  Content: The divine are not to blame for his failures as a parent.
   EffectText: Reason -1
   Effects:
   - {fileID: 8419289685230318071}
