@@ -9,7 +9,9 @@ namespace THAN
         public int TargetIndex;
         public SpriteRenderer SR;
         public Sprite ActiveSprite;
+        public Sprite PendingSprite;
         public Sprite DisableSprite;
+        public Animator EffectAnim;
 
         // Start is called before the first frame update
         void Start()
@@ -27,9 +29,20 @@ namespace THAN
             }
             SR.enabled = true;
             if (Source.CurrentSkill == GetTarget())
+            {
                 SR.sprite = ActiveSprite;
+                EffectAnim.SetBool("Active", true);
+            }
+            else if (Source.PendingSkill == GetTarget())
+            {
+                SR.sprite = PendingSprite;
+                EffectAnim.SetBool("Active", false);
+            }
             else
+            {
                 SR.sprite = DisableSprite;
+                EffectAnim.SetBool("Active", false);
+            }
         }
 
         public Skill GetTarget()

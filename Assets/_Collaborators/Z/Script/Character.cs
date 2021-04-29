@@ -22,6 +22,7 @@ namespace THAN
         public bool Active;
         [Space]
         public List<Skill> Skills;
+        public Skill PendingSkill;
         public Skill CurrentSkill;
         [Space]
         public TextMeshPro VitalityText;
@@ -177,11 +178,18 @@ namespace THAN
             Tooltip_Passion.SetActive(TooltipDelay.x == 1 && TooltipDelay.y > 0);
             Tooltip_Reason.SetActive(TooltipDelay.x == 2 && TooltipDelay.y > 0);
 
-            if (/*CurrentSkill && */(cp - (Vector2)SI.transform.position).magnitude <= 1.5f && SI.GetTarget() && !GlobalControl.Main.HoldingCharacter)
+            if (/*CurrentSkill && */HoveringOnSkill() && SI.GetTarget())
             {
                 if (!StatusRendereActive)
                     StatusRenderer.Main.Render(SI.GetTarget(), this);
                 StatusRendereActive = true;
+                if (Input.GetMouseButtonDown(0) && GlobalControl.Main.BoardActive && PendingSkill)
+                {
+                    if (!CurrentSkill)
+                        ActivateSkill(PendingSkill);
+                    else
+                        OnSkillDisabled();
+                }
             }
             else if (cp.x >= InfoRangeX.x + transform.position.x && cp.x <= InfoRangeX.y + transform.position.x
                 && cp.y >= InfoRangeY.x + transform.position.y && cp.y <= InfoRangeY.y + transform.position.y && !GlobalControl.Main.HoldingCharacter)
@@ -196,6 +204,12 @@ namespace THAN
                     StatusRenderer.Main.Disable();
                 StatusRendereActive = false;
             }
+        }
+
+        public bool HoveringOnSkill()
+        {
+            Vector2 cp = Cursor.Main.GetPosition();
+            return (cp - (Vector2)SI.transform.position).magnitude <= 1.5f && !GlobalControl.Main.HoldingCharacter;
         }
 
         public void Activate()
@@ -448,6 +462,8 @@ namespace THAN
             if (!Active)
                 return;
             EventCoolDown--;
+            if (PendingSkill)
+                ResetPendingSkill();
             if (CurrentSkill)
                 OnSkillDisabled();
             foreach (Skill S in Skills)
@@ -459,8 +475,18 @@ namespace THAN
                     New.Add(S);
             }
             if (New.Count > 0)
-                ActivateSkill(New[Random.Range(0, New.Count)]);
+                FakeActivateSkill(New[Random.Range(0, New.Count)]);
             GetKeyBase().SetKey("Return", 0);
+        }
+
+        public void FakeActivateSkill(Skill S)
+        {
+            PendingSkill = S;
+        }
+
+        public void ResetPendingSkill()
+        {
+            PendingSkill = null;
         }
 
         public void ActivateSkill(Skill S)
@@ -496,6 +522,8 @@ namespace THAN
                 }
                 return;
             }
+            if (PendingSkill)
+                ResetPendingSkill();
             if (CurrentSkill)
             {
                 CurrentSkill.EmptyEffect(this);
