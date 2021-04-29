@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5578237002553293274}
   - component: {fileID: -3624968445994187795}
   m_Layer: 0
-  m_Name: Skill_Investigator
+  m_Name: Skill_Indoctrinate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,11 +76,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Investigator
-  Description: 'Investigator: When *FCharacter_Name* has 14 or more reason they activate
-    Investigator. While active, any character paired with *FCharacter_Name* will
-    have their reason reduced by 2. *FCharacter_Name* will then have their reason
-    reduced by 2 and their passion increased by 2.'
+  Title: Appeal
+  Description: 'Appeal: When *FCharacter_Name* has 14 or more reason they activate
+    Appeal. While active, any character paired with *FCharacter_Name* will have their
+    reason reduced by 2. *FCharacter_Name* will then have their reason reduced by
+    2 and their passion increased by 2.'
 --- !u!114 &-3624968445994187795
 MonoBehaviour:
   m_ObjectHideFlags: 0
