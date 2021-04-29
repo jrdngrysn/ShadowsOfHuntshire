@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5578237002553293274}
   - component: {fileID: -3624968445994187795}
   m_Layer: 0
-  m_Name: Skill_Indoctrinate
+  m_Name: Skill_Appeal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Appeal
-  Description: 'Appeal: When *FCharacter_Name* has 14 or more reason they activate
+  Description: 'Appeal: When *FCharacter_Name* has 14 or more reason they can activate
     Appeal. While active, any character paired with *FCharacter_Name* will have their
     reason reduced by 2. *FCharacter_Name* will then have their reason reduced by
     2 and their passion increased by 2.'
