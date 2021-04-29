@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 8419289686535220329}
-  ActiveEvent: {fileID: 0}
+  ActiveEvent: {fileID: 8419289685918043392}
 --- !u!1 &8419289685156704510
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ Transform:
   m_Children:
   - {fileID: 8419289686666494555}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685178604395
 MonoBehaviour:
@@ -721,7 +721,6 @@ Transform:
   - {fileID: 8419289685196573839}
   - {fileID: 8419289687120094319}
   - {fileID: 8419289685196114686}
-  - {fileID: 8419289685704150300}
   m_Father: {fileID: 8419289686389017904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -746,7 +745,7 @@ MonoBehaviour:
   - {fileID: 8419289685196573832}
   - {fileID: 8419289687120094312}
   - {fileID: 8419289685196114687}
-  DAE: {fileID: 8419289685704150302}
+  DAE: {fileID: 0}
 --- !u!1 &8419289685240848053
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +969,7 @@ Transform:
   m_Children:
   - {fileID: 8419289686679603430}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685326384803
 MonoBehaviour:
@@ -1696,14 +1695,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: '
-
-    After a short conversation, helping Mia sort through her feelings
-    about the loss of Ross, she solemnly admits that she was actually the one to
-    start the fire. She do not go into more detail about why but she apologize profusely.'
+  Content: After a short conversation, helping Mia sort through her feelings about
+    the loss of Ross, she solemnly admits that she was actually the one to start
+    the fire. She do not go into more detail about why but she apologize profusely.
   AddContent: 
   Pages: []
-  AutoNextPage: 0
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289685499550963}
@@ -1714,87 +1711,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8419289685499550973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: 
-  EffectText: Continue.
---- !u!1 &8419289685499927864
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8419289685499927869}
-  - component: {fileID: 8419289685499927871}
-  - component: {fileID: 8419289685499927870}
-  m_Layer: 0
-  m_Name: DAE
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8419289685499927869
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685499927864}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8419289685733582025}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8419289685499927871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685499927864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: 
-  Source: Ross Becker
-  FreeSources: []
-  BaseEvent: {fileID: 8419289685930123021}
-  Active: 1
-  IgnorePairing: 0
-  RequiredKey: 
-  StartTime: -1
-  Priority: 0
-  PMods: []
-  Content: '
-
-    After a short conversation, helping Ross sort through his feelings
-    about the loss of Mia, he solemnly admits that he was actually the one to start
-    the fire. He do not go into more detail about why but he apologize profusely.'
-  AddContent: 
-  Pages: []
-  AutoNextPage: 0
-  DisplaySource: 0
-  Choices:
-  - {fileID: 8419289685499927870}
---- !u!114 &8419289685499927870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685499927864}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
@@ -2062,87 +1978,6 @@ MonoBehaviour:
   - {fileID: 8419289685846394698}
   - {fileID: 8419289686324916734}
   DAE: {fileID: 0}
---- !u!1 &8419289685704150303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8419289685704150300}
-  - component: {fileID: 8419289685704150302}
-  - component: {fileID: 8419289685704150301}
-  m_Layer: 0
-  m_Name: DAE
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8419289685704150300
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685704150303}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8419289685239862272}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8419289685704150302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685704150303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: 
-  Source: Ross Becker
-  FreeSources: []
-  BaseEvent: {fileID: 8419289686389017911}
-  Active: 1
-  IgnorePairing: 0
-  RequiredKey: 
-  StartTime: -1
-  Priority: 0
-  PMods: []
-  Content: '
-
-    After a short conversation, helping Ross sort through his feelings
-    about the loss of Mia, he solemnly admits that he was actually the one to start
-    the fire. He do not go into more detail about why but he apologize profusely.'
-  AddContent: 
-  Pages: []
-  AutoNextPage: 0
-  DisplaySource: 0
-  Choices:
-  - {fileID: 8419289685704150301}
---- !u!114 &8419289685704150301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289685704150303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: 
-  EffectText: Continue.
 --- !u!1 &8419289685712943937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,7 +2055,6 @@ Transform:
   - {fileID: 8419289686537350422}
   - {fileID: 8419289686427456981}
   - {fileID: 8419289686117522921}
-  - {fileID: 8419289685499927869}
   m_Father: {fileID: 8419289685930123022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2245,7 +2079,7 @@ MonoBehaviour:
   - {fileID: 8419289686537350423}
   - {fileID: 8419289686427456982}
   - {fileID: 8419289686117522922}
-  DAE: {fileID: 8419289685499927871}
+  DAE: {fileID: 0}
 --- !u!1 &8419289685741927833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2137,8 @@ GameObject:
   - component: {fileID: 8419289685747895358}
   - component: {fileID: 8419289685747895356}
   - component: {fileID: 8419289685747895357}
+  - component: {fileID: 6787891617277680534}
+  - component: {fileID: 1515785963253988880}
   m_Layer: 0
   m_Name: 5-2-M
   m_TagString: Untagged
@@ -2324,7 +2160,7 @@ Transform:
   - {fileID: 8419289686225854261}
   - {fileID: 8419289685767812273}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 17
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685747895358
 MonoBehaviour:
@@ -2355,7 +2191,9 @@ MonoBehaviour:
     noises, as though someone is trying to hide. You can\u2019t find anyone, but
     you have a feeling Mia is still in the basement."
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 6787891617277680534}
+  - {fileID: 1515785963253988880}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -2387,6 +2225,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &6787891617277680534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685747895352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: '*Someone* spots Mia roaming around the church at night. You look around
+    to see that the trapdoor is open.'
+--- !u!114 &1515785963253988880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685747895352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "As you walk in to investigate, you hear shuffling noises, as though someone
+    is trying to hide. You can\u2019t find anyone, but you have a feeling Mia is
+    still in the basement."
 --- !u!1 &8419289685749263440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,6 +2387,7 @@ Transform:
   - {fileID: 8419289685844017270}
   - {fileID: 8419289686924472479}
   - {fileID: 8419289687230436643}
+  - {fileID: 8419289685747895359}
   - {fileID: 8419289686919397023}
   - {fileID: 8419289685817116504}
   - {fileID: 8419289686129974839}
@@ -2531,7 +2399,6 @@ Transform:
   - {fileID: 8419289686124135529}
   - {fileID: 8419289685178604372}
   - {fileID: 8419289686875232647}
-  - {fileID: 8419289685747895359}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2605,6 +2472,7 @@ GameObject:
   - component: {fileID: 8419289685817116511}
   - component: {fileID: 8419289685817116509}
   - component: {fileID: 8419289685817116510}
+  - component: {fileID: 4426401745109122015}
   - component: {fileID: 3142911655897070236}
   m_Layer: 0
   m_Name: 6-1-M
@@ -2627,7 +2495,7 @@ Transform:
   - {fileID: 8419289686912613852}
   - {fileID: 8419289685493586732}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685817116511
 MonoBehaviour:
@@ -2657,6 +2525,7 @@ MonoBehaviour:
     used to play had been set on fire for a short period of time. '
   AddContent: 
   Pages:
+  - {fileID: 4426401745109122015}
   - {fileID: 3142911655897070236}
   AutoNextPage: 0
   DisplaySource: 1
@@ -2689,6 +2558,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &4426401745109122015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685817116505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: The forest clearing on the outskirts of the village where the children
+    used to play had been set on fire for a short period of time.
 --- !u!114 &3142911655897070236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3301,7 +3184,7 @@ Transform:
   - {fileID: 8419289685733582025}
   - {fileID: 8419289686824617924}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685930123021
 MonoBehaviour:
@@ -4025,7 +3908,7 @@ Transform:
   m_Children:
   - {fileID: 8419289687190801177}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686124135528
 MonoBehaviour:
@@ -4231,7 +4114,7 @@ Transform:
   - {fileID: 8419289686578356730}
   - {fileID: 8419289685648550692}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686129974838
 MonoBehaviour:
@@ -4824,14 +4707,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: '
-
-    After a short conversation, helping Ross sort through his feelings
-    about the loss of Mia, he solemnly admits that he was actually the one to start
-    the fire. He do not go into more detail about why but he apologize profusely.'
+  Content: After a short conversation, helping Ross sort through his feelings about
+    the loss of Mia, he solemnly admits that he was actually the one to start the
+    fire. He do not go into more detail about why but he apologize profusely.
   AddContent: 
   Pages: []
-  AutoNextPage: 0
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 8419289686326823165}
@@ -4977,7 +4858,7 @@ Transform:
   - {fileID: 8419289685239862272}
   - {fileID: 8419289686429139304}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686389017911
 MonoBehaviour:
@@ -7085,7 +6966,7 @@ Transform:
   m_Children:
   - {fileID: 8419289685598941863}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686875232646
 MonoBehaviour:
@@ -7285,6 +7166,7 @@ GameObject:
   - component: {fileID: 8419289686919397022}
   - component: {fileID: 8419289686919397020}
   - component: {fileID: 8419289686919397021}
+  - component: {fileID: 5202451517237065739}
   - component: {fileID: 7840659392359325497}
   m_Layer: 0
   m_Name: 6-1-R
@@ -7307,7 +7189,7 @@ Transform:
   - {fileID: 8419289685632373390}
   - {fileID: 8419289685184859768}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686919397022
 MonoBehaviour:
@@ -7337,6 +7219,7 @@ MonoBehaviour:
     used to play had been set on fire for a short period of time. '
   AddContent: 
   Pages:
+  - {fileID: 7840659392359325497}
   - {fileID: 7840659392359325497}
   AutoNextPage: 0
   DisplaySource: 1
@@ -7369,6 +7252,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &5202451517237065739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686919397016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: 'The forest clearing on the outskirts of the village where the children
+    used to play had been set on fire for a short period of time. '
 --- !u!114 &7840659392359325497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7499,7 +7396,7 @@ Transform:
   - {fileID: 8419289686991139357}
   - {fileID: 8419289687266370380}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686928656064
 MonoBehaviour:
@@ -8211,7 +8108,7 @@ Transform:
   - {fileID: 8419289686841770862}
   - {fileID: 8419289687064635964}
   m_Father: {fileID: 8419289685789149492}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289687038650385
 MonoBehaviour:
@@ -8895,6 +8792,7 @@ GameObject:
   - component: {fileID: 8419289687230436641}
   - component: {fileID: 8419289687230436640}
   - component: {fileID: 4266938750492692736}
+  - component: {fileID: 8440113400198259610}
   m_Layer: 0
   m_Name: 5-2-R
   m_TagString: Untagged
@@ -8943,10 +8841,11 @@ MonoBehaviour:
   - {fileID: 8419289687230436641}
   - {fileID: 8419289687230436640}
   Content: '*Someone* spots Ross roaming around the church at night. You look around
-    to see that the trapdoor is open. '
+    to see that the trapdoor is open.'
   AddContent: 
   Pages:
   - {fileID: 4266938750492692736}
+  - {fileID: 8440113400198259610}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -8979,6 +8878,20 @@ MonoBehaviour:
   NameI: Ross Becker
   NameII: Mia Becker
 --- !u!114 &4266938750492692736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289687230436652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: '*Someone* spots Ross roaming around the church at night. You look around
+    to see that the trapdoor is open. '
+--- !u!114 &8440113400198259610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

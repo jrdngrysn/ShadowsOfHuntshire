@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &234271924099446818
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &1833149667097795502
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +659,8 @@ GameObject:
   - component: {fileID: 6613829779252576323}
   - component: {fileID: 290208033}
   - component: {fileID: 290208034}
+  - component: {fileID: 9028121150713705404}
+  - component: {fileID: 2132020560458854003}
   m_Layer: 0
   m_Name: Prologue
   m_TagString: Untagged
@@ -800,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &3122246230853208652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &3543064072276517881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,7 +1177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &3868498671694087322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &4077945832703867349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &4403490351397885772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &8397874223496616938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &8594059283852023429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,7 +1896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &8775742410721843124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,7 +1940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &8960783741894446339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,4 +1984,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
