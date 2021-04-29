@@ -2842,53 +2842,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &290208031 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2585190907576151618, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-  m_PrefabInstance: {fileID: 2334063710067914132}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &290208033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290208031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "Ignorance sets us free. \nThe final day is coming. However, Huntshire
-    is still surrounded by filth and self-deception, making things quite intolerable
-    to our Lord. As the High Priest, I wish to bring back the light of truth here
-    in Huntshire. \nUntil the final day, I must pair people up to have them learn
-    from each other, to appreciate the teachings of our Lord. Then, we shall appease
-    his hunger with the most ignorant sacrifice at the end of every season. Our lord
-    needs to regain his power."
---- !u!114 &290208034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290208031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "Your lord needs to regain his power, you shall appease his hunger with
-    the proper sacrifice every season. \r\nEach card represents a person living in
-    Huntshire that attends your church. \r\nAs the high priest, you pair residents
-    up every month to surveil and keep tabs on one another. \r\nThis pairing process
-    brings both people\u2019s attributes closer together. \r\n\r\nEvery three months
-    you must sacrifice someone to the old gods, however, only a person sufficiently
-    broken down by the religion can be sacrificed (they must have all of their stats
-    at or below 10). \r\nIf you do not have a sacrifice ready at the end of the season,
-    your divine mission has failed. \r\nEach month, residents will come to you with
-    information or problems, looking for your guidance to resolve them.\r\n\r\nGood
-    luck managing Huntshire and preparing for the return of our lord."
 --- !u!1 &292031979
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,7 +4594,7 @@ MonoBehaviour:
   Content: "\u201CEver since my sister has been seized, the house of Meier becomes
     rather silent. Recently I feel like something is happening right now, something
     has changed\u2026 especially in my mother\u2019s room, her mirror\u2026 I feel
-    like there\u2019s something watching me from across the mirror, is it a bad sign?\u201D"
+    like there\u2019s something watching me from across the mirror, is it a bad sign?\""
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -20481,70 +20434,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1048554875432281394, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1686990134093372559, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2746317918066062243, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3632337818227751472, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3701529753293755380, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420191825100883858, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158659131063791781, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5695635637416642799, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771773369854629645, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6283817676497814942, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Content
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Pages.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Pages.Array.data[0]
-      value: 
-      objectReference: {fileID: 290208034}
-    - target: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Pages.Array.data[1]
-      value: 
-      objectReference: {fileID: 290208033}
-    - target: {fileID: 8353940924734912011, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8563300629332547267, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 8672890229547095275, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_Name
       value: New Story Events Fixed
@@ -20644,7 +20533,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6613829779252576323, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
   m_PrefabInstance: {fileID: 2334063710067914132}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290208031}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 372f3202f64d8494ab177e892e9cc296, type: 3}
