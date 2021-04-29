@@ -658,8 +658,6 @@ GameObject:
   - component: {fileID: 2227948135524227016}
   - component: {fileID: 6613829779252576323}
   - component: {fileID: 290208033}
-  - component: {fileID: 290208034}
-  - component: {fileID: 9028121150713705404}
   - component: {fileID: 2132020560458854003}
   m_Layer: 0
   m_Name: Prologue
@@ -709,7 +707,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 2132020560458854003}
-  - {fileID: 9028121150713705404}
+  - {fileID: 290208033}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -717,48 +715,6 @@ MonoBehaviour:
   - {fileID: 0}
   TriggerTime: -1
 --- !u!114 &290208033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2585190907576151618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "Ignorance sets us free. \nThe final day is coming. However, Huntshire
-    is still surrounded by filth and self-deception, making things quite intolerable
-    to our Lord. As the High Priest, I wish to bring back the light of truth here
-    in Huntshire. \nUntil the final day, I must pair people up to have them learn
-    from each other, to appreciate the teachings of our Lord. Then, we shall appease
-    his hunger with the most ignorant sacrifice at the end of every season. Our lord
-    needs to regain his power."
---- !u!114 &290208034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2585190907576151618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "Your lord needs to regain his power, you shall appease his hunger with
-    the proper sacrifice every season. \r\nEach card represents a person living in
-    Huntshire that attends your church. \r\nAs the high priest, you pair residents
-    up every month to surveil and keep tabs on one another. \r\nThis pairing process
-    brings both people\u2019s attributes closer together. \r\n\r\nEvery three months
-    you must sacrifice someone to the old gods, however, only a person sufficiently
-    broken down by the religion can be sacrificed (they must have all of their stats
-    at or below 10). \r\nIf you do not have a sacrifice ready at the end of the season,
-    your divine mission has failed. \r\nEach month, residents will come to you with
-    information or problems, looking for your guidance to resolve them.\r\n\r\nGood
-    luck managing Huntshire and preparing for the return of our lord."
---- !u!114 &9028121150713705404
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -790,16 +746,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Your lord needs to regain his power, you shall appease his hunger with
-    the proper sacrifice every season. \r\nEach card represents a person living in
-    Huntshire that attends your church. \r\nAs the high priest, you pair residents
-    up every month to surveil and keep tabs on one another. \r\nThis pairing process
-    brings both people\u2019s attributes closer together. \r\n\r\nEvery three months
+    a sacrifice every season. \r\n\r\nEach card represents a person living in Huntshire
+    that attends your church. As the high priest, you pair residents up every month
+    to surveil and keep tabs on one another. \r\nThis pairing process brings both
+    people\u2019s attributes closer together (people\u2019s stats will go up or down
+    by one towards the corresponding stat in their pair). \r\n\r\nEvery three months
     you must sacrifice someone to the old gods, however, only a person sufficiently
     broken down by the religion can be sacrificed (they must have all of their stats
-    at or below 10). \r\nIf you do not have a sacrifice ready at the end of the season,
-    your divine mission has failed. \r\nEach month, residents will come to you with
-    information or problems, looking for your guidance to resolve them.\r\n\r\nGood
-    luck managing Huntshire and preparing for the return of our lord."
+    at or below 10). If you do not have a sacrifice ready at the end of the season,
+    your divine mission has failed. \r\n\r\nEach month, residents will come to you
+    with information or problems, looking for your guidance to resolve them.\r\n\r\nMay
+    our Lord inspire you to make the right choices that shall lead to their return.\r\n"
 --- !u!1 &2612263548672833115
 GameObject:
   m_ObjectHideFlags: 0
