@@ -3045,7 +3045,7 @@ PrefabInstance:
         sacrifice.\r\nOn a sacrifice turn, you must place one card into the middle
         diagram, you may still pair up other cards that are not being sacrificed.\r\nA
         card is eligible for sacrifice if all of it\u2019s stats are less than or
-        equal to 10."
+        equal to 10.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6406732286012945194, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -3314,8 +3314,10 @@ PrefabInstance:
       value: "Every turn, the stats of paired cards get closer together.\r\nOnce
         you have your pairings set, you can end the current turn by clicking the
         symbol at the bottom right corner.\r\n\r\nSome people have hidden stats and
-        reveal them by having their partner's stat match theirs. \r\nKeep an eye
-        on how their partner's stats are changing to eventually get it revealed."
+        to reveal them their partner's stat must match theirs. \r\n\nHidden stats
+        will still affect the corresponding stat in a pair, so keeping an eye on
+        how someone\u2019s partner's stats are changing (up or down) can help you
+        eventually get a hidden stat revealed.\r\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
@@ -19853,9 +19855,13 @@ PrefabInstance:
     - target: {fileID: 6406732286012945194, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_text
       value: "Each turn, you can drag a card onto another one to form a pair. \r\nThis
-        is denoted by a rectangle that forms around them.\r\nYou may pair as many
-        people as you wish, but you do not have to pair them all (or any at all).\r\nSome
-        people have abilities so hover over the diamond to see what they do."
+        is denoted by the circle that forms between them.\r\nYou may pair as many
+        people as you wish, but you do not have to pair them all (or any at all).\r\n\r\nHovering
+        over texts or icons reveals more information about that character. You can
+        hover over name plates for character summaries and over the diamond for abilities
+        if the character has one.\r\nIf a character meets the stat requirements to
+        use an ability, click on their ability diagram to activate their ability
+        for the current turn.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6406732286012945194, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_fontColor32.rgba
