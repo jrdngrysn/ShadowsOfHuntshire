@@ -209,8 +209,9 @@ MonoBehaviour:
     Lord? \nThe ancestors have never accomplished this. Something deep in my heart
     had been ignited. It is rattling in my soul. \"\nFollowing the book, I ponder.
     What shall we preach? "
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 5782597267683112855}
@@ -277,8 +278,9 @@ MonoBehaviour:
     it, and even the book itself has to be gone in preparation for the returning
     of our Lord. \nOnly when we break an existing rule, we take a step closer to
     the truth. \"\nIn the end, I ponder. What shall we preach? "
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 470490584313515498}
@@ -488,8 +490,9 @@ MonoBehaviour:
     my eyes are bleeding. \nNO... My Lord has appointed me to do so, then I must
     not think of other things, we must not cease, we must not hesitate. \"\nFollowing
     the book, I ponder. What shall we preach? "
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 4571050569088028211}
@@ -701,10 +704,11 @@ MonoBehaviour:
   Priority: 0
   PMods: []
   Content: 
+  AddContent: 
   Pages:
   - {fileID: 290208034}
   - {fileID: 290208033}
-  AddContent: 
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 1904678908908004127}
@@ -742,16 +746,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Your lord needs to regain his power, you shall appease his hunger with
-    the proper sacrifice every season. \r\nEach card represents a person living in
-    Huntshire that attends your church. \r\nAs the high priest, you pair residents
-    up every month to surveil and keep tabs on one another. \r\nThis pairing process
-    brings both people\u2019s attributes closer together. \r\n\r\nEvery three months
-    you must sacrifice someone to the old gods, however, only a person sufficiently
-    broken down by the religion can be sacrificed (they must have all of their stats
-    at or below 10). \r\nIf you do not have a sacrifice ready at the end of the season,
-    your divine mission has failed. \r\nEach month, residents will come to you with
-    information or problems, looking for your guidance to resolve them.\r\n\r\nGood
-    luck managing Huntshire and preparing for the return of our lord."
+    a sacrifice every season. \r\nEach card represents a person living in Huntshire
+    that attends your church. As the high priest, you pair residents up every month
+    to surveil and keep tabs on one another. This pairing process brings both people\u2019s
+    attributes closer together (people\u2019s stats will go up or down by one towards
+    the corresponding stat in their pair).\n\nEvery three months you must sacrifice
+    someone to the old gods, however, only a person sufficiently broken down by the
+    religion can be sacrificed (they must have all of their stats at or below 10).
+    If you do not have a sacrifice ready at the end of the season, your divine mission
+    has failed. \r\n\r\nEach month, residents will come to you with information or
+    problems, looking for your guidance to resolve them.\r\n\nMay our Lord inspire
+    you to make the right choices that shall lead to their return.\r"
 --- !u!1 &2612263548672833115
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,8 +861,9 @@ MonoBehaviour:
     ones. \nFirst, it was the dreams, then it was the visions. This is a marvelous
     show with all kinds of people, spectators, victims, criminals, a show for the
     tyrant. With my infinite power, I shall be the freest one of them all. \""
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 2170627714475999176}
@@ -972,8 +978,9 @@ MonoBehaviour:
     it, I have won the godlike enlightenment of the solitary. \nI live, I kill, I
     exercise the rapturous power of a destroyer. The ruthless logic crushes out human
     lives. We will see what \"Lord\" has left with us. \""
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 181127764071508539}
@@ -1230,8 +1237,9 @@ MonoBehaviour:
     for is something far beyond that. \nThe book has all its magic. I shall seek
     the impossible myself. I shall seek true freedom myself. I shall take over God,
     if that's what God wishes. \"\nIn the end, what does our lord seek? \n"
-  Pages: []
   AddContent: In the end, what does our lord seek?
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 6675168527226795143}
@@ -1342,8 +1350,9 @@ MonoBehaviour:
     Fear indeed, fear is the purest emotion, the noblest. Let every established thing
     be gone with the wuthering wind of fear. \nThe truth has its price, and Huntshire
     is ready for it. \"\nIn the end, I ponder. What shall we preach? "
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 5323685177423978637}
@@ -1795,8 +1804,9 @@ MonoBehaviour:
     of truth will favor Huntshire again. If the sacrifices can continue until the
     Summer of the Fourth Year,  our Lord will reign.\"\nFollowing the book, I ponder.
     What shall we preach? "
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 8522065566797093451}
