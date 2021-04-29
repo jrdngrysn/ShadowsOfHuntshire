@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Cunning
-  Description: 'Cunning: When *FCharacter_Name* has 22 or more reason they activate
+  Description: 'Cunning: When *FCharacter_Name* has 22 or more reason they can activate
     Cunning. While active, if *FCharacter_Name* is unpaired, all other characters
     will have their passion reduced by 5. *FCharacter_Name* will then have their
     reason reduced by 8 and their vitality set to 15.'

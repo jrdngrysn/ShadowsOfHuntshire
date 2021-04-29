@@ -191,9 +191,41 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 22.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 22.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321123905902837450, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_fontSize
       value: 22.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 22.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020443168332741897, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: Index

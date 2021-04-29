@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &234271924099446818
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &1833149667097795502
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 2227948135524227016}
   - component: {fileID: 6613829779252576323}
   - component: {fileID: 290208033}
-  - component: {fileID: 290208034}
+  - component: {fileID: 2132020560458854003}
   m_Layer: 0
   m_Name: Prologue
   m_TagString: Untagged
@@ -706,7 +706,7 @@ MonoBehaviour:
   Content: 
   AddContent: 
   Pages:
-  - {fileID: 290208034}
+  - {fileID: 2132020560458854003}
   - {fileID: 290208033}
   AutoNextPage: 0
   DisplaySource: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
     from each other, to appreciate the teachings of our Lord. Then, we shall appease
     his hunger with the most ignorant sacrifice at the end of every season. Our lord
     needs to regain his power."
---- !u!114 &290208034
+--- !u!114 &2132020560458854003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -746,17 +746,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Your lord needs to regain his power, you shall appease his hunger with
-    a sacrifice every season. \r\nEach card represents a person living in Huntshire
+    a sacrifice every season. \r\n\r\nEach card represents a person living in Huntshire
     that attends your church. As the high priest, you pair residents up every month
-    to surveil and keep tabs on one another. This pairing process brings both people\u2019s
-    attributes closer together (people\u2019s stats will go up or down by one towards
-    the corresponding stat in their pair).\n\nEvery three months you must sacrifice
-    someone to the old gods, however, only a person sufficiently broken down by the
-    religion can be sacrificed (they must have all of their stats at or below 10).
-    If you do not have a sacrifice ready at the end of the season, your divine mission
-    has failed. \r\n\r\nEach month, residents will come to you with information or
-    problems, looking for your guidance to resolve them.\r\n\nMay our Lord inspire
-    you to make the right choices that shall lead to their return.\r"
+    to surveil and keep tabs on one another. \r\nThis pairing process brings both
+    people\u2019s attributes closer together (people\u2019s stats will go up or down
+    by one towards the corresponding stat in their pair). \r\n\r\nEvery three months
+    you must sacrifice someone to the old gods, however, only a person sufficiently
+    broken down by the religion can be sacrificed (they must have all of their stats
+    at or below 10). If you do not have a sacrifice ready at the end of the season,
+    your divine mission has failed. \r\n\r\nEach month, residents will come to you
+    with information or problems, looking for your guidance to resolve them.\r\n\r\nMay
+    our Lord inspire you to make the right choices that shall lead to their return.\r\n"
 --- !u!1 &2612263548672833115
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &3122246230853208652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &3543064072276517881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &3868498671694087322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &4077945832703867349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 1, y: 0, z: 0}
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &4403490351397885772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &8397874223496616938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
+  Change: {x: 0, y: 0, z: -1}
 --- !u!1 &8594059283852023429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &8775742410721843124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &8960783741894446339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,4 +1982,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: -1, z: 0}

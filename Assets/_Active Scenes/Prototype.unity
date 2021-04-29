@@ -3259,7 +3259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.72
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4596,7 +4596,7 @@ MonoBehaviour:
   Content: "\u201CEver since my sister has been seized, the house of Meier becomes
     rather silent. Recently I feel like something is happening right now, something
     has changed\u2026 especially in my mother\u2019s room, her mirror\u2026 I feel
-    like there\u2019s something watching me from across the mirror, is it a bad sign?\u201D"
+    like there\u2019s something watching me from across the mirror, is it a bad sign?\""
   AddContent: 
   Pages: []
   AutoNextPage: 0
@@ -20439,54 +20439,6 @@ PrefabInstance:
     - target: {fileID: 850337402480330828, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1048554875432281394, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1686990134093372559, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2746317918066062243, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3632337818227751472, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3701529753293755380, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420191825100883858, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158659131063791781, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5695635637416642799, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771773369854629645, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6283817676497814942, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8353940924734912011, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8563300629332547267, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
-      propertyPath: Change.z
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8672890229547095275, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_Name
