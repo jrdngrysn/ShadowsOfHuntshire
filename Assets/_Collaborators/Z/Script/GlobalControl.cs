@@ -714,7 +714,10 @@ namespace THAN
         {
             if (!SelectingSlot)
                 return null;
-            return SelectingSlot.GetCharacter();
+            Character C = SelectingSlot.GetCharacter();
+            if (!C || C.HoveringOnSkill())
+                return null;
+            return C;
         }
 
         public float GetVitalityLimit()
