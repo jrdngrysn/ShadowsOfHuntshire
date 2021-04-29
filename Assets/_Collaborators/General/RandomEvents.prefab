@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: -2, z: 0}
+  Change: {x: 0, y: 0, z: -2}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: -3, y: 0, z: 0}
+  Change: {x: -2, y: 0, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Punish *FONE* and *FTWO* with manual labor in the church.
-  EffectText: -3 vitality
+  EffectText: -2 vitality
   Effects:
   - {fileID: 8870458130839099562}
   DAE: {fileID: 0}
