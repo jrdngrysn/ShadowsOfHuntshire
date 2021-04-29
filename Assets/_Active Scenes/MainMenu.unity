@@ -2251,10 +2251,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3866443834084495724, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3866443834084495727, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 15af8daec95b33a4890ab39f37afd5e8, type: 2}
+    - target: {fileID: 3866443834526260673, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866443834526260673, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3866443835149635571, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2342,6 +2354,14 @@ PrefabInstance:
     - target: {fileID: 3866443835149635583, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866443835978351280, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866443835978351280, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
