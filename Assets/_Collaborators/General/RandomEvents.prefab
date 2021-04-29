@@ -772,8 +772,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell them it is a test from beyond, and that challenges will grow as their
-    piety does.
+  Content: It is a test from beyond, and their challenges will grow as their piety
+    does.
   EffectText: +2 vitality, -1 passion, +1 reason
   Effects:
   - {fileID: 739065930990593914}
