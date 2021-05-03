@@ -2267,9 +2267,21 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 3866443835149635568, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866443835149635568, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3866443835149635571, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866443835149635571, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3866443835149635583, guid: d624f1bc9f8242649966c4f7873da9f7, type: 3}
       propertyPath: m_LocalPosition.x
