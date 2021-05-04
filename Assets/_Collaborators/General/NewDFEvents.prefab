@@ -1,5 +1,105 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &75853976538507417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 565399643319658544}
+  - component: {fileID: 770876194915591743}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &565399643319658544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75853976538507417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3476000224306525860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770876194915591743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75853976538507417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: 0, y: -3, z: 0}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &1214671329942497538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3476000224306525860}
+  - component: {fileID: 6588291132008429430}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3476000224306525860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214671329942497538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 565399643319658544}
+  - {fileID: 396348154214145114}
+  m_Father: {fileID: 8220243132400520429}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6588291132008429430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214671329942497538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: "\u201CDevote yourself fully to the church to find salvation\u201D"
+  EffectText: -3 passion
+  Effects:
+  - {fileID: 770876194915591743}
+  - {fileID: 7956125511885331180}
+  DAE: {fileID: 0}
 --- !u!1 &1934446801909988032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2953,10 +3053,9 @@ MonoBehaviour:
   Source: Dolf Fischer
   FreeSources:
   - Dolf Fischer
-  - Old Marris
   BaseEvent: {fileID: 0}
   Active: 0
-  IgnorePairing: 0
+  IgnorePairing: 1
   RequiredKey: 
   StartTime: -1
   Priority: 2
@@ -3894,7 +3993,7 @@ MonoBehaviour:
   - Old Maris
   BaseEvent: {fileID: 0}
   Active: 0
-  IgnorePairing: 0
+  IgnorePairing: 1
   RequiredKey: 
   StartTime: -1
   Priority: 2
@@ -4321,6 +4420,7 @@ Transform:
   - {fileID: 1934446803060695534}
   - {fileID: 1934446804039745388}
   - {fileID: 1934446802701738628}
+  - {fileID: 8220243132400520429}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6848,10 +6948,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Dolf Fischer
-  FreeSources: []
+  FreeSources:
+  - Dolf Fischer
   BaseEvent: {fileID: 0}
   Active: 0
-  IgnorePairing: 0
+  IgnorePairing: 1
   RequiredKey: 
   StartTime: -1
   Priority: 2
@@ -6994,3 +7095,313 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 1934446803002542922}
   ActiveEvent: {fileID: 1934446802361246932}
+--- !u!1 &3215748477590352911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8220243132400520429}
+  - component: {fileID: 3137697936994330644}
+  - component: {fileID: 1161395801708480798}
+  - component: {fileID: 9057188901232872379}
+  - component: {fileID: 4193586074467048958}
+  m_Layer: 0
+  m_Name: 11-3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8220243132400520429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215748477590352911}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6560205712930644772}
+  - {fileID: 3476000224306525860}
+  m_Father: {fileID: 1934446803225878228}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3137697936994330644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215748477590352911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Dolf Fischer
+  FreeSources:
+  - Dolf Fischer
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 2
+  PMods:
+  - {fileID: 4193586074467048958}
+  Content: "After the latest sacrifice, Dolf approaches you. \r\n\r\n\u201CI must
+    repent. Over the past year I have strayed and sinned. My mind has been trapped,
+    and my thoughts have been occupied by my past. I felt I needed to find the kraken.
+    To understand it in a way I did not when I was younger.\u201D\r\n\r\nHe admits
+    to stealing the book from your house and says he will repent on his own. He leaves
+    before you can say another word.\r\n\r\nThe next day you find him floating face
+    down in the lake.\r"
+  AddContent: 
+  Pages:
+  - {fileID: 1161395801708480798}
+  - {fileID: 9057188901232872379}
+  AutoNextPage: 0
+  DisplaySource: 0
+  Choices:
+  - {fileID: 517290301327082466}
+  - {fileID: 6588291132008429430}
+--- !u!114 &1161395801708480798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215748477590352911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: 'After the latest sacrifice, Dolf approaches you.
+
+'
+--- !u!114 &9057188901232872379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215748477590352911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI must repent. Over the past year I have strayed and sinned. My
+    mind has been trapped, and my thoughts have been occupied by my past. I felt
+    I needed to find the kraken. To understand it in a way I did not when I was younger.
+    This drove me to lie and steal from you, even as you have shown me kindness.
+    How can I repent to both the lord and you?\u201D"
+--- !u!114 &4193586074467048958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215748477590352911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4441340604868300788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4147539795985530552}
+  - component: {fileID: 1145829135786181961}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4147539795985530552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441340604868300788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6560205712930644772}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145829135786181961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441340604868300788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -2, y: 0, z: -2}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &6853468764627324995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6042190580158980571}
+  - component: {fileID: 7492436718090253579}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6042190580158980571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853468764627324995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6560205712930644772}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7492436718090253579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853468764627324995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 3137697936994330644}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &7042106794334949438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396348154214145114}
+  - component: {fileID: 7956125511885331180}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &396348154214145114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042106794334949438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3476000224306525860}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7956125511885331180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042106794334949438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 3137697936994330644}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &8771694530454112932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6560205712930644772}
+  - component: {fileID: 517290301327082466}
+  m_Layer: 0
+  m_Name: Choice (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6560205712930644772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771694530454112932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4147539795985530552}
+  - {fileID: 6042190580158980571}
+  m_Father: {fileID: 8220243132400520429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &517290301327082466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771694530454112932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: "\u201CBy confessing you have shown growth and all will be forgiven\u201D"
+  EffectText: -2 vitality, -2 reason
+  Effects:
+  - {fileID: 1145829135786181961}
+  - {fileID: 7492436718090253579}
+  DAE: {fileID: 0}
