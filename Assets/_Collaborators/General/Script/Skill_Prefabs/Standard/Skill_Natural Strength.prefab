@@ -76,10 +76,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Natural Strength
-  Description: 'Natural Strength: When *Character_Name* has 18 or more vitality they
-    can activate Natural Strength. While active, any character paired with *FCharacter_Name*
-    will have their reason reduced by 4. *FCharacter_Name* will then have their vitality
-    reduced by 4.'
+  Description: 'Natural Strength: When *Character_Name* has 18+ vitality, click the
+    icon to have them activate Natural Strength. While active, any character paired
+    with *FCharacter_Name* will have their reason reduced by 4. *FCharacter_Name*
+    will have their vitality reduced by 4.'
 --- !u!114 &-7517822439761858076
 MonoBehaviour:
   m_ObjectHideFlags: 0
