@@ -1,5 +1,1766 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &351911205240126384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526739757896284975}
+  - component: {fileID: 5433475015696595674}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &526739757896284975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351911205240126384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1409979704808357354}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5433475015696595674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351911205240126384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &707248634663438382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6768153317720955429}
+  - component: {fileID: 6685806357172948282}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6768153317720955429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707248634663438382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1409979704808357354}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6685806357172948282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707248634663438382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &837654087655639289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5575555299527286814}
+  - component: {fileID: 7618579844698355278}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5575555299527286814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837654087655639289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7056877770668165828}
+  - {fileID: 6917984804984437358}
+  - {fileID: 8463130246838470530}
+  - {fileID: 652533024932852880}
+  - {fileID: 783797757283538438}
+  m_Father: {fileID: 238014874386142210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7618579844698355278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837654087655639289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Confiscate the book and promise to help make the voices go away
+  EffectText: Vitality -1, Passion -1, Reason -3
+  Effects:
+  - {fileID: 5857597399403938426}
+  - {fileID: 8548168217511350880}
+  - {fileID: 6030582116794550194}
+  - {fileID: 1535513935844455972}
+  - {fileID: 1023337485864717250}
+  DAE: {fileID: 0}
+--- !u!1 &939209145471336746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4245759461049432342}
+  - component: {fileID: 6176487112696501888}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4245759461049432342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939209145471336746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4501403052879901315}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6176487112696501888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939209145471336746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &1064987669413138965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8292318976606503773}
+  - component: {fileID: 462797478814486328}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8292318976606503773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064987669413138965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4501403052879901315}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462797478814486328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064987669413138965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &1328828916604743609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309861064905517737}
+  - component: {fileID: 4186416592103329960}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309861064905517737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328828916604743609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289687190801177}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4186416592103329960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328828916604743609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &1369392304898610028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5463722213840920579}
+  - component: {fileID: 5765758930884675500}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5463722213840920579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369392304898610028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1409979704808357354}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5765758930884675500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369392304898610028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &1493969441513490264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171345883894659260}
+  - component: {fileID: 6913129705244281847}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171345883894659260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493969441513490264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3659212148662742314}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6913129705244281847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493969441513490264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &1651662426078138068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3659212148662742314}
+  - component: {fileID: 2262469352753550133}
+  m_Layer: 0
+  m_Name: Choice (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3659212148662742314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651662426078138068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 147684282520619421}
+  - {fileID: 7854764616123864492}
+  - {fileID: 2666964403726896851}
+  - {fileID: 1171345883894659260}
+  - {fileID: 9103344064151321087}
+  m_Father: {fileID: 238014874386142210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2262469352753550133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651662426078138068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Tell her to focus on the good memories of playing in the clearing
+  EffectText: Vitality -1, Passion -3, Reason -1
+  Effects:
+  - {fileID: 3259513469861497427}
+  - {fileID: 5807848480627759229}
+  - {fileID: 9059252337018935653}
+  - {fileID: 6913129705244281847}
+  - {fileID: 658905008988827118}
+  DAE: {fileID: 0}
+--- !u!1 &1711686034737145378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3608507675207322315}
+  - component: {fileID: 4094965321345969229}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3608507675207322315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711686034737145378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686841770862}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4094965321345969229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711686034737145378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686928656064}
+  ActiveEvent: {fileID: 8235201586436923989}
+--- !u!1 &2101776682162341757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2666964403726896851}
+  - component: {fileID: 9059252337018935653}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2666964403726896851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101776682162341757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3659212148662742314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9059252337018935653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101776682162341757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &2170997970309326005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2192832515597467616}
+  - component: {fileID: 1287035647933620888}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2192832515597467616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170997970309326005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4501403052879901315}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287035647933620888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170997970309326005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &2647819266056936026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409979704808357354}
+  - component: {fileID: 7385270650186843800}
+  m_Layer: 0
+  m_Name: Choice (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409979704808357354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647819266056936026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6218991119125146950}
+  - {fileID: 5463722213840920579}
+  - {fileID: 526739757896284975}
+  - {fileID: 9079077667864342166}
+  - {fileID: 6768153317720955429}
+  m_Father: {fileID: 1651734732692257345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7385270650186843800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647819266056936026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Hug Ross and Tell him you admire his strength to resist the voices
+  EffectText: Vitality -1, Passion -3, Reason -1
+  Effects:
+  - {fileID: 7725019407643486234}
+  - {fileID: 5765758930884675500}
+  - {fileID: 5433475015696595674}
+  - {fileID: 5915315360519301168}
+  - {fileID: 6685806357172948282}
+  DAE: {fileID: 0}
+--- !u!1 &3248210036426678919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8007631316936948237}
+  - component: {fileID: 1755893591223840893}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8007631316936948237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248210036426678919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289687190801177}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1755893591223840893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248210036426678919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &3594694676916583850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652533024932852880}
+  - component: {fileID: 1535513935844455972}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &652533024932852880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594694676916583850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5575555299527286814}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1535513935844455972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594694676916583850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &3727458920006366013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2818191767039093532}
+  - component: {fileID: 7518567534206503354}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2818191767039093532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727458920006366013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4501403052879901315}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7518567534206503354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727458920006366013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -3}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &3898833171880351982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5580053698580851364}
+  - component: {fileID: 3382811731367420672}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5580053698580851364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898833171880351982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686991139357}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3382811731367420672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3898833171880351982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289687038650385}
+  ActiveEvent: {fileID: 8235201586436923989}
+--- !u!1 &4021093360712881132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7056877770668165828}
+  - component: {fileID: 5857597399403938426}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7056877770668165828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4021093360712881132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5575555299527286814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5857597399403938426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4021093360712881132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -3}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &4202346553179742393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2824617472704361788}
+  - component: {fileID: 711260704757171773}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2824617472704361788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4202346553179742393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4501403052879901315}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711260704757171773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4202346553179742393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &4240774893293107299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446506130266985654}
+  - component: {fileID: 6681600721645689312}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446506130266985654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240774893293107299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686841770862}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6681600721645689312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240774893293107299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686928656064}
+  ActiveEvent: {fileID: 1886112924675859218}
+--- !u!1 &4989048323731667116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8696720274210295542}
+  - component: {fileID: 9083842882406072829}
+  m_Layer: 0
+  m_Name: Ending
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8696720274210295542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989048323731667116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686824617924}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9083842882406072829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989048323731667116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f714ca0a72c394da7cd24993a1c0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: MiaEnding
+--- !u!1 &5063406451705665481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4501403052879901315}
+  - component: {fileID: 5029805007284509294}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501403052879901315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5063406451705665481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2818191767039093532}
+  - {fileID: 2192832515597467616}
+  - {fileID: 2824617472704361788}
+  - {fileID: 8292318976606503773}
+  - {fileID: 4245759461049432342}
+  m_Father: {fileID: 1651734732692257345}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5029805007284509294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5063406451705665481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Confiscate the books in his room and tell Roger to take extra good care
+    of him
+  EffectText: Vitality -1, Passion -1, Reason -3
+  Effects:
+  - {fileID: 7518567534206503354}
+  - {fileID: 1287035647933620888}
+  - {fileID: 711260704757171773}
+  - {fileID: 462797478814486328}
+  - {fileID: 6176487112696501888}
+  DAE: {fileID: 0}
+--- !u!1 &5199772496118789424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7854764616123864492}
+  - component: {fileID: 5807848480627759229}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7854764616123864492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199772496118789424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3659212148662742314}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5807848480627759229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199772496118789424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &5266130633836505199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8463130246838470530}
+  - component: {fileID: 6030582116794550194}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8463130246838470530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5266130633836505199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5575555299527286814}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6030582116794550194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5266130633836505199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &5753904724989207144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4636971657201459770}
+  - component: {fileID: 3132391535561867685}
+  m_Layer: 0
+  m_Name: Ending
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4636971657201459770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753904724989207144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289685632373390}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3132391535561867685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753904724989207144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f714ca0a72c394da7cd24993a1c0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: RossEnding
+--- !u!1 &5846273238467029266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116879052472112740}
+  - component: {fileID: 3194549491503244260}
+  m_Layer: 0
+  m_Name: Ending
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &116879052472112740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846273238467029266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686912613852}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3194549491503244260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846273238467029266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f714ca0a72c394da7cd24993a1c0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: MiaEnding
+--- !u!1 &6142564242209246546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147684282520619421}
+  - component: {fileID: 3259513469861497427}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147684282520619421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142564242209246546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3659212148662742314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3259513469861497427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142564242209246546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -3, z: -1}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &6559804873596363697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6218991119125146950}
+  - component: {fileID: 7725019407643486234}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6218991119125146950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559804873596363697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1409979704808357354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7725019407643486234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559804873596363697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -3, z: -1}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &6571148019448448169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7772065343185265912}
+  - component: {fileID: 1120767777441419471}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7772065343185265912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6571148019448448169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686679603430}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120767777441419471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6571148019448448169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &6583410114927483904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5359085642744971284}
+  - component: {fileID: 2634961563685096538}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5359085642744971284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583410114927483904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686679603430}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2634961563685096538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583410114927483904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &6721809931582184195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6917984804984437358}
+  - component: {fileID: 8548168217511350880}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6917984804984437358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721809931582184195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5575555299527286814}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8548168217511350880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721809931582184195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8235201586436923989}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &6811186257368064468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983900217509566721}
+  - component: {fileID: 1767822124438552947}
+  m_Layer: 0
+  m_Name: Ending
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983900217509566721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6811186257368064468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686578356730}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767822124438552947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6811186257368064468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f714ca0a72c394da7cd24993a1c0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: RossEnding
+--- !u!1 &6813454213244192381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3539649221079275900}
+  - component: {fileID: 6903408860387663010}
+  - component: {fileID: 1514834201836134027}
+  m_Layer: 0
+  m_Name: DAE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3539649221079275900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813454213244192381}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289685648550692}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6903408860387663010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813454213244192381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Ross Becker
+  FreeSources: []
+  BaseEvent: {fileID: 8419289686129974838}
+  Active: 1
+  IgnorePairing: 0
+  RequiredKey: 
+  StartTime: -1
+  Priority: 0
+  PMods: []
+  Content: "Ross refuses to fully cooperate with the doctor, but after a drawn out
+    check up, she says that she can\u2019t seem to find anything wrong with him,
+    and he should just be on bed rest for a short while."
+  AddContent: 
+  Pages: []
+  Illustration: {fileID: 0}
+  AutoNextPage: 1
+  DisplaySource: 0
+  Choices:
+  - {fileID: 1514834201836134027}
+--- !u!114 &1514834201836134027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813454213244192381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: 
+  EffectText: Continue.
+--- !u!1 &6838226647753872168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937645089796390359}
+  - component: {fileID: 147065764244331378}
+  m_Layer: 0
+  m_Name: NextII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937645089796390359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838226647753872168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289687190801177}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &147065764244331378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838226647753872168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &6994172687025367136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9079077667864342166}
+  - component: {fileID: 5915315360519301168}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9079077667864342166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994172687025367136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1409979704808357354}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5915315360519301168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994172687025367136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &7283982840034361730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5773781201477183374}
+  - component: {fileID: 4504036478905867539}
+  m_Layer: 0
+  m_Name: NextIII
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5773781201477183374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283982840034361730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686679603430}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4504036478905867539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283982840034361730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 1886112924675859218}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &8373533704761278312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9103344064151321087}
+  - component: {fileID: 658905008988827118}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9103344064151321087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373533704761278312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3659212148662742314}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &658905008988827118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373533704761278312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 0}
 --- !u!1 &8419289685142036261
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +2014,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 9135209652222656916}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -836,7 +2598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 8419289686928656064}
-  ActiveEvent: {fileID: 8419289686124135528}
+  ActiveEvent: {fileID: 8419289686875232646}
 --- !u!1 &8419289685318134081
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +2711,10 @@ GameObject:
   - component: {fileID: 8419289685326384803}
   - component: {fileID: 8419289685326384801}
   - component: {fileID: 8419289685326384802}
+  - component: {fileID: 5071245790698712594}
+  - component: {fileID: 2547043298966247641}
   - component: {fileID: 5359660864707956975}
+  - component: {fileID: 8200889059668413843}
   m_Layer: 0
   m_Name: 9-1-R
   m_TagString: Untagged
@@ -996,6 +2761,8 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685326384801}
   - {fileID: 8419289685326384802}
+  - {fileID: 5071245790698712594}
+  - {fileID: 2547043298966247641}
   Content: "Immediately following a sacrifice, a scream is heard. The crowd looks
     over and sees Ross has slashed the palm of his right hand open. Before anyone
     can move, Ross begins to recite words that nobody understands. Soon his eyes
@@ -1004,6 +2771,8 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 5359660864707956975}
+  - {fileID: 8200889059668413843}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1035,7 +2804,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &5071245790698712594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685326384813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbb6f5994de5394d8bb650e62ca350e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2547043298966247641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685326384813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33156ce552e8b474fb588714f2c8e7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: RossEnding
+  ValueRange: {x: 0, y: 1}
 --- !u!114 &5359660864707956975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685326384813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Immediately following a sacrifice, a scream is heard. The crowd looks
+    over and sees Ross has slashed the palm of his right hand open. Before anyone
+    can move, Ross begins to recite words that nobody understands. Soon his eyes
+    glow white, and he begins to levitate. With a much deeper voice, he declare that
+    you as the high priest have no true grasp on god.\r"
+--- !u!114 &8200889059668413843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1160,6 +2972,7 @@ MonoBehaviour:
     trap door. There has been enough chaos surrounding it already."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -1285,6 +3098,7 @@ MonoBehaviour:
     kids to run back home.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1672,7 +3486,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8419289686912613852}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685499550972
 MonoBehaviour:
@@ -1705,6 +3519,7 @@ MonoBehaviour:
     but she seems to have calmed down."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -1856,7 +3671,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8419289686679603430}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289685626333411
 MonoBehaviour:
@@ -1901,6 +3716,7 @@ Transform:
   - {fileID: 8419289686933050278}
   - {fileID: 8419289686115275429}
   - {fileID: 8419289686706093896}
+  - {fileID: 4636971657201459770}
   - {fileID: 8419289686326823166}
   m_Father: {fileID: 8419289686919397023}
   m_RootOrder: 0
@@ -1925,6 +3741,7 @@ MonoBehaviour:
   - {fileID: 8419289686933050279}
   - {fileID: 8419289686115275430}
   - {fileID: 8419289686706093903}
+  - {fileID: 3132391535561867685}
   DAE: {fileID: 8419289686326823164}
 --- !u!1 &8419289685648550693
 GameObject:
@@ -1958,6 +3775,7 @@ Transform:
   - {fileID: 8419289686652819514}
   - {fileID: 8419289685846394697}
   - {fileID: 8419289686324916733}
+  - {fileID: 3539649221079275900}
   m_Father: {fileID: 8419289686129974839}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1982,7 +3800,7 @@ MonoBehaviour:
   - {fileID: 8419289686652819513}
   - {fileID: 8419289685846394698}
   - {fileID: 8419289686324916734}
-  DAE: {fileID: 0}
+  DAE: {fileID: 6903408860387663010}
 --- !u!1 &8419289685712943937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,6 +4017,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 6787891617277680534}
   - {fileID: 1515785963253988880}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -2404,6 +4223,8 @@ Transform:
   - {fileID: 8419289686124135529}
   - {fileID: 8419289685178604372}
   - {fileID: 8419289686875232647}
+  - {fileID: 1651734732692257345}
+  - {fileID: 238014874386142210}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2533,6 +4354,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 4426401745109122015}
   - {fileID: 3142911655897070236}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -2655,6 +4477,7 @@ MonoBehaviour:
     knee, and was bleeding quite a bit. '
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2740,6 +4563,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 6200350648944556900}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -3070,6 +4894,7 @@ GameObject:
   - component: {fileID: 8419289685918043392}
   - component: {fileID: 8419289685918043399}
   - component: {fileID: 4634392070339505398}
+  - component: {fileID: 8804184266961217497}
   m_Layer: 0
   m_Name: 3-1
   m_TagString: Untagged
@@ -3123,6 +4948,8 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 4634392070339505398}
+  - {fileID: 8804184266961217497}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -3152,6 +4979,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Content: "Ross runs up to you in a panic.\r\n\r\u201CI\u2026 I think Mia might
+    be trapped in the church basement.\""
+--- !u!114 &8804184266961217497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685918043394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Content: "\"She left the house a yesterday aI couldn\u2019t get the door open and
     she\u2019s been down there for a long time. She told me not to tell anyone she
     went in there but... I\u2019m scared and I don\u2019t want her to be hurt. Please
@@ -3169,6 +5010,7 @@ GameObject:
   - component: {fileID: 8419289685930123011}
   - component: {fileID: 8419289685930123020}
   - component: {fileID: 17395933365809024}
+  - component: {fileID: 7500478434515367520}
   m_Layer: 0
   m_Name: 7-2-M
   m_TagString: Untagged
@@ -3216,13 +5058,15 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289685930123011}
   - {fileID: 8419289685930123020}
-  Content: "*Someone* omes to you and says that they have seen Mia carrying around
+  Content: "*Someone* comes to you and says that they have seen Mia carrying around
     a knife. They aren\u2019t fully aware of why she is carrying it around but they
     are worried as she is only eleven years old and she shouldn\u2019t be handling
     such sharp objects."
   AddContent: 
   Pages:
   - {fileID: 17395933365809024}
+  - {fileID: 7500478434515367520}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -3255,6 +5099,22 @@ MonoBehaviour:
   NameI: Ross Becker
   NameII: Mia Becker
 --- !u!114 &17395933365809024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289685930123023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "*Someone* comes to you and says that they have seen Mia carrying around
+    a knife. They aren\u2019t fully aware of why she is carrying it around but they
+    are worried as she is only eleven years old and she shouldn\u2019t be handling
+    such sharp objects."
+--- !u!114 &7500478434515367520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3383,6 +5243,7 @@ MonoBehaviour:
     go please?\u201D\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3593,6 +5454,7 @@ MonoBehaviour:
     that they didn\u2019t understand."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3734,7 +5596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8419289687190801177}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686107945585
 MonoBehaviour:
@@ -3895,7 +5757,10 @@ GameObject:
   - component: {fileID: 8419289686124135528}
   - component: {fileID: 8419289686124135534}
   - component: {fileID: 8419289686124135535}
+  - component: {fileID: 8469994215022207804}
+  - component: {fileID: 6008425134378612584}
   - component: {fileID: 3717662134945782052}
+  - component: {fileID: 3137651697237584063}
   m_Layer: 0
   m_Name: 9-1-M
   m_TagString: Untagged
@@ -3942,6 +5807,8 @@ MonoBehaviour:
   PMods:
   - {fileID: 8419289686124135534}
   - {fileID: 8419289686124135535}
+  - {fileID: 8469994215022207804}
+  - {fileID: 6008425134378612584}
   Content: "Immediately following a sacrifice, a scream is heard. The crowd looks
     over and sees Mia has slashed the palm of her right hand open. Before anyone
     can move, Mia begins to recite words that nobody understands. Soon her eyes glow
@@ -3950,6 +5817,8 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 3717662134945782052}
+  - {fileID: 3137651697237584063}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -3981,7 +5850,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
+--- !u!114 &8469994215022207804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686124135530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbb6f5994de5394d8bb650e62ca350e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6008425134378612584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686124135530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33156ce552e8b474fb588714f2c8e7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: MiaEnding
+  ValueRange: {x: 0, y: 1}
 --- !u!114 &3717662134945782052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419289686124135530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Immediately following a sacrifice, a scream is heard. The crowd looks
+    over and sees Mia has slashed the palm of her right hand open. Before anyone
+    can move, Mia begins to recite words that nobody understands. Soon her eyes glow
+    white, and she begins to levitate. With a much deeper voice, she declare that
+    you as the high priest have no true grasp on god.\r"
+--- !u!114 &3137651697237584063
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4153,6 +6065,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 1509430394657942585}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -4308,6 +6221,7 @@ MonoBehaviour:
     about what happened to her."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -4693,7 +6607,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8419289685632373390}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686326823164
 MonoBehaviour:
@@ -4725,6 +6639,7 @@ MonoBehaviour:
     he won\u2019t do it again."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -4849,7 +6764,6 @@ GameObject:
   - component: {fileID: 8419289686389017911}
   - component: {fileID: 8419289686389017909}
   - component: {fileID: 8419289686389017910}
-  - component: {fileID: 5471163386785729497}
   m_Layer: 0
   m_Name: 7-2-R
   m_TagString: Untagged
@@ -4900,8 +6814,8 @@ MonoBehaviour:
   Content: After your weekly sermon, you go to check the basement and find it completely
     ruined, with files and books scattered all over and shelves knocked down.
   AddContent: 
-  Pages:
-  - {fileID: 5471163386785729497}
+  Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -4933,20 +6847,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameI: Ross Becker
   NameII: Mia Becker
---- !u!114 &5471163386785729497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419289686389017905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: ' *Someone* confesses to seeing Ross enter the basement. As you go to
-    find Ross, *Someone* begins to question what exactly is in the basement.'
 --- !u!1 &8419289686425938977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,7 +6988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager BECKER is potentially dangerous and let you handle them.
+  Content: Tell the villager Ross is potentially dangerous and let you handle them.
   EffectText: Passion -2
   Effects:
   - {fileID: 8419289686084547569}
@@ -5563,6 +7463,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 2901898436229570162}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -5902,6 +7803,7 @@ Transform:
   - {fileID: 8419289686127766246}
   - {fileID: 8419289685168922138}
   - {fileID: 8419289686630178141}
+  - {fileID: 983900217509566721}
   - {fileID: 8419289686616774571}
   m_Father: {fileID: 8419289686129974839}
   m_RootOrder: 0
@@ -5927,6 +7829,7 @@ MonoBehaviour:
   - {fileID: 8419289686127766245}
   - {fileID: 8419289685168922139}
   - {fileID: 8419289686630178140}
+  - {fileID: 1767822124438552947}
   DAE: {fileID: 8419289686616774569}
 --- !u!1 &8419289686596388465
 GameObject:
@@ -5988,6 +7891,7 @@ MonoBehaviour:
     was speaking to her.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -6038,7 +7942,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8419289686578356730}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8419289686616774569
 MonoBehaviour:
@@ -6070,6 +7974,7 @@ MonoBehaviour:
     understands what needs to happen, and says he is not angry at you.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -6407,6 +8312,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8419289686788377677}
+  - {fileID: 7772065343185265912}
+  - {fileID: 5773781201477183374}
+  - {fileID: 5359085642744971284}
   - {fileID: 8419289685626333420}
   m_Father: {fileID: 8419289685326384812}
   m_RootOrder: 0
@@ -6429,6 +8337,9 @@ MonoBehaviour:
   EffectText: 
   Effects:
   - {fileID: 8419289686788377676}
+  - {fileID: 1120767777441419471}
+  - {fileID: 4504036478905867539}
+  - {fileID: 2634961563685096538}
   - {fileID: 8419289685626333411}
   DAE: {fileID: 0}
 --- !u!1 &8419289686706093897
@@ -6778,6 +8689,8 @@ Transform:
   - {fileID: 8419289685874352797}
   - {fileID: 8419289686638743180}
   - {fileID: 8419289686633528825}
+  - {fileID: 8696720274210295542}
+  - {fileID: 4507743008807012889}
   m_Father: {fileID: 8419289685930123022}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6802,7 +8715,8 @@ MonoBehaviour:
   - {fileID: 8419289685874352796}
   - {fileID: 8419289686638743171}
   - {fileID: 8419289686633528824}
-  DAE: {fileID: 0}
+  - {fileID: 9083842882406072829}
+  DAE: {fileID: 3974114044314319564}
 --- !u!1 &8419289686841770856
 GameObject:
   m_ObjectHideFlags: 0
@@ -6834,6 +8748,8 @@ Transform:
   - {fileID: 8419289686425938983}
   - {fileID: 8419289686433317724}
   - {fileID: 8419289686451896798}
+  - {fileID: 446506130266985654}
+  - {fileID: 3608507675207322315}
   m_Father: {fileID: 8419289687038650386}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6857,6 +8773,8 @@ MonoBehaviour:
   - {fileID: 8419289686425938976}
   - {fileID: 8419289686433317725}
   - {fileID: 8419289686451896799}
+  - {fileID: 6681600721645689312}
+  - {fileID: 4094965321345969229}
   DAE: {fileID: 0}
 --- !u!1 &8419289686847730021
 GameObject:
@@ -6947,7 +8865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 8419289687038650385}
-  ActiveEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 8419289685178604395}
 --- !u!1 &8419289686875232640
 GameObject:
   m_ObjectHideFlags: 0
@@ -7015,6 +8933,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 3947309874990713925}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -7144,6 +9063,7 @@ Transform:
   - {fileID: 8419289685159045719}
   - {fileID: 8419289686259577659}
   - {fileID: 8419289685416533852}
+  - {fileID: 116879052472112740}
   - {fileID: 8419289685499550962}
   m_Father: {fileID: 8419289685817116504}
   m_RootOrder: 0
@@ -7168,6 +9088,7 @@ MonoBehaviour:
   - {fileID: 8419289685159045712}
   - {fileID: 8419289686259577636}
   - {fileID: 8419289685416533853}
+  - {fileID: 3194549491503244260}
   DAE: {fileID: 8419289685499550972}
 --- !u!1 &8419289686919397016
 GameObject:
@@ -7237,6 +9158,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 7840659392359325497}
   - {fileID: 7840659392359325497}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -7363,6 +9285,7 @@ MonoBehaviour:
     seems reluctant to tell you if there is any potential cause of this.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -7449,6 +9372,7 @@ MonoBehaviour:
     Huntshire.\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -7739,6 +9663,8 @@ Transform:
   - {fileID: 8419289686996892633}
   - {fileID: 8419289687029108066}
   - {fileID: 8419289687083619670}
+  - {fileID: 5580053698580851364}
+  - {fileID: 6090873231892088427}
   m_Father: {fileID: 8419289686928656065}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7762,6 +9688,8 @@ MonoBehaviour:
   - {fileID: 8419289686996892634}
   - {fileID: 8419289687029108067}
   - {fileID: 8419289687083619671}
+  - {fileID: 3382811731367420672}
+  - {fileID: 931827856130157671}
   DAE: {fileID: 0}
 --- !u!1 &8419289686996892635
 GameObject:
@@ -8163,6 +10091,7 @@ MonoBehaviour:
     Huntshire.\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -8649,6 +10578,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8419289687060263104}
+  - {fileID: 1937645089796390359}
+  - {fileID: 8007631316936948237}
+  - {fileID: 309861064905517737}
   - {fileID: 8419289686107945586}
   m_Father: {fileID: 8419289686124135529}
   m_RootOrder: 0
@@ -8671,6 +10603,9 @@ MonoBehaviour:
   EffectText: 
   Effects:
   - {fileID: 8419289687060263111}
+  - {fileID: 147065764244331378}
+  - {fileID: 1755893591223840893}
+  - {fileID: 4186416592103329960}
   - {fileID: 8419289686107945585}
   DAE: {fileID: 0}
 --- !u!1 &8419289687198487662
@@ -8780,6 +10715,7 @@ MonoBehaviour:
     understand that they should not be looking in places not meant for them.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -8867,6 +10803,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 4266938750492692736}
   - {fileID: 8440113400198259610}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -8982,3 +10919,516 @@ MonoBehaviour:
   - {fileID: 8419289686823192990}
   - {fileID: 8419289685712943943}
   DAE: {fileID: 0}
+--- !u!1 &8512688830213088676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651734732692257345}
+  - component: {fileID: 1886112924675859218}
+  - component: {fileID: 3897824931322574446}
+  - component: {fileID: 6951698815681073491}
+  - component: {fileID: 1534992825852716873}
+  - component: {fileID: 3921345181336813007}
+  - component: {fileID: 3176758064556614023}
+  - component: {fileID: 1761540285829279270}
+  m_Layer: 0
+  m_Name: 9-3-R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1651734732692257345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1409979704808357354}
+  - {fileID: 4501403052879901315}
+  m_Father: {fileID: 8419289685789149492}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1886112924675859218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Ross Becker
+  FreeSources:
+  - Ross Becker
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 3
+  PMods:
+  - {fileID: 3897824931322574446}
+  - {fileID: 6951698815681073491}
+  - {fileID: 1534992825852716873}
+  Content: "\u201CI\u2026 I need to talk to you\u2026 The god you serve\u2026 The
+    god you serve...\u201D\r\n\r\nTears are welling up in his eyes as he struggles
+    to choke out the words he wants to say. All of a sudden he pulls out a knife
+    from behind his back and moves it towards his right hand, but stops just before
+    cutting himself. He holds for a moment before dropping the knife and bursting
+    out into tears.\r\n\r\n\u201CWhen Mia died, she left a book in our room\u2026
+    I read it and started hearing voices in my head. They\u2019ve been telling me
+    to do really really bad things. I\u2019m\u2026 I\u2019m\u2026 I\u2019m...\u201D\r"
+  AddContent: 
+  Pages:
+  - {fileID: 3921345181336813007}
+  - {fileID: 3176758064556614023}
+  - {fileID: 1761540285829279270}
+  Illustration: {fileID: 0}
+  AutoNextPage: 0
+  DisplaySource: 1
+  Choices:
+  - {fileID: 7385270650186843800}
+  - {fileID: 5029805007284509294}
+--- !u!114 &3897824931322574446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6951698815681073491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Ross Becker
+  NameII: Mia Becker
+--- !u!114 &1534992825852716873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33156ce552e8b474fb588714f2c8e7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: RossEnding
+  ValueRange: {x: 2, y: 999}
+--- !u!114 &3921345181336813007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Ross asks if he could talk to you at the church. As he walks up, you
+    see he is hiding something behind his back. He\u2019s staring at the ground as
+    he walks up and he seems to be shaking quite a bit.\r"
+--- !u!114 &3176758064556614023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI\u2026 I need to talk to you\u2026 The god you serve\u2026 The
+    god you serve...\u201D\r\nTears are welling up in his eyes as he struggles to
+    choke out the words he wants to say. All of a sudden he pulls out a knife from
+    behind his back and moves it towards his right hand, but stops just before cutting
+    himself. He holds for a moment before dropping the knife and bursting out into
+    tears."
+--- !u!114 &1761540285829279270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512688830213088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CWhen Mia died, she left a book in our room\u2026 I read it and
+    started hearing voices in my head. They\u2019ve been telling me to do really
+    really bad things. I\u2019m\u2026 I\u2019m\u2026 I\u2019m...\u201D"
+--- !u!1 &8674289208635221033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6090873231892088427}
+  - component: {fileID: 931827856130157671}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6090873231892088427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674289208635221033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686991139357}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &931827856130157671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674289208635221033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289687038650385}
+  ActiveEvent: {fileID: 1886112924675859218}
+--- !u!1 &8930030348661447837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238014874386142210}
+  - component: {fileID: 8235201586436923989}
+  - component: {fileID: 1307806414071557827}
+  - component: {fileID: 1244782645768146831}
+  - component: {fileID: 6190771620248756097}
+  - component: {fileID: 4578658025498216563}
+  - component: {fileID: 462754114141247391}
+  - component: {fileID: 6166697063185816351}
+  m_Layer: 0
+  m_Name: 9-3-M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &238014874386142210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3659212148662742314}
+  - {fileID: 5575555299527286814}
+  m_Father: {fileID: 8419289685789149492}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8235201586436923989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Mia Becker
+  FreeSources:
+  - Mia Becker
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 3
+  PMods:
+  - {fileID: 1307806414071557827}
+  - {fileID: 1244782645768146831}
+  - {fileID: 6190771620248756097}
+  Content: Mia asks if she could talk to you at the church. After waiting for a short
+    while, you see her briskly walking, fiddling with something behind her back.
+    She comes in and immediately turns to you.
+  AddContent: 
+  Pages:
+  - {fileID: 4578658025498216563}
+  - {fileID: 462754114141247391}
+  - {fileID: 6166697063185816351}
+  Illustration: {fileID: 0}
+  AutoNextPage: 0
+  DisplaySource: 1
+  Choices:
+  - {fileID: 2262469352753550133}
+  - {fileID: 7618579844698355278}
+--- !u!114 &1307806414071557827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1244782645768146831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Ross Becker
+  NameII: Mia Becker
+--- !u!114 &6190771620248756097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33156ce552e8b474fb588714f2c8e7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: MiaEnding
+  ValueRange: {x: 2, y: 999}
+--- !u!114 &4578658025498216563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: Mia asks if she could talk to you at the church. After waiting for a short
+    while, you see her briskly walking, fiddling with something behind her back.
+    She comes in and immediately turns to you.
+--- !u!114 &462754114141247391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CSacrificing innocent people constantly\u2026  When will it stop?
+    When will your god be satisfied? When will you be satisfied? The adults in Huntshire
+    may tolerate your bloodlust but I won\u2019t.\u201D\r\n\rShe quickly takes out
+    a knife from her back and moves it towards her hand but stops short as she begins
+    to shake. She stares directly into your eyes for a second before dropping the
+    knife.\r"
+--- !u!114 &6166697063185816351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930030348661447837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CHow could you take Ross away from me... He and Amelia\u2026 I miss
+    them so much. Back when the three of us were together, we took a book from the
+    basement here. Ever since Ross died I\u2019ve been reading it and hearing things.
+    The voices have been telling me to let them take control. But I just don\u2019t
+    want to let them hurt anyone.\u201D"
+--- !u!1 &8970113567620162646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4507743008807012889}
+  - component: {fileID: 3974114044314319564}
+  - component: {fileID: 3438502170498524653}
+  m_Layer: 0
+  m_Name: DAE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4507743008807012889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8970113567620162646}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8419289686824617924}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3974114044314319564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8970113567620162646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Mia Becker
+  FreeSources: []
+  BaseEvent: {fileID: 8419289685930123021}
+  Active: 1
+  IgnorePairing: 0
+  RequiredKey: 
+  StartTime: -1
+  Priority: 0
+  PMods: []
+  Content: "She becomes flustered, clearly reluctant to tell you the truth.\r\n\r\u201CIt\u2019s
+    nothing. I tripped while playing in the clearing and scraped my hand pretty bad.
+    I\u2019m pretty tough though so I didn\u2019t complain about it.\u201D\r\n\rHer
+    words are unconvincing however it\u2019s clear she won\u2019t tell you the truth.
+    It might be wise to keep an eye on her."
+  AddContent: 
+  Pages: []
+  Illustration: {fileID: 0}
+  AutoNextPage: 1
+  DisplaySource: 0
+  Choices:
+  - {fileID: 3438502170498524653}
+--- !u!114 &3438502170498524653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8970113567620162646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: 
+  EffectText: Continue.
+--- !u!1 &9134497579548887962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783797757283538438}
+  - component: {fileID: 1023337485864717250}
+  m_Layer: 0
+  m_Name: NextIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783797757283538438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134497579548887962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5575555299527286814}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023337485864717250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134497579548887962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 8419289685326384803}
+  ActiveEvent: {fileID: 0}
