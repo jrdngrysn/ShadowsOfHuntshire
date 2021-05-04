@@ -306,6 +306,7 @@ MonoBehaviour:
     is missing. There is only one person who could be responsible for this.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -437,6 +438,7 @@ MonoBehaviour:
     been soaked. Strange symbols painted on the parchment can be dimly seen.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -675,6 +677,7 @@ MonoBehaviour:
   AddContent: 
   Pages:
   - {fileID: 1934446802046233138}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -767,6 +770,7 @@ MonoBehaviour:
     In the morning Dolf cannot be found. We can only assume the worst.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -891,6 +895,7 @@ MonoBehaviour:
     In the morning Dolf cannot be found. We can only assume the worst.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1018,6 +1023,7 @@ MonoBehaviour:
     not stop talking about how much he misses the sea.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1241,6 +1247,7 @@ MonoBehaviour:
     disarray.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1473,6 +1480,7 @@ MonoBehaviour:
   - {fileID: 1934446802251554935}
   - {fileID: 1934446802251554934}
   - {fileID: 1934446802251554889}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1595,6 +1603,7 @@ MonoBehaviour:
     He asks if he can look in your personal library.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1783,6 +1792,7 @@ MonoBehaviour:
     I feel her calling me. I miss her so much...\u201D\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -1859,6 +1869,7 @@ MonoBehaviour:
     As he walks away, you can hear Dolf mutter curses under his breath.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1992,6 +2003,7 @@ MonoBehaviour:
     out a curiously-patterned brass mirror.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2076,6 +2088,7 @@ MonoBehaviour:
     and just requests to be left to rest.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -2151,6 +2164,7 @@ MonoBehaviour:
     seem to even have a fishing rod with him."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2719,6 +2733,7 @@ MonoBehaviour:
     Dolf seems exasperated and insists that you leave immediately.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2901,6 +2916,7 @@ MonoBehaviour:
     while, he thanks you and leaves.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3080,6 +3096,7 @@ MonoBehaviour:
     to have got nothing this time.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3172,6 +3189,7 @@ MonoBehaviour:
   - {fileID: 1934446802701738624}
   - {fileID: 1934446802701738627}
   - {fileID: 1934446802701738626}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3450,6 +3468,7 @@ MonoBehaviour:
     it seems to be a creature from other worlds.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -3872,6 +3891,7 @@ MonoBehaviour:
     for a time.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -4105,6 +4125,7 @@ MonoBehaviour:
     what to do.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4280,6 +4301,7 @@ MonoBehaviour:
     I feel her calling me. I miss her so much...\u201D\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -4584,6 +4606,7 @@ MonoBehaviour:
     Dolf fished out a curiously-patterned brass mirror.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4664,6 +4687,7 @@ MonoBehaviour:
     nothing this time.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4745,6 +4769,7 @@ MonoBehaviour:
     from other worlds.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4939,6 +4964,7 @@ MonoBehaviour:
   - {fileID: 1934446803313919603}
   - {fileID: 1934446803313919602}
   - {fileID: 1934446803313919601}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -5174,6 +5200,7 @@ MonoBehaviour:
     Dolf seems exasperated and insists that you leave immediately.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -5411,6 +5438,7 @@ MonoBehaviour:
     night.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 1
   DisplaySource: 0
   Choices:
@@ -5586,6 +5614,7 @@ MonoBehaviour:
     dimly seen.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -6386,6 +6415,7 @@ MonoBehaviour:
     not stop talking about how much he misses the sea.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -6694,6 +6724,7 @@ MonoBehaviour:
     nosebleed. He turns to look at you and then runs away.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -6927,6 +6958,7 @@ MonoBehaviour:
     for this.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -7075,6 +7107,7 @@ MonoBehaviour:
   - {fileID: 1934446804039745384}
   - {fileID: 1934446804039745387}
   - {fileID: 1934446804039745386}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -7269,6 +7302,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 1161395801708480798}
   - {fileID: 9057188901232872379}
+  Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
