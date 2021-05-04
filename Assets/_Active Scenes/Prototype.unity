@@ -1533,6 +1533,7 @@ MonoBehaviour:
     from the dead.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1614,6 +1615,7 @@ MonoBehaviour:
     world. The ineffable power of my lord, the transcendent knowledge\u2026 \r"
   AddContent: In the end, I contemplate. What does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1993,6 +1995,7 @@ MonoBehaviour:
     of basement does that door lead to?\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2458,6 +2461,7 @@ MonoBehaviour:
     -- through the hands of those missionaries we sent outside.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -2985,7 +2989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3117,7 +3121,7 @@ Transform:
   m_Children:
   - {fileID: 506433057}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &304472408
 Animator:
@@ -3255,7 +3259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3571,6 +3575,7 @@ MonoBehaviour:
     with her face looking a little bit pale and an unexpected fever."
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4314,6 +4319,7 @@ MonoBehaviour:
     the book to where it belongs."
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -4478,6 +4484,7 @@ MonoBehaviour:
     me crazy, and makes my spirit stagger like the frenzied wind in my dream...\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -4603,6 +4610,7 @@ MonoBehaviour:
     like there\u2019s something watching me from across the mirror, is it a bad sign?\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -5512,6 +5520,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f0d2cd632911ab24bb8cf85263e38274, type: 3}
   IER: {fileID: 2101132794}
   TER: {fileID: 161415048}
+  STER: {fileID: 7321020430510484652}
   EER: {fileID: 1235029480}
   NCR: {fileID: 5442776086218395722}
   NewCharacterSlots:
@@ -5862,6 +5871,7 @@ MonoBehaviour:
     to my appearance and lord has come to punish me. What shall I do...\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -6322,7 +6332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5746157574817891350, guid: c1e7bf152459b43ab92fd3a8af55568b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6475,6 +6485,7 @@ MonoBehaviour:
     the basement. I am not afraid of the truth, so does Huntshire. All is ready.\r"
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -7006,6 +7017,7 @@ MonoBehaviour:
     speak for my Lord. Truth will befall Huntshire with a great probation."
   AddContent: In the end, I contemplate. What does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -7943,6 +7955,7 @@ MonoBehaviour:
     doing! We have to get rid of her, my lord!\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -8206,6 +8219,7 @@ MonoBehaviour:
     with the proper sacrifice at the end of every season. "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -9216,6 +9230,7 @@ MonoBehaviour:
     way\u2026\r"
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -9912,6 +9927,7 @@ MonoBehaviour:
     them but I think it\u2019s really ominous. I\u2019m scared. Please, help me.\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -10232,6 +10248,7 @@ MonoBehaviour:
     miserable mortal will soon end."
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -10642,6 +10659,7 @@ MonoBehaviour:
     come help her, she said she wasn\u2019t feeling good.\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -11074,6 +11092,7 @@ MonoBehaviour:
     flicker on and off whenever Mrs Furst needs to use them desperately.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -11445,6 +11464,7 @@ MonoBehaviour:
   Content: Epilogue
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -11608,7 +11628,7 @@ Transform:
   m_Children:
   - {fileID: 1871214254}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113706640
 GameObject:
@@ -11674,6 +11694,7 @@ MonoBehaviour:
     monsters.'
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -11925,7 +11946,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5348486803177117418, guid: a022d9081fb54f541abce607d9372d91, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 5348486803177117418, guid: a022d9081fb54f541abce607d9372d91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12653,7 +12674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3385880843702111547, guid: 0909101a0029fd34c9a1d0b062c05fd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12799,7 +12820,7 @@ Transform:
   m_LocalScale: {x: 13.407866, y: 13.407866, z: 13.407866}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1270575357
 GameObject:
@@ -12921,6 +12942,7 @@ MonoBehaviour:
     so he asks you for some advice on the ingredients.
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -13125,6 +13147,7 @@ MonoBehaviour:
     price, and Huntshire is ready for it."
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -14835,7 +14858,7 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1548008045
 Animator:
@@ -14990,7 +15013,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8870458130609518664, guid: 073fca84adc0445bf9d385ae10b8b537, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8870458130609518664, guid: 073fca84adc0445bf9d385ae10b8b537, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15744,6 +15767,7 @@ MonoBehaviour:
     be conspiring against me and against this town.\""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -17064,7 +17088,7 @@ Transform:
   m_LocalScale: {x: 90, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1763447442
 PrefabInstance:
@@ -17283,6 +17307,7 @@ MonoBehaviour:
     it. I must be careful not to let thieves creep in our town."
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -19077,6 +19102,7 @@ MonoBehaviour:
     being too old?\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
@@ -19722,7 +19748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2226241691109453890, guid: 01f313f632c5e324da69e255141a0e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19798,7 +19824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6406732285786891577, guid: 90875107de0ffae4ab0e1444c6528aad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20085,7 +20111,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20345,7 +20371,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1934446803225878228, guid: 9d44f57593b160e45ad47f99e21222b8, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1934446803225878228, guid: 9d44f57593b160e45ad47f99e21222b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20413,7 +20439,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 850337402480330828, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 850337402480330828, guid: 747b56e80846d1149af8ef45d426700b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20681,7 +20707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413254, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7310943853166413254, guid: 5bbe91134fc267247825bc2ede65a2d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20921,6 +20947,74 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d96a21ab03614e4a85d9977fb7c313a, type: 3}
+--- !u!1001 &7321020430510484651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852139, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462722848010852140, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+      propertyPath: m_Name
+      value: TownEventRendererII
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+--- !u!114 &7321020430510484652 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6462722848010852138, guid: 4b6f9ceb3e75c4e46a6b0274a4518923, type: 3}
+  m_PrefabInstance: {fileID: 7321020430510484651}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca1d30b3a887a4ab866bf22999b03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8319630961651774112
 GameObject:
   m_ObjectHideFlags: 0
@@ -20947,7 +21041,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8419289685789149492, guid: 9e3dec8e78b8277469a495c6a1968e2e, type: 3}
       propertyPath: m_LocalPosition.x
