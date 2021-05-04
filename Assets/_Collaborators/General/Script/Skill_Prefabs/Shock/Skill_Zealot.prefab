@@ -77,10 +77,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Zealot
-  Description: 'Zealot: When *FCharacter_Name* has 14 or more passion they can activate
-    Zealot. While active, any character paired with *FCharacter_Name* will have their
-    passion reduced by 2. *FCharacter_Name* will then have their passion reduced
-    by 2 and their vitality increased by 2.'
+  Description: 'Zealot: When *FCharacter_Name* has 14+ passion, click the icon to
+    have them activate Zealot. While active, any character paired with *FCharacter_Name*
+    will have their passion reduced by 2. *FCharacter_Name* will have their passion
+    reduced by 2 and their vitality increased by 2.'
 --- !u!114 &-1897325721424699495
 MonoBehaviour:
   m_ObjectHideFlags: 0
