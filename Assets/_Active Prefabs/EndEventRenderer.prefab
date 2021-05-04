@@ -1201,17 +1201,21 @@ MonoBehaviour:
   Source: 
   FreeSources: []
   BaseEvent: {fileID: 0}
+  Active: 1
+  IgnorePairing: 0
   RequiredKey: 
   StartTime: -1
-  Active: 1
+  Priority: 0
+  PMods: []
   Content: 'I stand among the hills. As the twilight puts a goldan veil over Huntshire,
     a sudden thrill of peace rambles through my brain, followed by a devouring despair.
 
     Perhaps
     I was never close to the truth. Perhaps this was never meant for me. I shall
     go quietly.'
-  Pages: []
   AddContent: 
+  Pages: []
+  AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 0}

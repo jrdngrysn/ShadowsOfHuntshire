@@ -20,6 +20,7 @@ namespace THAN
         public string Content;
         public string AddContent;
         public List<EventPage> Pages;
+        public Sprite Illustration;
         public bool AutoNextPage;
         public bool DisplaySource;
         public List<EventChoice> Choices;
