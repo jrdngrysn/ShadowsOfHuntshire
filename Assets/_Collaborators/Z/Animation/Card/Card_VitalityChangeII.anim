@@ -87,7 +87,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: AnimBase/Vitality/VDown
+    path: AnimBase/Vitality/VCDown
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -99,7 +99,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3927487924
+      path: 4173882125
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -197,7 +197,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: AnimBase/Vitality/VDown
+    path: AnimBase/Vitality/VCDown
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
