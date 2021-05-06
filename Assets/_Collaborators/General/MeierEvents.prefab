@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 8687553014462989299}
-  ActiveEvent: {fileID: 6322124607082979869}
+  ActiveEvent: {fileID: 3820788509821363976}
 --- !u!1 &62168851185175485
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +117,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6740350569773246664}
+  - {fileID: 1407590757605678942}
   m_Father: {fileID: 8465915325705664332}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,9 +137,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell him that the Lord will at least be happy with his actions.
-  EffectText: 
-  Effects: []
+  Content: 'Request that he carries out each sacrifice that you choose for now on '
+  EffectText: -3 Vitality, -1 Reason
+  Effects:
+  - {fileID: 7730726799861363152}
+  - {fileID: 4074864745750712145}
   DAE: {fileID: 0}
 --- !u!1 &223735191469454660
 GameObject:
@@ -197,8 +201,9 @@ GameObject:
   - component: {fileID: 1769107041620667349}
   - component: {fileID: 1566001900750679533}
   - component: {fileID: 7613512943456247924}
+  - component: {fileID: 7686848657416658154}
   m_Layer: 0
-  m_Name: Coping - No Death
+  m_Name: Baron Proper Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,18 +249,26 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 7613512943456247924}
-  Content: 'You see Baron tossing away some of his things into the lake. He notices
-    that you''re nearby and quickly apologizes if he''s hurting the environment.
-
-    He
-    says that thanks to your advice he''s trying to stop being materialistic for
-    his family and for the rest of the village hoping that things will begin to change
-    for the better.
-
-    He mumbles about how Chloris wasn''t too happy about his
-    decision and wonders if there''s anything he can do to make it up to her.'
+  - {fileID: 7686848657416658154}
+  Content: "Without warning, you hear the door open followed by Baron Meier\u2019s
+    booming voice coming through your office door.\r\n\r\n\u201CHello there. Your
+    favorite acolyte has returned to grace you with my presence.\u201D\r\nHe bows
+    as he says this and sits in one of your chairs without asking.\r\n\r\n\u201C
+    So, I\u2019ve been trying this whole becoming a proper man of the church thing
+    and I don\u2019t believe it\u2019s working. It\u2019s not that I\u2019m not understanding
+    your sermons, it\u2019s just that Chloris and I have been arguing more than ever
+    before since I\u2019ve gone down this path.\u201D\r\n\r\n\u201C Instead of pleasing
+    her, I\u2019ve only made her mad by turning to, what she calls, \u2018this brainwashed
+    rubbish that only nincompoops would believe in.\u2019\r\nI don\u2019t necessarily
+    agree with these things that she says, but when I try to explain all the wonderful
+    things that could happen to us when the Lord returns she says that it\u2019s
+    all a sham.\u201D\r\n\r\n\u201C I want to believe it\u2019s not a sham so that
+    we can have even a teeny thing to look forward to in our once luxurious lives,
+    but she just refuses to cooperate with me. I\u2019m not one to rely on others
+    often, but I would like your advice if you would be so kind"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -273,7 +286,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &530536674053202169
+--- !u!114 &7686848657416658154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289370950942238844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &339996276927111679
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,43 +308,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 27460592233659180}
-  - component: {fileID: 5951382131243252887}
+  - component: {fileID: 3747431282179082909}
+  - component: {fileID: 4698068658484746381}
   m_Layer: 0
-  m_Name: NextII
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &27460592233659180
+--- !u!4 &3747431282179082909
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530536674053202169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 339996276927111679}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 231178646858510735}
-  m_RootOrder: 2
+  m_Father: {fileID: 4466828699149743003}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5951382131243252887
+--- !u!114 &4698068658484746381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530536674053202169}
+  m_GameObject: {fileID: 339996276927111679}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1641494324053017748}
-  ActiveEvent: {fileID: 4291149038180077737}
+  DisableEvent: {fileID: 7839221400032029068}
+  ActiveEvent: {fileID: 0}
 --- !u!1 &668786434131918168
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +375,6 @@ Transform:
   m_Children:
   - {fileID: 8187948819113868171}
   - {fileID: 2974679131592128652}
-  - {fileID: 1256214108802474933}
   m_Father: {fileID: 1769107041620667349}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -366,13 +392,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Suggest convincing her to come to service more often and so that she''ll
-    understand him better '
+  Content: Inform him that arguing on this matter is normal and that he should keep
+    trying
   EffectText: Vitality -1
   Effects:
   - {fileID: 1728409349777009867}
   - {fileID: 4593286170994945044}
-  - {fileID: 6402653717091628325}
   DAE: {fileID: 0}
 --- !u!1 &681442452874099104
 GameObject:
@@ -417,10 +442,171 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -2}
+  Change: {x: 0, y: 0, z: -1}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
+--- !u!1 &704823861297718413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8158161298434524148}
+  - component: {fileID: 7839221400032029068}
+  - component: {fileID: 2131675606471185358}
+  - component: {fileID: 1464102575526047647}
+  m_Layer: 0
+  m_Name: Baron "bad end"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8158161298434524148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4466828699149743003}
+  - {fileID: 6386022478652026248}
+  m_Father: {fileID: 6174417301780561059}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7839221400032029068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Baron Meier
+  FreeSources: []
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 3
+  PMods:
+  - {fileID: 2131675606471185358}
+  - {fileID: 1464102575526047647}
+  Content: "While closing up the church for the day, you notice that Baron is still
+    sitting inside despite everyone else already leaving.\r\n\r\n\u201CI\u2019ve
+    been meaning to talk to you and thought it\u2019d best for me to wait until I
+    could have your utmost attention.\u201D\r\n\r\nHe gets up and approaches you
+    slowly.\r\n\r\n\u201C I kept trying to talk to Chloris and get her to see the
+    joys and wonders of this religion. I\u2019ve been so desperately trying to get
+    her to see how much more peaceful it is here compared to where we used to live
+    and yet-\r\n\r\nAnd yet we\u2019ve been fighting so much that I just can\u2019t
+    take it anymore! The very woman that had once brought joy to my life is now making
+    everything feel miserable. I wish to go back to our romantic days, but you said
+    yourself that the Lord has things in store for me. Maybe I am a tad foolish for
+    trusting you, but I can sense when people are lying and you didn\u2019t seem
+    like you were lying back then.\r\n\r\nIf the Lord wants me to truly find everlasting
+    peace what is the next step to getting there? How can I deal with...with Chloris\u2026\r\n"
+  AddContent: 
+  Pages: []
+  Illustration: {fileID: 0}
+  AutoNextPage: 0
+  DisplaySource: 0
+  Choices:
+  - {fileID: 177088040706635234}
+  - {fileID: 2241199236497585470}
+--- !u!114 &2131675606471185358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1464102575526047647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &1041124644563366815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676888166210580697}
+  - component: {fileID: 822280732664958785}
+  m_Layer: 0
+  m_Name: Choice2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1676888166210580697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041124644563366815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7258645958194438491}
+  - {fileID: 5926710844811685890}
+  m_Father: {fileID: 2718279781651167906}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &822280732664958785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041124644563366815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Tell him that by becoming a proper man of the church he may learn how
+    to please Chloris
+  EffectText: Reason -1
+  Effects:
+  - {fileID: 1199129564459535421}
+  - {fileID: 7532829710990166156}
+  DAE: {fileID: 0}
 --- !u!1 &1081644735746324809
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +636,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 930838614}
+  - {fileID: 7941258528304967067}
   m_Father: {fileID: 4750600840524281905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -467,11 +654,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Politely decline.
-  EffectText: 
+  Content: Avoid his question and chastise him for accusing you of lying
+  EffectText: Passion +1
   Effects:
   - {fileID: 930838613}
+  - {fileID: 2702850283055494603}
   DAE: {fileID: 0}
+--- !u!1 &1188076880170669141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6740350569773246664}
+  - component: {fileID: 7730726799861363152}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6740350569773246664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188076880170669141}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8100112105721153911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7730726799861363152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188076880170669141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 4291149038180077737}
+  ActiveEvent: {fileID: 0}
 --- !u!1 &1431655687572171478
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,8 +761,9 @@ GameObject:
   - component: {fileID: 2062839061931758500}
   - component: {fileID: 6322124607082979869}
   - component: {fileID: 5604214096261633656}
+  - component: {fileID: 1368456173341482944}
   m_Layer: 0
-  m_Name: Apology - No Death
+  m_Name: Chastise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -575,13 +809,23 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 5604214096261633656}
-  Content: "Baron comes to you again, apologizing for his selfishness from before.\nHe
-    then rambles on about how he misses the attention he used to get before coming
-    here. No one admires his wealth nor sees how hard he's working.\nIn a more hushed
-    voice he says that all he wants to do is please his family but he does not know
-    how.\r"
+  - {fileID: 1368456173341482944}
+  Content: "You hear a knock on the door to your office and look up to see Baron
+    Meier waiting to be let in.\r\nAs he strides inside he looks around and scoffs.\r\n\r\n\u201CTHIS
+    is your office? It\u2019s certainly interesting how you\u2019ve done the place.
+    I hope to maybe study you more closely one day\u201D he jests.\r\n \r\n\u201CAnyway,
+    I wanted to stop by and thank you for our previous conversation about your sermon
+    on peace. Despite your very obvious lying, I\u2019ve been reflecting on what
+    things were like before Chloris and I had stumbled upon this quiet little place.\r\n\r\nWe
+    had massive amounts of wealth, neighbors that had been born geniuses and my sweet
+    Chloris had the most ginormous book collection I\u2019ve ever seen. She\u2019s
+    truly amazing.\u201D\r\n\r\nHe sighs.\r\n\r\n\u201C None of that amazes me anymore.
+    Although, the fact that people like you aren\u2019t surrounded by intelligent
+    people of the upper class is a bit inspiring. What\u2019s so special about this
+    little town anyway?\u201D\r\n"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -599,54 +843,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1628339670331502236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6136479537553078648}
-  - component: {fileID: 1032193474554608537}
-  m_Layer: 0
-  m_Name: stat
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6136479537553078648
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628339670331502236}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4887976390965009643}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1032193474554608537
+--- !u!114 &1368456173341482944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628339670331502236}
+  m_GameObject: {fileID: 1524801595798577383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
---- !u!1 &1707506085152120328
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &1715301254037211151
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -654,8 +865,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1973999754039037176}
-  - component: {fileID: 1830253328097848727}
+  - component: {fileID: 4238329077422753770}
+  - component: {fileID: 7242003512643474620}
   m_Layer: 0
   m_Name: Next
   m_TagString: Untagged
@@ -663,33 +874,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1973999754039037176
+--- !u!4 &4238329077422753770
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707506085152120328}
+  m_GameObject: {fileID: 1715301254037211151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7035817467117797033}
+  m_Father: {fileID: 2278307177823537230}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1830253328097848727
+--- !u!114 &7242003512643474620
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707506085152120328}
+  m_GameObject: {fileID: 1715301254037211151}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1641494324053017748}
+  DisableEvent: {fileID: 7454105915941138604}
   ActiveEvent: {fileID: 4291149038180077737}
 --- !u!1 &2251525828676912575
 GameObject:
@@ -721,7 +932,6 @@ Transform:
   m_Children:
   - {fileID: 67547372633551391}
   - {fileID: 7861275573552519834}
-  - {fileID: 8741032704371832133}
   m_Father: {fileID: 2062839061931758500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -739,157 +949,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell him that by becoming a proper man of the church he will please his
-    family.
-  EffectText: Passion +1
+  Content: 'Tell him that he can only understand by becoming a proper man of the
+    church '
+  EffectText: Reason -1
   Effects:
   - {fileID: 2790585722019463337}
   - {fileID: 262866105639126963}
-  - {fileID: 262866105639126963}
   DAE: {fileID: 0}
---- !u!1 &2400400050386857874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3217329946693816953}
-  - component: {fileID: 793056895023132678}
-  - component: {fileID: 4515161774177791506}
-  - component: {fileID: 372137608542526783}
-  m_Layer: 0
-  m_Name: Apology - Chloris Death
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3217329946693816953
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400400050386857874}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6075561580072580765}
-  - {fileID: 2808157064169919393}
-  m_Father: {fileID: 6174417301780561059}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &793056895023132678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400400050386857874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: 
-  Source: Baron Meier
-  FreeSources:
-  - Baron Meier
-  BaseEvent: {fileID: 0}
-  Active: 0
-  IgnorePairing: 1
-  RequiredKey: 
-  StartTime: -1
-  Priority: 3
-  PMods:
-  - {fileID: 4515161774177791506}
-  - {fileID: 372137608542526783}
-  Content: While leaving your office you notice Baron Meier sitting outside of it
-    with his head in his hands. He notices you and apologizes for being so mopey.
-    He states he's never had to watch a family member die before his very eyes before
-    and is struggling to be his normal self. He asks what the lord might have in
-    store for him now that he is so restless and miserable.
-  AddContent: 
-  Pages: []
-  AutoNextPage: 0
-  DisplaySource: 0
-  Choices:
-  - {fileID: 5872857429560682955}
-  - {fileID: 8056770514133658202}
---- !u!114 &4515161774177791506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400400050386857874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &372137608542526783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2400400050386857874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a6edbc699020a478969f9de30638b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActiveName: Baron Meier
-  DeathName: Chloris Meier
---- !u!1 &2490307976873088794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4321834255584679713}
-  - component: {fileID: 2748613175200982407}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4321834255584679713
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2490307976873088794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4887976390965009643}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2748613175200982407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2490307976873088794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1566001900750679533}
-  ActiveEvent: {fileID: 4291149038180077737}
 --- !u!1 &2679438949894402084
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +983,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 5883348061951620687}
+  - {fileID: 6117821848672255525}
   m_Father: {fileID: 8465915325705664332}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -935,11 +1003,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: By pretending you are living a joyous life.
-  EffectText: 
-  Effects: []
+  Content: Make him promise to keep Chloris from leaving the church
+  EffectText: ' -1 Vitality,+1 Passion ,-2 Reason'
+  Effects:
+  - {fileID: 2953892094986182517}
+  - {fileID: 6647061368869958167}
   DAE: {fileID: 0}
---- !u!1 &2956821972905266976
+--- !u!1 &2857009878808417006
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,45 +1017,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3620587921660630249}
-  - component: {fileID: 4232100401235066954}
+  - component: {fileID: 7534522559625989721}
+  - component: {fileID: 4037156276859913970}
   m_Layer: 0
-  m_Name: stat
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3620587921660630249
+--- !u!4 &7534522559625989721
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2956821972905266976}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 2857009878808417006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6075561580072580765}
+  m_Father: {fileID: 6386022478652026248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4232100401235066954
+--- !u!114 &4037156276859913970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2956821972905266976}
+  m_GameObject: {fileID: 2857009878808417006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -1}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
+  DisableEvent: {fileID: 7839221400032029068}
+  ActiveEvent: {fileID: 0}
 --- !u!1 &3168981379933375786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,7 +1145,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 1566001900750679533}
-  ActiveEvent: {fileID: 4291149038180077737}
+  ActiveEvent: {fileID: 7839221400032029068}
+--- !u!1 &3618373133878121025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5293253602190875546}
+  - component: {fileID: 3620948238284779631}
+  m_Layer: 0
+  m_Name: stat (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5293253602190875546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618373133878121025}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2278307177823537230}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3620948238284779631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618373133878121025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: 0, z: 0}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
 --- !u!1 &4111438127708958998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,104 +1240,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Punish him for his selfishness and hunger for power.
-  EffectText: Reason -2
+  Content: Answer honestly and say how thankful you are for him coming to service
+  EffectText: Reason -1
   Effects:
   - {fileID: 3145425821077312561}
   - {fileID: 1212274109}
   DAE: {fileID: 0}
---- !u!1 &4133044456014300591
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 550233779206156799}
-  - component: {fileID: 2021627024765477122}
-  m_Layer: 0
-  m_Name: stat (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &550233779206156799
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4133044456014300591}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7035817467117797033}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2021627024765477122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4133044456014300591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: 1}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
---- !u!1 &4147288883452267979
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4238697777532377335}
-  - component: {fileID: 306953083116119653}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4238697777532377335
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147288883452267979}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2808157064169919393}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &306953083116119653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4147288883452267979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6322124607082979869}
-  ActiveEvent: {fileID: 1566001900750679533}
 --- !u!1 &4291698819051861694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -1}
+  Change: {x: -1, y: 0, z: 0}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -1300,7 +1323,6 @@ Transform:
   m_Children:
   - {fileID: 7471836166253117776}
   - {fileID: 4016757423168888334}
-  - {fileID: 2729939400529356428}
   m_Father: {fileID: 2062839061931758500}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1318,14 +1340,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell him to abandon his materialistic life for it displeases the lord
-  EffectText: Reason -1
+  Content: Punish him for his rudeness
+  EffectText: VItality -1
   Effects:
   - {fileID: 2290188397051645495}
   - {fileID: 7216210790983672464}
-  - {fileID: 2298569963247484060}
   DAE: {fileID: 0}
---- !u!1 &4635133711792014086
+--- !u!1 &4337272003416280710
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1333,88 +1354,145 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7006896349766846342}
-  - component: {fileID: 8876763177162137671}
+  - component: {fileID: 7941258528304967067}
+  - component: {fileID: 2702850283055494603}
   m_Layer: 0
-  m_Name: NextII
+  m_Name: Stat (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7006896349766846342
+--- !u!4 &7941258528304967067
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4635133711792014086}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 4337272003416280710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6075561580072580765}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8876763177162137671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4635133711792014086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6322124607082979869}
-  ActiveEvent: {fileID: 1566001900750679533}
---- !u!1 &4801666594663016273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2768137324029990674}
-  - component: {fileID: 1834599053941137321}
-  m_Layer: 0
-  m_Name: Next
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2768137324029990674
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4801666594663016273}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4887976390965009643}
+  m_Father: {fileID: 8945504765445405212}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1834599053941137321
+--- !u!114 &2702850283055494603
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4801666594663016273}
+  m_GameObject: {fileID: 4337272003416280710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1641494324053017748}
-  ActiveEvent: {fileID: 4291149038180077737}
+  Change: {x: 0, y: 1, z: 0}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &4356240029748656113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4466828699149743003}
+  - component: {fileID: 177088040706635234}
+  m_Layer: 0
+  m_Name: Choice1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466828699149743003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356240029748656113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3747431282179082909}
+  - {fileID: 4437213680640736617}
+  m_Father: {fileID: 8158161298434524148}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177088040706635234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356240029748656113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Tell him if he is truly devoted to the Lord, he should let Chloris go.
+  EffectText: Reason -3
+  Effects:
+  - {fileID: 4698068658484746381}
+  - {fileID: 2565233341639747379}
+  DAE: {fileID: 0}
+--- !u!1 &4669009614885450650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8631226169972889820}
+  - component: {fileID: 3503894361165946230}
+  m_Layer: 0
+  m_Name: stat (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8631226169972889820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669009614885450650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 61327354888448680}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3503894361165946230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669009614885450650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: 0, y: -1, z: 0}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
 --- !u!1 &4871572896802874758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,11 +1536,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: 0}
+  Change: {x: 0, y: 0, z: -1}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
---- !u!1 &5529163380836692408
+--- !u!1 &5084282273184906451
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1470,55 +1548,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6075561580072580765}
-  - component: {fileID: 5872857429560682955}
+  - component: {fileID: 7398015242333386032}
+  - component: {fileID: 1438123908401151578}
   m_Layer: 0
-  m_Name: Choice1
+  m_Name: stat (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6075561580072580765
+--- !u!4 &7398015242333386032
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5529163380836692408}
+  m_GameObject: {fileID: 5084282273184906451}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3620587921660630249}
-  - {fileID: 4350915904777457923}
-  - {fileID: 7006896349766846342}
-  m_Father: {fileID: 3217329946693816953}
-  m_RootOrder: 0
+  m_Children: []
+  m_Father: {fileID: 6386022478652026248}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5872857429560682955
+--- !u!114 &1438123908401151578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5529163380836692408}
+  m_GameObject: {fileID: 5084282273184906451}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: 'Reassure him that the lord works in mysterious ways and will at least
-    watch over his family in the afterlife '
-  EffectText: Reason -1
-  Effects:
-  - {fileID: 4232100401235066954}
-  - {fileID: 3974324150809225477}
-  - {fileID: 8876763177162137671}
-  DAE: {fileID: 0}
---- !u!1 &5634696414607595748
+  Change: {x: 0, y: 1, z: -2}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &5909897477803561493
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1526,43 +1595,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1256214108802474933}
-  - component: {fileID: 6402653717091628325}
+  - component: {fileID: 2147583897516969743}
+  - component: {fileID: 6615165260023061847}
   m_Layer: 0
-  m_Name: NextII
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1256214108802474933
+--- !u!4 &2147583897516969743
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634696414607595748}
+  m_GameObject: {fileID: 5909897477803561493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2265084082838628376}
-  m_RootOrder: 2
+  m_Father: {fileID: 61327354888448680}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6402653717091628325
+--- !u!114 &6615165260023061847
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634696414607595748}
+  m_GameObject: {fileID: 5909897477803561493}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1641494324053017748}
-  ActiveEvent: {fileID: 4291149038180077737}
+  DisableEvent: {fileID: 7454105915941138604}
+  ActiveEvent: {fileID: 7839221400032029068}
 --- !u!1 &6006495347740128644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +1643,7 @@ GameObject:
   - component: {fileID: 4750600840524281905}
   - component: {fileID: 8687553014462989299}
   - component: {fileID: 594941415883964507}
+  - component: {fileID: 9220729268802340902}
   m_Layer: 0
   m_Name: Beginning
   m_TagString: Untagged
@@ -1621,15 +1691,20 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 594941415883964507}
-  Content: 'As you''re walking through the village Baron Meier takes notice and comes
-    to strike up a conversation with you. He goes on and on about his massive wealth
-    and of the days before he decided to move to this little place.
-
-    He goes
-    on mentioning how good he was at keeping people in their place and makes an offer
-    to do the same within the village for you.'
+  - {fileID: 9220729268802340902}
+  Content: "As you finish up a sermon touching upon how the Lord will bring everlasting
+    peace, Baron Meier approaches you while clapping his hands together.\r\n\r\n\u201C
+    That was quite the sermon. I was really impressed with how good of a liar you
+    are because certain there must be more to everlasting peace than just turning
+    to the Lord.\u201D\r\nHe lets out a chuckle and continues.\r\n\r\n\u201C You
+    know, my lovely wife Chloris and I had found peace in money and power for a while.
+    However, we\u2019ve decided, well really I\u2019ve decided, to try and satisfy
+    our desires through other means.\u201D\r\n\r\n\r\nWith a smirk he looks at you
+    and asks\r\n\u201C Well, what did you turn to for peace before you decided to
+    return to religion?\u201D\r\n"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1647,6 +1722,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9220729268802340902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006495347740128644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &6074721171624668877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61327354888448680}
+  - component: {fileID: 4225005414331883605}
+  m_Layer: 0
+  m_Name: Choice1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61327354888448680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074721171624668877}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8631226169972889820}
+  - {fileID: 2147583897516969743}
+  m_Father: {fileID: 2873359271778457906}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4225005414331883605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074721171624668877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Tell Chloris that the Lord will soon return to this town bringing gifts
+    only to believers like Baron
+  EffectText: Passion -1
+  Effects:
+  - {fileID: 3503894361165946230}
+  - {fileID: 6615165260023061847}
+  DAE: {fileID: 0}
+--- !u!1 &6230845578433341290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5511429719111715522}
+  - component: {fileID: 6992504127477897288}
+  m_Layer: 0
+  m_Name: Choice1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5511429719111715522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6230845578433341290}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6157928358280486473}
+  - {fileID: 4524969133902423787}
+  m_Father: {fileID: 2718279781651167906}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6992504127477897288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6230845578433341290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: Suggest he have a talk with Chloris to figure out what she wants
+  EffectText: Passion -1
+  Effects:
+  - {fileID: 5802909521901321863}
+  - {fileID: 6597497574248678375}
+  DAE: {fileID: 0}
 --- !u!1 &6282920673972365673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,8 +1854,9 @@ GameObject:
   - component: {fileID: 8465915325705664332}
   - component: {fileID: 4291149038180077737}
   - component: {fileID: 664568765790440278}
+  - component: {fileID: 88833349069760565}
   m_Layer: 0
-  m_Name: Regrets - End
+  m_Name: Baron "good end"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1704,21 +1901,25 @@ MonoBehaviour:
   Priority: 3
   PMods:
   - {fileID: 664568765790440278}
-  Content: 'Baron comes bursting into your office shouting about how nothing has
-    been working. He states that no matter how hard he tries he can''t stop himself
-    from feeling miserable and yearning for the old days.
-
-    He questions why the
-    lord would make him suffer so.
-
-    He looks at you expecting your advice as
-    usual but then looks back down and begins mumbling again about how he needs to
-    stop coming to you for everything.
-
-    He says that this''ll be the last time
-    he comes in crying and goes on to ask how you go about living a joyous life.'
+  - {fileID: 88833349069760565}
+  Content: "You\u2019ve been seeing Baron come to service more and more often with
+    Chloris lately. Chloris never seems too happy to be there but you notice how
+    the two of them tend to keep each other in check. \r\n\r\nOne day while closing
+    up the church for the day, you notice that Baron is still sitting inside despite
+    Chloris already leaving.\r\n\r\n\u201CI\u2019ve been meaning to talk to you and
+    thought it\u2019d best for me to wait until everyone has already left so I could
+    have your utmost attention.\u201D\r\n\r\nHe gets up and approaches you.\r\n\r\n\u201C
+    You see, I feel very thankful for you acknowledging the presence of us Meiers
+    and for not sacrificing neither me nor Chloris. While I doubt Chloris would feel
+    the same about what I\u2019m about to tell you, I think she\u2019ll eventually
+    come around to it eventually.\u201D\r\n\r\nHe takes a deep breath before continuing.\r\n\r\n\u201C
+    I\u2019m not a person who usually offers his hands to others, but-\r\nIf you
+    need any help in preparing the Lord\u2019s return I would love to help and prove
+    my worth in whatever way I can as long as it won\u2019t come to harm my sweet
+    Chloris.\u201D"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1736,52 +1937,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &6551051837758499398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4350915904777457923}
-  - component: {fileID: 3974324150809225477}
-  m_Layer: 0
-  m_Name: Next
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4350915904777457923
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6551051837758499398}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6075561580072580765}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3974324150809225477
+--- !u!114 &88833349069760565
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6551051837758499398}
+  m_GameObject: {fileID: 6282920673972365673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 793056895023132678}
-  ActiveEvent: {fileID: 1641494324053017748}
---- !u!1 &6844338365474092135
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &6308388556174053238
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1789,8 +1959,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2808157064169919393}
-  - component: {fileID: 8056770514133658202}
+  - component: {fileID: 6386022478652026248}
+  - component: {fileID: 2241199236497585470}
   m_Layer: 0
   m_Name: Choice2
   m_TagString: Untagged
@@ -1798,30 +1968,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2808157064169919393
+--- !u!4 &6386022478652026248
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6844338365474092135}
+  m_GameObject: {fileID: 6308388556174053238}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6978437135704466063}
-  - {fileID: 6950898887455904556}
-  - {fileID: 4238697777532377335}
-  m_Father: {fileID: 3217329946693816953}
+  - {fileID: 7534522559625989721}
+  - {fileID: 7398015242333386032}
+  m_Father: {fileID: 8158161298434524148}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8056770514133658202
+--- !u!114 &2241199236497585470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6844338365474092135}
+  m_GameObject: {fileID: 6308388556174053238}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
@@ -1829,13 +1998,123 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell him that the lord has punished him for his previous selfishness
-  EffectText: Vitality -1
+  Content: "Suggest he come to a compromise with Chloris so he can stay under the
+    Lord\u2019s protection."
+  EffectText: Passion +1, Reason -2
   Effects:
-  - {fileID: 1945508758865068520}
-  - {fileID: 429553232874521860}
-  - {fileID: 306953083116119653}
+  - {fileID: 4037156276859913970}
+  - {fileID: 1438123908401151578}
   DAE: {fileID: 0}
+--- !u!1 &6889219909309346530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2718279781651167906}
+  - component: {fileID: 3820788509821363976}
+  - component: {fileID: 7977364792600778973}
+  - component: {fileID: 7036027293866779577}
+  m_Layer: 0
+  m_Name: Don't Chastise
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2718279781651167906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5511429719111715522}
+  - {fileID: 1676888166210580697}
+  m_Father: {fileID: 6174417301780561059}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3820788509821363976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Baron Meier
+  FreeSources:
+  - Baron Meier
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 2
+  PMods:
+  - {fileID: 7977364792600778973}
+  - {fileID: 7036027293866779577}
+  Content: "After yet another sermon, you hear Baron\u2019s voice calling out to
+    you.\r\n\r\n\u201C Hello again. Thought you\u2019d seen the last of me didn\u2019t
+    you?\r\nYou should be thankful that I\u2019ve granted you with my presence once
+    more in your little church or what have you. I\u2019ve never given religion a
+    try nor have my father nor my father\u2019s fathers, but...I do suppose your
+    sermons are helping me understand this place more.\u201D\r\n\r\nHe pauses.\r\n\r\n\u201C
+    Chloris on the other hand...She doesn\u2019t like this place one bit. Says it\u2019s
+    cramping her style and that the town\u2019s full of heathens.\u201D\r\n\r\nHe
+    lowers his voice and looks away from you before continuing.\r\n\r\n\u201CI only
+    decided to move her for her sake. I\u2019d honestly do anything to please that
+    woman, but I don\u2019t know how anymore. No piece of gold nor fancy house will
+    bring her joy. Not that those things bring me joy anymore either, but-\u201D\r\n\r\nHe
+    looks back at you and you can tell there\u2019s a tinge of desperation in his
+    eyes.\r\n\u201CSince you\u2019re the only other respectable person in this village
+    besides my dearest Chloris I wanted to ask you. Do you have any advice on what
+    I should do?\u201D\r\n"
+  AddContent: 
+  Pages: []
+  Illustration: {fileID: 0}
+  AutoNextPage: 0
+  DisplaySource: 0
+  Choices:
+  - {fileID: 6992504127477897288}
+  - {fileID: 822280732664958785}
+--- !u!114 &7977364792600778973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7036027293866779577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Baron Meier
+  NameII: Chloris Meier
 --- !u!1 &6924168912992991583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,58 +2144,14 @@ Transform:
   m_Children:
   - {fileID: 4750600840524281905}
   - {fileID: 2062839061931758500}
-  - {fileID: 3217329946693816953}
+  - {fileID: 2718279781651167906}
   - {fileID: 1769107041620667349}
-  - {fileID: 4618363638876948928}
+  - {fileID: 2873359271778457906}
   - {fileID: 8465915325705664332}
+  - {fileID: 8158161298434524148}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6978223365491574402
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2729939400529356428}
-  - component: {fileID: 2298569963247484060}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2729939400529356428
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978223365491574402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3456094859106618472}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2298569963247484060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978223365491574402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 793056895023132678}
-  ActiveEvent: {fileID: 1641494324053017748}
 --- !u!1 &7206337592757522416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,7 +2197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 6322124607082979869}
   ActiveEvent: {fileID: 1566001900750679533}
---- !u!1 &7521404030778586657
+--- !u!1 &7552666284826512250
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1970,44 +2205,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8741032704371832133}
-  - component: {fileID: 2381675853572787503}
+  - component: {fileID: 6157928358280486473}
+  - component: {fileID: 5802909521901321863}
   m_Layer: 0
-  m_Name: NextII
+  m_Name: Stat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8741032704371832133
+--- !u!4 &6157928358280486473
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7521404030778586657}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 7552666284826512250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6232887243325396532}
-  m_RootOrder: 2
+  m_Father: {fileID: 5511429719111715522}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2381675853572787503
+--- !u!114 &5802909521901321863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7521404030778586657}
+  m_GameObject: {fileID: 7552666284826512250}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 793056895023132678}
-  ActiveEvent: {fileID: 1641494324053017748}
---- !u!1 &7787980785369639738
+  Change: {x: 0, y: -1, z: 0}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &7703312243368515157
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2015,156 +2252,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1410348263588835450}
-  - component: {fileID: 3723613564842642491}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1410348263588835450
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7787980785369639738}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7035817467117797033}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3723613564842642491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7787980785369639738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 1566001900750679533}
-  ActiveEvent: {fileID: 4291149038180077737}
---- !u!1 &7942751930668731195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4618363638876948928}
-  - component: {fileID: 1641494324053017748}
-  - component: {fileID: 7047840466337824005}
-  - component: {fileID: 8387243898267450792}
-  m_Layer: 0
-  m_Name: Coping - Chloris Death
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4618363638876948928
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7942751930668731195}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4887976390965009643}
-  - {fileID: 7035817467117797033}
-  m_Father: {fileID: 6174417301780561059}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1641494324053017748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7942751930668731195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: 
-  Source: Baron Meier
-  FreeSources:
-  - Baron Meier
-  BaseEvent: {fileID: 0}
-  Active: 0
-  IgnorePairing: 1
-  RequiredKey: 
-  StartTime: -1
-  Priority: 3
-  PMods:
-  - {fileID: 7047840466337824005}
-  - {fileID: 8387243898267450792}
-  Content: 'You see Baron tossing away some of his things into the lake. He notices
-    that you''re nearby and quickly apologizes if he''s hurting the environment.
-
-    He
-    says that thanks to your advice he''s trying to stop being materialistic for
-    his family and for the rest of the village hoping that things will begin to change
-    for the better.
-
-    He clutches a book against his chest and mumbles about how
-    wrong it feels to get rid of Chloris'' things.'
-  AddContent: 
-  Pages: []
-  AutoNextPage: 0
-  DisplaySource: 0
-  Choices:
-  - {fileID: 5651458779437265501}
-  - {fileID: 5628320305557173681}
---- !u!114 &7047840466337824005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7942751930668731195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8387243898267450792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7942751930668731195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a6edbc699020a478969f9de30638b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActiveName: Baron Meier
-  DeathName: Chloris Meier
---- !u!1 &7971075257256263025
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6950898887455904556}
-  - component: {fileID: 429553232874521860}
+  - component: {fileID: 5926710844811685890}
+  - component: {fileID: 7532829710990166156}
   m_Layer: 0
   m_Name: Next
   m_TagString: Untagged
@@ -2172,81 +2261,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6950898887455904556
+--- !u!4 &5926710844811685890
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7971075257256263025}
+  m_GameObject: {fileID: 7703312243368515157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2808157064169919393}
+  m_Father: {fileID: 1676888166210580697}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &429553232874521860
+--- !u!114 &7532829710990166156
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7971075257256263025}
+  m_GameObject: {fileID: 7703312243368515157}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 793056895023132678}
-  ActiveEvent: {fileID: 1641494324053017748}
---- !u!1 &8146251803023371682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6978437135704466063}
-  - component: {fileID: 1945508758865068520}
-  m_Layer: 0
-  m_Name: stat (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6978437135704466063
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8146251803023371682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2808157064169919393}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1945508758865068520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8146251803023371682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Change: {x: -1, y: 0, z: 0}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
+  DisableEvent: {fileID: 3820788509821363976}
+  ActiveEvent: {fileID: 1566001900750679533}
 --- !u!1 &8224630741212098567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2319,6 @@ Transform:
   m_Children:
   - {fileID: 2650299355413159674}
   - {fileID: 9172875361444961092}
-  - {fileID: 27460592233659180}
   m_Father: {fileID: 1769107041620667349}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2295,15 +2336,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Suggest convincing her to come to service more often and so that she'll
-    understand him better.
+  Content: Warn him that he should not concern himself with people that hold him
+    back
   EffectText: Reason -1
   Effects:
   - {fileID: 3676459073006148507}
   - {fileID: 2821399703713512791}
-  - {fileID: 5951382131243252887}
   DAE: {fileID: 0}
---- !u!1 &8376903578625636171
+--- !u!1 &8321439103879497334
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2311,53 +2351,243 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7035817467117797033}
-  - component: {fileID: 5628320305557173681}
+  - component: {fileID: 4524969133902423787}
+  - component: {fileID: 6597497574248678375}
   m_Layer: 0
-  m_Name: Choice2
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7035817467117797033
+--- !u!4 &4524969133902423787
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8376903578625636171}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 8321439103879497334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 550233779206156799}
-  - {fileID: 1973999754039037176}
-  - {fileID: 1410348263588835450}
-  m_Father: {fileID: 4618363638876948928}
+  m_Children: []
+  m_Father: {fileID: 5511429719111715522}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5628320305557173681
+--- !u!114 &6597497574248678375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8376903578625636171}
+  m_GameObject: {fileID: 8321439103879497334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: Tell him that the Lord will at least be happy with his actions.
-  EffectText: Passion +1
-  Effects:
-  - {fileID: 2021627024765477122}
-  - {fileID: 1830253328097848727}
-  - {fileID: 3723613564842642491}
-  DAE: {fileID: 0}
+  DisableEvent: {fileID: 3820788509821363976}
+  ActiveEvent: {fileID: 1566001900750679533}
+--- !u!1 &8424702643449160383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407590757605678942}
+  - component: {fileID: 4074864745750712145}
+  m_Layer: 0
+  m_Name: stat (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407590757605678942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424702643449160383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8100112105721153911}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4074864745750712145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424702643449160383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -3, y: 0, z: -1}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &8472427185404653290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2873359271778457906}
+  - component: {fileID: 7454105915941138604}
+  - component: {fileID: 7152113562014735287}
+  - component: {fileID: 4899457883206698920}
+  m_Layer: 0
+  m_Name: Baron Chloris arguement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2873359271778457906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 61327354888448680}
+  - {fileID: 2278307177823537230}
+  m_Father: {fileID: 6174417301780561059}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7454105915941138604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  Source: Baron Meier
+  FreeSources:
+  - Baron Meier
+  - Chloris Meier
+  BaseEvent: {fileID: 0}
+  Active: 0
+  IgnorePairing: 1
+  RequiredKey: 
+  StartTime: -1
+  Priority: 2
+  PMods:
+  - {fileID: 7152113562014735287}
+  - {fileID: 4899457883206698920}
+  Content: "While finishing up some groceries one day you spot Baron and Chloris
+    Meier arguing in public about your church. Right as it begins to escalate Baron
+    sees you and calls you over despite you having two hands full of perishable goods
+    you were going to bring for the post service dinner.\r\n\r\n\u201CListen Chloris,
+    I know you don\u2019t agree with the lifestyle most people here have, but it\u2019s
+    not all that bad and one of the only respectable people in this town can probably
+    explain what I was trying to tell you better. Dearest high priest, could you
+    perhaps tell my lovely Chloris why this town is so special? She wants to move
+    back to where we once lived, but she and I both know that there\u2019s nothing
+    special about where we used to live and the lives we used to lead.\r\n\r\nSo
+    please, if you would be so kind.\u201D\r\n"
+  AddContent: 
+  Pages: []
+  Illustration: {fileID: 0}
+  AutoNextPage: 0
+  DisplaySource: 0
+  Choices:
+  - {fileID: 4225005414331883605}
+  - {fileID: 8327421622577635511}
+--- !u!114 &7152113562014735287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4899457883206698920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1841be759878744aafd865f337bb64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameI: Baron Meier
+  NameII: Chloris Meier
+--- !u!1 &8483679676107564293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6117821848672255525}
+  - component: {fileID: 6647061368869958167}
+  m_Layer: 0
+  m_Name: stat (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6117821848672255525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483679676107564293}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998586989562866079}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6647061368869958167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483679676107564293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: 1, z: -2}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
 --- !u!1 &8558959593817273394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,8 +2632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 6322124607082979869}
-  ActiveEvent: {fileID: 1566001900750679533}
---- !u!1 &8908244030377799490
+  ActiveEvent: {fileID: 7454105915941138604}
+--- !u!1 &8630159909946688856
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2411,39 +2641,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4887976390965009643}
-  - component: {fileID: 5651458779437265501}
+  - component: {fileID: 2278307177823537230}
+  - component: {fileID: 8327421622577635511}
   m_Layer: 0
-  m_Name: Choice1
+  m_Name: Choice2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4887976390965009643
+--- !u!4 &2278307177823537230
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8908244030377799490}
+  m_GameObject: {fileID: 8630159909946688856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6136479537553078648}
-  - {fileID: 2768137324029990674}
-  - {fileID: 4321834255584679713}
-  m_Father: {fileID: 4618363638876948928}
-  m_RootOrder: 0
+  - {fileID: 5293253602190875546}
+  - {fileID: 4238329077422753770}
+  m_Father: {fileID: 2873359271778457906}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5651458779437265501
+--- !u!114 &8327421622577635511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8908244030377799490}
+  m_GameObject: {fileID: 8630159909946688856}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
@@ -2451,10 +2680,149 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Let Baron know that perhaps he can keep important things.
-  EffectText: Reason +1
+  Content: "Encourage the two of them to attend today\u2019s sermon so that they
+    can learn together"
+  EffectText: Vitality -1
   Effects:
-  - {fileID: 1032193474554608537}
-  - {fileID: 1834599053941137321}
-  - {fileID: 2748613175200982407}
+  - {fileID: 3620948238284779631}
+  - {fileID: 7242003512643474620}
   DAE: {fileID: 0}
+--- !u!1 &8820589996979365688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5883348061951620687}
+  - component: {fileID: 2953892094986182517}
+  m_Layer: 0
+  m_Name: Next
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5883348061951620687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820589996979365688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1998586989562866079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2953892094986182517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820589996979365688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableEvent: {fileID: 4291149038180077737}
+  ActiveEvent: {fileID: 0}
+--- !u!1 &8889398790751815120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7258645958194438491}
+  - component: {fileID: 1199129564459535421}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7258645958194438491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8889398790751815120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1676888166210580697}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199129564459535421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8889398790751815120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: 0, y: 0, z: -1}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
+--- !u!1 &9048487563963541971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4437213680640736617}
+  - component: {fileID: 2565233341639747379}
+  m_Layer: 0
+  m_Name: stat (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437213680640736617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9048487563963541971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4466828699149743003}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2565233341639747379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9048487563963541971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: 0, y: 0, z: -3}
+  Source: 
+  OnlySource: 0
+  OnlyNonSource: 0
