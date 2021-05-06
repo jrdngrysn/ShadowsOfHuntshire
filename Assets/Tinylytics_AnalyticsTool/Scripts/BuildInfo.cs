@@ -1,1 +1,1 @@
-namespace Tinylytics { public static class BuildInfo{public static string BUILD_TIME = "4/26/2021 6:40:12 PM";}}
+namespace Tinylytics { public static class BuildInfo{public static string BUILD_TIME = "5/4/2021 5:18:52 PM";}}
