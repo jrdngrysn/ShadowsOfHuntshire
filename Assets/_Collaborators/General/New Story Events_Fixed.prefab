@@ -211,6 +211,7 @@ MonoBehaviour:
     What shall we preach? "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -280,6 +281,7 @@ MonoBehaviour:
     the truth. \"\nIn the end, I ponder. What shall we preach? "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -492,6 +494,7 @@ MonoBehaviour:
     the book, I ponder. What shall we preach? "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -708,6 +711,7 @@ MonoBehaviour:
   Pages:
   - {fileID: 2132020560458854003}
   - {fileID: 290208033}
+  Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -746,17 +750,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Your lord needs to regain his power, you shall appease his hunger with
-    a sacrifice every season. \r\n\r\nEach card represents a person living in Huntshire
+    a sacrifice every season. \r\nEach card represents a person living in Huntshire
     that attends your church. As the high priest, you pair residents up every month
     to surveil and keep tabs on one another. \r\nThis pairing process brings both
     people\u2019s attributes closer together (people\u2019s stats will go up or down
-    by one towards the corresponding stat in their pair). \r\n\r\nEvery three months
-    you must sacrifice someone to the old gods, however, only a person sufficiently
-    broken down by the religion can be sacrificed (they must have all of their stats
-    at or below 10). If you do not have a sacrifice ready at the end of the season,
-    your divine mission has failed. \r\n\r\nEach month, residents will come to you
-    with information or problems, looking for your guidance to resolve them.\r\n\r\nMay
-    our Lord inspire you to make the right choices that shall lead to their return.\r\n"
+    by one towards the corresponding stat in their pair).\r\nEvery three months you
+    must sacrifice someone to the old gods, however, only a person sufficiently broken
+    down by the religion can be sacrificed (they must have all of their stats at
+    or below 10). If you do not have a sacrifice ready at the end of the season,
+    your divine mission has failed.\r\r\nEach month, residents will come to you with
+    information or problems, looking for your guidance to resolve them.\r\nMay our
+    Lord inspire you to make the right choices that shall lead to their return.\r"
 --- !u!1 &2612263548672833115
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +867,7 @@ MonoBehaviour:
     tyrant. With my infinite power, I shall be the freest one of them all. \""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -980,6 +985,7 @@ MonoBehaviour:
     lives. We will see what \"Lord\" has left with us. \""
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1239,6 +1245,7 @@ MonoBehaviour:
     if that's what God wishes. \"\nIn the end, what does our lord seek? \n"
   AddContent: In the end, what does our lord seek?
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1352,6 +1359,7 @@ MonoBehaviour:
     is ready for it. \"\nIn the end, I ponder. What shall we preach? "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
@@ -1806,6 +1814,7 @@ MonoBehaviour:
     What shall we preach? "
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:

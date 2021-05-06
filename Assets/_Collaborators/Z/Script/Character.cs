@@ -31,6 +31,12 @@ namespace THAN
         public TextMeshPro PassionTextII;
         public TextMeshPro ReasonText;
         public TextMeshPro ReasonTextII;
+        public GameObject VCI_Up;
+        public GameObject VCI_Down;
+        public GameObject PCI_Up;
+        public GameObject PCI_Down;
+        public GameObject RCI_Up;
+        public GameObject RCI_Down;
         public GameObject VitalityLimit;
         public GameObject PassionLimit;
         public GameObject ReasonLimit;
@@ -106,6 +112,68 @@ namespace THAN
         {
             Outline.SetActive(GlobalControl.Main.GetSelectingCharacter() == this || GlobalControl.Main.HoldingCharacter == this
                 || GlobalControl.Main.NewCharacters.Contains(this));
+
+            if (GetPartner() && GlobalControl.Main.GetBoardActive() && !CurrentSkill && !GetPartner().CurrentSkill)
+            {
+                Character C = GetPartner();
+                if (C.GetHidden_Vitality() || GetHidden_Vitality() || Mathf.Abs(C.GetVitality() - GetVitality()) <= 1)
+                {
+                    VCI_Up.SetActive(false);
+                    VCI_Down.SetActive(false);
+                }
+                else if (C.GetVitality() > GetVitality())
+                {
+                    VCI_Up.SetActive(true);
+                    VCI_Down.SetActive(false);
+                }
+                else
+                {
+                    VCI_Up.SetActive(false);
+                    VCI_Down.SetActive(true);
+                }
+
+                if (C.GetHidden_Passion() || GetHidden_Passion() || Mathf.Abs(C.GetPassion() - GetPassion()) <= 1)
+                {
+                    PCI_Up.SetActive(false);
+                    PCI_Down.SetActive(false);
+                }
+                else if (C.GetPassion() > GetPassion())
+                {
+                    PCI_Up.SetActive(true);
+                    PCI_Down.SetActive(false);
+                }
+                else
+                {
+                    PCI_Up.SetActive(false);
+                    PCI_Down.SetActive(true);
+                }
+
+                if (C.GetHidden_Reason() || GetHidden_Reason() || Mathf.Abs(C.GetReason() - GetReason()) <= 1)
+                {
+                    RCI_Up.SetActive(false);
+                    RCI_Down.SetActive(false);
+                }
+                else if (C.GetReason() > GetReason())
+                {
+                    RCI_Up.SetActive(true);
+                    RCI_Down.SetActive(false);
+                }
+                else
+                {
+                    RCI_Up.SetActive(false);
+                    RCI_Down.SetActive(true);
+                }
+            }
+            else
+            {
+                VCI_Up.SetActive(false);
+                VCI_Down.SetActive(false);
+                PCI_Up.SetActive(false);
+                PCI_Down.SetActive(false);
+                RCI_Up.SetActive(false);
+                RCI_Down.SetActive(false);
+            }
+
             if (!GetHidden_Vitality())
             {
                 //VitalityText.text = (int)(GetVitality() / 10) + "";

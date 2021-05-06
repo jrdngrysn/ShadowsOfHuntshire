@@ -44,6 +44,7 @@ namespace THAN
         [Space]
         public EventRenderer IER;
         public EventRenderer TER;
+        public EventRenderer STER;
         public EventRenderer EER;
         public NewCardRenderer NCR;
         public List<Slot> NewCharacterSlots;
@@ -121,7 +122,7 @@ namespace THAN
             TownEventActive = false;
             PreGenerateTownEvent(out Event NextTownEvent);
             if (NextTownEvent)
-                yield return TownEventProcess(NextTownEvent);
+                yield return StartTownEventProcess(NextTownEvent);
             CurrentTime++;
             BoardActive = true;
             if (GetSacrificeActive())
@@ -354,6 +355,21 @@ namespace THAN
             //yield return new WaitForSeconds(0.8f);
         }
 
+        public IEnumerator StartTownEventProcess(Event NextTownEvent)
+        {
+            if (GetSacrificeActive())
+                yield return SacrificeProcess();
+
+            yield return GenerateStartTownEvent(NextTownEvent);
+            if (TownEventActive)
+            {
+                while (TownEventActive)
+                    yield return 0;
+                StartCoroutine("DisableBoardShade");
+            }
+            //yield return new WaitForSeconds(0.8f);
+        }
+
         public IEnumerator IndividualEventProcess(Event E)
         {
             yield return GenerateEvent(E);
@@ -399,6 +415,15 @@ namespace THAN
             //yield return new WaitForSeconds(0.5f);
             TownEventActive = true;
             TER.Activate(E, null);
+        }
+
+        public IEnumerator GenerateStartTownEvent(Event E)
+        {
+            BoardShadeAnim.SetBool("Active", true);
+            yield return 0;
+            //yield return new WaitForSeconds(0.5f);
+            TownEventActive = true;
+            STER.Activate(E, null);
         }
 
         public void PreGenerateEvent(out Event E)
@@ -486,12 +511,21 @@ namespace THAN
                     {
                         Vector2 a = P.GetCharacter(0).CurrentSlot.GetPosition() + P.GetCharacter(0).CurrentSlot.ERPosition;
                         IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
+                        if (P.GetCharacter(0).CurrentSlot.ERPosition.x < 0)
+                            IER.FramePositionIndex = -1;
+                        else
+                            IER.FramePositionIndex = 1;
                     }
                     else if ((P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x < 0)
                         || (P.GetCharacter(0).CurrentSlot.GetPosition().x < P.GetCharacter(1).CurrentSlot.GetPosition().x && P.GetCharacter(1).CurrentSlot.ERPosition.x > 0))
                     {
                         Vector2 a = P.GetCharacter(1).CurrentSlot.GetPosition() + P.GetCharacter(1).CurrentSlot.ERPosition;
                         IER.transform.position = new Vector3(a.x, a.y, IER.transform.position.z);
+                        IER.FramePositionIndex = 1;
+                        if (P.GetCharacter(1).CurrentSlot.ERPosition.x < 0)
+                            IER.FramePositionIndex = -1;
+                        else
+                            IER.FramePositionIndex = 1;
                     }
                     else if (P.GetCharacter(0).CurrentSlot.GetPosition().x > P.GetCharacter(1).CurrentSlot.GetPosition().x)
                     {
@@ -499,6 +533,10 @@ namespace THAN
                         a.x = -a.x;
                         Vector2 b = P.GetCharacter(0).CurrentSlot.GetPosition();
                         IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
+                        if (P.GetCharacter(0).CurrentSlot.ERPosition.x < 0)
+                            IER.FramePositionIndex = 1;
+                        else
+                            IER.FramePositionIndex = -1;
                     }
                     else
                     {
@@ -506,6 +544,10 @@ namespace THAN
                         a.x = -a.x;
                         Vector2 b = P.GetCharacter(1).CurrentSlot.GetPosition();
                         IER.transform.position = new Vector3(a.x + b.x, a.y + b.y, IER.transform.position.z);
+                        if (P.GetCharacter(1).CurrentSlot.ERPosition.x < 0)
+                            IER.FramePositionIndex = 1;
+                        else
+                            IER.FramePositionIndex = -1;
                     }
                     //yield return new WaitForSeconds(0.5f);
                 }

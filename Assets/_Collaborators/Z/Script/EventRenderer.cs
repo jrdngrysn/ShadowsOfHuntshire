@@ -17,6 +17,7 @@ namespace THAN
         public TextMeshPro AddContentText;
         public TextMeshPro NameText;
         public TextMeshPro QuestionText;
+        public SpriteRenderer Illustration;
         public ChoiceRenderer CRI;
         public ChoiceRenderer CRII;
         public ChoiceRenderer CRIII;
@@ -24,6 +25,11 @@ namespace THAN
         public ConfirmButton CB;
         public List<GameObject> EndPageObjects;
         public List<float> AttachPositions;
+        [Space]
+        public List<GameObject> FrameObjects;
+        public Vector2 FramePosition_Left;
+        public Vector2 FramePosition_Right;
+        public int FramePositionIndex;
         [Space]
         public Event CurrentEvent;
         public Event CurrentAddEvent;
@@ -235,6 +241,20 @@ namespace THAN
             CurrentAddEvent = null;
             CurrentPair = P;
             CurrentCR = null;
+            if (Illustration)
+                Illustration.sprite = E.Illustration;
+
+            if (FramePositionIndex == 1)
+            {
+                foreach (GameObject G in FrameObjects)
+                    G.transform.localPosition = new Vector3(FramePosition_Right.x, FramePosition_Right.y, G.transform.localPosition.z);
+            }
+            else if (FramePositionIndex == -1)
+            {
+                foreach (GameObject G in FrameObjects)
+                    G.transform.localPosition = new Vector3(FramePosition_Left.x, FramePosition_Left.y, G.transform.localPosition.z);
+            }
+
             StartCoroutine("ActivateIE");
         }
 

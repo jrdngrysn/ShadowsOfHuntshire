@@ -77,10 +77,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: ShortTemper
-  Description: 'Short Temper: When *FCharacter_Name* has 14 or more vitality they
-    can activate Short Temper. While active, any character paired with *FCharacter_Name*
-    will have their vitality reduced by 2. *FCharacter_Name* will then have their
-    vitality reduced by 2 and their reason increased by 2.'
+  Description: 'ShortTemper: When *FCharacter_Name* has 14+ vitality, click the icon
+    to have them activate Short Temper. While active, any character paired with *FCharacter_Name*
+    will have their vitality reduced by 2. *FCharacter_Name* will have their vitality
+    reduced by 2 and their reason increased by 2.'
 --- !u!114 &-8955571445758041933
 MonoBehaviour:
   m_ObjectHideFlags: 0

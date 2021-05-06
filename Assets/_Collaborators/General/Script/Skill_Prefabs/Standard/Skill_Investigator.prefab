@@ -76,10 +76,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Investigator
-  Description: 'Investigator: When *FCharacter_Name* has 18 or more Reason they can
-    activate Investigator. While active, any character paired with *FCharacter_Name*
-    will have their passion reduced by 4. *FCharacter_Name* will then have their
-    reason reduced by 4.'
+  Description: 'Investigator: When *FCharacter_Name* has 18+ reason, click the icon
+    to have them activate Investigator. While active, any character paired with *FCharacter_Name*
+    will have their passion reduced by 4 and *FCharacter_Name* will have their reason
+    reduced by 4.'
 --- !u!114 &8130762798158431429
 MonoBehaviour:
   m_ObjectHideFlags: 0
