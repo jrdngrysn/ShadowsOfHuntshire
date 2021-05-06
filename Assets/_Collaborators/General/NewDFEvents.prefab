@@ -301,9 +301,9 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446801922985110}
-  Content: You are looking through your library one day when all of a sudden you
-    notice an empty place in your bookshelf. A book about mythical aquatic creatures
-    is missing. There is only one person who could be responsible for this.
+  Content: You are looking through your library one day when you notice an empty
+    space on your bookshelf. A book about mythical aquatic creatures is missing,
+    and there is only one person who could be responsible for this.
   AddContent: 
   Pages: []
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
@@ -670,10 +670,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446802046233139}
-  Content: After the sacrifice, you wait until night to dispose of the body as usual.
-    However, as you approach the lake, you see Dolf gazing across the water. He seems
-    to be murmuring to himself quietly. After waiting for a short while, it seems
-    as though he will not be leaving anytime soon.
+  Content: After the sacrifice, you wait until night to dispose of the body in the
+    lake as usual. However, as you approach the lake, you see Dolf gazing across
+    the water. He seems to be murmuring to himself quietly. After waiting for a short
+    while, it seems as though he will not be leaving anytime soon.
   AddContent: 
   Pages:
   - {fileID: 1934446802046233138}
@@ -695,10 +695,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: After the sacrifice, you wait until night to dispose of the body as usual.
-    However, as you approach the lake, you see Dolf gazing across the water. He seems
-    to be murmuring to himself quietly. After waiting for a short while, it seems
-    as though he will not be leaving anytime soon.
+  Content: After the sacrifice, you wait until night to dispose of the body in the
+    lake as usual. However, as you approach the lake, you see Dolf gazing across
+    the water. He seems to be murmuring to himself quietly. After waiting for a short
+    while, it seems as though he will not be leaving anytime soon.
 --- !u!114 &1934446802046233139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446802118806369}
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
-    to sneak out of the village to go fishing. He is incredibly distraught and will
+    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
     not stop talking about how much he misses the sea.'
   AddContent: 
   Pages: []
@@ -1178,8 +1178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Give Dolf extra work as punishment for abandoning the village and not
-    following directions
+  Content: Give Dolf extra work as punishment for abandoning the Huntshire.
   EffectText: Vitality -1
   Effects:
   - {fileID: 1934446802469882509}
@@ -1469,7 +1468,7 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446802251554932}
   Content: "At night you are woken up by the sounds of frantic banging at your door.
-    When you open the door, you find *Someone* looking pale and panicked.\r\n\r\n\u201CDolf\u2026
+    When you open the door, you find *Someone* looking clammy and panicked.\r\n\r\n\u201CDolf\u2026
     Something isn\u2019t quite right with Dolf!\u201D\r\n\r\nThey lead you to his
     house where even outside you can hear muffled screams. As you head inside, his
     screams become louder and more anguished.\r\n\r\n\"THE WAVE! IT\u2019S COMING!
@@ -1499,7 +1498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "At night you are woken up by the sounds of frantic banging at your door.
-    When you open the door, you find *Someone* looking pale and panicked.\r\n\r\u201CDolf\u2026
+    When you open the door, you find *Someone* looking clammy and panicked.\r\n\r\u201CDolf\u2026
     Something isn\u2019t quite right with Dolf!\u201D\r"
 --- !u!114 &1934446802251554934
 MonoBehaviour:
@@ -4947,17 +4946,15 @@ MonoBehaviour:
   Content: "Dolf invites you to come chat with him.\r\n\r\nAs you arrive by the lake,
     you see Dolf staring solemnly at his reflection. As he notices you approaching
     he looks up and gives you a kind but pained smile.\r\n\u201CI\u2019m sorry for
-    being such a bother, asking to fish frequently. It\u2019s just\u2026 I still
-    am a sailor at heart and nothing will change that. It must be over 50 years ago
-    now since I took my first big voyage. I left everything behind to go across the
-    world. I don\u2019t even remember much of what the point of it was, but I was
-    just so excited to spend so much time on the sea. After that first journey, I
-    spent as much time at sea as I could.\u201D\r\n\r\n\u201CBut one trip\u2026 something
-    happened\u2026 we were attacked. I still can\u2019t comprehend exactly what it
-    was. But we lost more than half our crew that day. Ever since then I\u2019ve
-    been both terrified and attached to sea. I desperately want to understand what
-    happened that day, so I keep going back, hoping one day I\u2019ll find the answers
-    I\u2019m looking for.\u201D\r"
+    being such a bother, asking to leave Huntshire so frequently. It\u2019s just\u2026
+    I am still a sailor at heart and nothing will change that. It must be over 50
+    years ago now since I took my first big voyage. I left everything behind to go
+    across the world. I don\u2019t even remember much of what the point of it was,
+    but I was just so excited to spend so much time on the sea. After that first
+    journey, I spent as much time at sea as I could.\u201D\r\n\r\n\u201CBut one trip\u2026
+    something happened\u2026 we were attacked. I still can\u2019t comprehend exactly
+    what it was. But we lost more than half our crew that day. Ever since then I\u2019ve
+    been drawn to her.\u201D"
   AddContent: 
   Pages:
   - {fileID: 1934446803313919600}
@@ -4997,12 +4994,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI\u2019m sorry for being such a bother, asking to fish frequently.
-    It\u2019s just\u2026 I still am a sailor at heart and nothing will change that.
-    It must be over 50 years ago now since I took my first big voyage. I left everything
-    behind to go across the world. I don\u2019t even remember much of what the point
-    of it was, but I was just so excited to spend so much time on the sea. After
-    that first journey, I spent as much time at sea as I could.\u201D"
+  Content: "\u201CI\u2019m sorry for being such a bother, asking to leave Huntshire
+    so frequently. It\u2019s just\u2026 I still am a sailor at heart and nothing
+    will change that. It must be over 50 years ago now since I took my first big
+    voyage. I left everything behind to go across the world. I don\u2019t even remember
+    much of what the point of it was, but I was just so excited to spend so much
+    time on the sea. After that first journey, I spent as much time at sea as I could.\u201D"
 --- !u!114 &1934446803313919602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5017,7 +5014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: "\u201CBut one trip\u2026 something happened\u2026 we were attacked. I
     still can\u2019t comprehend exactly what it was. But we lost more than half our
-    crew that day. Ever since then I\u2019ve been drawn to the sea.\u201D"
+    crew that day. Ever since then I\u2019ve been drawn to her.\u201D"
 --- !u!114 &1934446803313919601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5031,7 +5028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\u201CForgive me for my ramblings. I promise you that I will stay and
-    live my life here so as to not cause you any more trouble or worry.\u201D"
+    live a peaceful life here so as to not cause you any more trouble or worry.\u201D"
 --- !u!114 &1934446803313919614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6411,7 +6408,7 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446803833377104}
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
-    to sneak out of the village to go fishing. He is incredibly distraught and will
+    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
     not stop talking about how much he misses the sea.'
   AddContent: 
   Pages: []
@@ -6953,8 +6950,8 @@ MonoBehaviour:
   - {fileID: 1934446803983912975}
   Content: There is a breeze through a window that you had believed was closed. As
     you look you realize some of the glass had been broken. Combing over every inch
-    of your house, you notice an empty place in your bookshelf. A book about mythical
-    aquatic creatures is missing. There is only one person who could be responsible
+    of your house, you notice an empty space on your bookshelf. A book about mythical
+    aquatic creatures is missing, and there is only one person who could be responsible
     for this.
   AddContent: 
   Pages: []
