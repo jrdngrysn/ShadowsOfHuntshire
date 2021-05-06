@@ -375,7 +375,6 @@ Transform:
   m_Children:
   - {fileID: 8187948819113868171}
   - {fileID: 2974679131592128652}
-  - {fileID: 3227575079968935790}
   m_Father: {fileID: 1769107041620667349}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -399,7 +398,6 @@ MonoBehaviour:
   Effects:
   - {fileID: 1728409349777009867}
   - {fileID: 4593286170994945044}
-  - {fileID: 3569340507551748238}
   DAE: {fileID: 0}
 --- !u!1 &681442452874099104
 GameObject:
@@ -639,7 +637,6 @@ Transform:
   m_Children:
   - {fileID: 930838614}
   - {fileID: 7941258528304967067}
-  - {fileID: 7883836188647904262}
   m_Father: {fileID: 4750600840524281905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -662,7 +659,6 @@ MonoBehaviour:
   Effects:
   - {fileID: 930838613}
   - {fileID: 2702850283055494603}
-  - {fileID: 1701842716944208925}
   DAE: {fileID: 0}
 --- !u!1 &1188076880170669141
 GameObject:
@@ -861,96 +857,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
---- !u!1 &1683566827333883020
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3227575079968935790}
-  - component: {fileID: 3569340507551748238}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3227575079968935790
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683566827333883020}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2265084082838628376}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3569340507551748238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683566827333883020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 4291149038180077737}
---- !u!1 &1686439445766209118
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2593661584900658179}
-  - component: {fileID: 1666910531604380159}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2593661584900658179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686439445766209118}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2278307177823537230}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1666910531604380159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686439445766209118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 4291149038180077737}
 --- !u!1 &1715301254037211151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,51 +1054,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 7839221400032029068}
   ActiveEvent: {fileID: 0}
---- !u!1 &3097811736346910001
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2193370294026750686}
-  - component: {fileID: 1403825978331083969}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2193370294026750686
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3097811736346910001}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8475139289688546048}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1403825978331083969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3097811736346910001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 8687553014462989299}
-  ActiveEvent: {fileID: 6379638495079624145}
 --- !u!1 &3168981379933375786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1223,6 @@ Transform:
   m_Children:
   - {fileID: 1921903707721222104}
   - {fileID: 1212274108}
-  - {fileID: 2193370294026750686}
   m_Father: {fileID: 4750600840524281905}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1385,7 +1245,6 @@ MonoBehaviour:
   Effects:
   - {fileID: 3145425821077312561}
   - {fileID: 1212274109}
-  - {fileID: 1403825978331083969}
   DAE: {fileID: 0}
 --- !u!1 &4291698819051861694
 GameObject:
@@ -1681,51 +1540,6 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
---- !u!1 &4911231381533133912
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5514416646041122045}
-  - component: {fileID: 1689662562061174751}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5514416646041122045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4911231381533133912}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 231178646858510735}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1689662562061174751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4911231381533133912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 7839221400032029068}
 --- !u!1 &5084282273184906451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,51 +1587,6 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
---- !u!1 &5249330890209671720
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3261055894082949768}
-  - component: {fileID: 5596973297310707176}
-  m_Layer: 0
-  m_Name: Next
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3261055894082949768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5249330890209671720}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1646693729724772859}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5596973297310707176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5249330890209671720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 0}
 --- !u!1 &5909897477803561493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,60 +1720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &6010149233351632194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1646693729724772859}
-  - component: {fileID: 8022379454638434177}
-  m_Layer: 0
-  m_Name: Choice2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1646693729724772859
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6010149233351632194}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3261055894082949768}
-  - {fileID: 243812147467566642}
-  m_Father: {fileID: 1762811593398508124}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8022379454638434177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6010149233351632194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: "Suggest he come to a compromise with Chloris so he can stay under the
-    Lord\u2019s protection."
-  EffectText: Passion +1, Reason -2
-  Effects:
-  - {fileID: 5596973297310707176}
-  - {fileID: 7060536787066851870}
-  DAE: {fileID: 0}
 --- !u!1 &6074721171624668877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +1750,6 @@ Transform:
   m_Children:
   - {fileID: 8631226169972889820}
   - {fileID: 2147583897516969743}
-  - {fileID: 1528559156554838577}
   m_Father: {fileID: 2873359271778457906}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2059,7 +1773,6 @@ MonoBehaviour:
   Effects:
   - {fileID: 3503894361165946230}
   - {fileID: 6615165260023061847}
-  - {fileID: 9126850685330243787}
   DAE: {fileID: 0}
 --- !u!1 &6230845578433341290
 GameObject:
@@ -2275,112 +1988,6 @@ MonoBehaviour:
   - {fileID: 4037156276859913970}
   - {fileID: 1438123908401151578}
   DAE: {fileID: 0}
---- !u!1 &6511504612033756719
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1762811593398508124}
-  - component: {fileID: 6379638495079624145}
-  - component: {fileID: 4100013316561516185}
-  - component: {fileID: 7829442254173921823}
-  m_Layer: 0
-  m_Name: Death
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1762811593398508124
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511504612033756719}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8341831166727479234}
-  - {fileID: 1646693729724772859}
-  m_Father: {fileID: 6174417301780561059}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6379638495079624145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511504612033756719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8789aa459a0220c4b8c0db8517bf2d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: 
-  Source: Baron Meier
-  FreeSources: []
-  BaseEvent: {fileID: 0}
-  Active: 0
-  IgnorePairing: 1
-  RequiredKey: 
-  StartTime: -1
-  Priority: 3
-  PMods:
-  - {fileID: 4100013316561516185}
-  - {fileID: 7829442254173921823}
-  Content: "As you're about to wrap up things in your office for the night you hear
-    banging on your window. When you look to see who it could be the banging gets
-    even louder.\r\n\u201CI KNOW YOU\u2019RE IN THERE YOU LITTLE SCOUNDREL!!\u201D\r\nBaron
-    shouts.\r\nHe tries to pry the door open, but it doesn\u2019t budge. He continues
-    to try to break the door down for a few more minutes until you hear him start
-    to sob quietly to himself.\r\n\u201CWhy...Why did you have to murder my beloved
-    Chloris. She had so many things she still wanted to do and you...you. YOU SLAUGHTERED
-    HER AND FOR WHAT?!\u201D\r\nHis shouting echoes through your office as you wait
-    for him to leave, but he doesn\u2019t move.\r\n\u201CShe was the only thing left
-    that made this pitiful life just a bit more brighter. No apology nor bargain
-    nor words can bring my Chloris back. And I\u2019ll never forget that. And I\u2019ll
-    never let you get away with this.\u201D\r\nAn hour passes and he\u2019s still
-    there, now sitting right outside your door.\nWhat do you do?\r"
-  AddContent: 
-  Pages: []
-  Illustration: {fileID: 0}
-  AutoNextPage: 0
-  DisplaySource: 0
-  Choices:
-  - {fileID: 2293230939663149034}
-  - {fileID: 8022379454638434177}
---- !u!114 &4100013316561516185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511504612033756719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7829442254173921823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511504612033756719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a6edbc699020a478969f9de30638b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActiveName: Baron Meier
-  DeathName: Chloris Meier
 --- !u!1 &6889219909309346530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,55 +2132,9 @@ Transform:
   - {fileID: 2873359271778457906}
   - {fileID: 8465915325705664332}
   - {fileID: 8158161298434524148}
-  - {fileID: 1762811593398508124}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7019683934468988157
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1528559156554838577}
-  - component: {fileID: 9126850685330243787}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1528559156554838577
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7019683934468988157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 61327354888448680}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9126850685330243787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7019683934468988157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 7839221400032029068}
 --- !u!1 &7206337592757522416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,51 +2180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 6322124607082979869}
   ActiveEvent: {fileID: 1566001900750679533}
---- !u!1 &7494471777074448466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3848589141509320670}
-  - component: {fileID: 2251885082085401135}
-  m_Layer: 0
-  m_Name: Next
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3848589141509320670
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494471777074448466}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8341831166727479234}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2251885082085401135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494471777074448466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 6379638495079624145}
-  ActiveEvent: {fileID: 0}
 --- !u!1 &7552666284826512250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,53 +2224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: -1, z: 0}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
---- !u!1 &7697265050783127315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4090422973522208232}
-  - component: {fileID: 5090373737730304441}
-  m_Layer: 0
-  m_Name: stat (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4090422973522208232
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7697265050783127315}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8341831166727479234}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5090373737730304441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7697265050783127315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Change: {x: 0, y: 0, z: -3}
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
@@ -2833,7 +2302,6 @@ Transform:
   m_Children:
   - {fileID: 2650299355413159674}
   - {fileID: 9172875361444961092}
-  - {fileID: 5514416646041122045}
   m_Father: {fileID: 1769107041620667349}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2857,100 +2325,7 @@ MonoBehaviour:
   Effects:
   - {fileID: 3676459073006148507}
   - {fileID: 2821399703713512791}
-  - {fileID: 1689662562061174751}
   DAE: {fileID: 0}
---- !u!1 &8225058903871458784
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 243812147467566642}
-  - component: {fileID: 7060536787066851870}
-  m_Layer: 0
-  m_Name: stat (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &243812147467566642
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8225058903871458784}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1646693729724772859}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7060536787066851870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8225058903871458784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaf7ec5f5cd91f48a3ab7e4b5d1eb9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Change: {x: 0, y: 1, z: -2}
-  Source: 
-  OnlySource: 0
-  OnlyNonSource: 0
---- !u!1 &8274472175771419410
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7883836188647904262}
-  - component: {fileID: 1701842716944208925}
-  m_Layer: 0
-  m_Name: NextII
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7883836188647904262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8274472175771419410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8945504765445405212}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1701842716944208925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8274472175771419410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0254aa38f8ebca4696fa73c1c9ee680, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableEvent: {fileID: 8687553014462989299}
-  ActiveEvent: {fileID: 6379638495079624145}
 --- !u!1 &8321439103879497334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,59 +2418,6 @@ MonoBehaviour:
   Source: 
   OnlySource: 0
   OnlyNonSource: 0
---- !u!1 &8427603687967333662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8341831166727479234}
-  - component: {fileID: 2293230939663149034}
-  m_Layer: 0
-  m_Name: Choice1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8341831166727479234
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427603687967333662}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3848589141509320670}
-  - {fileID: 4090422973522208232}
-  m_Father: {fileID: 1762811593398508124}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2293230939663149034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427603687967333662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: Tell him if he is truly devoted to the Lord, he should let Chloris go.
-  EffectText: Reason -3
-  Effects:
-  - {fileID: 2251885082085401135}
-  - {fileID: 5090373737730304441}
-  DAE: {fileID: 0}
 --- !u!1 &8472427185404653290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +2630,6 @@ Transform:
   m_Children:
   - {fileID: 5293253602190875546}
   - {fileID: 4238329077422753770}
-  - {fileID: 2593661584900658179}
   m_Father: {fileID: 2873359271778457906}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3332,7 +2653,6 @@ MonoBehaviour:
   Effects:
   - {fileID: 3620948238284779631}
   - {fileID: 7242003512643474620}
-  - {fileID: 1666910531604380159}
   DAE: {fileID: 0}
 --- !u!1 &8820589996979365688
 GameObject:
