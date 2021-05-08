@@ -66,6 +66,7 @@ namespace THAN
         public int VitalityLimit = 10;
         public int PassionLimit = 10;
         public int ReasonLimit = 10;
+        public bool StoryDebugMode;
         [HideInInspector]
         public bool AlreadyDead;
 
@@ -776,16 +777,22 @@ namespace THAN
 
         public float GetVitalityLimit()
         {
+            if (StoryDebugMode)
+                return 999;
             return VitalityLimit;
         }
 
         public float GetPassionLimit()
         {
+            if (StoryDebugMode)
+                return 999;
             return PassionLimit;
         }
 
         public float GetReasonLimit()
         {
+            if (StoryDebugMode)
+                return 999;
             return ReasonLimit;
         }
 

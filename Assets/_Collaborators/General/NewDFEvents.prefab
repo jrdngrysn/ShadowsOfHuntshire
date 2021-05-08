@@ -4362,9 +4362,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: -2, z: 0}
-  Source: 
+  Source: Dolf Fischer
   OnlySource: 0
-  OnlyNonSource: 0
+  OnlyNonSource: 1
 --- !u!1 &1934446803101327340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,8 +4965,8 @@ MonoBehaviour:
   AutoNextPage: 0
   DisplaySource: 1
   Choices:
-  - {fileID: 1934446803080123396}
   - {fileID: 0}
+  - {fileID: 1934446803080123396}
 --- !u!114 &1934446803313919600
 MonoBehaviour:
   m_ObjectHideFlags: 0

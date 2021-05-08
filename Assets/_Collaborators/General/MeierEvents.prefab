@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: 'Request that he carries out each sacrifice that you choose for now on '
+  Content: 'Request that he carries out each sacrifice you choose for now on '
   EffectText: -3 Vitality, -1 Reason
   Effects:
   - {fileID: 7730726799861363152}
@@ -202,6 +202,9 @@ GameObject:
   - component: {fileID: 1566001900750679533}
   - component: {fileID: 7613512943456247924}
   - component: {fileID: 3188939717201105203}
+  - component: {fileID: 2886918137273979351}
+  - component: {fileID: 6435486686653161227}
+  - component: {fileID: 5553441995154107179}
   m_Layer: 0
   m_Name: Baron Proper Man
   m_TagString: Untagged
@@ -267,7 +270,10 @@ MonoBehaviour:
     she just refuses to cooperate with me. I\u2019m not one to rely on others often,
     but I would like your advice if you would be so kind"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 2886918137273979351}
+  - {fileID: 6435486686653161227}
+  - {fileID: 5553441995154107179}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -300,6 +306,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
+--- !u!114 &2886918137273979351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289370950942238844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Without warning, you hear the door open followed by Baron Meier\u2019s
+    booming voice coming through your office door.\r\n\r\u201CHello there. Your favorite
+    acolyte has returned to grace you with his presence.\u201D\r\nHe bows and sits
+    in one of your chairs without asking.\r"
+--- !u!114 &6435486686653161227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289370950942238844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI\u2019ve been trying becoming a proper man of the church, and
+    I don\u2019t believe it\u2019s working. It\u2019s not that I\u2019m not understanding
+    your sermons, it\u2019s just that Chloris and I have been arguing more than ever
+    before since I\u2019ve gone down this path.\u201D\r\n\u201CInstead of pleasing
+    her, I\u2019ve only made her mad by turning to, what she calls, \u2018brainwashed
+    rubbish that only nincompoops would believe in.\u2019\r\""
+--- !u!114 &5553441995154107179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289370950942238844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\"I don\u2019t necessarily agree with these things that she says, but
+    when I try to explain all the wonderful things that could happen to us when the
+    Lord returns, she says that it\u2019s all a sham.\u201D\n\u201CI want to believe
+    it\u2019s not a sham, so that we can have even a tiny thing to look forward to
+    in our once luxurious lives, but she refuses to cooperate. I\u2019m not one to
+    rely on others, but I would like your advice, if you would be so kind.\u201D"
 --- !u!1 &339996276927111679
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +516,9 @@ GameObject:
   - component: {fileID: 7839221400032029068}
   - component: {fileID: 2131675606471185358}
   - component: {fileID: 2980831935458641013}
+  - component: {fileID: 875342857128238730}
+  - component: {fileID: 9119964809698325511}
+  - component: {fileID: 6074342840347000922}
   m_Layer: 0
   m_Name: Baron "bad end"
   m_TagString: Untagged
@@ -495,7 +556,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Baron Meier
-  FreeSources: []
+  FreeSources:
+  - Baron Meier
   BaseEvent: {fileID: 0}
   Active: 0
   IgnorePairing: 1
@@ -520,7 +582,10 @@ MonoBehaviour:
     then.\r\r\nIf the Lord wants me to truly find everlasting peace what is the next
     step to getting there? How can I deal with...with Chloris\u2026\r"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 875342857128238730}
+  - {fileID: 9119964809698325511}
+  - {fileID: 6074342840347000922}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -553,6 +618,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
+--- !u!114 &875342857128238730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "While closing up the church for the day, you notice that Baron is still
+    sitting inside despite everyone else having already left.\n\u201CI\u2019ve been
+    meaning to talk to you and thought it\u2019d be best to wait until I could have
+    your utmost attention.\u201D\r\nHe gets up and approaches you slowly.\r"
+--- !u!114 &9119964809698325511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI kept trying to talk to Chloris and get her to see the wonders
+    of this religion. I\u2019ve been so desperately trying to get her to see how
+    much more peaceful it is here compared to where we used to live and yet-\nwe\u2019ve
+    been fighting so much that I just can\u2019t take it anymore! The woman that
+    had once brought joy to my life is now making everything feel miserable. I wish
+    to go back to our romantic days, but you said that the Lord has things in store
+    for me. Maybe I am a tad foolish for trusting you, but I can sense when people
+    are lying and you didn\u2019t seem like you were."
+--- !u!114 &6074342840347000922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704823861297718413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "If the Lord wants me to find everlasting peace, what is the next step
+    to getting there? How can I deal with...Chloris\u2026"
 --- !u!1 &1041124644563366815
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +877,9 @@ GameObject:
   - component: {fileID: 6322124607082979869}
   - component: {fileID: 5604214096261633656}
   - component: {fileID: 1497066933679885936}
+  - component: {fileID: 1477993645716952058}
+  - component: {fileID: 9217459805114481250}
+  - component: {fileID: 6010623141164759013}
   m_Layer: 0
   m_Name: Chastise
   m_TagString: Untagged
@@ -824,7 +942,10 @@ MonoBehaviour:
     people of the upper class is a bit inspiring. What\u2019s so special about this
     little town anyway?\u201D\r\n"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 1477993645716952058}
+  - {fileID: 9217459805114481250}
+  - {fileID: 6010623141164759013}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -857,6 +978,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
+--- !u!114 &1477993645716952058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524801595798577383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "You hear a knock on the door to your office and look up to see Baron
+    Meier waiting.\r\nAs he strides inside, he looks around and scoffs.\n\u201CTHIS
+    is your office? It\u2019s certainly interesting how you\u2019ve done the place.
+    I hope to maybe study you more closely one day\u201D he jests."
+--- !u!114 &9217459805114481250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524801595798577383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI wanted to stop by and thank you for our previous conversation
+    about your sermon. Despite your obvious lies, I\u2019ve been reflecting on what
+    things were like before Chloris and I had stumbled upon this quiet little place.\nWe
+    had massive amounts of wealth, neighbors that were born geniuses and my sweet
+    Chloris had the most enormous book collection. She\u2019s truly amazing.\u201D\nHe
+    sighs."
+--- !u!114 &6010623141164759013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524801595798577383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CNone of that excites me anymore. Although, the fact that people
+    like you aren\u2019t surrounded by intelligent people of the upper class is a
+    bit inspiring. What\u2019s so special about this little town anyway?\u201D"
 --- !u!1 &1715301254037211151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1813,8 @@ GameObject:
   - component: {fileID: 4750600840524281905}
   - component: {fileID: 8687553014462989299}
   - component: {fileID: 594941415883964507}
+  - component: {fileID: 2809155714360383362}
+  - component: {fileID: 3416437067819207919}
   m_Layer: 0
   m_Name: Beginning
   m_TagString: Untagged
@@ -1701,7 +1873,9 @@ MonoBehaviour:
     asks\r\n\u201CWell, what did you turn to for peace before you decided to return
     to religion?\u201D\r"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 2809155714360383362}
+  - {fileID: 3416437067819207919}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -1720,6 +1894,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2809155714360383362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006495347740128644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "s you finish up a sermon touching upon how the Lord will bring everlasting
+    peace, Baron Meier approaches you clapping his hands together.\r\n\r\u201CThat
+    was quite the sermon. I was really impressed with how good of a liar you are
+    because certain there must be more to everlasting peace than just turning to
+    the Lord.\u201D\r\nHe chuckes and continues."
+--- !u!114 &3416437067819207919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006495347740128644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CYou know, my lovely wife Chloris and I had found peace in money
+    and power for a while. However, we\u2019ve decided, well really I\u2019ve decided,
+    to try and satisfy our desires through other means.\u201D\nWith a smirk he looks
+    at you and asks\r\n\u201CWell, what did you turn to for peace before you decided
+    to return to religion?\u201D"
 --- !u!1 &6074721171624668877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,6 +2047,10 @@ GameObject:
   - component: {fileID: 4291149038180077737}
   - component: {fileID: 664568765790440278}
   - component: {fileID: 4381972766158550634}
+  - component: {fileID: 3766677873267091833}
+  - component: {fileID: 5533988533945829661}
+  - component: {fileID: 7613643038919157671}
+  - component: {fileID: 7603828061031815500}
   m_Layer: 0
   m_Name: Baron "good end"
   m_TagString: Untagged
@@ -1876,7 +2088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Baron Meier
-  FreeSources: []
+  FreeSources:
+  - Baron Meier
   BaseEvent: {fileID: 0}
   Active: 0
   IgnorePairing: 1
@@ -1901,7 +2114,10 @@ MonoBehaviour:
     help in preparing the Lord\u2019s return I would love to help and prove my worth
     in whatever way I can as long as it won\u2019t come to harm my sweet Chloris.\u201D"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 3766677873267091833}
+  - {fileID: 5533988533945829661}
+  - {fileID: 7613643038919157671}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -1934,6 +2150,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
+--- !u!114 &3766677873267091833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282920673972365673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "You\u2019ve seen Baron come to service more and more often with Chloris
+    lately. Chloris never seems too happy to be there, but you notice how the two
+    of them tend to keep each other in check.\nOne day while closing up the church
+    for the day, you notice that Baron is still sitting inside despite Chloris already
+    leaving."
+--- !u!114 &5533988533945829661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282920673972365673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI\u2019ve been meaning to talk to you and thought it\u2019d be
+    best to wait until everyone had already left, so I could have your utmost attention.\u201D\r\nHe
+    gets up and approaches you.\r"
+--- !u!114 &7613643038919157671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282920673972365673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI feel very thankful for acknowledging the presence of us Meiers
+    and for not sacrificing neither me nor Chloris. While I doubt Chloris would feel
+    the same about what I\u2019m about to tell you, I think she\u2019ll eventually
+    come around to it.\u201D\nHe takes a deep breath."
+--- !u!114 &7603828061031815500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282920673972365673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI\u2019m not a person who usually offers his hands, but-\r\nIf
+    you need help in preparing the Lord\u2019s return, I would love to prove my worth
+    in whatever way I can, as long as it won\u2019t come to harm my sweet Chloris.\u201D"
 --- !u!1 &6308388556174053238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,8 +2260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Suggest he come to a compromise with Chloris so he can stay under the
-    Lord\u2019s protection."
+  Content: "Suggest he come to a compromise with Chloris to stay under the Lord\u2019s
+    protection."
   EffectText: Passion +1, Reason -2
   Effects:
   - {fileID: 4037156276859913970}
@@ -2000,6 +2279,9 @@ GameObject:
   - component: {fileID: 3820788509821363976}
   - component: {fileID: 7977364792600778973}
   - component: {fileID: 2048326596045811340}
+  - component: {fileID: 8204635132629616431}
+  - component: {fileID: 7091846261342034988}
+  - component: {fileID: 6109192878775597264}
   m_Layer: 0
   m_Name: Don't Chastise
   m_TagString: Untagged
@@ -2065,7 +2347,10 @@ MonoBehaviour:
     besides my dearest Chloris I wanted to ask you. Do you have any advice on what
     I should do?\u201D\r"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 8204635132629616431}
+  - {fileID: 7091846261342034988}
+  - {fileID: 6109192878775597264}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -2098,6 +2383,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveName: Chloris Meier
   DeathName: 
+--- !u!114 &8204635132629616431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "After yet another sermon, you hear Baron\u2019s voice calling out to
+    you.\n\u201CThought you\u2019d seen the last of me didn\u2019t you?\r\nYou should
+    be thankful that I\u2019ve bestowed my presence once more in your little church
+    or what have you. I\u2019ve never given religion a try nor have my father nor
+    my father\u2019s fathers, but I do suppose your sermons are helping me understand
+    this place more.\u201D\nHe pauses."
+--- !u!114 &7091846261342034988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CChloris on the other hand...She doesn\u2019t like this place one
+    bit. Says it\u2019s cramping her style and that the town\u2019s full of heathens.\u201D\r\nHe
+    lowers his voice and looks away from you\r."
+--- !u!114 &6109192878775597264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889219909309346530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CI decided to move her for her sake. I\u2019d honestly do anything
+    to please that woman, but I don\u2019t know how anymore. No piece of gold nor
+    fancy house will bring her joy. Not that those things bring me joy anymore either,
+    but--\u201D\r\nHe looks back at you and you can tell there\u2019s a tinge of
+    desperation in his eyes.\r\n\u201CSince you\u2019re the only other respectable
+    person in this village besides my dearest Chloris I wanted to ask you. Do you
+    have any advice on what I should do?\u201D"
 --- !u!1 &6924168912992991583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,7 +2707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 3820788509821363976}
-  ActiveEvent: {fileID: 1566001900750679533}
+  ActiveEvent: {fileID: 7454105915941138604}
 --- !u!1 &8424702643449160383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2766,8 @@ GameObject:
   - component: {fileID: 2873359271778457906}
   - component: {fileID: 7454105915941138604}
   - component: {fileID: 7152113562014735287}
+  - component: {fileID: 4368385475316579811}
+  - component: {fileID: 1193072158182925143}
   m_Layer: 0
   m_Name: Baron Chloris arguement
   m_TagString: Untagged
@@ -2489,7 +2828,9 @@ MonoBehaviour:
     special about where we used to live and the lives we used to lead.\r\n\r\nSo
     please, if you would be so kind.\u201D\r\n"
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 4368385475316579811}
+  - {fileID: 1193072158182925143}
   Illustration: {fileID: 0}
   AutoNextPage: 0
   DisplaySource: 0
@@ -2508,6 +2849,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4368385475316579811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: While buying some groceries, you spot Baron and Chloris Meier arguing
+    in public about your church. Right as it begins to escalate, Baron sees you and
+    calls you over despite you having two hands full of goods for the post service
+    dinner.
+--- !u!114 &1193072158182925143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472427185404653290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u201CListen Chloris, I know you don\u2019t agree with the lifestyle
+    most people here have, but it\u2019s not all that bad, and one of the only respectable
+    people in this town can probably explain what I was trying to tell you better.
+    Dearest high priest, could you tell my lovely Chloris why this town is special?
+    She wants to move back to where we lived, but she and I both know that there\u2019s
+    nothing rewarding about that place and the lives we used to lead.\r\n\rIf you
+    would be so kind.\u201D"
 --- !u!1 &8483679676107564293
 GameObject:
   m_ObjectHideFlags: 0
