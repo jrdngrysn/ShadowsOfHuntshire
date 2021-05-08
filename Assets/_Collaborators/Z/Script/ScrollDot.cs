@@ -28,7 +28,8 @@ namespace THAN
 
         public void OnMouseDown()
         {
-            GlobalControl.Main.PlaySound("Hover");
+            if (GlobalControl.Main)
+                GlobalControl.Main.PlaySound("Hover");
             Holding = true;
             HoldPoint = Cursor.Main.GetPosition().x;
             OriPoint = transform.localPosition.x;

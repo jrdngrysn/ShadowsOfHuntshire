@@ -1304,7 +1304,7 @@ MonoBehaviour:
     go quietly.'
   AddContent: 
   Pages: []
-  Illustration: {fileID: 0}
+  Illustration: {fileID: 21300000, guid: d021c5bcec6a5f9479b66a6d84478069, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
