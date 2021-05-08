@@ -637,14 +637,26 @@ namespace THAN
         {
             BoardShadeAnim.SetBool("Active", false);
             foreach (Character C in ChangedCharacters)
-                C.PositionChange(C.CurrentSlot.GetPosition());
+            {
+                if (C)
+                    C.PositionChange(C.CurrentSlot.GetPosition());
+            }
             yield return new WaitForSeconds(0.6f);
             foreach (Character C in MaskedCharacters)
-                C.DisableMask();
+            {
+                if (C)
+                    C.DisableMask();
+            }
             foreach (Pair P in MaskedPairs)
-                P.DisableMask();
+            {
+                if (P)
+                    P.DisableMask();
+            }
             foreach (Character C in ChangedCharacters)
-                C.Highlighted = false;
+            {
+                if (C)
+                    C.Highlighted = false;
+            }
             MaskedCharacters.Clear();
             MaskedPairs.Clear();
             ChangedCharacters.Clear();
