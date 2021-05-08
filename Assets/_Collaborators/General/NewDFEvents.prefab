@@ -439,7 +439,7 @@ MonoBehaviour:
   AddContent: 
   Pages: []
   Illustration: {fileID: 0}
-  AutoNextPage: 0
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 1934446801935065459}
@@ -670,10 +670,7 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446802046233139}
-  Content: After the sacrifice, you wait until night to dispose of the body in the
-    lake as usual. However, as you approach the lake, you see Dolf gazing across
-    the water. He seems to be murmuring to himself quietly. After waiting for a short
-    while, it seems as though he will not be leaving anytime soon.
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1934446802046233138}
@@ -1232,10 +1229,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: 
   Source: Dolf Fischer
-  FreeSources: []
+  FreeSources:
+  - Dolf Fischer
   BaseEvent: {fileID: 0}
   Active: 0
-  IgnorePairing: 0
+  IgnorePairing: 1
   RequiredKey: 
   StartTime: -1
   Priority: 2
@@ -1467,13 +1465,7 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446802251554932}
-  Content: "At night you are woken up by the sounds of frantic banging at your door.
-    When you open the door, you find *Someone* looking clammy and panicked.\r\n\r\n\u201CDolf\u2026
-    Something isn\u2019t quite right with Dolf!\u201D\r\n\r\nThey lead you to his
-    house where even outside you can hear muffled screams. As you head inside, his
-    screams become louder and more anguished.\r\n\r\n\"THE WAVE! IT\u2019S COMING!
-    I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r\n\r\nAs you finally reach his room,
-    his eyes are wide open and bloodshot, however he does not react to your presence.\r"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1934446802251554935}
@@ -3127,7 +3119,6 @@ GameObject:
   - component: {fileID: 1934446802701738628}
   - component: {fileID: 1934446802701738629}
   - component: {fileID: 1934446802701738624}
-  - component: {fileID: 1934446802701738627}
   - component: {fileID: 1934446802701738626}
   - component: {fileID: 1934446802701738625}
   m_Layer: 0
@@ -3176,17 +3167,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446802701738625}
-  Content: "After the latest sacrifice, Dolf approaches you. \r\n\r\n\u201CI must
-    repent. Over the past year I have strayed and sinned. My mind has been trapped,
-    and my thoughts have been occupied by my past. I felt I needed to find the kraken.
-    To understand it in a way I did not when I was younger.\u201D\r\n\r\nHe admits
-    to stealing the book from your house and says he will repent on his own. He leaves
-    before you can say another word.\r\n\r\nThe next day you find him floating face
-    down in the lake.\r"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1934446802701738624}
-  - {fileID: 1934446802701738627}
   - {fileID: 1934446802701738626}
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
@@ -3206,24 +3190,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: 'After the latest sacrifice, Dolf approaches you.
-
-'
---- !u!114 &1934446802701738627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934446802701738631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "\u201CI must repent. Over the past year I have strayed and sinned. My
-    mind has been trapped, and my thoughts have been occupied by my past. I felt
-    I needed to find the kraken. To understand it in a way I did not when I was younger.\u201D"
+  Content: "After the latest sacrifice, Dolf approaches you.\n\u201CI must repent.
+    Over the past year I have strayed and sinned. My mind has been trapped, and my
+    thoughts have been occupied by my past. I felt I needed to find the kraken. To
+    understand it in a way I did not when I was younger.\u201D"
 --- !u!114 &1934446802701738626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3240,9 +3210,7 @@ MonoBehaviour:
     on his own. He leaves before you can say another word.
 
     The next day you
-    find him floating face down in the lake.
-
-'
+    find him floating face down in the lake.'
 --- !u!114 &1934446802701738625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3839,6 +3807,7 @@ GameObject:
   - component: {fileID: 1934446803002542925}
   - component: {fileID: 1934446803002542922}
   - component: {fileID: 1934446803002542923}
+  - component: {fileID: 8768182974136532655}
   m_Layer: 0
   m_Name: 1-1
   m_TagString: Untagged
@@ -3885,11 +3854,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446803002542923}
-  Content: "Dolf really misses the old days as a sailor and wants to go fishing out
-    at sea.\r\nHe has repeatedly mentioned that he would like to leave the valley
-    for a time.\r"
+  Content: 
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 8768182974136532655}
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
@@ -3908,6 +3876,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8768182974136532655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934446803002542924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "Dolf really misses the old days as a sailor and wants to go fishing out
+    at sea.\r\nHe has repeatedly mentioned that he would like to leave the valley
+    for a time.\r"
 --- !u!1 &1934446803023543091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,18 +4926,7 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446803313919614}
-  Content: "Dolf invites you to come chat with him.\r\n\r\nAs you arrive by the lake,
-    you see Dolf staring solemnly at his reflection. As he notices you approaching
-    he looks up and gives you a kind but pained smile.\r\n\u201CI\u2019m sorry for
-    being such a bother, asking to leave Huntshire so frequently. It\u2019s just\u2026
-    I am still a sailor at heart and nothing will change that. It must be over 50
-    years ago now since I took my first big voyage. I left everything behind to go
-    across the world. I don\u2019t even remember much of what the point of it was,
-    but I was just so excited to spend so much time on the sea. After that first
-    journey, I spent as much time at sea as I could.\u201D\r\n\r\n\u201CBut one trip\u2026
-    something happened\u2026 we were attacked. I still can\u2019t comprehend exactly
-    what it was. But we lost more than half our crew that day. Ever since then I\u2019ve
-    been drawn to her.\u201D"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1934446803313919600}
@@ -5612,7 +5584,7 @@ MonoBehaviour:
   AddContent: 
   Pages: []
   Illustration: {fileID: 0}
-  AutoNextPage: 0
+  AutoNextPage: 1
   DisplaySource: 0
   Choices:
   - {fileID: 1934446803512974108}
@@ -6361,6 +6333,7 @@ GameObject:
   - component: {fileID: 1934446803833377106}
   - component: {fileID: 1934446803833377107}
   - component: {fileID: 1934446803833377104}
+  - component: {fileID: 5442018773106008653}
   m_Layer: 0
   m_Name: 3-2
   m_TagString: Untagged
@@ -6407,11 +6380,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446803833377104}
-  Content: '*Someone* brings to your attention that Dolf has told them that he plans
-    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
-    not stop talking about how much he misses the sea.'
+  Content: 
   AddContent: 
-  Pages: []
+  Pages:
+  - {fileID: 5442018773106008653}
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 1
@@ -6430,6 +6402,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21de2064e7c21e84b8b893c26fb3d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5442018773106008653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934446803833377109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: '*Someone* brings to your attention that Dolf has told them that he plans
+    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
+    not stop talking about how much he misses the sea.'
 --- !u!1 &1934446803836674816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7089,16 +7076,7 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446804039745385}
   - {fileID: 1934446804039745302}
-  Content: "As you go to dispose of the body from the latest sacrifice, you see Dolf
-    by the lake, muttering to himself. As you go to try and deal with him, his murmurs
-    are getting louder. He is chanting something, but in a language you do not recognize.
-    His gaze is empty, and his nose is bleeding. Before you can get to him, he screams.
-    \r\n\r\nA light emerges from the lake and a kraken emerges. Despite being in
-    a small body of water it still manages to tower over everything. \r\n\r\nIt begins
-    to flail around its tentacles knocking over trees and houses, and even crushes
-    Dolf. As you run for cover, the kraken lets out a deafening screech and proceeds
-    to swing and destroy the church.\r\n\r\nWhat you have worked to build has been
-    destroyed. There is nothing left, your plans will never come to fruition.\r"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1934446804039745384}
@@ -7237,7 +7215,6 @@ GameObject:
   - component: {fileID: 8220243132400520429}
   - component: {fileID: 3137697936994330644}
   - component: {fileID: 1161395801708480798}
-  - component: {fileID: 9057188901232872379}
   - component: {fileID: 4193586074467048958}
   - component: {fileID: 4612266285082775370}
   m_Layer: 0
@@ -7288,17 +7265,10 @@ MonoBehaviour:
   PMods:
   - {fileID: 4193586074467048958}
   - {fileID: 4612266285082775370}
-  Content: "After the latest sacrifice, Dolf approaches you. \r\n\r\n\u201CI must
-    repent. Over the past year I have strayed and sinned. My mind has been trapped,
-    and my thoughts have been occupied by my past. I felt I needed to find the kraken.
-    To understand it in a way I did not when I was younger.\u201D\r\n\r\nHe admits
-    to stealing the book from your house and says he will repent on his own. He leaves
-    before you can say another word.\r\n\r\nThe next day you find him floating face
-    down in the lake.\r"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 1161395801708480798}
-  - {fileID: 9057188901232872379}
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
@@ -7317,26 +7287,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: 'After the latest sacrifice, Dolf approaches you.
-
-'
---- !u!114 &9057188901232872379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3215748477590352911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "\u201CI must repent. Over the past year I have strayed and sinned. My
-    mind has been trapped, and my thoughts have been occupied by my past. I felt
-    I needed to find the kraken. To understand it in a way I did not when I was younger.
-    This drove me to lie and steal from you, even as you have shown me kindness.
-    How can I repent to both the lord and you?\u201D"
+  Content: "After the latest sacrifice, Dolf approaches you.\n\u201CI must repent.
+    Over the past year I have strayed and sinned. My mind has been trapped, and my
+    thoughts have been occupied by my past. I felt I needed to find the kraken. To
+    understand it in a way I did not when I was younger. This drove me to lie and
+    steal from you, even as you have shown me kindness. How can I repent to both
+    the lord and you?\u201D"
 --- !u!114 &4193586074467048958
 MonoBehaviour:
   m_ObjectHideFlags: 0
