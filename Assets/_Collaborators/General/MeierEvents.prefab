@@ -2260,8 +2260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Suggest he come to a compromise with Chloris so he can stay under the
-    Lord\u2019s protection."
+  Content: "Suggest he come to a compromise with Chloris to stay under the Lord\u2019s
+    protection."
   EffectText: Passion +1, Reason -2
   Effects:
   - {fileID: 4037156276859913970}
@@ -2707,7 +2707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisableEvent: {fileID: 3820788509821363976}
-  ActiveEvent: {fileID: 1566001900750679533}
+  ActiveEvent: {fileID: 7454105915941138604}
 --- !u!1 &8424702643449160383
 GameObject:
   m_ObjectHideFlags: 0
