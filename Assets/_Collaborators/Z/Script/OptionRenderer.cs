@@ -36,7 +36,8 @@ namespace THAN
             DisableBase.SetActive(false);
             MouseOn = true;
             Anim.SetBool("Selecting", true);
-            GlobalControl.Main.PlaySound("Hover");
+            if (GlobalControl.Main)
+                GlobalControl.Main.PlaySound("Hover");
         }
 
         public void OnMouseExit()
