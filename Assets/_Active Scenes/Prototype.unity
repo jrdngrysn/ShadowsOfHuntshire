@@ -5558,7 +5558,7 @@ MonoBehaviour:
   VitalityLimit: 10
   PassionLimit: 10
   ReasonLimit: 10
-  StoryDebugMode: 1
+  StoryDebugMode: 0
   AlreadyDead: 0
 --- !u!114 &489226826
 MonoBehaviour:
