@@ -8,7 +8,7 @@ namespace THAN
 
         public override int GetPriority(int Value, Character Source, Pair P)
         {
-            if (Source.GetKeyBase().GetKey("SacrificeEvent") > 0)
+            if (Source.GetKeyBase().GetKey("SacrificeEvent") > 0 && !GlobalControl.Main.StoryDebugMode)
                 return -1;
             return Value;
         }
