@@ -4753,7 +4753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 37
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -5116,7 +5116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 33
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -5558,6 +5558,7 @@ MonoBehaviour:
   VitalityLimit: 10
   PassionLimit: 10
   ReasonLimit: 10
+  StoryDebugMode: 1
   AlreadyDead: 0
 --- !u!114 &489226826
 MonoBehaviour:
@@ -8314,7 +8315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -8685,7 +8686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -9424,7 +9425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
@@ -13287,7 +13288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: StartTime
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3207418462324221634, guid: 20dd0820fde9e734b85c804a3d8fb073, type: 3}
       propertyPath: OriPosition.x
