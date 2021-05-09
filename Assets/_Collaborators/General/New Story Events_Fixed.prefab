@@ -95,6 +95,57 @@ MonoBehaviour:
   Effects:
   - {fileID: 8563300629332547267}
   DAE: {fileID: 0}
+--- !u!1 &250942194462202209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2545847962270008399}
+  - component: {fileID: 7841219921458356115}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2545847962270008399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250942194462202209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 73323401287301578}
+  m_Father: {fileID: 9111559583164306532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7841219921458356115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250942194462202209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: A key to the gate.
+  EffectText: Everyone's Stats will Increase
+  Effects:
+  - {fileID: 6699321817973630962}
+  DAE: {fileID: 0}
 --- !u!1 &425457646060277516
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +196,57 @@ MonoBehaviour:
   EffectText: Everyone's Reason will Increase
   Effects:
   - {fileID: 3632337818227751472}
+  DAE: {fileID: 0}
+--- !u!1 &707595758767799400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6397568609447823714}
+  - component: {fileID: 3319244894320489523}
+  m_Layer: 0
+  m_Name: Choice (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6397568609447823714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707595758767799400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4002855508588242126}
+  m_Father: {fileID: 5267850420578203017}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3319244894320489523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707595758767799400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: A consciousness of imminence.
+  EffectText: Everyone's Passion will Increase
+  Effects:
+  - {fileID: 4025122211413110833}
   DAE: {fileID: 0}
 --- !u!1 &727416371681022409
 GameObject:
@@ -201,15 +303,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"It is the final season of the year\u2026 Things as they are, in my
-    opinion, still far from satisfactory. There are people who call me madness and
-    wish to take back this superior power of mine. However, they cannot hinder me.
-    If I cannot make the sun rise from the west, if I cannot rewrite the scheme of
-    all things, then what is the use of having this ineffable power granted by my
-    Lord? \nThe ancestors have never accomplished this. Something deep in my heart
-    had been ignited. It is rattling in my soul. \"\nFollowing the book, I ponder.
-    What shall we preach? "
-  AddContent: 
+  Content: "\"The year comes to an end, two more to go. People question my authority.
+    What is the incoming truth to be brought by our Lord? I do not know, I dare not
+    to think. No one can judge the scheme of things, only our Lord can reveal that.
+    \r\nFrom now on, things may become more challenging than I thought, but I am
+    determined to make Huntshire the lasting worshiper of our Lord. \"\r"
+  AddContent: Following the book, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
@@ -218,6 +317,57 @@ MonoBehaviour:
   - {fileID: 5782597267683112855}
   - {fileID: 1174841734396893950}
   TriggerTime: 10
+--- !u!1 &1030930588733646488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1811108444819748182}
+  - component: {fileID: 1570542965071707590}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1811108444819748182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030930588733646488}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6487049682953211802}
+  m_Father: {fileID: 5267850420578203017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570542965071707590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030930588733646488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: A blaze of splendor.
+  EffectText: Everyone's Vitality will Increase
+  Effects:
+  - {fileID: 9082195039768206121}
+  DAE: {fileID: 0}
 --- !u!1 &1096264856728973595
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,13 +423,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"I always know that there are people who attempt to stop this grand
-    show. Let them! Let them take the book and let them spread the pages around Huntshire!
-    Because in the end, there is only one who can hold this power without fearing
-    it, and even the book itself has to be gone in preparation for the returning
-    of our Lord. \nOnly when we break an existing rule, we take a step closer to
-    the truth. \"\nIn the end, I ponder. What shall we preach? "
-  AddContent: 
+  Content: "\"Those intangible shadows sent by our Lord, they are the just proof
+    of our sacrifices nurturing our Lord. Their invisible trails are all over Huntshire,
+    little by little, shifting the place. I deeply know the appeal of their muttering
+    voices. \r\nThe basement must not be known. Secrets should be kept away from
+    those few rebellions. I cannot let them get in the way.\"\r"
+  AddContent: In the end, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
@@ -428,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: GREAT WORK BEGINS
+  Content: PURGATION BEGINS
   EffectText: 
 --- !u!1 &2034344497163704931
 GameObject:
@@ -485,14 +634,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"Executing the sacrifice, I contemplate. For the first time in my life,
-    I recognize that my Lord has granted me something loftier, deadlier, intense
-    enough to corrupt the laws of the world. Standing before the dusky mirror, in
-    the deepening gloom between the fractured pieces of the glass, my hands are bloodstained,
-    my eyes are bleeding. \nNO... My Lord has appointed me to do so, then I must
-    not think of other things, we must not cease, we must not hesitate. \"\nFollowing
-    the book, I ponder. What shall we preach? "
-  AddContent: 
+  Content: "\"I read the book ceaselessly day and night. My stomach is empty, and
+    a book does not make a sound, but my brain is filled with buzzing voices. \r\nBeneath
+    the dusky mirror down in the church basement, I got a glimpse of the stirring
+    shadows, a welcome aid sent by our Lord. Will they lead us to the Judgement Day?
+    Will I be consumed by this power first? Let everything do their job. We will
+    wait and see. \"\r"
+  AddContent: Following the book, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
@@ -552,7 +700,7 @@ MonoBehaviour:
   Effects:
   - {fileID: 3701529753293755380}
   DAE: {fileID: 0}
---- !u!1 &2484074867762964834
+--- !u!1 &2448597368071383962
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -560,45 +708,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4729211514714590760}
-  - component: {fileID: 2170627714475999176}
+  - component: {fileID: 1177345278052112310}
+  - component: {fileID: 2060010802468687322}
   m_Layer: 0
-  m_Name: Choice (0)
+  m_Name: Choice (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4729211514714590760
+--- !u!4 &1177345278052112310
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2484074867762964834}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 2448597368071383962}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5267850420578203017}
-  m_RootOrder: 0
+  m_Children:
+  - {fileID: 5034278651446984574}
+  m_Father: {fileID: 5672632731919386065}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2170627714475999176
+--- !u!114 &2060010802468687322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2484074867762964834}
+  m_GameObject: {fileID: 2448597368071383962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Great Work Continues...
-  EffectText: 
+  Content: A pity of praise.
+  EffectText: Everyone's Stats will Increase
+  Effects:
+  - {fileID: 3758899871203989275}
+  DAE: {fileID: 0}
 --- !u!1 &2513771278951254591
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,13 +882,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "Ignorance sets us free. \nThe final day is coming. However, Huntshire
-    is still surrounded by filth and self-deception, making things quite intolerable
-    to our Lord. As the High Priest, I wish to bring back the light of truth here
-    in Huntshire. \nUntil the final day, I must pair people up to have them learn
-    from each other, to appreciate the teachings of our Lord. Then, we shall appease
-    his hunger with the most ignorant sacrifice at the end of every season. Our lord
-    needs to regain his power."
+  Content: "\"The Judgement Day is coming. However, filth from outside has accumulated
+    here in Huntshire, going against our ancestor's intention, therefore we must
+    let everything return to its origins. \r\nOnly then will our Lord fill our blank
+    ignorant minds once again with truth, otherwise their anger will consume us.
+    \r\nAs the new High Priest, I must pair people up to have them \"learn\" from
+    each other, since the only thing we can do is to reverse everything, our vitality,
+    passion, and reason. In this way, we show faith in our Lord. \""
 --- !u!114 &2132020560458854003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,6 +957,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: -1, y: 0, z: 0}
+--- !u!1 &3073305700920752712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609423466649980367}
+  - component: {fileID: 4105935714783812010}
+  m_Layer: 0
+  m_Name: Choice (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1609423466649980367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073305700920752712}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8452028264645210087}
+  m_Father: {fileID: 5672632731919386065}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4105935714783812010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073305700920752712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: A blessing of satisfaction.
+  EffectText: Everyone's Stats will Increase
+  Effects:
+  - {fileID: 2512551279147855171}
+  DAE: {fileID: 0}
 --- !u!1 &3122246230853208652
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +1036,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4729211514714590760}
+  - {fileID: 1811108444819748182}
+  - {fileID: 6397568609447823714}
   m_Father: {fileID: 850337402480330828}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -859,20 +1063,20 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"Some are escaping, surely I know that. But what they do not know is
-    that they are fleeing from a free place. What is freedom anyway? Even I sometimes
-    do not recognize this word. Absolute freedom deprives freedom from all the other
-    ones. \nFirst, it was the dreams, then it was the visions. This is a marvelous
-    show with all kinds of people, spectators, victims, criminals, a show for the
-    tyrant. With my infinite power, I shall be the freest one of them all. \""
-  AddContent: 
+  Content: "\"We are so close to the Judgement Day. Here comes the last year. \r\nI
+    cannot rest well since the last contact. My nerves are frayed, though my faith
+    is strong. Huntshire is shrouded in mist. I realize that it is not the trials
+    that break a worshiper, but another cowardly heart the worshiper has in themself.
+    \r\nNoises echo in my head, endlessly. I must continue, or shall I take a rest...
+    \"\r"
+  AddContent: In the end, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
-  - {fileID: 2170627714475999176}
-  - {fileID: 0}
+  - {fileID: 1570542965071707590}
+  - {fileID: 3319244894320489523}
   TriggerTime: 25
 --- !u!1 &3169428114483196934
 GameObject:
@@ -925,6 +1129,50 @@ MonoBehaviour:
   Effects:
   - {fileID: 4420191825100883858}
   DAE: {fileID: 0}
+--- !u!1 &3279709391438027355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4002855508588242126}
+  - component: {fileID: 4025122211413110833}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002855508588242126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3279709391438027355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6397568609447823714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4025122211413110833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3279709391438027355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: 0, y: -1, z: 0}
 --- !u!1 &3329664407320305204
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,9 +1201,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7078376723930143445}
+  - {fileID: 2545847962270008399}
+  - {fileID: 8958320874112092432}
   m_Father: {fileID: 850337402480330828}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3638932023168416589
 MonoBehaviour:
@@ -979,18 +1228,18 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"Freedom, I would have been a contented one without it. But thanks to
-    it, I have won the godlike enlightenment of the solitary. \nI live, I kill, I
-    exercise the rapturous power of a destroyer. The ruthless logic crushes out human
-    lives. We will see what \"Lord\" has left with us. \""
+  Content: "\"I live, I kill, I exercise the rapturous power of a destroyer. Ruthless
+    logic crushes out human lives, but soon we will reap what we have sowed. \r\nThe
+    final season awaits. We will send our last sacrifice to fill the last gap of
+    power of our Lord. \r\nWe will see what our Lord will leave with us.\"\r"
   AddContent: 
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
-  - {fileID: 181127764071508539}
-  - {fileID: 0}
+  - {fileID: 7841219921458356115}
+  - {fileID: 2678870971998502199}
   TriggerTime: 31
 --- !u!1 &3451331024310750189
 GameObject:
@@ -1082,7 +1331,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: An echo, a reverberation, a mirror.
+  Content: 'An echo, a reverberation,
+
+    a mirror.'
   EffectText: Everyone's Reason will Increase
   Effects:
   - {fileID: 1048554875432281394}
@@ -1182,6 +1433,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: -1, z: 0}
+--- !u!1 &3767232872178855247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5034278651446984574}
+  - component: {fileID: 3758899871203989275}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5034278651446984574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3767232872178855247}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1177345278052112310}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3758899871203989275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3767232872178855247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -1}
 --- !u!1 &3868498671694087322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,12 +1532,12 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"They think I am mad, that what I have done, \u201Cmanipulating lives\u201D
-    they called, is an attempt to take over God\u2019s job. And yet, what is a God
-    and why should I wish to be an equal? They do not understand that what I strive
-    for is something far beyond that. \nThe book has all its magic. I shall seek
-    the impossible myself. I shall seek true freedom myself. I shall take over God,
-    if that's what God wishes. \"\nIn the end, what does our lord seek? \n"
+  Content: "The last contact with the shadows is still vivid in my vision, torturing
+    my sanity. \r\nIn one way or another, more and more of them attempt to escape.
+    Giving up is a choice more tempting than I thought. With the power I have, I
+    can put down the book and leave anytime. But nevertheless, I started all this.
+    I have carried too many lives on my shoulder. How many more trials do I have
+    to go through?\r"
   AddContent: In the end, what does our lord seek?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
@@ -1351,13 +1646,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"At dawn, while we were performing the sacrifice as planned, Huntshire
-    got its first rainy season of the year. Lightning accompanied by thunder, the
-    battering rain reverberated with the sound of sacrifice throughout the valley.
-    Fear indeed, fear is the purest emotion, the noblest. Let every established thing
-    be gone with the wuthering wind of fear. \nThe truth has its price, and Huntshire
-    is ready for it. \"\nIn the end, I ponder. What shall we preach? "
-  AddContent: 
+  Content: "\"At dawn, as we were performing the sacrifice, Huntshire got its first
+    rainy season of the year. Thunder reverberated with the sound of sacrifice throughout
+    the church. I peeked through the battering rain, the deepening gloom of their
+    shadows, the offsprings of our Lord, something that should not exist in this
+    world. \r\nI barely kept my sanity having seen their reflections, let alone their
+    true faces. I guess this is the price of truth.\"\r"
+  AddContent: In the end, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
@@ -1461,6 +1756,50 @@ MonoBehaviour:
   Effects:
   - {fileID: 8353940924734912011}
   DAE: {fileID: 0}
+--- !u!1 &4856377294101672862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8774750740482231684}
+  - component: {fileID: 2778143756808571723}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8774750740482231684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856377294101672862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8958320874112092432}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2778143756808571723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856377294101672862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -1}
 --- !u!1 &5606383555757952261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,6 +1851,170 @@ MonoBehaviour:
   Effects:
   - {fileID: 5771773369854629645}
   DAE: {fileID: 0}
+--- !u!1 &5658993701265720699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8958320874112092432}
+  - component: {fileID: 2678870971998502199}
+  m_Layer: 0
+  m_Name: Choice (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8958320874112092432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658993701265720699}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8774750740482231684}
+  m_Father: {fileID: 9111559583164306532}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2678870971998502199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658993701265720699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77d144c2ff04a74fb40ceb534b1dafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  TriggerSequence: 1
+  Content: A path to transcendence.
+  EffectText: Everyone's Stat will Increase
+  Effects:
+  - {fileID: 2778143756808571723}
+  DAE: {fileID: 0}
+--- !u!1 &6703266021991663548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5672632731919386065}
+  - component: {fileID: 4964648417997601257}
+  m_Layer: 0
+  m_Name: 1899 JUN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5672632731919386065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6703266021991663548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1609423466649980367}
+  - {fileID: 1177345278052112310}
+  m_Father: {fileID: 850337402480330828}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4964648417997601257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6703266021991663548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372f3202f64d8494ab177e892e9cc296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 1899 JUN
+  Source: 
+  FreeSources: []
+  BaseEvent: {fileID: 0}
+  Active: 1
+  IgnorePairing: 0
+  RequiredKey: 
+  StartTime: -1
+  Priority: 0
+  PMods: []
+  Content: "\"First, it was the dreams, then it was the visions. What a marvelous
+    show with all kinds of people, spectators, victims, criminals. The ancestors
+    have never accomplished this. Something deep in my heart had been ignited. It
+    is rattling in my soul. \r\nTwo more seasons, we still have time to retrieve,
+    if there is anything to retrieve...\"\r"
+  AddContent: In the end, I ponder. What shall we preach?
+  Pages: []
+  Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
+  AutoNextPage: 0
+  DisplaySource: 0
+  Choices:
+  - {fileID: 4105935714783812010}
+  - {fileID: 2060010802468687322}
+  TriggerTime: 28
+--- !u!1 &6788801353967353513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73323401287301578}
+  - component: {fileID: 6699321817973630962}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73323401287301578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6788801353967353513}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2545847962270008399}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6699321817973630962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6788801353967353513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -1}
 --- !u!1 &6872297376964585780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,53 +2110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: 0, z: -1}
---- !u!1 &8397874223496616938
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7078376723930143445}
-  - component: {fileID: 181127764071508539}
-  m_Layer: 0
-  m_Name: Choice (0)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7078376723930143445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8397874223496616938}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 9111559583164306532}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &181127764071508539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8397874223496616938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec801fe604256d0448b48ffd08caa965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E: {fileID: 0}
-  TriggerSequence: 1
-  Content: ...
-  EffectText: 
 --- !u!1 &8471570647457739918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,15 +2260,13 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: "\"Our Lord has awakened, our Lord has responded to our piety -- a book
-    in my pocket, the book of all wisdom. It will help me decide the teaching of
-    certain seasons and bring blessings to all. \nGreat probation begins. Let the
-    weak assimilate the strong, let the dull assimilate the passionate, let the thoughtless
-    assimilate the wise. \nOnly the ignorant can bear the coming truth. The light
-    of truth will favor Huntshire again. If the sacrifices can continue until the
-    Summer of the Fourth Year,  our Lord will reign.\"\nFollowing the book, I ponder.
-    What shall we preach? "
-  AddContent: 
+  Content: "\"Our Lord has awakened as they respond -- a book in my pocket, the book
+    of all wisdom, which provides guidance to the seasonal sermon. \r\nOnly the ignorant
+    can bear the coming truth. Let the strong assimilate into the weak, the passionate
+    into the dull, the sensitive into the thoughtless. \r\nIf the sacrifices can
+    continue until the end of this century, a New Age will start with our Lord shining
+    the light of truth upon Huntshire.\""
+  AddContent: Following the book, I ponder. What shall we preach?
   Pages: []
   Illustration: {fileID: 21300000, guid: 84898311636a03e4d81550d3ccc4c4f3, type: 3}
   AutoNextPage: 0
@@ -1856,6 +2310,7 @@ Transform:
   - {fileID: 6596068855176617449}
   - {fileID: 3196449632811811624}
   - {fileID: 5267850420578203017}
+  - {fileID: 5672632731919386065}
   - {fileID: 9111559583164306532}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1948,6 +2403,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: -1, z: 0}
+--- !u!1 &8823541664585962552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6487049682953211802}
+  - component: {fileID: 9082195039768206121}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6487049682953211802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823541664585962552}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1811108444819748182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9082195039768206121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823541664585962552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: 0, z: 0}
 --- !u!1 &8960783741894446339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,3 +2491,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Change: {x: 0, y: -1, z: 0}
+--- !u!1 &9131802806165431208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8452028264645210087}
+  - component: {fileID: 2512551279147855171}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8452028264645210087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131802806165431208}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1609423466649980367}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2512551279147855171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131802806165431208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cc57906e326047a6c8acbb24b94b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Change: {x: -1, y: -1, z: -1}

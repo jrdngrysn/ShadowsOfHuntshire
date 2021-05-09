@@ -229,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6467496522368930846, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_enableWordWrapping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020443168332741897, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: Index
