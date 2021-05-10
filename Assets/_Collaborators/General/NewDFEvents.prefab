@@ -562,7 +562,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Tell him to go inside.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 1934446802710688304}
   - {fileID: 4150061395936560576}
@@ -1661,7 +1661,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Investigate his claims.
-  EffectText: Reason -6
+  EffectText: No Change
   Effects:
   - {fileID: 1934446802182186027}
   - {fileID: 5459575374879422392}
@@ -2564,7 +2564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: He is cursed and must be expelled from the valley at once.
+  Content: Expel whatever is cursing him by drowning him in the river.
   EffectText: ???
   Effects:
   - {fileID: 1934446803092265600}
@@ -3370,7 +3370,7 @@ MonoBehaviour:
   TriggerSequence: 1
   Content: Store the body in the church basement for the night and dispose of it
     in the morning.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 1934446803101327341}
   DAE: {fileID: 0}
