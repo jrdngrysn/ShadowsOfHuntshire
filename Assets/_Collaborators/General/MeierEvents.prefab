@@ -319,9 +319,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Without warning, you hear the door open followed by Baron Meier\u2019s
-    booming voice coming through your office door.\r\n\r\u201CHello there. Your favorite
-    acolyte has returned to grace you with his presence.\u201D\r\nHe bows and sits
-    in one of your chairs without asking.\r"
+    booming voice coming through your office door.\r\n\r\n\u201CHello there. Your
+    favorite acolyte has returned to grace you with his presence.\u201D\r\nHe bows
+    and sits in one of your chairs without asking.\r"
 --- !u!114 &6435486686653161227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,12 +334,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI\u2019ve been trying becoming a proper man of the church, and
+  Content: "\u201C I\u2019ve been trying to become a proper man of the church, and
     I don\u2019t believe it\u2019s working. It\u2019s not that I\u2019m not understanding
     your sermons, it\u2019s just that Chloris and I have been arguing more than ever
-    before since I\u2019ve gone down this path.\u201D\r\n\u201CInstead of pleasing
-    her, I\u2019ve only made her mad by turning to, what she calls, \u2018brainwashed
-    rubbish that only nincompoops would believe in.\u2019\r\""
+    before since I\u2019ve gone down this path.\u201D\r\n\r\n\u201C Instead of pleasing
+    her, I\u2019ve only made her mad by turning to what she calls \u2018 brainwashed
+    rubbish that only nincompoops would believe in.\u2019\u201D\r"
 --- !u!114 &5553441995154107179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,12 +352,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\"I don\u2019t necessarily agree with these things that she says, but
+  Content: "\u201CI don\u2019t necessarily agree with these things she says, but
     when I try to explain all the wonderful things that could happen to us when the
-    Lord returns, she says that it\u2019s all a sham.\u201D\n\u201CI want to believe
-    it\u2019s not a sham, so that we can have even a tiny thing to look forward to
-    in our once luxurious lives, but she refuses to cooperate. I\u2019m not one to
-    rely on others, but I would like your advice, if you would be so kind.\u201D"
+    Lord returns, she says that it\u2019s all a sham.\r\n\r\nI want to believe it\u2019s
+    not a sham, so that we can have even a tiny thing to look forward to in our once
+    luxurious lives, but she refuses to cooperate. I\u2019m not one to rely on others,
+    but I would like your advice, if you would be so kind.\u201D\r"
 --- !u!1 &339996276927111679
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,9 +631,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "While closing up the church for the day, you notice that Baron is still
-    sitting inside despite everyone else having already left.\n\u201CI\u2019ve been
-    meaning to talk to you and thought it\u2019d be best to wait until I could have
-    your utmost attention.\u201D\r\nHe gets up and approaches you slowly.\r"
+    sitting inside despite everyone else having already left.\r\n\r\n\u201CI\u2019ve
+    been meaning to talk to you and thought it\u2019d be best to wait until I could
+    have your utmost attention.\u201D\r\n\r\nHe gets up and approaches you slowly.\r"
 --- !u!114 &9119964809698325511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,14 +646,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI kept trying to talk to Chloris and get her to see the wonders
+  Content: "\u201C I kept trying to talk to Chloris and get her to see the wonders
     of this religion. I\u2019ve been so desperately trying to get her to see how
-    much more peaceful it is here compared to where we used to live and yet-\nwe\u2019ve
-    been fighting so much that I just can\u2019t take it anymore! The woman that
-    had once brought joy to my life is now making everything feel miserable. I wish
-    to go back to our romantic days, but you said that the Lord has things in store
-    for me. Maybe I am a tad foolish for trusting you, but I can sense when people
-    are lying and you didn\u2019t seem like you were."
+    much more peaceful it is here compared to where we used to live and yet-- we\u2019ve
+    been fighting so much that I just can\u2019t take it anymore! \r\n\r\nThe woman
+    that had once brought joy to my life is now making everything feel miserable.
+    I wish to go back to our days of romance, but you said that the Lord has things
+    in store for me. Maybe I am a tad foolish for trusting you, but I can sense when
+    people are lying and you didn\u2019t seem like you were.\r\""
 --- !u!114 &6074342840347000922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,11 +1006,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI wanted to stop by and thank you for our previous conversation
-    about your sermon. Despite your obvious lies, I\u2019ve been reflecting on what
-    things were like before Chloris and I had stumbled upon this quiet little place.\nWe
-    had massive amounts of wealth, neighbors that were born geniuses and my sweet
-    Chloris had the most enormous book collection. She\u2019s truly amazing.\u201D\nHe
+  Content: "You hear a knock on the door to your office and look up to see Baron
+    Meier waiting.\r\nAs he strides inside, he looks around and scoffs.\r\n\r\n\u201CTHIS
+    is your office? It\u2019s certainly interesting how you\u2019ve done the place.
+    I hope to maybe study you more closely one day\u201D he jests.\r\n \r\n\u201CI
+    wanted to stop by and thank you for our previous conversation about your sermon.
+    Despite your obvious lies, I\u2019ve been reflecting on what things were like
+    before Chloris and I had stumbled upon this quiet little place.\r\n\r\nWe had
+    massive amounts of wealth, neighbors that were born geniuses and my sweet Chloris
+    had the most enormous book collection. She\u2019s truly amazing.\u201D\r\n\r\nHe
     sighs."
 --- !u!114 &6010623141164759013
 MonoBehaviour:
@@ -1024,7 +1028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CNone of that excites me anymore. Although, the fact that people
+  Content: "\u201C None of that excites me anymore. Although, the fact that people
     like you aren\u2019t surrounded by intelligent people of the upper class is a
     bit inspiring. What\u2019s so special about this little town anyway?\u201D"
 --- !u!1 &1715301254037211151
@@ -1862,16 +1866,7 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 594941415883964507}
-  Content: "As you finish up a sermon touching upon how the Lord will bring everlasting
-    peace, Baron Meier approaches you while clapping his hands together.\r\n\r\u201CThat
-    was quite the sermon. I was really impressed with how good of a liar you are
-    because certain there must be more to everlasting peace than just turning to
-    the Lord.\u201D\r\nHe lets out a chuckle and continues.\r\n\r\u201CYou know,
-    my lovely wife Chloris and I had found peace in money and power for a while.
-    However, we\u2019ve decided, well really I\u2019ve decided, to try and satisfy
-    our desires through other means.\u201D\r\r\nWith a smirk he looks at you and
-    asks\r\n\u201CWell, what did you turn to for peace before you decided to return
-    to religion?\u201D\r"
+  Content: 
   AddContent: 
   Pages:
   - {fileID: 2809155714360383362}
@@ -1906,11 +1901,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "s you finish up a sermon touching upon how the Lord will bring everlasting
-    peace, Baron Meier approaches you clapping his hands together.\r\n\r\u201CThat
-    was quite the sermon. I was really impressed with how good of a liar you are
-    because certain there must be more to everlasting peace than just turning to
-    the Lord.\u201D\r\nHe chuckes and continues."
+  Content: "As you finish up a sermon touching upon how the Lord will bring everlasting
+    peace, Baron Meier approaches you clapping his hands together.\r\n\r\n\u201C
+    That was quite the sermon. I was really impressed with how good of a liar you
+    are because certain there must be more to everlasting peace than just turning
+    to the Lord.\u201D\r\nHe chuckles and continues."
 --- !u!114 &3416437067819207919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1923,11 +1918,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CYou know, my lovely wife Chloris and I had found peace in money
-    and power for a while. However, we\u2019ve decided, well really I\u2019ve decided,
-    to try and satisfy our desires through other means.\u201D\nWith a smirk he looks
-    at you and asks\r\n\u201CWell, what did you turn to for peace before you decided
-    to return to religion?\u201D"
+  Content: "\u201C You know, my lovely wife Chloris and I had found peace in money
+    and power for a while. However, we\u2019ve decided-- well really I\u2019ve decided--to
+    try and satisfy our desires through other means.\u201D\r\n\r\n\r\nWith a smirk
+    he looks at you and asks\r\n\u201C Well, what did you turn to for peace before
+    you decided to return to religion?\u201D"
 --- !u!1 &6074721171624668877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,9 +2159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: "You\u2019ve seen Baron come to service more and more often with Chloris
     lately. Chloris never seems too happy to be there, but you notice how the two
-    of them tend to keep each other in check.\nOne day while closing up the church
-    for the day, you notice that Baron is still sitting inside despite Chloris already
-    leaving."
+    of them tend to keep each other in check. \r\n\r\nOne day while closing up the
+    church for the day, you notice that Baron is still sitting inside despite Chloris
+    already leaving."
 --- !u!114 &5533988533945829661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,8 +2175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\u201CI\u2019ve been meaning to talk to you and thought it\u2019d be
-    best to wait until everyone had already left, so I could have your utmost attention.\u201D\r\nHe
-    gets up and approaches you.\r"
+    best to wait until everyone had already left, so I could have your utmost attention.\u201D\r\n\r\nHe
+    gets up and approaches you."
 --- !u!114 &7613643038919157671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2194,10 +2189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI feel very thankful for acknowledging the presence of us Meiers
+  Content: "\u201C I feel very thankful for acknowledging the presence of us Meiers
     and for not sacrificing neither me nor Chloris. While I doubt Chloris would feel
     the same about what I\u2019m about to tell you, I think she\u2019ll eventually
-    come around to it.\u201D\nHe takes a deep breath."
+    come around to it.\u201D\r\n\r\nHe takes a deep breath.\r"
 --- !u!114 &7603828061031815500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2210,9 +2205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CI\u2019m not a person who usually offers his hands, but-\r\nIf
+  Content: "\u201C I\u2019m not a person who usually offers his hands, but-\r\nIf
     you need help in preparing the Lord\u2019s return, I would love to prove my worth
-    in whatever way I can, as long as it won\u2019t come to harm my sweet Chloris.\u201D"
+    in whatever way I can, as long as it won\u2019t come to harm my sweet Chloris.\u201D\r"
 --- !u!1 &6308388556174053238
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,8 +2255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: "Suggest he come to a compromise with Chloris to stay under the Lord\u2019s
-    protection."
+  Content: "Suggest he come to a compromise to stay under the Lord\u2019s protection."
   EffectText: Passion +1, Reason -2
   Effects:
   - {fileID: 4037156276859913970}
@@ -2396,11 +2390,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "After yet another sermon, you hear Baron\u2019s voice calling out to
-    you.\n\u201CThought you\u2019d seen the last of me didn\u2019t you?\r\nYou should
-    be thankful that I\u2019ve bestowed my presence once more in your little church
-    or what have you. I\u2019ve never given religion a try nor have my father nor
-    my father\u2019s fathers, but I do suppose your sermons are helping me understand
-    this place more.\u201D\nHe pauses."
+    you.\r\n\r\n\r\n\u201CThought you\u2019d seen the last of me didn\u2019t you?
+    You should be thankful that I\u2019ve bestowed my presence upon this church once
+    more. I\u2019ve never given religion a try nor have my father nor my father\u2019s
+    fathers, but I do suppose your sermons are helping me understand it a bit.\u201D\r\n\r\nHe
+    pauses.\r"
 --- !u!114 &7091846261342034988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,9 +2407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CChloris on the other hand...She doesn\u2019t like this place one
-    bit. Says it\u2019s cramping her style and that the town\u2019s full of heathens.\u201D\r\nHe
-    lowers his voice and looks away from you\r."
+  Content: "\u201CAlthough, Chloris doesn\u2019t like this place one bit. Says it\u2019s
+    too uncouth and that the town\u2019s full of heathens.\u201D\r\n\r\nHe lowers
+    his voice and looks away from you.\r\n"
 --- !u!114 &6109192878775597264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2429,12 +2423,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\u201CI decided to move her for her sake. I\u2019d honestly do anything
-    to please that woman, but I don\u2019t know how anymore. No piece of gold nor
-    fancy house will bring her joy. Not that those things bring me joy anymore either,
-    but--\u201D\r\nHe looks back at you and you can tell there\u2019s a tinge of
-    desperation in his eyes.\r\n\u201CSince you\u2019re the only other respectable
+    for that woman, but I don\u2019t know how anymore. No piece of gold nor fancy
+    house will bring her joy. Not that those things bring me joy anymore either,
+    but--\u201D\r\n\r\nHe looks back at you and you can tell there\u2019s a tinge
+    of desperation in his eyes.\r\n\u201CSince you\u2019re the only other respectable
     person in this village besides my dearest Chloris I wanted to ask you. Do you
-    have any advice on what I should do?\u201D"
+    have any advice on what I should do?\u201D\r\n"
 --- !u!1 &6924168912992991583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2880,10 +2874,10 @@ MonoBehaviour:
   Content: "\u201CListen Chloris, I know you don\u2019t agree with the lifestyle
     most people here have, but it\u2019s not all that bad, and one of the only respectable
     people in this town can probably explain what I was trying to tell you better.
-    Dearest high priest, could you tell my lovely Chloris why this town is special?
-    She wants to move back to where we lived, but she and I both know that there\u2019s
-    nothing rewarding about that place and the lives we used to lead.\r\n\rIf you
-    would be so kind.\u201D"
+    \r\n\r\nDearest high priest, could you tell my lovely Chloris why this town is
+    special? She wants to move back to where we lived, but she and I both know that
+    there\u2019s nothing rewarding about that place and the lives we used to lead.\r\n\r\nIf
+    you would be so kind.\u201D"
 --- !u!1 &8483679676107564293
 GameObject:
   m_ObjectHideFlags: 0
