@@ -10,6 +10,8 @@ namespace TMST
         public AudioClip Soundtrack;
         public double LoopRate;
         public double LastLoopTime;
+        public float StartDelay;
+        public AudioClip StartClip;
 
         public void Awake()
         {
@@ -39,7 +41,8 @@ namespace TMST
 
         public IEnumerator Process()
         {
-            yield return new WaitForSeconds(5.5f);
+            Source.PlayOneShot(StartClip);
+            yield return new WaitForSeconds(StartDelay);
             Source.PlayOneShot(Soundtrack);
             LastLoopTime = AudioSettings.dspTime;
             while (true)

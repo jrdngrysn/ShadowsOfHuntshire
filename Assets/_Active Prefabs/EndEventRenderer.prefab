@@ -1,5 +1,87 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1926427991667928914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7074989820388148083}
+  - component: {fileID: 4871535997491224051}
+  m_Layer: 5
+  m_Name: IllustrationOutline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7074989820388148083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926427991667928914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 11, z: 0}
+  m_LocalScale: {x: 3.3, y: 3.3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3385880845080892744}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4871535997491224051
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926427991667928914}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: aa31e686594d22f4cbfdfc2906ef7881, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.42, y: 5.31}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &3385880843700566783
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +220,7 @@ MonoBehaviour:
   AddContentText: {fileID: 3385880844786875552}
   NameText: {fileID: 3385880844167540073}
   QuestionText: {fileID: 3385880844431470138}
+  Illustration: {fileID: 8057489113072079045}
   CRI: {fileID: 8996743159574309574}
   CRII: {fileID: 8996743160890488311}
   CRIII: {fileID: 8996743160165817163}
@@ -150,6 +233,10 @@ MonoBehaviour:
   - 22
   - 0
   - -22
+  FrameObjects: []
+  FramePosition_Left: {x: 0, y: 0}
+  FramePosition_Right: {x: 0, y: 0}
+  FramePositionIndex: 0
   CurrentEvent: {fileID: 0}
   CurrentAddEvent: {fileID: 0}
   CurrentPair: {fileID: 0}
@@ -1148,6 +1235,8 @@ Transform:
   - {fileID: 3385880844167540070}
   - {fileID: 3385880844431470139}
   - {fileID: 3385880844981449007}
+  - {fileID: 7074989820388148083}
+  - {fileID: 3933059692142824023}
   - {fileID: 4202337344726968637}
   - {fileID: 4202337343393789452}
   - {fileID: 4202337344244603056}
@@ -1207,19 +1296,102 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: 'I stand among the hills. As the twilight puts a goldan veil over Huntshire,
-    a sudden thrill of peace rambles through my brain, followed by a devouring despair.
-
-    Perhaps
-    I was never close to the truth. Perhaps this was never meant for me. I shall
-    go quietly.'
+  Content: "I stand among the hills. As the twilight puts a golden veil over Huntshire,
+    a sudden thrill of peace rumbles through my brain, followed by a devouring despair.
+    But after everything I have been through, it is lucky to be out of there. \r\nPerhaps
+    I was never close to the truth. Perhaps this was never meant for me. I stayed
+    in this dreadful town for a period of time, now I shall go quietly, or would
+    I ever want to come back? No one would know.\r"
   AddContent: 
   Pages: []
+  Illustration: {fileID: 21300000, guid: d021c5bcec6a5f9479b66a6d84478069, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:
   - {fileID: 0}
   - {fileID: 0}
+--- !u!1 &8720659155132986116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3933059692142824023}
+  - component: {fileID: 8057489113072079045}
+  m_Layer: 5
+  m_Name: Illustration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3933059692142824023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8720659155132986116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 11, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3385880845080892744}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8057489113072079045
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8720659155132986116}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.42, y: 5.31}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &3385880843025012543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1237,7 +1409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1342,7 +1514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1447,7 +1619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1489745057112531251, guid: 1c4a33d94d5274945ab512d675cabf5d, type: 3}
       propertyPath: m_LocalPosition.x

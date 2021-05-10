@@ -8,6 +8,8 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] GameObject settingsObject;
     [SerializeField] GameObject quitButton;
     [SerializeField] GameObject mainMenuCanvas;
+    public AudioSource Audio;
+    public float Delay;
 
     // Start is called before the first frame update
     void Start()
@@ -17,18 +19,27 @@ public class MainMenuController : MonoBehaviour
 #else
         quitButton.SetActive(true); // making sure the player can quit if it's a standalone build
 #endif
-
+        DontDestroyOnLoad(Audio.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Delay > 0)
+            Delay -= Time.deltaTime;
     }
 
     public void GoToGame()
     {
-        SceneManager.LoadScene("Prototype");
+        if (Delay > 0)
+            return;
+        ActualGoToGame();
+    }
+
+    public void ActualGoToGame()
+    {
+        Audio.Play();
+        SceneManager.LoadSceneAsync("Intro");
     }
 
 /*    public void GoToTutorial() // keeping this here in case we do make the tutorial separate at some point -Geneva
