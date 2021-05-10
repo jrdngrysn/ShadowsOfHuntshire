@@ -1296,15 +1296,15 @@ MonoBehaviour:
   StartTime: -1
   Priority: 0
   PMods: []
-  Content: 'I stand among the hills. As the twilight puts a goldan veil over Huntshire,
-    a sudden thrill of peace rambles through my brain, followed by a devouring despair.
-
-    Perhaps
-    I was never close to the truth. Perhaps this was never meant for me. I shall
-    go quietly.'
+  Content: "I stand among the hills. As the twilight puts a golden veil over Huntshire,
+    a sudden thrill of peace rumbles through my brain, followed by a devouring despair.
+    But after everything I have been through, it is lucky to be out of there. \r\nPerhaps
+    I was never close to the truth. Perhaps this was never meant for me. I stayed
+    in this dreadful town for a period of time, now I shall go quietly, or would
+    I ever want to come back? No one would know.\r"
   AddContent: 
   Pages: []
-  Illustration: {fileID: 0}
+  Illustration: {fileID: 21300000, guid: d021c5bcec6a5f9479b66a6d84478069, type: 3}
   AutoNextPage: 0
   DisplaySource: 0
   Choices:

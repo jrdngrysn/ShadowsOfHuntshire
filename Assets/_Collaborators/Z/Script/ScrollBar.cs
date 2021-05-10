@@ -17,9 +17,9 @@ namespace THAN
         // Start is called before the first frame update
         void Start()
         {
-            if (Music)
+            if (Music && TMST.SoundtrackControl.Main)
                 Ini(TMST.SoundtrackControl.Main.Source.volume);
-            if (SoundEffect)
+            if (SoundEffect && SoundControl.Main)
                 Ini(SoundControl.Main.Source.volume);
         }
 
