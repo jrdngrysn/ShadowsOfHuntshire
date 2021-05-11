@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace THAN
 {
@@ -17,8 +18,10 @@ namespace THAN
         public void Update()
         {
             PositionUpdate();
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().buildIndex != 3)
+            {
                 Effect();
+            }
         }
 
         public void FixedUpdate()
