@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stat: 2
-  statThreshold: 18
+  statThreshold: 17
 --- !u!114 &5167830118769746556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Investigator
-  Description: 'Investigator: When *FCharacter_Name* has 18+ reason, click the icon
+  Description: 'Investigator: When *FCharacter_Name* has 17+ reason, click the icon
     to have them activate Investigator. While active, any character paired with *FCharacter_Name*
     will have their passion reduced by 4 and *FCharacter_Name* will have their reason
     reduced by 4.'

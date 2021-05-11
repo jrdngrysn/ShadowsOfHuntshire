@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stat: 1
-  statThreshold: 22
+  statThreshold: 20
 --- !u!114 &8755006929601100416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Enlightened
-  Description: 'Enlightened: When *FCharacter_Name* has 22+ passion, click the icon
+  Description: 'Enlightened: When *FCharacter_Name* has 20+ passion, click the icon
     to have them activate Enlightened. While active, if *FCharacter_Name* is unpaired,
     all other characters will have their vitality reduced by 5. *FCharacter_Name*
     will have their passion reduced by 8 and their reason set to 15.'
