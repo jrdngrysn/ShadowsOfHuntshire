@@ -19887,6 +19887,47 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 822280732664958785, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Tell him that by becoming a proper man of the church he may learn how
+        to please Chloris.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080774140661113033, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Tell him that he can only understand by becoming a proper man of the
+        church.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624761432564361350, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Avoid his question and chastise him for accusing you of lying.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665047435805123781, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Make him promise to keep Chloris from leaving the church.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225005414331883605, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Tell Chloris that the Lord will soon return to this town bringing gifts
+        only to believers like Baron.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008524288884005650, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Request that he carries out each sacrifice you choose for now on.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056730820579847002, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Warn him that he should not concern himself with people that hold him
+        back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824648888192636964, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Answer honestly and say how thankful you are for him coming to service.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150821173682633247, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Inform him that arguing on this matter is normal and that he should
+        keep trying.
+      objectReference: {fileID: 0}
     - target: {fileID: 6174417301780561059, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -19934,6 +19975,19 @@ PrefabInstance:
     - target: {fileID: 6924168912992991583, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
       propertyPath: m_Name
       value: MeierEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 6992504127477897288, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Suggest he have a talk with Chloris to figure out what she wants.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174617630817346968, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: Punish him for his rudeness.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327421622577635511, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
+      propertyPath: Content
+      value: "Encourage the two of them to attend today\u2019s sermon so that they
+        can learn together."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1177d5ede12fb174ab9ffd653214e291, type: 3}
