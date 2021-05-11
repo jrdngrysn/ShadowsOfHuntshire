@@ -592,7 +592,8 @@ namespace THAN
             }
 
             CurrentRenderTime += 1;
-            DateSR.sprite = DateSprites[CurrentRenderTime];
+            if(CurrentRenderTime < DateSprites.Count)
+                DateSR.sprite = DateSprites[CurrentRenderTime];
             /*int Year = 1997;
             int a = CurrentRenderTime;
             while (a > 12)
