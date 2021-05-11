@@ -10763,7 +10763,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: 
-  EffectText: Continue.
+  EffectText: Vitality -2
 --- !u!1 &8419289687230436652
 GameObject:
   m_ObjectHideFlags: 0
