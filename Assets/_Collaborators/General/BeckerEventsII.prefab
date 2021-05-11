@@ -1898,7 +1898,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: It is not safe, better to stay in the village.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 8419289686299182163}
   DAE: {fileID: 0}
@@ -3782,7 +3782,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Offer to chat with Ross.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 8419289686933050279}
   - {fileID: 8419289686115275430}
@@ -6284,7 +6284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Lock the trapdoor and starve them.
+  Content: Lock the trapdoor so no one can leave.
   EffectText: Vitality -3 and...
   Effects:
   - {fileID: 8419289687114583113}
@@ -6936,7 +6936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Tell the villager Ross is dangerous and let you handle them.
+  Content: Tell the villager Ross is dangerous and let you handle thim.
   EffectText: Passion -2
   Effects:
   - {fileID: 8419289686084547569}
@@ -7230,7 +7230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Lock the trapdoor and starve them.
+  Content: Lock the trapdoor so no one can leave.
   EffectText: Vitality -3 and...
   Effects:
   - {fileID: 8419289685471233446}
@@ -9025,7 +9025,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Offer to chat with Mia.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 8419289685159045712}
   - {fileID: 8419289686259577636}

@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stat: 2
-  statThreshold: 18
+  statThreshold: 17
 --- !u!114 &5355000416578461408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,8 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14724f8da8ae2439d8614f6b88265a6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pStat: 1
-  sStat: 2
+  pStat: 0
+  sStat: 1
   statChange: 4
 --- !u!114 &3202768525866575282
 MonoBehaviour:
@@ -76,10 +76,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Indoctrinate
-  Description: 'Indoctrinate: When *FCharacter_Name* has more than 18 reason they
-    can activate Indoctrinate. While active, any character paired with *FCharacter_Name*
-    will have their passion reduced by 4. *FCharacter_Name* will then have their
-    reason reduced by 4.'
+  Description: 'Indoctrinate: When *FCharacter_Name* has 17+ passion, click the icon
+    to have them activate Indoctrinate. While active, any character paired with *FCharacter_Name*
+    will have their vitality reduced by 4. *FCharacter_Name* will have their passion
+    reduced by 4.'
 --- !u!114 &1270363877708833968
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -561,8 +561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Approach him and tell him to go inside.
-  EffectText: 
+  Content: Tell him to go inside.
+  EffectText: No Change
   Effects:
   - {fileID: 1934446802710688304}
   - {fileID: 4150061395936560576}
@@ -694,8 +694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: After the sacrifice, you wait until night to dispose of the body in the
     lake as usual. However, as you approach the lake, you see Dolf gazing across
-    the water. He seems to be murmuring to himself quietly. After waiting for a short
-    while, it seems as though he will not be leaving anytime soon.
+    the water. He seems to be murmuring to himself. After waiting for a short while,
+    it seems as though he will not be leaving anytime soon.
 --- !u!114 &1934446802046233139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,8 +1016,8 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446802118806369}
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
-    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
-    not stop talking about how much he misses the sea.'
+    to sneak out to go fishing. He is incredibly distraught and will not stop talking
+    about how much he misses the sea.'
   AddContent: 
   Pages: []
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
@@ -1239,9 +1239,8 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446802162589627}
-  Content: Dolf has been constantly asking the Meiers if he can use their personal
-    library . If they let him, he is very loud and leaves the library in complete
-    disarray.
+  Content: Dolf has been asking the Meiers if he can use their personal library.
+    If they let him in, he is very loud and leaves the library in complete disarray.
   AddContent: 
   Pages: []
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
@@ -1490,8 +1489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "At night you are woken up by the sounds of frantic banging at your door.
-    When you open the door, you find *Someone* looking clammy and panicked.\r\n\r\u201CDolf\u2026
-    Something isn\u2019t quite right with Dolf!\u201D\r"
+    When you open the door, you find *Someone* looking clammy and panicked.\r\n\r\u201CSomething
+    isn\u2019t quite right with Dolf!\u201D\r"
 --- !u!114 &1934446802251554934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,8 +1504,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "They lead you to his house where even outside you can hear muffled screams.
-    As you head inside, his screams become louder and more anguished.\r\n\r\"THE
-    WAVE! IT\u2019S COMING! I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r"
+    As you enter, his screams become louder and more anguished.\r\n\r\"THE WAVE!
+    IT\u2019S COMING! I CAN'T BREATHE! HELP! HELP! HELP! HELP!\"\r"
 --- !u!114 &1934446802251554889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1662,7 +1661,7 @@ MonoBehaviour:
   E: {fileID: 0}
   TriggerSequence: 1
   Content: Investigate his claims.
-  EffectText: Reason -6
+  EffectText: No Change
   Effects:
   - {fileID: 1934446802182186027}
   - {fileID: 5459575374879422392}
@@ -1779,7 +1778,7 @@ MonoBehaviour:
   PMods:
   - {fileID: 1934446802361246933}
   Content: "Dolf comes to you and pleads to let him go fishing again. Desperation
-    overpowering as he speaks.\r\n\r\u201CPlease... I must go back out to the sea,
+    overpowers as he speaks.\r\n\r\u201CPlease... I must go back out to the sea,
     I feel her calling me. I miss her so much...\u201D\r"
   AddContent: 
   Pages: []
@@ -1928,7 +1927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Have another stop Dolf from going out. His behavior is unacceptable.
+  Content: Have someone else stop Dolf from going out. His behavior is unacceptable.
   EffectText: Passion +2
   Effects:
   - {fileID: 1934446803441725494}
@@ -2565,7 +2564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: He is cursed and must be expelled from the valley at once.
+  Content: Expel whatever is cursing him by drowning him in the river.
   EffectText: ???
   Effects:
   - {fileID: 1934446803092265600}
@@ -3371,7 +3370,7 @@ MonoBehaviour:
   TriggerSequence: 1
   Content: Store the body in the church basement for the night and dispose of it
     in the morning.
-  EffectText: 
+  EffectText: No Change
   Effects:
   - {fileID: 1934446803101327341}
   DAE: {fileID: 0}
@@ -4952,8 +4951,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "Dolf invites you to come chat with him.\n\rAs you arrive by the lake,
-    you see Dolf staring solemnly at his reflection. As he notices you approaching
-    he looks up and gives you a kind but pained smile.\r"
+    you see Dolf staring solemnly at his reflection. As he notices you, he looks
+    up and gives you a kind but pained smile.\r"
 --- !u!114 &1934446803313919603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4968,10 +4967,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: "\u201CI\u2019m sorry for being such a bother, asking to leave Huntshire
     so frequently. It\u2019s just\u2026 I still am a sailor at heart and nothing
-    will change that. It must be over 50 years ago now since I took my first big
-    voyage. I left everything behind to go across the world. I don\u2019t even remember
-    much of what the point of it was, but I was just so excited to spend so much
-    time on the sea. After that first journey, I spent as much time at sea as I could.\u201D"
+    will change that. It must be over 50 years since I took my first big voyage.
+    I left everything behind to go across the world. I don\u2019t even remember much
+    of what the point of it was, but I was just so excited to spend so much time
+    on the sea. After that first journey, I spent as much time at sea as I could.\u201D"
 --- !u!114 &1934446803313919602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4984,9 +4983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CBut one trip\u2026 something happened\u2026 we were attacked. I
-    still can\u2019t comprehend exactly what it was. But we lost more than half our
-    crew that day. Ever since then I\u2019ve been drawn to her.\u201D"
+  Content: "\u201CBut one trip, something happened\u2026 we were attacked. I still
+    can\u2019t comprehend what it was. But we lost more than half our crew that day.
+    Ever since then I\u2019ve been drawn to her.\u201D"
 --- !u!114 &1934446803313919601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4999,8 +4998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u201CForgive me for my ramblings. I promise you that I will stay and
-    live a peaceful life here so as to not cause you any more trouble or worry.\u201D"
+  Content: "\u201CForgive my ramblings. I promise you that I will stay and live a
+    peaceful life here so as to not cause you any more trouble or worry.\u201D"
 --- !u!114 &1934446803313919614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5884,7 +5883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   E: {fileID: 0}
   TriggerSequence: 1
-  Content: Allow him in but keep a watchful eye the whole time.
+  Content: Allow him in but keep a watchful eye.
   EffectText: Reason +1
   Effects:
   - {fileID: 1934446802141735450}
@@ -6415,8 +6414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: '*Someone* brings to your attention that Dolf has told them that he plans
-    to sneak out of Huntshire to go fishing. He is incredibly distraught and will
-    not stop talking about how much he misses the sea.'
+    to sneak out to go fishing. He is incredibly distraught and will not stop talking
+    about how much he misses the sea.'
 --- !u!1 &1934446803836674816
 GameObject:
   m_ObjectHideFlags: 0
@@ -6935,11 +6934,10 @@ MonoBehaviour:
   Priority: 2
   PMods:
   - {fileID: 1934446803983912975}
-  Content: There is a breeze through a window that you had believed was closed. As
-    you look you realize some of the glass had been broken. Combing over every inch
-    of your house, you notice an empty space on your bookshelf. A book about mythical
-    aquatic creatures is missing, and there is only one person who could be responsible
-    for this.
+  Content: There is a breeze through a window that you believed was closed. You realize
+    some of the glass had been broken. Combing over every inch of your house, you
+    notice an empty space on your bookshelf. A book about mythical aquatic creatures
+    is missing, and there is only one person who could be responsible for this.
   AddContent: 
   Pages: []
   Illustration: {fileID: 21300000, guid: 23dfff97fd6f27e44b9b09ebd61eaab2, type: 3}
@@ -7101,9 +7099,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: As you go to dispose of the body from the latest sacrifice, you see Dolf
-    by the lake, muttering to himself. As you go to try and deal with him, his murmurs
-    are getting louder. He is chanting something, but in a language you do not recognize.
-    His gaze is empty, and his nose is bleeding. Before you can get to him, he screams.
+    by the lake, muttering to himself. As you go to deal with him, his murmurs get
+    louder. He is chanting something in a language you do not recognize. His gaze
+    is empty, and his nose is bleeding. Before you can get to him, he screams.
 --- !u!114 &1934446804039745387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7130,11 +7128,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655b2f0c1499d2c4398356d37fce5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "It begins to flail around its tentacles knocking over trees and houses,
-    and even crushes Dolf. As you run for cover, the kraken lets out a deafening
+  Content: "The creature begins to flail around its tentacles knocking over trees
+    and houses, and crushes Dolf. As you run for cover, the kraken lets out a deafening
     screech and proceeds to swing and destroy the church.\r\n\rWhat you have worked
-    to build has been destroyed. There is nothing left, your plans will never come
-    to fruition.\r"
+    to build up has been destroyed. There is nothing left, your plans will never
+    come to fruition.\r"
 --- !u!114 &1934446804039745385
 MonoBehaviour:
   m_ObjectHideFlags: 0
