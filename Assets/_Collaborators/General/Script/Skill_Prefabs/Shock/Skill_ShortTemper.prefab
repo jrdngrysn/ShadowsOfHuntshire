@@ -76,11 +76,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baad8464c5f164634b7523a045fa5f46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: ShortTemper
-  Description: 'ShortTemper: When *FCharacter_Name* has 14+ vitality, click the icon
-    to have them activate Short Temper. While active, any character paired with *FCharacter_Name*
-    will have their vitality reduced by 2. *FCharacter_Name* will have their vitality
-    reduced by 2 and their reason increased by 2.'
+  Title: Short Temper
+  Description: 'Short Temper: When *FCharacter_Name* has 14+ vitality, click the
+    icon to have them activate Short Temper. While active, any character paired with
+    *FCharacter_Name* will have their vitality reduced by 2. *FCharacter_Name* will
+    have their vitality reduced by 2 and their reason increased by 2.'
 --- !u!114 &-8955571445758041933
 MonoBehaviour:
   m_ObjectHideFlags: 0
